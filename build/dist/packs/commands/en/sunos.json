@@ -1,119 +1,44 @@
 [
   {
-    "id": "tldr-en-sunos-svcs-0",
+    "id": "tldr-en-sunos-dmesg-0",
     "type": "command",
-    "title": "svcs - List all running services",
-    "content": "svcs",
+    "title": "dmesg - Show kernel messages",
+    "content": "dmesg",
     "group": "SunOS",
-    "description": "svcs: List information about running services. (List all running services)",
+    "description": "dmesg: Write the kernel messages to `stdout`. (Show kernel messages)",
     "tags": [
       "sunos",
-      "svcs",
+      "dmesg",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-svcs-1",
+    "id": "tldr-en-sunos-dmesg-1",
     "type": "command",
-    "title": "svcs - List services that are not running",
-    "content": "svcs -vx",
+    "title": "dmesg - Show how much physical memory is available on this system",
+    "content": "dmesg | grep -i memory",
     "group": "SunOS",
-    "description": "svcs: List information about running services. (List services that are not running)",
+    "description": "dmesg: Write the kernel messages to `stdout`. (Show how much physical memory is available on this system)",
     "tags": [
       "sunos",
-      "svcs",
+      "dmesg",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-svcs-2",
+    "id": "tldr-en-sunos-dmesg-2",
     "type": "command",
-    "title": "svcs - List information about a service",
-    "content": "svcs apache",
+    "title": "dmesg - Show kernel messages 1 page at a time",
+    "content": "dmesg | less",
     "group": "SunOS",
-    "description": "svcs: List information about running services. (List information about a service)",
+    "description": "dmesg: Write the kernel messages to `stdout`. (Show kernel messages 1 page at a time)",
     "tags": [
       "sunos",
-      "svcs",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svcs-3",
-    "type": "command",
-    "title": "svcs - Show location of service log file",
-    "content": "svcs -L apache",
-    "group": "SunOS",
-    "description": "svcs: List information about running services. (Show location of service log file)",
-    "tags": [
-      "sunos",
-      "svcs",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svcs-4",
-    "type": "command",
-    "title": "svcs - Display end of a service log file",
-    "content": "tail $(svcs -L apache)",
-    "group": "SunOS",
-    "description": "svcs: List information about running services. (Display end of a service log file)",
-    "tags": [
-      "sunos",
-      "svcs",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-devfsadm-0",
-    "type": "command",
-    "title": "devfsadm - Scan for new disks",
-    "content": "devfsadm -c disk",
-    "group": "SunOS",
-    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Scan for new disks)",
-    "tags": [
-      "sunos",
-      "devfsadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-devfsadm-1",
-    "type": "command",
-    "title": "devfsadm - Cleanup any dangling `/dev` links and scan for new device",
-    "content": "devfsadm -C -v",
-    "group": "SunOS",
-    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Cleanup any dangling `/dev` links and scan for new device)",
-    "tags": [
-      "sunos",
-      "devfsadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-devfsadm-2",
-    "type": "command",
-    "title": "devfsadm - Dry-run - output what would be changed but make no modifications",
-    "content": "devfsadm -C -v -n",
-    "group": "SunOS",
-    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Dry-run - output what would be changed but make no modifications)",
-    "tags": [
-      "sunos",
-      "devfsadm",
+      "dmesg",
       "tldr",
       "en"
     ],
@@ -225,165 +150,75 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-svcadm-0",
+    "id": "tldr-en-sunos-share-0",
     "type": "command",
-    "title": "svcadm - Enable a service in the service database",
-    "content": "svcadm enable {{service_name}}",
+    "title": "share - List all currently shared filesystems",
+    "content": "share",
     "group": "SunOS",
-    "description": "svcadm: Manipulate service instances. (Enable a service in the service database)",
+    "description": "share: Make local resource/filesystem available for mounting by remote systems. (List all currently shared filesystems)",
     "tags": [
       "sunos",
-      "svcadm",
+      "share",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-svcadm-1",
+    "id": "tldr-en-sunos-share-1",
     "type": "command",
-    "title": "svcadm - Disable service",
-    "content": "svcadm disable {{service_name}}",
+    "title": "share - Share a directory with read/write access",
+    "content": "share -F nfs -o rw /{{path/to/directory}}",
     "group": "SunOS",
-    "description": "svcadm: Manipulate service instances. (Disable service)",
+    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Share a directory with read/write access)",
     "tags": [
       "sunos",
-      "svcadm",
+      "share",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-svcadm-2",
+    "id": "tldr-en-sunos-share-2",
     "type": "command",
-    "title": "svcadm - Restart a running service",
-    "content": "svcadm restart {{service_name}}",
+    "title": "share - Share a directory with read-only access",
+    "content": "share -F nfs -o ro /{{path/to/directory}}",
     "group": "SunOS",
-    "description": "svcadm: Manipulate service instances. (Restart a running service)",
+    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Share a directory with read-only access)",
     "tags": [
       "sunos",
-      "svcadm",
+      "share",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-svcadm-3",
+    "id": "tldr-en-sunos-share-3",
     "type": "command",
-    "title": "svcadm - Command service to re-read configuration files",
-    "content": "svcadm refresh {{service_name}}",
+    "title": "share - Share a directory with specific options (e.g., allow root access from a specific host)",
+    "content": "share -F nfs -o rw,root={{hostname}} /{{path/to/directory}}",
     "group": "SunOS",
-    "description": "svcadm: Manipulate service instances. (Command service to re-read configuration files)",
+    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Share a directory with specific options (e.g., allow root access from a specific host))",
     "tags": [
       "sunos",
-      "svcadm",
+      "share",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-svcadm-4",
+    "id": "tldr-en-sunos-share-4",
     "type": "command",
-    "title": "svcadm - Clear a service from maintenance state and command it to start",
-    "content": "svcadm clear {{service_name}}",
+    "title": "share - Make sharing persistent by adding entries to `/etc/dfs/dfstab`",
+    "content": "echo \"share -F nfs -o rw /{{path/to/directory}}\" >> /etc/dfs/dfstab",
     "group": "SunOS",
-    "description": "svcadm: Manipulate service instances. (Clear a service from maintenance state and command it to start)",
+    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Make sharing persistent by adding entries to `/etc/dfs/dfstab`)",
     "tags": [
       "sunos",
-      "svcadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svccfg-0",
-    "type": "command",
-    "title": "svccfg - Validate configuration file",
-    "content": "svccfg validate {{path/to/smf_file.xml}}",
-    "group": "SunOS",
-    "description": "svccfg: Import, export, and modify service configurations. (Validate configuration file)",
-    "tags": [
-      "sunos",
-      "svccfg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svccfg-1",
-    "type": "command",
-    "title": "svccfg - Export service configurations to file",
-    "content": "svccfg export {{servicename}} > {{path/to/smf_file.xml}}",
-    "group": "SunOS",
-    "description": "svccfg: Import, export, and modify service configurations. (Export service configurations to file)",
-    "tags": [
-      "sunos",
-      "svccfg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svccfg-2",
-    "type": "command",
-    "title": "svccfg - Import/update service configurations from file",
-    "content": "svccfg import {{path/to/smf_file.xml}}",
-    "group": "SunOS",
-    "description": "svccfg: Import, export, and modify service configurations. (Import/update service configurations from file)",
-    "tags": [
-      "sunos",
-      "svccfg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-dmesg-0",
-    "type": "command",
-    "title": "dmesg - Show kernel messages",
-    "content": "dmesg",
-    "group": "SunOS",
-    "description": "dmesg: Write the kernel messages to `stdout`. (Show kernel messages)",
-    "tags": [
-      "sunos",
-      "dmesg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-dmesg-1",
-    "type": "command",
-    "title": "dmesg - Show how much physical memory is available on this system",
-    "content": "dmesg | grep -i memory",
-    "group": "SunOS",
-    "description": "dmesg: Write the kernel messages to `stdout`. (Show how much physical memory is available on this system)",
-    "tags": [
-      "sunos",
-      "dmesg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-dmesg-2",
-    "type": "command",
-    "title": "dmesg - Show kernel messages 1 page at a time",
-    "content": "dmesg | less",
-    "group": "SunOS",
-    "description": "dmesg: Write the kernel messages to `stdout`. (Show kernel messages 1 page at a time)",
-    "tags": [
-      "sunos",
-      "dmesg",
+      "share",
       "tldr",
       "en"
     ],
@@ -465,6 +300,81 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-sunos-svcadm-0",
+    "type": "command",
+    "title": "svcadm - Enable a service in the service database",
+    "content": "svcadm enable {{service_name}}",
+    "group": "SunOS",
+    "description": "svcadm: Manipulate service instances. (Enable a service in the service database)",
+    "tags": [
+      "sunos",
+      "svcadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcadm-1",
+    "type": "command",
+    "title": "svcadm - Disable service",
+    "content": "svcadm disable {{service_name}}",
+    "group": "SunOS",
+    "description": "svcadm: Manipulate service instances. (Disable service)",
+    "tags": [
+      "sunos",
+      "svcadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcadm-2",
+    "type": "command",
+    "title": "svcadm - Restart a running service",
+    "content": "svcadm restart {{service_name}}",
+    "group": "SunOS",
+    "description": "svcadm: Manipulate service instances. (Restart a running service)",
+    "tags": [
+      "sunos",
+      "svcadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcadm-3",
+    "type": "command",
+    "title": "svcadm - Command service to re-read configuration files",
+    "content": "svcadm refresh {{service_name}}",
+    "group": "SunOS",
+    "description": "svcadm: Manipulate service instances. (Command service to re-read configuration files)",
+    "tags": [
+      "sunos",
+      "svcadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcadm-4",
+    "type": "command",
+    "title": "svcadm - Clear a service from maintenance state and command it to start",
+    "content": "svcadm clear {{service_name}}",
+    "group": "SunOS",
+    "description": "svcadm: Manipulate service instances. (Clear a service from maintenance state and command it to start)",
+    "tags": [
+      "sunos",
+      "svcadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-sunos-snoop-0",
     "type": "command",
     "title": "snoop - Capture packets on a specific network interface",
@@ -540,75 +450,165 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-share-0",
+    "id": "tldr-en-sunos-svccfg-0",
     "type": "command",
-    "title": "share - List all currently shared filesystems",
-    "content": "share",
+    "title": "svccfg - Validate configuration file",
+    "content": "svccfg validate {{path/to/smf_file.xml}}",
     "group": "SunOS",
-    "description": "share: Make local resource/filesystem available for mounting by remote systems. (List all currently shared filesystems)",
+    "description": "svccfg: Import, export, and modify service configurations. (Validate configuration file)",
     "tags": [
       "sunos",
-      "share",
+      "svccfg",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-share-1",
+    "id": "tldr-en-sunos-svccfg-1",
     "type": "command",
-    "title": "share - Share a directory with read/write access",
-    "content": "share -F nfs -o rw /{{path/to/directory}}",
+    "title": "svccfg - Export service configurations to file",
+    "content": "svccfg export {{servicename}} > {{path/to/smf_file.xml}}",
     "group": "SunOS",
-    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Share a directory with read/write access)",
+    "description": "svccfg: Import, export, and modify service configurations. (Export service configurations to file)",
     "tags": [
       "sunos",
-      "share",
+      "svccfg",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-share-2",
+    "id": "tldr-en-sunos-svccfg-2",
     "type": "command",
-    "title": "share - Share a directory with read-only access",
-    "content": "share -F nfs -o ro /{{path/to/directory}}",
+    "title": "svccfg - Import/update service configurations from file",
+    "content": "svccfg import {{path/to/smf_file.xml}}",
     "group": "SunOS",
-    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Share a directory with read-only access)",
+    "description": "svccfg: Import, export, and modify service configurations. (Import/update service configurations from file)",
     "tags": [
       "sunos",
-      "share",
+      "svccfg",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-share-3",
+    "id": "tldr-en-sunos-devfsadm-0",
     "type": "command",
-    "title": "share - Share a directory with specific options (e.g., allow root access from a specific host)",
-    "content": "share -F nfs -o rw,root={{hostname}} /{{path/to/directory}}",
+    "title": "devfsadm - Scan for new disks",
+    "content": "devfsadm -c disk",
     "group": "SunOS",
-    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Share a directory with specific options (e.g., allow root access from a specific host))",
+    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Scan for new disks)",
     "tags": [
       "sunos",
-      "share",
+      "devfsadm",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-share-4",
+    "id": "tldr-en-sunos-devfsadm-1",
     "type": "command",
-    "title": "share - Make sharing persistent by adding entries to `/etc/dfs/dfstab`",
-    "content": "echo \"share -F nfs -o rw /{{path/to/directory}}\" >> /etc/dfs/dfstab",
+    "title": "devfsadm - Cleanup any dangling `/dev` links and scan for new device",
+    "content": "devfsadm -C -v",
     "group": "SunOS",
-    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Make sharing persistent by adding entries to `/etc/dfs/dfstab`)",
+    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Cleanup any dangling `/dev` links and scan for new device)",
     "tags": [
       "sunos",
-      "share",
+      "devfsadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-devfsadm-2",
+    "type": "command",
+    "title": "devfsadm - Dry-run - output what would be changed but make no modifications",
+    "content": "devfsadm -C -v -n",
+    "group": "SunOS",
+    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Dry-run - output what would be changed but make no modifications)",
+    "tags": [
+      "sunos",
+      "devfsadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcs-0",
+    "type": "command",
+    "title": "svcs - List all running services",
+    "content": "svcs",
+    "group": "SunOS",
+    "description": "svcs: List information about running services. (List all running services)",
+    "tags": [
+      "sunos",
+      "svcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcs-1",
+    "type": "command",
+    "title": "svcs - List services that are not running",
+    "content": "svcs -vx",
+    "group": "SunOS",
+    "description": "svcs: List information about running services. (List services that are not running)",
+    "tags": [
+      "sunos",
+      "svcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcs-2",
+    "type": "command",
+    "title": "svcs - List information about a service",
+    "content": "svcs apache",
+    "group": "SunOS",
+    "description": "svcs: List information about running services. (List information about a service)",
+    "tags": [
+      "sunos",
+      "svcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcs-3",
+    "type": "command",
+    "title": "svcs - Show location of service log file",
+    "content": "svcs -L apache",
+    "group": "SunOS",
+    "description": "svcs: List information about running services. (Show location of service log file)",
+    "tags": [
+      "sunos",
+      "svcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcs-4",
+    "type": "command",
+    "title": "svcs - Display end of a service log file",
+    "content": "tail $(svcs -L apache)",
+    "group": "SunOS",
+    "description": "svcs: List information about running services. (Display end of a service log file)",
+    "tags": [
+      "sunos",
+      "svcs",
       "tldr",
       "en"
     ],
