@@ -527,6 +527,21 @@
   {
     "id": "tldr-en-common-jj-config-3",
     "type": "command",
+    "title": "jj-config - List the value of a specific config option",
+    "content": "jj config {{[l|list]}} {{name}}",
+    "group": "Common Tools",
+    "description": "jj-config: Manage config options. Some subcommands such as `edit`, `get`, `list`, `path`, `set`, `unset` have their own usage documentation. (List the value of a specific config option)",
+    "tags": [
+      "common",
+      "jj-config",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-config-4",
+    "type": "command",
     "title": "jj-config - Print the path to the user-level config file",
     "content": "jj config {{[p|path]}} --user",
     "group": "Common Tools",
@@ -540,7 +555,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-common-jj-config-4",
+    "id": "tldr-en-common-jj-config-5",
     "type": "command",
     "title": "jj-config - Set a config option in the user-level config",
     "content": "jj config {{[s|set]}} --user {{name}} {{value}}",
@@ -555,12 +570,27 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-common-jj-config-5",
+    "id": "tldr-en-common-jj-config-6",
     "type": "command",
     "title": "jj-config - Unset a config option in the user-level config",
     "content": "jj config {{[u|unset]}} --user {{name}}",
     "group": "Common Tools",
     "description": "jj-config: Manage config options. Some subcommands such as `edit`, `get`, `list`, `path`, `set`, `unset` have their own usage documentation. (Unset a config option in the user-level config)",
+    "tags": [
+      "common",
+      "jj-config",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-config-7",
+    "type": "command",
+    "title": "jj-config - Find and delete stale repo-level config directories",
+    "content": "jj config gc",
+    "group": "Common Tools",
+    "description": "jj-config: Manage config options. Some subcommands such as `edit`, `get`, `list`, `path`, `set`, `unset` have their own usage documentation. (Find and delete stale repo-level config directories)",
     "tags": [
       "common",
       "jj-config",
@@ -6662,10 +6692,10 @@
   {
     "id": "tldr-en-common-aws-kendra-5",
     "type": "command",
-    "title": "aws-kendra - List search queries",
-    "content": "aws kendra list-query-suggestions --index-id {{index_id}} --query-text {{query_text}}",
+    "title": "aws-kendra - Get query suggestions",
+    "content": "aws kendra get-query-suggestions --index-id {{index_id}} --query-text {{query_text}}",
     "group": "Common Tools",
-    "description": "aws-kendra: CLI for AWS Kendra. (List search queries)",
+    "description": "aws-kendra: CLI for AWS Kendra. (Get query suggestions)",
     "tags": [
       "common",
       "aws-kendra",
@@ -12840,6 +12870,81 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-jj-operation-log-0",
+    "type": "command",
+    "title": "jj-operation-log - Show the operation log",
+    "content": "jj {{[op|operation]}} log",
+    "group": "Common Tools",
+    "description": "jj-operation-log: Show the operation log in a `jj` repository. (Show the operation log)",
+    "tags": [
+      "common",
+      "jj-operation-log",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-log-1",
+    "type": "command",
+    "title": "jj-operation-log - Limit the number of operations to show",
+    "content": "jj {{[op|operation]}} log {{[-n|--limit]}} {{count}}",
+    "group": "Common Tools",
+    "description": "jj-operation-log: Show the operation log in a `jj` repository. (Limit the number of operations to show)",
+    "tags": [
+      "common",
+      "jj-operation-log",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-log-2",
+    "type": "command",
+    "title": "jj-operation-log - Show operations in reverse order (oldest first)",
+    "content": "jj {{[op|operation]}} log --reversed",
+    "group": "Common Tools",
+    "description": "jj-operation-log: Show the operation log in a `jj` repository. (Show operations in reverse order (oldest first))",
+    "tags": [
+      "common",
+      "jj-operation-log",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-log-3",
+    "type": "command",
+    "title": "jj-operation-log - Show operations without a graph",
+    "content": "jj {{[op|operation]}} log {{[-G|--no-graph]}}",
+    "group": "Common Tools",
+    "description": "jj-operation-log: Show the operation log in a `jj` repository. (Show operations without a graph)",
+    "tags": [
+      "common",
+      "jj-operation-log",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-log-4",
+    "type": "command",
+    "title": "jj-operation-log - Render the operation log using a custom template",
+    "content": "jj {{[op|operation]}} log {{[-T|--template]}} \"{{template}}\"",
+    "group": "Common Tools",
+    "description": "jj-operation-log: Show the operation log in a `jj` repository. (Render the operation log using a custom template)",
+    "tags": [
+      "common",
+      "jj-operation-log",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-dolt-gc-0",
     "type": "command",
     "title": "dolt-gc - Clean up unreferenced data from the repository",
@@ -16515,6 +16620,96 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-tw-0",
+    "type": "command",
+    "title": "tw - Open one or more files, detecting the format based on the file extension",
+    "content": "tw {{path/to/file1 path/to/file2 ...}}",
+    "group": "Common Tools",
+    "description": "tw: View and query tabular data files using Tabiew. (Open one or more files, detecting the format based on the file extension)",
+    "tags": [
+      "common",
+      "tw",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-tw-1",
+    "type": "command",
+    "title": "tw - Open a file, overriding the format detection",
+    "content": "tw {{path/to/file}} {{[-f|--format]}} {{csv|tsv|parquet|sqlite|excel|...}}",
+    "group": "Common Tools",
+    "description": "tw: View and query tabular data files using Tabiew. (Open a file, overriding the format detection)",
+    "tags": [
+      "common",
+      "tw",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-tw-2",
+    "type": "command",
+    "title": "tw - Open a delimiter-separated file with a custom separator",
+    "content": "tw {{path/to/file.csv}} --separator '{{|}}'",
+    "group": "Common Tools",
+    "description": "tw: View and query tabular data files using Tabiew. (Open a delimiter-separated file with a custom separator)",
+    "tags": [
+      "common",
+      "tw",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-tw-3",
+    "type": "command",
+    "title": "tw - Open a delimiter-separated file without a header row",
+    "content": "tw {{path/to/file.csv}} --no-header",
+    "group": "Common Tools",
+    "description": "tw: View and query tabular data files using Tabiew. (Open a delimiter-separated file without a header row)",
+    "tags": [
+      "common",
+      "tw",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-tw-4",
+    "type": "command",
+    "title": "tw - Read tabular data from `stdin`",
+    "content": "curl {{[-s|--silent]}} {{https://example.com/data.csv}} | tw",
+    "group": "Common Tools",
+    "description": "tw: View and query tabular data files using Tabiew. (Read tabular data from `stdin`)",
+    "tags": [
+      "common",
+      "tw",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-tw-5",
+    "type": "command",
+    "title": "tw - Open files with identical columns and concatenate them vertically into a single table",
+    "content": "tw --multiparts {{path/to/part1.csv path/to/part2.csv ...}}",
+    "group": "Common Tools",
+    "description": "tw: View and query tabular data files using Tabiew. (Open files with identical columns and concatenate them vertically into a single table)",
+    "tags": [
+      "common",
+      "tw",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-getnpusers.py-0",
     "type": "command",
     "title": "getnpusers.py - Enumerate users with Kerberos pre-authentication disabled (default anonymous enumeration)",
@@ -18279,6 +18474,51 @@
     "tags": [
       "common",
       "vue",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-revert-0",
+    "type": "command",
+    "title": "jj-operation-revert - Revert the most recent operation",
+    "content": "jj {{[op|operation]}} revert",
+    "group": "Common Tools",
+    "description": "jj-operation-revert: Revert an earlier operation by applying its inverse in a `jj` repository. (Revert the most recent operation)",
+    "tags": [
+      "common",
+      "jj-operation-revert",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-revert-1",
+    "type": "command",
+    "title": "jj-operation-revert - Revert a specific operation",
+    "content": "jj {{[op|operation]}} revert {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-revert: Revert an earlier operation by applying its inverse in a `jj` repository. (Revert a specific operation)",
+    "tags": [
+      "common",
+      "jj-operation-revert",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-revert-2",
+    "type": "command",
+    "title": "jj-operation-revert - Revert only the repository state and local bookmarks of an operation",
+    "content": "jj {{[op|operation]}} revert --what repo {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-revert: Revert an earlier operation by applying its inverse in a `jj` repository. (Revert only the repository state and local bookmarks of an operation)",
+    "tags": [
+      "common",
+      "jj-operation-revert",
       "tldr",
       "en"
     ],
@@ -21140,7 +21380,7 @@
     "title": "git-effort - Display each file in the repository, showing commits and active days",
     "content": "git effort",
     "group": "Common Tools",
-    "description": "git-effort: Display how much activity a file has had, showing commits per file and \"active days\" i.e. total number of days that contributed to the file. Part of `git-extras`. (Display each file in the repository, showing commits and active days)",
+    "description": "git-effort: Display how much activity a file has had, showing commits per file and \"active days\", i.e. the total number of days with contributions to the file. Part of `git-extras`. (Display each file in the repository, showing commits and active days)",
     "tags": [
       "common",
       "git-effort",
@@ -21155,7 +21395,7 @@
     "title": "git-effort - Display files modified by a specific number of commits or more, showing commits and active days",
     "content": "git effort --above {{5}}",
     "group": "Common Tools",
-    "description": "git-effort: Display how much activity a file has had, showing commits per file and \"active days\" i.e. total number of days that contributed to the file. Part of `git-extras`. (Display files modified by a specific number of commits or more, showing commits and active days)",
+    "description": "git-effort: Display how much activity a file has had, showing commits per file and \"active days\", i.e. the total number of days with contributions to the file. Part of `git-extras`. (Display files modified by a specific number of commits or more, showing commits and active days)",
     "tags": [
       "common",
       "git-effort",
@@ -21170,7 +21410,7 @@
     "title": "git-effort - Display files modified by a specific author, showing commits and active days",
     "content": "git effort -- --author=\"{{username}}\"",
     "group": "Common Tools",
-    "description": "git-effort: Display how much activity a file has had, showing commits per file and \"active days\" i.e. total number of days that contributed to the file. Part of `git-extras`. (Display files modified by a specific author, showing commits and active days)",
+    "description": "git-effort: Display how much activity a file has had, showing commits per file and \"active days\", i.e. the total number of days with contributions to the file. Part of `git-extras`. (Display files modified by a specific author, showing commits and active days)",
     "tags": [
       "common",
       "git-effort",
@@ -21185,7 +21425,7 @@
     "title": "git-effort - Display files modified since a specific time/date, showing commits and active days",
     "content": "git effort -- --since=\"{{last month}}\"",
     "group": "Common Tools",
-    "description": "git-effort: Display how much activity a file has had, showing commits per file and \"active days\" i.e. total number of days that contributed to the file. Part of `git-extras`. (Display files modified since a specific time/date, showing commits and active days)",
+    "description": "git-effort: Display how much activity a file has had, showing commits per file and \"active days\", i.e. the total number of days with contributions to the file. Part of `git-extras`. (Display files modified since a specific time/date, showing commits and active days)",
     "tags": [
       "common",
       "git-effort",
@@ -21200,7 +21440,7 @@
     "title": "git-effort - Display only the specified files or directories, showing commits and active days",
     "content": "git effort {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}",
     "group": "Common Tools",
-    "description": "git-effort: Display how much activity a file has had, showing commits per file and \"active days\" i.e. total number of days that contributed to the file. Part of `git-extras`. (Display only the specified files or directories, showing commits and active days)",
+    "description": "git-effort: Display how much activity a file has had, showing commits per file and \"active days\", i.e. the total number of days with contributions to the file. Part of `git-extras`. (Display only the specified files or directories, showing commits and active days)",
     "tags": [
       "common",
       "git-effort",
@@ -21215,7 +21455,7 @@
     "title": "git-effort - Display all files in a specific directory, showing commits and active days",
     "content": "git effort {{path/to/directory/*}}",
     "group": "Common Tools",
-    "description": "git-effort: Display how much activity a file has had, showing commits per file and \"active days\" i.e. total number of days that contributed to the file. Part of `git-extras`. (Display all files in a specific directory, showing commits and active days)",
+    "description": "git-effort: Display how much activity a file has had, showing commits per file and \"active days\", i.e. the total number of days with contributions to the file. Part of `git-extras`. (Display all files in a specific directory, showing commits and active days)",
     "tags": [
       "common",
       "git-effort",
@@ -23810,7 +24050,7 @@
     "title": "git-psykorebase - Rebase the current branch on top of another using a merge commit and only one conflict handling",
     "content": "git psykorebase {{upstream_branch}}",
     "group": "Common Tools",
-    "description": "git-psykorebase: Rebase a branch on top of another using a merge commit and only one conflict handling. Part of `git-extras`. (Rebase the current branch on top of another using a merge commit and only one conflict handling)",
+    "description": "git-psykorebase: Rebase a branch on top of another using a merge commit while requiring conflict resolution only once. Part of `git-extras`. (Rebase the current branch on top of another using a merge commit and only one conflict handling)",
     "tags": [
       "common",
       "git-psykorebase",
@@ -23825,7 +24065,7 @@
     "title": "git-psykorebase - Continue after conflicts have been handled",
     "content": "git psykorebase --continue",
     "group": "Common Tools",
-    "description": "git-psykorebase: Rebase a branch on top of another using a merge commit and only one conflict handling. Part of `git-extras`. (Continue after conflicts have been handled)",
+    "description": "git-psykorebase: Rebase a branch on top of another using a merge commit while requiring conflict resolution only once. Part of `git-extras`. (Continue after conflicts have been handled)",
     "tags": [
       "common",
       "git-psykorebase",
@@ -23840,7 +24080,7 @@
     "title": "git-psykorebase - Specify the branch to rebase",
     "content": "git psykorebase {{upstream_branch}} {{target_branch}}",
     "group": "Common Tools",
-    "description": "git-psykorebase: Rebase a branch on top of another using a merge commit and only one conflict handling. Part of `git-extras`. (Specify the branch to rebase)",
+    "description": "git-psykorebase: Rebase a branch on top of another using a merge commit while requiring conflict resolution only once. Part of `git-extras`. (Specify the branch to rebase)",
     "tags": [
       "common",
       "git-psykorebase",
@@ -27065,7 +27305,7 @@
     "title": "jj-file - List files tracked in the working copy",
     "content": "jj file list",
     "group": "Common Tools",
-    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `list`, `search`, `show` have their own usage documentation. (List files tracked in the working copy)",
+    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `show`, `track`, `untrack` have their own usage documentation. (List files tracked in the working copy)",
     "tags": [
       "common",
       "jj-file",
@@ -27080,7 +27320,7 @@
     "title": "jj-file - Print the contents of a file in the working copy",
     "content": "jj file show {{path/to/file}}",
     "group": "Common Tools",
-    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `list`, `search`, `show` have their own usage documentation. (Print the contents of a file in the working copy)",
+    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `show`, `track`, `untrack` have their own usage documentation. (Print the contents of a file in the working copy)",
     "tags": [
       "common",
       "jj-file",
@@ -27092,10 +27332,10 @@
   {
     "id": "tldr-en-common-jj-file-2",
     "type": "command",
-    "title": "jj-file - Search for a pattern across tracked files",
-    "content": "jj file search {{[-p|--pattern]}} \"{{pattern}}\"",
+    "title": "jj-file - Print the contents of a file from another revision",
+    "content": "jj file show {{[-r|--revision]}} {{revset}} {{path/to/file}}",
     "group": "Common Tools",
-    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `list`, `search`, `show` have their own usage documentation. (Search for a pattern across tracked files)",
+    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `show`, `track`, `untrack` have their own usage documentation. (Print the contents of a file from another revision)",
     "tags": [
       "common",
       "jj-file",
@@ -27107,10 +27347,10 @@
   {
     "id": "tldr-en-common-jj-file-3",
     "type": "command",
-    "title": "jj-file - Show line-by-line source change annotation for a file",
-    "content": "jj file annotate {{path/to/file}}",
+    "title": "jj-file - Search for a pattern across tracked files",
+    "content": "jj file search {{[-p|--pattern]}} \"{{pattern}}\"",
     "group": "Common Tools",
-    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `list`, `search`, `show` have their own usage documentation. (Show line-by-line source change annotation for a file)",
+    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `show`, `track`, `untrack` have their own usage documentation. (Search for a pattern across tracked files)",
     "tags": [
       "common",
       "jj-file",
@@ -27122,10 +27362,10 @@
   {
     "id": "tldr-en-common-jj-file-4",
     "type": "command",
-    "title": "jj-file - Track specified paths in the working copy",
-    "content": "jj file track {{path/to/file_or_directory}}",
+    "title": "jj-file - Show line-by-line source change annotation for a file",
+    "content": "jj file annotate {{path/to/file}}",
     "group": "Common Tools",
-    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `list`, `search`, `show` have their own usage documentation. (Track specified paths in the working copy)",
+    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `show`, `track`, `untrack` have their own usage documentation. (Show line-by-line source change annotation for a file)",
     "tags": [
       "common",
       "jj-file",
@@ -27137,10 +27377,10 @@
   {
     "id": "tldr-en-common-jj-file-5",
     "type": "command",
-    "title": "jj-file - Stop tracking specified paths in the working copy",
-    "content": "jj file untrack {{path/to/file_or_directory}}",
+    "title": "jj-file - Track specified paths in the working copy",
+    "content": "jj file track {{path/to/file_or_directory}}",
     "group": "Common Tools",
-    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `list`, `search`, `show` have their own usage documentation. (Stop tracking specified paths in the working copy)",
+    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `show`, `track`, `untrack` have their own usage documentation. (Track specified paths in the working copy)",
     "tags": [
       "common",
       "jj-file",
@@ -27152,10 +27392,25 @@
   {
     "id": "tldr-en-common-jj-file-6",
     "type": "command",
+    "title": "jj-file - Stop tracking specified paths in the working copy",
+    "content": "jj file untrack {{path/to/file_or_directory}}",
+    "group": "Common Tools",
+    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `show`, `track`, `untrack` have their own usage documentation. (Stop tracking specified paths in the working copy)",
+    "tags": [
+      "common",
+      "jj-file",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-file-7",
+    "type": "command",
     "title": "jj-file - Set or remove the executable bit for a file",
     "content": "jj file chmod {{[-x|--executable]}} {{path/to/file}}",
     "group": "Common Tools",
-    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `list`, `search`, `show` have their own usage documentation. (Set or remove the executable bit for a file)",
+    "description": "jj-file: Manage and inspect files in a `jj` repository. Some subcommands such as `annotate`, `show`, `track`, `untrack` have their own usage documentation. (Set or remove the executable bit for a file)",
     "tags": [
       "common",
       "jj-file",
@@ -29274,6 +29529,51 @@
     "tags": [
       "common",
       "sfdk-emulator-remove",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-colocation-0",
+    "type": "command",
+    "title": "jj-git-colocation - Show the current colocation status",
+    "content": "jj git colocation status",
+    "group": "Common Tools",
+    "description": "jj-git-colocation: Manage Jujutsu repository colocation with Git. (Show the current colocation status)",
+    "tags": [
+      "common",
+      "jj-git-colocation",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-colocation-1",
+    "type": "command",
+    "title": "jj-git-colocation - Convert into a colocated Jujutsu/Git repository",
+    "content": "jj git colocation enable",
+    "group": "Common Tools",
+    "description": "jj-git-colocation: Manage Jujutsu repository colocation with Git. (Convert into a colocated Jujutsu/Git repository)",
+    "tags": [
+      "common",
+      "jj-git-colocation",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-colocation-2",
+    "type": "command",
+    "title": "jj-git-colocation - Convert into a non-colocated Jujutsu/Git repository",
+    "content": "jj git colocation disable",
+    "group": "Common Tools",
+    "description": "jj-git-colocation: Manage Jujutsu repository colocation with Git. (Convert into a non-colocated Jujutsu/Git repository)",
+    "tags": [
+      "common",
+      "jj-git-colocation",
       "tldr",
       "en"
     ],
@@ -40200,6 +40500,66 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-doctl-completion-0",
+    "type": "command",
+    "title": "doctl-completion - Generate the autocompletion script for Bash",
+    "content": "doctl completion bash",
+    "group": "Common Tools",
+    "description": "doctl-completion: Generate the autocompletion script for `doctl` for the specified shell. (Generate the autocompletion script for Bash)",
+    "tags": [
+      "common",
+      "doctl-completion",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-completion-1",
+    "type": "command",
+    "title": "doctl-completion - Generate the autocompletion script for fish",
+    "content": "doctl completion fish",
+    "group": "Common Tools",
+    "description": "doctl-completion: Generate the autocompletion script for `doctl` for the specified shell. (Generate the autocompletion script for fish)",
+    "tags": [
+      "common",
+      "doctl-completion",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-completion-2",
+    "type": "command",
+    "title": "doctl-completion - Generate the autocompletion script for PowerShell",
+    "content": "doctl completion powershell",
+    "group": "Common Tools",
+    "description": "doctl-completion: Generate the autocompletion script for `doctl` for the specified shell. (Generate the autocompletion script for PowerShell)",
+    "tags": [
+      "common",
+      "doctl-completion",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-completion-3",
+    "type": "command",
+    "title": "doctl-completion - Generate the autocompletion script for Zsh",
+    "content": "doctl completion zsh",
+    "group": "Common Tools",
+    "description": "doctl-completion: Generate the autocompletion script for `doctl` for the specified shell. (Generate the autocompletion script for Zsh)",
+    "tags": [
+      "common",
+      "doctl-completion",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-mysql-0",
     "type": "command",
     "title": "mysql - Connect to a database",
@@ -40644,6 +41004,36 @@
     "tags": [
       "common",
       "subfinder",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-restore-0",
+    "type": "command",
+    "title": "jj-operation-restore - Restore the repository state at a specific operation",
+    "content": "jj {{[op|operation]}} restore {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-restore: Restore the repository to an earlier state in the operation log. (Restore the repository state at a specific operation)",
+    "tags": [
+      "common",
+      "jj-operation-restore",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-restore-1",
+    "type": "command",
+    "title": "jj-operation-restore - Restore only the repository state and local bookmarks (ignoring remote-tracking bookmarks)",
+    "content": "jj {{[op|operation]}} restore --what repo {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-restore: Restore the repository to an earlier state in the operation log. (Restore only the repository state and local bookmarks (ignoring remote-tracking bookmarks))",
+    "tags": [
+      "common",
+      "jj-operation-restore",
       "tldr",
       "en"
     ],
@@ -54965,7 +55355,7 @@
     "title": "git-bug - Create a new identity",
     "content": "git bug user create",
     "group": "Common Tools",
-    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added in your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (Create a new identity)",
+    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added to your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (Create a new identity)",
     "tags": [
       "common",
       "git-bug",
@@ -54980,7 +55370,7 @@
     "title": "git-bug - Create a new bug",
     "content": "git bug add",
     "group": "Common Tools",
-    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added in your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (Create a new bug)",
+    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added to your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (Create a new bug)",
     "tags": [
       "common",
       "git-bug",
@@ -54995,7 +55385,7 @@
     "title": "git-bug - Push a new bug entry to a remote",
     "content": "git bug push",
     "group": "Common Tools",
-    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added in your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (Push a new bug entry to a remote)",
+    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added to your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (Push a new bug entry to a remote)",
     "tags": [
       "common",
       "git-bug",
@@ -55010,7 +55400,7 @@
     "title": "git-bug - Pull for updates",
     "content": "git bug pull",
     "group": "Common Tools",
-    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added in your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (Pull for updates)",
+    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added to your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (Pull for updates)",
     "tags": [
       "common",
       "git-bug",
@@ -55025,7 +55415,7 @@
     "title": "git-bug - List existing bugs",
     "content": "git bug ls",
     "group": "Common Tools",
-    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added in your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (List existing bugs)",
+    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added to your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (List existing bugs)",
     "tags": [
       "common",
       "git-bug",
@@ -55040,7 +55430,7 @@
     "title": "git-bug - Filter and sort bugs using a query",
     "content": "git bug ls \"{{status}}:{{open}} {{sort}}:{{edit}}\"",
     "group": "Common Tools",
-    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added in your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (Filter and sort bugs using a query)",
+    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added to your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (Filter and sort bugs using a query)",
     "tags": [
       "common",
       "git-bug",
@@ -55055,7 +55445,7 @@
     "title": "git-bug - Search for bugs by text content",
     "content": "git bug ls \"{{search_query}}\" baz",
     "group": "Common Tools",
-    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added in your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (Search for bugs by text content)",
+    "description": "git-bug: A distributed bug tracker that uses Git's internal storage, so no files are added to your project. You may submit your problems to the same Git remote you use to interact with others, much like commits and branches. (Search for bugs by text content)",
     "tags": [
       "common",
       "git-bug",
@@ -60290,7 +60680,7 @@
     "title": "aws-dynamodb - Create a table",
     "content": "aws dynamodb create-table --table-name {{table_name}} --attribute-definitions {{AttributeName=S,AttributeType=S}} --key-schema {{AttributeName=S,KeyType=HASH}} --provisioned-throughput {{ReadCapacityUnits=5,WriteCapacityUnits=5}}",
     "group": "Common Tools",
-    "description": "aws-dynamodb: Manipulate an AWS Dynamodb database, a fast NoSQL database with predictable performance and seamless scalability. (Create a table)",
+    "description": "aws-dynamodb: Manipulate an AWS DynamoDB database, a fast NoSQL database with predictable performance and seamless scalability. (Create a table)",
     "tags": [
       "common",
       "aws-dynamodb",
@@ -60305,7 +60695,7 @@
     "title": "aws-dynamodb - List all tables in the DynamoDB",
     "content": "aws dynamodb list-tables",
     "group": "Common Tools",
-    "description": "aws-dynamodb: Manipulate an AWS Dynamodb database, a fast NoSQL database with predictable performance and seamless scalability. (List all tables in the DynamoDB)",
+    "description": "aws-dynamodb: Manipulate an AWS DynamoDB database, a fast NoSQL database with predictable performance and seamless scalability. (List all tables in the DynamoDB)",
     "tags": [
       "common",
       "aws-dynamodb",
@@ -60320,7 +60710,7 @@
     "title": "aws-dynamodb - Get details about a specific table",
     "content": "aws dynamodb describe-table --table-name {{table_name}}",
     "group": "Common Tools",
-    "description": "aws-dynamodb: Manipulate an AWS Dynamodb database, a fast NoSQL database with predictable performance and seamless scalability. (Get details about a specific table)",
+    "description": "aws-dynamodb: Manipulate an AWS DynamoDB database, a fast NoSQL database with predictable performance and seamless scalability. (Get details about a specific table)",
     "tags": [
       "common",
       "aws-dynamodb",
@@ -60335,7 +60725,7 @@
     "title": "aws-dynamodb - Add an item to a table",
     "content": "aws dynamodb put-item --table-name {{table_name}} --item '{{{\"AttributeName\": {\"S\": \"value\"\\}\\}}}'",
     "group": "Common Tools",
-    "description": "aws-dynamodb: Manipulate an AWS Dynamodb database, a fast NoSQL database with predictable performance and seamless scalability. (Add an item to a table)",
+    "description": "aws-dynamodb: Manipulate an AWS DynamoDB database, a fast NoSQL database with predictable performance and seamless scalability. (Add an item to a table)",
     "tags": [
       "common",
       "aws-dynamodb",
@@ -60350,7 +60740,7 @@
     "title": "aws-dynamodb - Retrieve an item from a table",
     "content": "aws dynamodb get-item --table-name {{table_name}} --key '{{{\"ID\": {\"N\": \"1\"\\}\\}}}'",
     "group": "Common Tools",
-    "description": "aws-dynamodb: Manipulate an AWS Dynamodb database, a fast NoSQL database with predictable performance and seamless scalability. (Retrieve an item from a table)",
+    "description": "aws-dynamodb: Manipulate an AWS DynamoDB database, a fast NoSQL database with predictable performance and seamless scalability. (Retrieve an item from a table)",
     "tags": [
       "common",
       "aws-dynamodb",
@@ -60365,7 +60755,7 @@
     "title": "aws-dynamodb - Update an item in the table",
     "content": "aws dynamodb update-item --table-name {{table_name}} --key '{{{\"ID\": {\"N\": \"1\"\\}\\}}}' --update-expression \"{{SET Name = :n}}\" --expression-attribute-values '{{{\":n\": {\"S\": \"Jane\"\\}\\}}}'",
     "group": "Common Tools",
-    "description": "aws-dynamodb: Manipulate an AWS Dynamodb database, a fast NoSQL database with predictable performance and seamless scalability. (Update an item in the table)",
+    "description": "aws-dynamodb: Manipulate an AWS DynamoDB database, a fast NoSQL database with predictable performance and seamless scalability. (Update an item in the table)",
     "tags": [
       "common",
       "aws-dynamodb",
@@ -60380,7 +60770,7 @@
     "title": "aws-dynamodb - Scan items in the table",
     "content": "aws dynamodb scan --table-name {{table_name}}",
     "group": "Common Tools",
-    "description": "aws-dynamodb: Manipulate an AWS Dynamodb database, a fast NoSQL database with predictable performance and seamless scalability. (Scan items in the table)",
+    "description": "aws-dynamodb: Manipulate an AWS DynamoDB database, a fast NoSQL database with predictable performance and seamless scalability. (Scan items in the table)",
     "tags": [
       "common",
       "aws-dynamodb",
@@ -60395,7 +60785,7 @@
     "title": "aws-dynamodb - Delete an item from the table",
     "content": "aws dynamodb delete-item --table-name {{table_name}} --key '{{{\"ID\": {\"N\": \"1\"\\}\\}}}'",
     "group": "Common Tools",
-    "description": "aws-dynamodb: Manipulate an AWS Dynamodb database, a fast NoSQL database with predictable performance and seamless scalability. (Delete an item from the table)",
+    "description": "aws-dynamodb: Manipulate an AWS DynamoDB database, a fast NoSQL database with predictable performance and seamless scalability. (Delete an item from the table)",
     "tags": [
       "common",
       "aws-dynamodb",
@@ -70155,6 +70545,111 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-clinfo-0",
+    "type": "command",
+    "title": "clinfo - Display information about all OpenCL platforms and devices",
+    "content": "clinfo",
+    "group": "Common Tools",
+    "description": "clinfo: Show OpenCL platforms and devices. (Display information about all OpenCL platforms and devices)",
+    "tags": [
+      "common",
+      "clinfo",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-clinfo-1",
+    "type": "command",
+    "title": "clinfo - List platforms and devices by name",
+    "content": "clinfo {{[-l|--list]}}",
+    "group": "Common Tools",
+    "description": "clinfo: Show OpenCL platforms and devices. (List platforms and devices by name)",
+    "tags": [
+      "common",
+      "clinfo",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-clinfo-2",
+    "type": "command",
+    "title": "clinfo - Display information for a specific device",
+    "content": "clinfo {{[-d|--device]}} {{platform_index}}:{{device_index}}",
+    "group": "Common Tools",
+    "description": "clinfo: Show OpenCL platforms and devices. (Display information for a specific device)",
+    "tags": [
+      "common",
+      "clinfo",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-clinfo-3",
+    "type": "command",
+    "title": "clinfo - Display machine-friendly output",
+    "content": "clinfo --raw",
+    "group": "Common Tools",
+    "description": "clinfo: Show OpenCL platforms and devices. (Display machine-friendly output)",
+    "tags": [
+      "common",
+      "clinfo",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-clinfo-4",
+    "type": "command",
+    "title": "clinfo - Include offline devices",
+    "content": "clinfo --offline",
+    "group": "Common Tools",
+    "description": "clinfo: Show OpenCL platforms and devices. (Include offline devices)",
+    "tags": [
+      "common",
+      "clinfo",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-clinfo-5",
+    "type": "command",
+    "title": "clinfo - Try to retrieve all properties, including unofficial ones",
+    "content": "clinfo {{[-a|--all-props]}}",
+    "group": "Common Tools",
+    "description": "clinfo: Show OpenCL platforms and devices. (Try to retrieve all properties, including unofficial ones)",
+    "tags": [
+      "common",
+      "clinfo",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-clinfo-6",
+    "type": "command",
+    "title": "clinfo - Display only properties matching the given property name",
+    "content": "clinfo --prop {{property_name}}",
+    "group": "Common Tools",
+    "description": "clinfo: Show OpenCL platforms and devices. (Display only properties matching the given property name)",
+    "tags": [
+      "common",
+      "clinfo",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-zgrep-0",
     "type": "command",
     "title": "zgrep - Grep a pattern in a compressed file (case-sensitive)",
@@ -76700,7 +77195,7 @@
     "title": "aws-sts - Get temporary security credentials to access specific AWS resources",
     "content": "aws sts assume-role --role-arn {{aws_role_arn}}",
     "group": "Common Tools",
-    "description": "aws-sts: Security Token Service (STS) allows to request temporary credentials for (IAM) users or federated users. (Get temporary security credentials to access specific AWS resources)",
+    "description": "aws-sts: Security Token Service (STS) allows IAM users or federated users to request temporary credentials. (Get temporary security credentials to access specific AWS resources)",
     "tags": [
       "common",
       "aws-sts",
@@ -76715,7 +77210,7 @@
     "title": "aws-sts - Get an IAM user or role whose credentials are used to call the operation",
     "content": "aws sts get-caller-identity",
     "group": "Common Tools",
-    "description": "aws-sts: Security Token Service (STS) allows to request temporary credentials for (IAM) users or federated users. (Get an IAM user or role whose credentials are used to call the operation)",
+    "description": "aws-sts: Security Token Service (STS) allows IAM users or federated users to request temporary credentials. (Get an IAM user or role whose credentials are used to call the operation)",
     "tags": [
       "common",
       "aws-sts",
@@ -80619,6 +81114,81 @@
     "tags": [
       "common",
       "7zr",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-invoice-0",
+    "type": "command",
+    "title": "doctl-invoice - List all invoices",
+    "content": "doctl invoice list",
+    "group": "Common Tools",
+    "description": "doctl-invoice: Retrieve details about invoices for a DigitalOcean account. (List all invoices)",
+    "tags": [
+      "common",
+      "doctl-invoice",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-invoice-1",
+    "type": "command",
+    "title": "doctl-invoice - Retrieve an itemized list of resources on a specific invoice",
+    "content": "doctl invoice get {{invoice_uuid}}",
+    "group": "Common Tools",
+    "description": "doctl-invoice: Retrieve details about invoices for a DigitalOcean account. (Retrieve an itemized list of resources on a specific invoice)",
+    "tags": [
+      "common",
+      "doctl-invoice",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-invoice-2",
+    "type": "command",
+    "title": "doctl-invoice - Get a summary of a specific invoice",
+    "content": "doctl invoice summary {{invoice_uuid}}",
+    "group": "Common Tools",
+    "description": "doctl-invoice: Retrieve details about invoices for a DigitalOcean account. (Get a summary of a specific invoice)",
+    "tags": [
+      "common",
+      "doctl-invoice",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-invoice-3",
+    "type": "command",
+    "title": "doctl-invoice - Download a PDF file of a specific invoice",
+    "content": "doctl invoice pdf {{invoice_uuid}}",
+    "group": "Common Tools",
+    "description": "doctl-invoice: Retrieve details about invoices for a DigitalOcean account. (Download a PDF file of a specific invoice)",
+    "tags": [
+      "common",
+      "doctl-invoice",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-invoice-4",
+    "type": "command",
+    "title": "doctl-invoice - Download a CSV file of a specific invoice",
+    "content": "doctl invoice csv {{invoice_uuid}}",
+    "group": "Common Tools",
+    "description": "doctl-invoice: Retrieve details about invoices for a DigitalOcean account. (Download a CSV file of a specific invoice)",
+    "tags": [
+      "common",
+      "doctl-invoice",
       "tldr",
       "en"
     ],
@@ -96660,6 +97230,81 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-git-unpack-objects-0",
+    "type": "command",
+    "title": "git-unpack-objects - Simulate the pack file without unpacking objects",
+    "content": "git < {{pack-file.pack}} unpack-objects -n",
+    "group": "Common Tools",
+    "description": "git-unpack-objects: Git command for unpacking objects from a packed archive. (Simulate the pack file without unpacking objects)",
+    "tags": [
+      "common",
+      "git-unpack-objects",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-git-unpack-objects-1",
+    "type": "command",
+    "title": "git-unpack-objects - Suppress percentage progress typically shown by the command",
+    "content": "git < {{pack-file.pack}} unpack-objects -q",
+    "group": "Common Tools",
+    "description": "git-unpack-objects: Git command for unpacking objects from a packed archive. (Suppress percentage progress typically shown by the command)",
+    "tags": [
+      "common",
+      "git-unpack-objects",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-git-unpack-objects-2",
+    "type": "command",
+    "title": "git-unpack-objects - Unpack a corrupt packfile beyond the first corruption",
+    "content": "git < {{pack-file.pack}} unpack-objects -r",
+    "group": "Common Tools",
+    "description": "git-unpack-objects: Git command for unpacking objects from a packed archive. (Unpack a corrupt packfile beyond the first corruption)",
+    "tags": [
+      "common",
+      "git-unpack-objects",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-git-unpack-objects-3",
+    "type": "command",
+    "title": "git-unpack-objects - Don't write objects containing broken content or links",
+    "content": "git < {{pack-file.pack}} unpack-objects --strict",
+    "group": "Common Tools",
+    "description": "git-unpack-objects: Git command for unpacking objects from a packed archive. (Don't write objects containing broken content or links)",
+    "tags": [
+      "common",
+      "git-unpack-objects",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-git-unpack-objects-4",
+    "type": "command",
+    "title": "git-unpack-objects - Die, given a pack larger than `size`",
+    "content": "git < {{pack-file.pack}} unpack-objects --max-input-size={{size}}",
+    "group": "Common Tools",
+    "description": "git-unpack-objects: Git command for unpacking objects from a packed archive. (Die, given a pack larger than `size`)",
+    "tags": [
+      "common",
+      "git-unpack-objects",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-fakedata-0",
     "type": "command",
     "title": "fakedata - List all valid generators",
@@ -100368,7 +101013,7 @@
     "id": "tldr-en-common-yara-2",
     "type": "command",
     "title": "yara - Scan a running process by its PID using multiple rules",
-    "content": "yara {{path/to/rule1.yar path/to/rule2.yar ...}} {{pid}}",
+    "content": "yara {{path/to/rule1.yar path/to/rule2.yar ...}} {{process_id}}",
     "group": "Common Tools",
     "description": "yara: Pattern matching tool for identifying and classifying malware. (Scan a running process by its PID using multiple rules)",
     "tags": [
@@ -101094,6 +101739,36 @@
     "tags": [
       "common",
       "jj-interdiff",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-export-0",
+    "type": "command",
+    "title": "jj-git-export - Export changes to the underlying Git repository",
+    "content": "jj git export",
+    "group": "Common Tools",
+    "description": "jj-git-export: Update the underlying Git repository with changes made in the Jujutsu repository. In colocated workspaces, export happens automatically. (Export changes to the underlying Git repository)",
+    "tags": [
+      "common",
+      "jj-git-export",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-export-1",
+    "type": "command",
+    "title": "jj-git-export - Forcibly export changes in a colocated workspace",
+    "content": "jj git export --ignore-working-copy",
+    "group": "Common Tools",
+    "description": "jj-git-export: Update the underlying Git repository with changes made in the Jujutsu repository. In colocated workspaces, export happens automatically. (Forcibly export changes in a colocated workspace)",
+    "tags": [
+      "common",
+      "jj-git-export",
       "tldr",
       "en"
     ],
@@ -107550,6 +108225,21 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-impacket-machine_role-0",
+    "type": "command",
+    "title": "impacket-machine_role - View documentation for the original command",
+    "content": "tldr machine_role.py",
+    "group": "Common Tools",
+    "description": "impacket-machine_role: This command is an alias of `machine_role.py`. (View documentation for the original command)",
+    "tags": [
+      "common",
+      "impacket-machine_role",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-eza-0",
     "type": "command",
     "title": "eza - List files one per line",
@@ -109712,10 +110402,10 @@
   {
     "id": "tldr-en-common-aws-sso-0",
     "type": "command",
-    "title": "aws-sso - Start SSO session and refresh access tokens. Requires setup using `aws configure sso`",
+    "title": "aws-sso - Start SSO session and refresh access tokens (requires setup using `aws configure sso`)",
     "content": "aws sso login",
     "group": "Common Tools",
-    "description": "aws-sso: Manage access to AWS resources using Single Sign-On (SSO) credentials. (Start SSO session and refresh access tokens. Requires setup using `aws configure sso`)",
+    "description": "aws-sso: Manage access to AWS resources using Single Sign-On (SSO) credentials. (Start SSO session and refresh access tokens (requires setup using `aws configure sso`))",
     "tags": [
       "common",
       "aws-sso",
@@ -109743,7 +110433,7 @@
     "id": "tldr-en-common-aws-sso-2",
     "type": "command",
     "title": "aws-sso - List all AWS accounts accessible to the user",
-    "content": "aws sso list-accounts",
+    "content": "aws sso list-accounts --access-token {{token}}",
     "group": "Common Tools",
     "description": "aws-sso: Manage access to AWS resources using Single Sign-On (SSO) credentials. (List all AWS accounts accessible to the user)",
     "tags": [
@@ -126165,6 +126855,66 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-jj-file-chmod-0",
+    "type": "command",
+    "title": "jj-file-chmod - Make a file executable in the working copy",
+    "content": "jj file chmod {{[x|executable]}} {{path/to/file}}",
+    "group": "Common Tools",
+    "description": "jj-file-chmod: Set or remove the executable bit for paths in a `jj` repository. (Make a file executable in the working copy)",
+    "tags": [
+      "common",
+      "jj-file-chmod",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-file-chmod-1",
+    "type": "command",
+    "title": "jj-file-chmod - Make a file non-executable (normal) in the working copy",
+    "content": "jj file chmod {{[n|normal]}} {{path/to/file}}",
+    "group": "Common Tools",
+    "description": "jj-file-chmod: Set or remove the executable bit for paths in a `jj` repository. (Make a file non-executable (normal) in the working copy)",
+    "tags": [
+      "common",
+      "jj-file-chmod",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-file-chmod-2",
+    "type": "command",
+    "title": "jj-file-chmod - Make multiple files executable",
+    "content": "jj file chmod {{[x|executable]}} {{path/to/file1 path/to/file2 ...}}",
+    "group": "Common Tools",
+    "description": "jj-file-chmod: Set or remove the executable bit for paths in a `jj` repository. (Make multiple files executable)",
+    "tags": [
+      "common",
+      "jj-file-chmod",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-file-chmod-3",
+    "type": "command",
+    "title": "jj-file-chmod - Make a file executable in a specific revision",
+    "content": "jj file chmod {{[-r|--revision]}} {{revision}} {{[x|executable]}} {{path/to/file}}",
+    "group": "Common Tools",
+    "description": "jj-file-chmod: Set or remove the executable bit for paths in a `jj` repository. (Make a file executable in a specific revision)",
+    "tags": [
+      "common",
+      "jj-file-chmod",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-npm-home-0",
     "type": "command",
     "title": "npm-home - Open the `npm` page of a specific package in the web browser",
@@ -130170,6 +130920,51 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-jj-operation-abandon-0",
+    "type": "command",
+    "title": "jj-operation-abandon - Abandon a specific operation",
+    "content": "jj {{[op|operation]}} abandon {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-abandon: Abandon operation history in a `jj` repository. (Abandon a specific operation)",
+    "tags": [
+      "common",
+      "jj-operation-abandon",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-abandon-1",
+    "type": "command",
+    "title": "jj-operation-abandon - Abandon a specific operation and all of its ancestors",
+    "content": "jj {{[op|operation]}} abandon ..{{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-abandon: Abandon operation history in a `jj` repository. (Abandon a specific operation and all of its ancestors)",
+    "tags": [
+      "common",
+      "jj-operation-abandon",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-abandon-2",
+    "type": "command",
+    "title": "jj-operation-abandon - Discard recent operations after restoring to an earlier state",
+    "content": "jj {{[op|operation]}} abandon {{operation_id}}..@-",
+    "group": "Common Tools",
+    "description": "jj-operation-abandon: Abandon operation history in a `jj` repository. (Discard recent operations after restoring to an earlier state)",
+    "tags": [
+      "common",
+      "jj-operation-abandon",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-vboxmanage-modifyvm-0",
     "type": "command",
     "title": "vboxmanage-modifyvm - Rename the VM",
@@ -130383,7 +131178,7 @@
     "id": "tldr-en-common-iotop-4",
     "type": "command",
     "title": "iotop - Show I/O usage of given PID(s)",
-    "content": "sudo iotop {{[-p|--pid]}} {{pid}}",
+    "content": "sudo iotop {{[-p|--pid]}} {{process_id}}",
     "group": "Common Tools",
     "description": "iotop: Display a table of current I/O usage by processes or threads. (Show I/O usage of given PID(s))",
     "tags": [
@@ -131147,10 +131942,10 @@
   {
     "id": "tldr-en-common-git-show-5",
     "type": "command",
-    "title": "git-show - Show only statistics (added/removed characters) about the changed files",
+    "title": "git-show - Show diff statistics for changed files (such as lines added and removed)",
     "content": "git show --stat {{commit}}",
     "group": "Common Tools",
-    "description": "git-show: Show various types of Git objects (commits, tags, etc.). (Show only statistics (added/removed characters) about the changed files)",
+    "description": "git-show: Show various types of Git objects (commits, tags, etc.). (Show diff statistics for changed files (such as lines added and removed))",
     "tags": [
       "common",
       "git-show",
@@ -135000,6 +135795,66 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-jj-file-track-0",
+    "type": "command",
+    "title": "jj-file-track - Track all untracked files in the working copy",
+    "content": "jj file track",
+    "group": "Common Tools",
+    "description": "jj-file-track: Start tracking specified paths in the working copy of a `jj` repository. (Track all untracked files in the working copy)",
+    "tags": [
+      "common",
+      "jj-file-track",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-file-track-1",
+    "type": "command",
+    "title": "jj-file-track - Track a specific file or directory",
+    "content": "jj file track {{path/to/file_or_directory}}",
+    "group": "Common Tools",
+    "description": "jj-file-track: Start tracking specified paths in the working copy of a `jj` repository. (Track a specific file or directory)",
+    "tags": [
+      "common",
+      "jj-file-track",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-file-track-2",
+    "type": "command",
+    "title": "jj-file-track - Track multiple paths",
+    "content": "jj file track {{path/to/file1 path/to/directory2 ...}}",
+    "group": "Common Tools",
+    "description": "jj-file-track: Start tracking specified paths in the working copy of a `jj` repository. (Track multiple paths)",
+    "tags": [
+      "common",
+      "jj-file-track",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-file-track-3",
+    "type": "command",
+    "title": "jj-file-track - Track paths even if they are ignored or exceed the maximum file size",
+    "content": "jj file track --include-ignored {{path/to/file_or_directory}}",
+    "group": "Common Tools",
+    "description": "jj-file-track: Start tracking specified paths in the working copy of a `jj` repository. (Track paths even if they are ignored or exceed the maximum file size)",
+    "tags": [
+      "common",
+      "jj-file-track",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-git-gc-0",
     "type": "command",
     "title": "git-gc - Optimise the repository",
@@ -135288,7 +136143,7 @@
     "id": "tldr-en-common-lldb-1",
     "type": "command",
     "title": "lldb - Attach `lldb` to a running process with a given PID",
-    "content": "lldb -p {{pid}}",
+    "content": "lldb -p {{process_id}}",
     "group": "Common Tools",
     "description": "lldb: The LLVM Low-Level Debugger. (Attach `lldb` to a running process with a given PID)",
     "tags": [
@@ -141825,6 +142680,36 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-doctl-billing-history-0",
+    "type": "command",
+    "title": "doctl-billing-history - Retrieve a paginated billing history",
+    "content": "doctl billing-history list",
+    "group": "Common Tools",
+    "description": "doctl-billing-history: Retrieve the billing history for a DigitalOcean account. (Retrieve a paginated billing history)",
+    "tags": [
+      "common",
+      "doctl-billing-history",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-billing-history-1",
+    "type": "command",
+    "title": "doctl-billing-history - Display help",
+    "content": "doctl billing-history {{[-h|--help]}}",
+    "group": "Common Tools",
+    "description": "doctl-billing-history: Retrieve the billing history for a DigitalOcean account. (Display help)",
+    "tags": [
+      "common",
+      "doctl-billing-history",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-ppmtoascii-0",
     "type": "command",
     "title": "ppmtoascii - Convert a PPM image to an ASCII image, combining an area of 1x2 pixels into a character",
@@ -144183,7 +145068,7 @@
     "id": "tldr-en-common-checksec-2",
     "type": "command",
     "title": "checksec - List security properties of a process",
-    "content": "checksec proc {{pid}}",
+    "content": "checksec proc {{process_id}}",
     "group": "Common Tools",
     "description": "checksec: Check security properties of executables. Note: For older versions, use flags (e.g., `--file` instead of `file`). (List security properties of a process)",
     "tags": [
@@ -146250,6 +147135,81 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-doctl-vpcs-0",
+    "type": "command",
+    "title": "doctl-vpcs - List VPC networks",
+    "content": "doctl vpcs list",
+    "group": "Common Tools",
+    "description": "doctl-vpcs: Manage DigitalOcean VPC networks. (List VPC networks)",
+    "tags": [
+      "common",
+      "doctl-vpcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-vpcs-1",
+    "type": "command",
+    "title": "doctl-vpcs - Create a VPC network with a specific name, region, and IP range",
+    "content": "doctl vpcs create --name {{vpc_name}} --region {{nyc1}} --ip-range {{10.116.0.0/20}}",
+    "group": "Common Tools",
+    "description": "doctl-vpcs: Manage DigitalOcean VPC networks. (Create a VPC network with a specific name, region, and IP range)",
+    "tags": [
+      "common",
+      "doctl-vpcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-vpcs-2",
+    "type": "command",
+    "title": "doctl-vpcs - Retrieve details of a specific VPC network",
+    "content": "doctl vpcs get {{vpc_id}}",
+    "group": "Common Tools",
+    "description": "doctl-vpcs: Manage DigitalOcean VPC networks. (Retrieve details of a specific VPC network)",
+    "tags": [
+      "common",
+      "doctl-vpcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-vpcs-3",
+    "type": "command",
+    "title": "doctl-vpcs - Update the name of a specific VPC network",
+    "content": "doctl vpcs update {{vpc_id}} --name {{new_name}}",
+    "group": "Common Tools",
+    "description": "doctl-vpcs: Manage DigitalOcean VPC networks. (Update the name of a specific VPC network)",
+    "tags": [
+      "common",
+      "doctl-vpcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-vpcs-4",
+    "type": "command",
+    "title": "doctl-vpcs - Delete a VPC network",
+    "content": "doctl vpcs delete {{vpc_id}}",
+    "group": "Common Tools",
+    "description": "doctl-vpcs: Manage DigitalOcean VPC networks. (Delete a VPC network)",
+    "tags": [
+      "common",
+      "doctl-vpcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-apropos-0",
     "type": "command",
     "title": "apropos - Search for a keyword using a `regex`",
@@ -147138,7 +148098,7 @@
     "id": "tldr-en-common-haproxy-5",
     "type": "command",
     "title": "haproxy - Reload configuration with graceful shutdown of old process",
-    "content": "haproxy -f {{path/to/haproxy.cfg}} -sf {{pid}}",
+    "content": "haproxy -f {{path/to/haproxy.cfg}} -sf {{process_id}}",
     "group": "Common Tools",
     "description": "haproxy: Fast and reliable HTTP reverse proxy and load balancer. (Reload configuration with graceful shutdown of old process)",
     "tags": [
@@ -147168,7 +148128,7 @@
     "id": "tldr-en-common-haproxy-7",
     "type": "command",
     "title": "haproxy - Reload with zero downtime by reusing sockets from old process",
-    "content": "haproxy -f {{path/to/haproxy.cfg}} -x {{path/to/haproxy.sock}} -sf {{pid}}",
+    "content": "haproxy -f {{path/to/haproxy.cfg}} -x {{path/to/haproxy.sock}} -sf {{process_id}}",
     "group": "Common Tools",
     "description": "haproxy: Fast and reliable HTTP reverse proxy and load balancer. (Reload with zero downtime by reusing sockets from old process)",
     "tags": [
@@ -149898,7 +150858,7 @@
     "id": "tldr-en-common-jhsdb-0",
     "type": "command",
     "title": "jhsdb - Print stack and locks information of a Java process",
-    "content": "jhsdb jstack --pid {{pid}}",
+    "content": "jhsdb jstack --pid {{process_id}}",
     "group": "Common Tools",
     "description": "jhsdb: Attach to a Java process or launch a postmortem debugger to analyze the core dump from a crashed Java Virtual Machine. (Print stack and locks information of a Java process)",
     "tags": [
@@ -149928,7 +150888,7 @@
     "id": "tldr-en-common-jhsdb-2",
     "type": "command",
     "title": "jhsdb - Start a remote debug server",
-    "content": "jhsdb debugd --pid {{pid}} --serverid {{optional_unique_id}}",
+    "content": "jhsdb debugd --pid {{process_id}} --serverid {{optional_unique_id}}",
     "group": "Common Tools",
     "description": "jhsdb: Attach to a Java process or launch a postmortem debugger to analyze the core dump from a crashed Java Virtual Machine. (Start a remote debug server)",
     "tags": [
@@ -149943,7 +150903,7 @@
     "id": "tldr-en-common-jhsdb-3",
     "type": "command",
     "title": "jhsdb - Connect to a process in interactive debug mode",
-    "content": "jhsdb clhsdb --pid {{pid}}",
+    "content": "jhsdb clhsdb --pid {{process_id}}",
     "group": "Common Tools",
     "description": "jhsdb: Attach to a Java process or launch a postmortem debugger to analyze the core dump from a crashed Java Virtual Machine. (Connect to a process in interactive debug mode)",
     "tags": [
@@ -154614,6 +155574,36 @@
     "tags": [
       "common",
       "git-name-rev",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-import-0",
+    "type": "command",
+    "title": "jj-git-import - Import changes from the underlying Git repository",
+    "content": "jj git import",
+    "group": "Common Tools",
+    "description": "jj-git-import: Update the Jujutsu repository with changes made in the underlying Git repository. In colocated workspaces, import happens automatically. (Import changes from the underlying Git repository)",
+    "tags": [
+      "common",
+      "jj-git-import",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-import-1",
+    "type": "command",
+    "title": "jj-git-import - Forcibly import changes in a colocated workspace",
+    "content": "jj git import --ignore-working-copy",
+    "group": "Common Tools",
+    "description": "jj-git-import: Update the Jujutsu repository with changes made in the underlying Git repository. In colocated workspaces, import happens automatically. (Forcibly import changes in a colocated workspace)",
+    "tags": [
+      "common",
+      "jj-git-import",
       "tldr",
       "en"
     ],
@@ -167703,7 +168693,7 @@
     "id": "tldr-en-common-adb-logcat-5",
     "type": "command",
     "title": "adb-logcat - Display logs for a specific PID",
-    "content": "adb logcat --pid {{pid}}",
+    "content": "adb logcat --pid {{process_id}}",
     "group": "Common Tools",
     "description": "adb-logcat: Dump a log of system messages. (Display logs for a specific PID)",
     "tags": [
@@ -167838,7 +168828,7 @@
     "id": "tldr-en-common-polybar-msg-6",
     "type": "command",
     "title": "polybar-msg - Only send messages to a specific Polybar instance (all instances by default)",
-    "content": "polybar-msg -p {{pid}} {{cmd|action}} {{payload}}",
+    "content": "polybar-msg -p {{process_id}} {{cmd|action}} {{payload}}",
     "group": "Common Tools",
     "description": "polybar-msg: Control `polybar` using inter-process-messaging (IPC). Note: IPC is disabled by default and can be enabled by setting `enable-ipc = true` in the Polybar config. (Only send messages to a specific Polybar instance (all instances by default))",
     "tags": [
@@ -168483,7 +169473,7 @@
     "id": "tldr-en-common-renice-0",
     "type": "command",
     "title": "renice - Increase/decrease the priority of a running [p]rocess",
-    "content": "renice -n {{3}} -p {{pid}}",
+    "content": "renice -n {{3}} -p {{process_id}}",
     "group": "Common Tools",
     "description": "renice: Alter the scheduling priority/niceness of running processes. Niceness values range from -20 (most favorable to the process) to 19 (least favorable to the process). (Increase/decrease the priority of a running [p]rocess)",
     "tags": [
@@ -168498,7 +169488,7 @@
     "id": "tldr-en-common-renice-1",
     "type": "command",
     "title": "renice - Increase/decrease the priority of all processes owned by a [u]ser",
-    "content": "renice -n {{-4}} -u {{uid|user}}",
+    "content": "renice -n {{-4}} -u {{user_id|username}}",
     "group": "Common Tools",
     "description": "renice: Alter the scheduling priority/niceness of running processes. Niceness values range from -20 (most favorable to the process) to 19 (least favorable to the process). (Increase/decrease the priority of all processes owned by a [u]ser)",
     "tags": [
@@ -177768,7 +178758,7 @@
     "id": "tldr-en-common-lsof-5",
     "type": "command",
     "title": "lsof - List files opened by a specific process, given its PID",
-    "content": "lsof -p {{pid}}",
+    "content": "lsof -p {{process_id}}",
     "group": "Common Tools",
     "description": "lsof: List open files and the corresponding processes. Note: Root privileges are required to list files opened by others. (List files opened by a specific process, given its PID)",
     "tags": [
@@ -184892,10 +185882,10 @@
   {
     "id": "tldr-en-common-sfdk-0",
     "type": "command",
-    "title": "sfdk - Setup the current environment for building for SailfishOS with a specific versions and architecture target",
+    "title": "sfdk - Setup the current environment for building for SailfishOS with a specific version and architecture target",
     "content": "sfdk config target=SailfishOS-{{5.0.0.62}}-{{aarch64}}",
     "group": "Common Tools",
-    "description": "sfdk: Frontend of the Sailfish SDK. Some subcommands such as `init`, `build-init`, `device` have their own usage documentation. (Setup the current environment for building for SailfishOS with a specific versions and architecture target)",
+    "description": "sfdk: Frontend of the Sailfish SDK. Some subcommands such as `init`, `build-init`, `device` have their own usage documentation. (Setup the current environment for building for SailfishOS with a specific version and architecture target)",
     "tags": [
       "common",
       "sfdk",
@@ -185559,66 +186549,6 @@
     "tags": [
       "common",
       "crane-auth",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-common-sync-0",
-    "type": "command",
-    "title": "sync - Flush all pending write operations on all disks",
-    "content": "sync",
-    "group": "Common Tools",
-    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush all pending write operations on all disks)",
-    "tags": [
-      "common",
-      "sync",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-common-sync-1",
-    "type": "command",
-    "title": "sync - Flush all pending write operations on a single file to disk",
-    "content": "sync {{path/to/file}}",
-    "group": "Common Tools",
-    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush all pending write operations on a single file to disk)",
-    "tags": [
-      "common",
-      "sync",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-common-sync-2",
-    "type": "command",
-    "title": "sync - Flush writes and drop filesystem caches (Linux only)",
-    "content": "sync; echo 3 | sudo tee /proc/sys/vm/drop_caches",
-    "group": "Common Tools",
-    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush writes and drop filesystem caches (Linux only))",
-    "tags": [
-      "common",
-      "sync",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-common-sync-3",
-    "type": "command",
-    "title": "sync - Flush disk writes and attempts to clear inactive memory and filesystem caches (macOS only)",
-    "content": "sync; sudo purge",
-    "group": "Common Tools",
-    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush disk writes and attempts to clear inactive memory and filesystem caches (macOS only))",
-    "tags": [
-      "common",
-      "sync",
       "tldr",
       "en"
     ],
@@ -193383,7 +194313,7 @@
     "id": "tldr-en-common-gops-1",
     "type": "command",
     "title": "gops - Print more information about a process",
-    "content": "gops {{pid}}",
+    "content": "gops {{process_id}}",
     "group": "Common Tools",
     "description": "gops: List and diagnose Go processes currently running on your system. (Print more information about a process)",
     "tags": [
@@ -193413,7 +194343,7 @@
     "id": "tldr-en-common-gops-3",
     "type": "command",
     "title": "gops - Print the current stack trace from a target program",
-    "content": "gops stack {{pid|addr}}",
+    "content": "gops stack {{process_id|address}}",
     "group": "Common Tools",
     "description": "gops: List and diagnose Go processes currently running on your system. (Print the current stack trace from a target program)",
     "tags": [
@@ -193428,7 +194358,7 @@
     "id": "tldr-en-common-gops-4",
     "type": "command",
     "title": "gops - Print the current runtime memory statistics",
-    "content": "gops memstats {{pid|addr}}",
+    "content": "gops memstats {{process_id|address}}",
     "group": "Common Tools",
     "description": "gops: List and diagnose Go processes currently running on your system. (Print the current runtime memory statistics)",
     "tags": [
@@ -196892,10 +197822,10 @@
   {
     "id": "tldr-en-common-git-branch-5",
     "type": "command",
-    "title": "git-branch - Rename a branch (you must switch to a different branch before doing this)",
+    "title": "git-branch - Rename a branch",
     "content": "git branch {{[-m|--move]}} {{old_branch_name}} {{new_branch_name}}",
     "group": "Common Tools",
-    "description": "git-branch: Main Git command for working with branches. (Rename a branch (you must switch to a different branch before doing this))",
+    "description": "git-branch: Main Git command for working with branches. (Rename a branch)",
     "tags": [
       "common",
       "git-branch",
@@ -197060,7 +197990,7 @@
     "title": "git-send-email - Send the last commit in the current branch interactively",
     "content": "git send-email -1",
     "group": "Common Tools",
-    "description": "git-send-email: Send a collection of patches as emails. Patches can be specified as files, directions, or a revision list. (Send the last commit in the current branch interactively)",
+    "description": "git-send-email: Send a collection of patches as emails. Patches can be specified as files, directories, or a revision list. (Send the last commit in the current branch interactively)",
     "tags": [
       "common",
       "git-send-email",
@@ -197075,7 +198005,7 @@
     "title": "git-send-email - Send a given commit",
     "content": "git send-email -1 {{commit}}",
     "group": "Common Tools",
-    "description": "git-send-email: Send a collection of patches as emails. Patches can be specified as files, directions, or a revision list. (Send a given commit)",
+    "description": "git-send-email: Send a collection of patches as emails. Patches can be specified as files, directories, or a revision list. (Send a given commit)",
     "tags": [
       "common",
       "git-send-email",
@@ -197090,7 +198020,7 @@
     "title": "git-send-email - Send multiple (e.g. 10) commits in the current branch",
     "content": "git send-email {{-10}}",
     "group": "Common Tools",
-    "description": "git-send-email: Send a collection of patches as emails. Patches can be specified as files, directions, or a revision list. (Send multiple (e.g. 10) commits in the current branch)",
+    "description": "git-send-email: Send a collection of patches as emails. Patches can be specified as files, directories, or a revision list. (Send multiple (e.g. 10) commits in the current branch)",
     "tags": [
       "common",
       "git-send-email",
@@ -197105,7 +198035,7 @@
     "title": "git-send-email - Send an introductory email message for the patch series",
     "content": "git send-email -{{number_of_commits}} --compose",
     "group": "Common Tools",
-    "description": "git-send-email: Send a collection of patches as emails. Patches can be specified as files, directions, or a revision list. (Send an introductory email message for the patch series)",
+    "description": "git-send-email: Send a collection of patches as emails. Patches can be specified as files, directories, or a revision list. (Send an introductory email message for the patch series)",
     "tags": [
       "common",
       "git-send-email",
@@ -197120,7 +198050,7 @@
     "title": "git-send-email - Review and edit the email message for each patch you're about to send",
     "content": "git send-email -{{number_of_commits}} --annotate",
     "group": "Common Tools",
-    "description": "git-send-email: Send a collection of patches as emails. Patches can be specified as files, directions, or a revision list. (Review and edit the email message for each patch you're about to send)",
+    "description": "git-send-email: Send a collection of patches as emails. Patches can be specified as files, directories, or a revision list. (Review and edit the email message for each patch you're about to send)",
     "tags": [
       "common",
       "git-send-email",
@@ -197552,10 +198482,10 @@
   {
     "id": "tldr-en-common-aws-s3-rb-1",
     "type": "command",
-    "title": "aws-s3-rb - Force delete an S3 bucket and its non-versioned objects (will crash if versioned objects are present)",
+    "title": "aws-s3-rb - Force delete an S3 bucket and its unversioned objects (will fail if versioned objects are present)",
     "content": "aws s3 rb s3://{{bucket_name}} --force",
     "group": "Common Tools",
-    "description": "aws-s3-rb: Delete an empty S3 bucket. (Force delete an S3 bucket and its non-versioned objects (will crash if versioned objects are present))",
+    "description": "aws-s3-rb: Delete an empty S3 bucket. (Force delete an S3 bucket and its unversioned objects (will fail if versioned objects are present))",
     "tags": [
       "common",
       "aws-s3-rb",
@@ -201510,6 +202440,81 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-jj-operation-diff-0",
+    "type": "command",
+    "title": "jj-operation-diff - Compare repository changes in a specific operation to its parent",
+    "content": "jj {{[op|operation]}} diff {{[--op|--operation]}} {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-diff: Compare changes to the repository between two operations. (Compare repository changes in a specific operation to its parent)",
+    "tags": [
+      "common",
+      "jj-operation-diff",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-diff-1",
+    "type": "command",
+    "title": "jj-operation-diff - Compare repository changes between two specific operations",
+    "content": "jj {{[op|operation]}} diff {{[-f|--from]}} {{from_op}} {{[-t|--to]}} {{to_op}}",
+    "group": "Common Tools",
+    "description": "jj-operation-diff: Compare changes to the repository between two operations. (Compare repository changes between two specific operations)",
+    "tags": [
+      "common",
+      "jj-operation-diff",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-diff-2",
+    "type": "command",
+    "title": "jj-operation-diff - Show diff with a patch of modifications to changes",
+    "content": "jj {{[op|operation]}} diff {{[-p|--patch]}} {{[--op|--operation]}} {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-diff: Compare changes to the repository between two operations. (Show diff with a patch of modifications to changes)",
+    "tags": [
+      "common",
+      "jj-operation-diff",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-diff-3",
+    "type": "command",
+    "title": "jj-operation-diff - Show diff as a histogram of changes",
+    "content": "jj {{[op|operation]}} diff --stat {{[--op|--operation]}} {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-diff: Compare changes to the repository between two operations. (Show diff as a histogram of changes)",
+    "tags": [
+      "common",
+      "jj-operation-diff",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-diff-4",
+    "type": "command",
+    "title": "jj-operation-diff - Show diff without a graph",
+    "content": "jj {{[op|operation]}} diff {{[-G|--no-graph]}} {{[--op|--operation]}} {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-diff: Compare changes to the repository between two operations. (Show diff without a graph)",
+    "tags": [
+      "common",
+      "jj-operation-diff",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-gixy-next-0",
     "type": "command",
     "title": "gixy-next - Analyze `nginx` configuration (default path: `/etc/nginx/nginx.conf`)",
@@ -201602,10 +202607,10 @@
   {
     "id": "tldr-en-common-wait-0",
     "type": "command",
-    "title": "wait - Wait for a process to finish given its process ID (PID) and return its exit status",
-    "content": "wait {{pid}}",
+    "title": "wait - Wait for a process to finish given its process ID and return its exit status",
+    "content": "wait {{process_id}}",
     "group": "Common Tools",
-    "description": "wait: Wait for a process to complete before proceeding. (Wait for a process to finish given its process ID (PID) and return its exit status)",
+    "description": "wait: Wait for a process to complete before proceeding. (Wait for a process to finish given its process ID and return its exit status)",
     "tags": [
       "common",
       "wait",
@@ -208577,10 +209582,10 @@
   {
     "id": "tldr-en-common-git-merge-0",
     "type": "command",
-    "title": "git-merge - Merge branches into your current branch",
+    "title": "git-merge - Merge branches into the current branch",
     "content": "git merge {{branch_name1 branch_name2 ...}}",
     "group": "Common Tools",
-    "description": "git-merge: Merge branches. (Merge branches into your current branch)",
+    "description": "git-merge: Merge branches. (Merge branches into the current branch)",
     "tags": [
       "common",
       "git-merge",
@@ -208622,10 +209627,10 @@
   {
     "id": "tldr-en-common-git-merge-3",
     "type": "command",
-    "title": "git-merge - Copy the state of a branch into the working tree and stage it (Note: Use `git commit` to create the actual commit)",
+    "title": "git-merge - Stage the result of merging a branch without creating a commit",
     "content": "git merge --squash {{branch_name}}",
     "group": "Common Tools",
-    "description": "git-merge: Merge branches. (Copy the state of a branch into the working tree and stage it (Note: Use `git commit` to create the actual commit))",
+    "description": "git-merge: Merge branches. (Stage the result of merging a branch without creating a commit)",
     "tags": [
       "common",
       "git-merge",
@@ -211845,6 +212850,36 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-doctl-1-click-0",
+    "type": "command",
+    "title": "doctl-1-click - Retrieve a list of available 1-Click applications",
+    "content": "doctl 1-click list",
+    "group": "Common Tools",
+    "description": "doctl-1-click: Manage DigitalOcean 1-Click applications. (Retrieve a list of available 1-Click applications)",
+    "tags": [
+      "common",
+      "doctl-1-click",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-1-click-1",
+    "type": "command",
+    "title": "doctl-1-click - Display help",
+    "content": "doctl 1-click {{[-h|--help]}}",
+    "group": "Common Tools",
+    "description": "doctl-1-click: Manage DigitalOcean 1-Click applications. (Display help)",
+    "tags": [
+      "common",
+      "doctl-1-click",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-crush-0",
     "type": "command",
     "title": "crush - Start interactive mode",
@@ -213080,7 +214115,7 @@
     "title": "jj-operation - Show operation log",
     "content": "jj {{[op|operation]}} log",
     "group": "Common Tools",
-    "description": "jj-operation: Work with the operation log of a `jj` repository. (Show operation log)",
+    "description": "jj-operation: Work with the operation log of a `jj` repository. Some subcommands such as `abandon`, `diff`, `integrate`, `log`, `restore`, `revert`, `show` have their own usage documentation. (Show operation log)",
     "tags": [
       "common",
       "jj-operation",
@@ -213092,10 +214127,10 @@
   {
     "id": "tldr-en-common-jj-operation-1",
     "type": "command",
-    "title": "jj-operation - Undo the last operation",
-    "content": "jj {{[op|operation]}} undo",
+    "title": "jj-operation - Abandon a specific operation",
+    "content": "jj {{[op|operation]}} abandon {{operation}}",
     "group": "Common Tools",
-    "description": "jj-operation: Work with the operation log of a `jj` repository. (Undo the last operation)",
+    "description": "jj-operation: Work with the operation log of a `jj` repository. Some subcommands such as `abandon`, `diff`, `integrate`, `log`, `restore`, `revert`, `show` have their own usage documentation. (Abandon a specific operation)",
     "tags": [
       "common",
       "jj-operation",
@@ -213107,10 +214142,10 @@
   {
     "id": "tldr-en-common-jj-operation-2",
     "type": "command",
-    "title": "jj-operation - Undo a given operation",
-    "content": "jj {{[op|operation]}} undo {{operation}}",
+    "title": "jj-operation - Restore the repository to its state at a given operation",
+    "content": "jj {{[op|operation]}} restore {{operation}}",
     "group": "Common Tools",
-    "description": "jj-operation: Work with the operation log of a `jj` repository. (Undo a given operation)",
+    "description": "jj-operation: Work with the operation log of a `jj` repository. Some subcommands such as `abandon`, `diff`, `integrate`, `log`, `restore`, `revert`, `show` have their own usage documentation. (Restore the repository to its state at a given operation)",
     "tags": [
       "common",
       "jj-operation",
@@ -213122,10 +214157,10 @@
   {
     "id": "tldr-en-common-jj-operation-3",
     "type": "command",
-    "title": "jj-operation - Restore the repository to its state at a given operation",
-    "content": "jj {{[op|operation]}} restore {{operation}}",
+    "title": "jj-operation - Revert an earlier operation by applying its inverse",
+    "content": "jj {{[op|operation]}} revert {{operation}}",
     "group": "Common Tools",
-    "description": "jj-operation: Work with the operation log of a `jj` repository. (Restore the repository to its state at a given operation)",
+    "description": "jj-operation: Work with the operation log of a `jj` repository. Some subcommands such as `abandon`, `diff`, `integrate`, `log`, `restore`, `revert`, `show` have their own usage documentation. (Revert an earlier operation by applying its inverse)",
     "tags": [
       "common",
       "jj-operation",
@@ -213140,7 +214175,7 @@
     "title": "jj-operation - Show changes to the repository in an operation",
     "content": "jj {{[op|operation]}} show {{operation}}",
     "group": "Common Tools",
-    "description": "jj-operation: Work with the operation log of a `jj` repository. (Show changes to the repository in an operation)",
+    "description": "jj-operation: Work with the operation log of a `jj` repository. Some subcommands such as `abandon`, `diff`, `integrate`, `log`, `restore`, `revert`, `show` have their own usage documentation. (Show changes to the repository in an operation)",
     "tags": [
       "common",
       "jj-operation",
@@ -213155,7 +214190,37 @@
     "title": "jj-operation - Show stat, summary, and patch of modifications of an operation",
     "content": "jj {{[op|operation]}} show {{--stat}} {{[-s|--summary]}} {{[-p|--patch]}} {{operation}}",
     "group": "Common Tools",
-    "description": "jj-operation: Work with the operation log of a `jj` repository. (Show stat, summary, and patch of modifications of an operation)",
+    "description": "jj-operation: Work with the operation log of a `jj` repository. Some subcommands such as `abandon`, `diff`, `integrate`, `log`, `restore`, `revert`, `show` have their own usage documentation. (Show stat, summary, and patch of modifications of an operation)",
+    "tags": [
+      "common",
+      "jj-operation",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-6",
+    "type": "command",
+    "title": "jj-operation - Compare repository changes between two operations",
+    "content": "jj {{[op|operation]}} diff {{[-f|--from]}} {{from_op}} {{[-t|--to]}} {{to_op}}",
+    "group": "Common Tools",
+    "description": "jj-operation: Work with the operation log of a `jj` repository. Some subcommands such as `abandon`, `diff`, `integrate`, `log`, `restore`, `revert`, `show` have their own usage documentation. (Compare repository changes between two operations)",
+    "tags": [
+      "common",
+      "jj-operation",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-7",
+    "type": "command",
+    "title": "jj-operation - Show diff as a histogram of changes",
+    "content": "jj {{[op|operation]}} diff {{--stat}} {{[--op|--operation]}} {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation: Work with the operation log of a `jj` repository. Some subcommands such as `abandon`, `diff`, `integrate`, `log`, `restore`, `revert`, `show` have their own usage documentation. (Show diff as a histogram of changes)",
     "tags": [
       "common",
       "jj-operation",
@@ -215463,7 +216528,7 @@
     "id": "tldr-en-common-frida-2",
     "type": "command",
     "title": "frida - Attach to a running process by its PID",
-    "content": "frida {{[-p|--attach-pid]}} {{pid}}",
+    "content": "frida {{[-p|--attach-pid]}} {{process_id}}",
     "group": "Common Tools",
     "description": "frida: A dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers. (Attach to a running process by its PID)",
     "tags": [
@@ -216812,10 +217877,10 @@
   {
     "id": "tldr-en-common-aws-sqs-0",
     "type": "command",
-    "title": "aws-sqs - List all availables queues",
+    "title": "aws-sqs - List all available queues",
     "content": "aws sqs list-queues",
     "group": "Common Tools",
-    "description": "aws-sqs: Create, delete, and send messages to queues for the AWS SQS service. (List all availables queues)",
+    "description": "aws-sqs: Create, delete, and send messages to queues for the AWS SQS service. (List all available queues)",
     "tags": [
       "common",
       "aws-sqs",
@@ -217563,7 +218628,7 @@
     "id": "tldr-en-common-jj-git-remote-1",
     "type": "command",
     "title": "jj-git-remote - Add a Git remote",
-    "content": "jj git remote add {{remote}} {{url}}",
+    "content": "jj git remote add {{remote_name}} {{remote_url}}",
     "group": "Common Tools",
     "description": "jj-git-remote: Manage Git remotes. (Add a Git remote)",
     "tags": [
@@ -217577,10 +218642,10 @@
   {
     "id": "tldr-en-common-jj-git-remote-2",
     "type": "command",
-    "title": "jj-git-remote - Change the URL of a Git remote",
-    "content": "jj git remote set-url {{remote}} {{url}}",
+    "title": "jj-git-remote - Add a Git remote with a specific push URL",
+    "content": "jj git remote add --push-url {{push_url}} {{remote_name}} {{remote_url}}",
     "group": "Common Tools",
-    "description": "jj-git-remote: Manage Git remotes. (Change the URL of a Git remote)",
+    "description": "jj-git-remote: Manage Git remotes. (Add a Git remote with a specific push URL)",
     "tags": [
       "common",
       "jj-git-remote",
@@ -217592,8 +218657,53 @@
   {
     "id": "tldr-en-common-jj-git-remote-3",
     "type": "command",
+    "title": "jj-git-remote - Change the URL of a Git remote",
+    "content": "jj git remote set-url {{remote_name}} {{remote_url}}",
+    "group": "Common Tools",
+    "description": "jj-git-remote: Manage Git remotes. (Change the URL of a Git remote)",
+    "tags": [
+      "common",
+      "jj-git-remote",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-remote-4",
+    "type": "command",
+    "title": "jj-git-remote - Set the push URL for a Git remote",
+    "content": "jj git remote set-url --push {{push_url}} {{remote_name}}",
+    "group": "Common Tools",
+    "description": "jj-git-remote: Manage Git remotes. (Set the push URL for a Git remote)",
+    "tags": [
+      "common",
+      "jj-git-remote",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-remote-5",
+    "type": "command",
+    "title": "jj-git-remote - Set both fetch and push URLs for a Git remote",
+    "content": "jj git remote set-url --fetch {{fetch_url}} --push {{push_url}} {{remote_name}}",
+    "group": "Common Tools",
+    "description": "jj-git-remote: Manage Git remotes. (Set both fetch and push URLs for a Git remote)",
+    "tags": [
+      "common",
+      "jj-git-remote",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-remote-6",
+    "type": "command",
     "title": "jj-git-remote - Remove a Git remote",
-    "content": "jj git remote remove {{remote}}",
+    "content": "jj git remote remove {{remote_name}}",
     "group": "Common Tools",
     "description": "jj-git-remote: Manage Git remotes. (Remove a Git remote)",
     "tags": [
@@ -217605,7 +218715,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-common-jj-git-remote-4",
+    "id": "tldr-en-common-jj-git-remote-7",
     "type": "command",
     "title": "jj-git-remote - Rename a Git remote",
     "content": "jj git remote rename {{old_name}} {{new_name}}",
@@ -244230,6 +245340,21 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-jj-git-root-0",
+    "type": "command",
+    "title": "jj-git-root - Show the path to the underlying Git directory",
+    "content": "jj git root",
+    "group": "Common Tools",
+    "description": "jj-git-root: Show the underlying Git directory of a Jujutsu repository. (Show the path to the underlying Git directory)",
+    "tags": [
+      "common",
+      "jj-git-root",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-brew-cleanup-0",
     "type": "command",
     "title": "brew-cleanup - Remove stale lock files and outdated downloads for all formulas/casks",
@@ -247974,6 +249099,36 @@
     "tags": [
       "common",
       "git-for-each-ref",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-file-untrack-0",
+    "type": "command",
+    "title": "jj-file-untrack - Stop tracking an ignored file or directory",
+    "content": "jj file untrack {{path/to/file_or_directory}}",
+    "group": "Common Tools",
+    "description": "jj-file-untrack: Stop tracking specified paths in the working copy of a `jj` repository. The paths must already be ignored (e.g. via `.gitignore`). (Stop tracking an ignored file or directory)",
+    "tags": [
+      "common",
+      "jj-file-untrack",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-file-untrack-1",
+    "type": "command",
+    "title": "jj-file-untrack - Stop tracking multiple ignored paths",
+    "content": "jj file untrack {{path/to/file1 path/to/directory2 ...}}",
+    "group": "Common Tools",
+    "description": "jj-file-untrack: Stop tracking specified paths in the working copy of a `jj` repository. The paths must already be ignored (e.g. via `.gitignore`). (Stop tracking multiple ignored paths)",
+    "tags": [
+      "common",
+      "jj-file-untrack",
       "tldr",
       "en"
     ],
@@ -257880,6 +259035,81 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-machine_role.py-0",
+    "type": "command",
+    "title": "machine_role.py - Determine the role of a machine using a username and password",
+    "content": "machine_role.py {{domain}}/{{username}}:{{password}}@{{target}}",
+    "group": "Common Tools",
+    "description": "machine_role.py: Determine the role of a remote Windows machine (e.g. domain controller, member server, or workstation). Part of the Impacket suite. (Determine the role of a machine using a username and password)",
+    "tags": [
+      "common",
+      "machine_role.py",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-machine_role.py-1",
+    "type": "command",
+    "title": "machine_role.py - Determine the role using pass-the-hash authentication",
+    "content": "machine_role.py -hashes {{LM_Hash}}:{{NT_Hash}} {{domain}}/{{username}}@{{target}}",
+    "group": "Common Tools",
+    "description": "machine_role.py: Determine the role of a remote Windows machine (e.g. domain controller, member server, or workstation). Part of the Impacket suite. (Determine the role using pass-the-hash authentication)",
+    "tags": [
+      "common",
+      "machine_role.py",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-machine_role.py-2",
+    "type": "command",
+    "title": "machine_role.py - Determine the role without prompting for a password (e.g. using an existing session)",
+    "content": "machine_role.py -no-pass {{domain}}/{{username}}@{{target}}",
+    "group": "Common Tools",
+    "description": "machine_role.py: Determine the role of a remote Windows machine (e.g. domain controller, member server, or workstation). Part of the Impacket suite. (Determine the role without prompting for a password (e.g. using an existing session))",
+    "tags": [
+      "common",
+      "machine_role.py",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-machine_role.py-3",
+    "type": "command",
+    "title": "machine_role.py - Determine the role using Kerberos authentication",
+    "content": "machine_role.py -k {{domain}}/{{username}}@{{target}}",
+    "group": "Common Tools",
+    "description": "machine_role.py: Determine the role of a remote Windows machine (e.g. domain controller, member server, or workstation). Part of the Impacket suite. (Determine the role using Kerberos authentication)",
+    "tags": [
+      "common",
+      "machine_role.py",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-machine_role.py-4",
+    "type": "command",
+    "title": "machine_role.py - Specify the domain controller's IP address",
+    "content": "machine_role.py -dc-ip {{ip_address}} {{domain}}/{{username}}:{{password}}@{{target}}",
+    "group": "Common Tools",
+    "description": "machine_role.py: Determine the role of a remote Windows machine (e.g. domain controller, member server, or workstation). Part of the Impacket suite. (Specify the domain controller's IP address)",
+    "tags": [
+      "common",
+      "machine_role.py",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-at-0",
     "type": "command",
     "title": "at - Create commands interactively and execute them in 5 minutes (press `<Ctrl d>` when done)",
@@ -260900,7 +262130,7 @@
     "title": "git-utimes - Change all files modification time to their last commit date",
     "content": "git utimes",
     "group": "Common Tools",
-    "description": "git-utimes: Change files modification time to their last commit date. Does not touch files that are in the working tree or index. Part of `git-extras`. (Change all files modification time to their last commit date)",
+    "description": "git-utimes: Change files' modification times to their last commit dates. Does not touch files that are in the working tree or index. Part of `git-extras`. (Change all files modification time to their last commit date)",
     "tags": [
       "common",
       "git-utimes",
@@ -260915,7 +262145,7 @@
     "title": "git-utimes - Change files modification time that are newer than their last commit date, preserving original modification time of files that were committed from the local repository",
     "content": "git utimes --newer",
     "group": "Common Tools",
-    "description": "git-utimes: Change files modification time to their last commit date. Does not touch files that are in the working tree or index. Part of `git-extras`. (Change files modification time that are newer than their last commit date, preserving original modification time of files that were committed from the local repository)",
+    "description": "git-utimes: Change files' modification times to their last commit dates. Does not touch files that are in the working tree or index. Part of `git-extras`. (Change files modification time that are newer than their last commit date, preserving original modification time of files that were committed from the local repository)",
     "tags": [
       "common",
       "git-utimes",
@@ -264495,6 +265725,21 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-jj-operation-integrate-0",
+    "type": "command",
+    "title": "jj-operation-integrate - Integrate an unintegrated operation into the operation log",
+    "content": "jj {{[op|operation]}} integrate {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-integrate: Make an operation part of the operation log in a `jj` repository. Operations are integrated automatically by default unless commands are run with `--no-integrate-operation`. (Integrate an unintegrated operation into the operation log)",
+    "tags": [
+      "common",
+      "jj-operation-integrate",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-metaflac-0",
     "type": "command",
     "title": "metaflac - Show all tags in a FLAC file",
@@ -265577,6 +266822,21 @@
   {
     "id": "tldr-en-common-jj-git-2",
     "type": "command",
+    "title": "jj-git - Clone a Git repository as a `jj` repository, without colocation",
+    "content": "jj git clone --no-colocate {{source}}",
+    "group": "Common Tools",
+    "description": "jj-git: Run Git-related commands for a `jj` repository. (Clone a Git repository as a `jj` repository, without colocation)",
+    "tags": [
+      "common",
+      "jj-git",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-3",
+    "type": "command",
     "title": "jj-git - Fetch from a Git remote",
     "content": "jj git fetch",
     "group": "Common Tools",
@@ -265590,7 +266850,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-common-jj-git-3",
+    "id": "tldr-en-common-jj-git-4",
     "type": "command",
     "title": "jj-git - Push all tracked bookmarks to Git remote",
     "content": "jj git push",
@@ -265605,12 +266865,42 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-common-jj-git-4",
+    "id": "tldr-en-common-jj-git-5",
     "type": "command",
     "title": "jj-git - Push given bookmark to Git remote",
     "content": "jj git push {{[-b|--bookmark]}} {{bookmark}}",
     "group": "Common Tools",
     "description": "jj-git: Run Git-related commands for a `jj` repository. (Push given bookmark to Git remote)",
+    "tags": [
+      "common",
+      "jj-git",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-6",
+    "type": "command",
+    "title": "jj-git - Convert into a colocated Jujutsu/Git repository",
+    "content": "jj git colocation enable",
+    "group": "Common Tools",
+    "description": "jj-git: Run Git-related commands for a `jj` repository. (Convert into a colocated Jujutsu/Git repository)",
+    "tags": [
+      "common",
+      "jj-git",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-git-7",
+    "type": "command",
+    "title": "jj-git - Show the path to the underlying Git directory",
+    "content": "jj git root",
+    "group": "Common Tools",
+    "description": "jj-git: Run Git-related commands for a `jj` repository. (Show the path to the underlying Git directory)",
     "tags": [
       "common",
       "jj-git",
@@ -285032,10 +286322,10 @@
   {
     "id": "tldr-en-common-aws-history-0",
     "type": "command",
-    "title": "aws-history - List commands history with command IDs",
+    "title": "aws-history - List commands in the history with their command IDs",
     "content": "aws history list",
     "group": "Common Tools",
-    "description": "aws-history: Print the command-line history for AWS CLI commands (the record of history of AWS CLI commands must be enabled). (List commands history with command IDs)",
+    "description": "aws-history: Print AWS CLI command history (command history must be enabled). (List commands in the history with their command IDs)",
     "tags": [
       "common",
       "aws-history",
@@ -285050,7 +286340,7 @@
     "title": "aws-history - Display events related to a specific command given a command ID",
     "content": "aws history show {{command_id}}",
     "group": "Common Tools",
-    "description": "aws-history: Print the command-line history for AWS CLI commands (the record of history of AWS CLI commands must be enabled). (Display events related to a specific command given a command ID)",
+    "description": "aws-history: Print AWS CLI command history (command history must be enabled). (Display events related to a specific command given a command ID)",
     "tags": [
       "common",
       "aws-history",
@@ -288275,7 +289565,7 @@
     "title": "git-stamp - Stamp the last commit message referencing it with the issue number from your bug tracker",
     "content": "git stamp {{issue_number}}",
     "group": "Common Tools",
-    "description": "git-stamp: Stamp the last commit message, with the possibility to reference the issues numbers from your bug tracker or link to its review page. Part of `git-extras`. (Stamp the last commit message referencing it with the issue number from your bug tracker)",
+    "description": "git-stamp: Stamp the last commit message, with the possibility to reference issue numbers from your bug tracker or link to its review page. Part of `git-extras`. (Stamp the last commit message referencing it with the issue number from your bug tracker)",
     "tags": [
       "common",
       "git-stamp",
@@ -288290,7 +289580,7 @@
     "title": "git-stamp - Stamp the last commit message linking it to its review page",
     "content": "git stamp {{Review https://example.org/path/to/review}}",
     "group": "Common Tools",
-    "description": "git-stamp: Stamp the last commit message, with the possibility to reference the issues numbers from your bug tracker or link to its review page. Part of `git-extras`. (Stamp the last commit message linking it to its review page)",
+    "description": "git-stamp: Stamp the last commit message, with the possibility to reference issue numbers from your bug tracker or link to its review page. Part of `git-extras`. (Stamp the last commit message linking it to its review page)",
     "tags": [
       "common",
       "git-stamp",
@@ -288305,7 +289595,7 @@
     "title": "git-stamp - Stamp the last commit message replacing previous issues with a new one",
     "content": "git stamp {{[-r|--replace]}} {{issue_number}}",
     "group": "Common Tools",
-    "description": "git-stamp: Stamp the last commit message, with the possibility to reference the issues numbers from your bug tracker or link to its review page. Part of `git-extras`. (Stamp the last commit message replacing previous issues with a new one)",
+    "description": "git-stamp: Stamp the last commit message, with the possibility to reference issue numbers from your bug tracker or link to its review page. Part of `git-extras`. (Stamp the last commit message replacing previous issues with a new one)",
     "tags": [
       "common",
       "git-stamp",
@@ -290199,6 +291489,96 @@
     "tags": [
       "common",
       "csvsort",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-show-0",
+    "type": "command",
+    "title": "jj-operation-show - Show repository changes in the current operation compared to its parent",
+    "content": "jj {{[op|operation]}} show",
+    "group": "Common Tools",
+    "description": "jj-operation-show: Show repository changes in an operation. (Show repository changes in the current operation compared to its parent)",
+    "tags": [
+      "common",
+      "jj-operation-show",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-show-1",
+    "type": "command",
+    "title": "jj-operation-show - Show repository changes in a specific operation",
+    "content": "jj {{[op|operation]}} show {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-show: Show repository changes in an operation. (Show repository changes in a specific operation)",
+    "tags": [
+      "common",
+      "jj-operation-show",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-show-2",
+    "type": "command",
+    "title": "jj-operation-show - Show repository changes with patch details",
+    "content": "jj {{[op|operation]}} show {{[-p|--patch]}} {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-show: Show repository changes in an operation. (Show repository changes with patch details)",
+    "tags": [
+      "common",
+      "jj-operation-show",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-show-3",
+    "type": "command",
+    "title": "jj-operation-show - Show a summary of changed paths in an operation",
+    "content": "jj {{[op|operation]}} show {{[-s|--summary]}} {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-show: Show repository changes in an operation. (Show a summary of changed paths in an operation)",
+    "tags": [
+      "common",
+      "jj-operation-show",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-show-4",
+    "type": "command",
+    "title": "jj-operation-show - Show a histogram of changes in an operation",
+    "content": "jj {{[op|operation]}} show --stat {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-show: Show repository changes in an operation. (Show a histogram of changes in an operation)",
+    "tags": [
+      "common",
+      "jj-operation-show",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-jj-operation-show-5",
+    "type": "command",
+    "title": "jj-operation-show - Show changes without a graph",
+    "content": "jj {{[op|operation]}} show {{[-G|--no-graph]}} {{operation_id}}",
+    "group": "Common Tools",
+    "description": "jj-operation-show: Show repository changes in an operation. (Show changes without a graph)",
+    "tags": [
+      "common",
+      "jj-operation-show",
       "tldr",
       "en"
     ],
@@ -292518,7 +293898,7 @@
     "id": "tldr-en-common-ag-4",
     "type": "command",
     "title": "ag - Find `string` in files with a name matching `file_name`",
-    "content": "ag string {{[-G|--file-search-regex]}} file_name",
+    "content": "ag string {{[-G|--file-search-regex]}} {{file_name}}",
     "group": "Common Tools",
     "description": "ag: The Silver Searcher. Like `ack`, but aims to be faster. (Find `string` in files with a name matching `file_name`)",
     "tags": [
@@ -303902,6 +305282,21 @@
   {
     "id": "tldr-en-common-doctl-2",
     "type": "command",
+    "title": "doctl - Create a new Droplet",
+    "content": "doctl compute droplet create {{name}} --size {{size}} --image {{image}} --region {{region}}",
+    "group": "Common Tools",
+    "description": "doctl: Manage DigitalOcean resources. (Create a new Droplet)",
+    "tags": [
+      "common",
+      "doctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-3",
+    "type": "command",
     "title": "doctl - List all Droplets",
     "content": "doctl compute droplet list",
     "group": "Common Tools",
@@ -303915,7 +305310,37 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-common-doctl-3",
+    "id": "tldr-en-common-doctl-4",
+    "type": "command",
+    "title": "doctl - SSH into a Droplet",
+    "content": "doctl compute ssh {{droplet_id}}",
+    "group": "Common Tools",
+    "description": "doctl: Manage DigitalOcean resources. (SSH into a Droplet)",
+    "tags": [
+      "common",
+      "doctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-5",
+    "type": "command",
+    "title": "doctl - Create a Kubernetes cluster",
+    "content": "doctl kubernetes cluster create {{cluster_name}}",
+    "group": "Common Tools",
+    "description": "doctl: Manage DigitalOcean resources. (Create a Kubernetes cluster)",
+    "tags": [
+      "common",
+      "doctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-doctl-6",
     "type": "command",
     "title": "doctl - List Kubernetes clusters",
     "content": "doctl kubernetes cluster list",
@@ -303930,12 +305355,12 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-common-doctl-4",
+    "id": "tldr-en-common-doctl-7",
     "type": "command",
-    "title": "doctl - Display version",
-    "content": "doctl version",
+    "title": "doctl - List managed databases",
+    "content": "doctl databases list",
     "group": "Common Tools",
-    "description": "doctl: Manage DigitalOcean resources. (Display version)",
+    "description": "doctl: Manage DigitalOcean resources. (List managed databases)",
     "tags": [
       "common",
       "doctl",
@@ -304023,7 +305448,7 @@
     "id": "tldr-en-common-py-spy-0",
     "type": "command",
     "title": "py-spy - Show a live view of the functions that take the most execution time of a running process",
-    "content": "py-spy top {{[-p|--pid]}} {{pid}}",
+    "content": "py-spy top {{[-p|--pid]}} {{process_id}}",
     "group": "Common Tools",
     "description": "py-spy: A sampling profiler for Python programs. (Show a live view of the functions that take the most execution time of a running process)",
     "tags": [
@@ -304053,7 +305478,7 @@
     "id": "tldr-en-common-py-spy-2",
     "type": "command",
     "title": "py-spy - Produce an SVG flame graph of the function call execution time",
-    "content": "py-spy record {{[-o|--output]}} {{path/to/profile.svg}} {{[-p|--pid]}} {{pid}}",
+    "content": "py-spy record {{[-o|--output]}} {{path/to/profile.svg}} {{[-p|--pid]}} {{process_id}}",
     "group": "Common Tools",
     "description": "py-spy: A sampling profiler for Python programs. (Produce an SVG flame graph of the function call execution time)",
     "tags": [
@@ -304068,7 +305493,7 @@
     "id": "tldr-en-common-py-spy-3",
     "type": "command",
     "title": "py-spy - Dump the call stack of a running process",
-    "content": "py-spy dump {{[-p|--pid]}} {{pid}}",
+    "content": "py-spy dump {{[-p|--pid]}} {{process_id}}",
     "group": "Common Tools",
     "description": "py-spy: A sampling profiler for Python programs. (Dump the call stack of a running process)",
     "tags": [
@@ -315444,6 +316869,126 @@
     "tags": [
       "common",
       "git-summary",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-rumdl-0",
+    "type": "command",
+    "title": "rumdl - Lint the specified files or directories",
+    "content": "rumdl check {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}",
+    "group": "Common Tools",
+    "description": "rumdl: A fast Markdown linter and formatter written in Rust. (Lint the specified files or directories)",
+    "tags": [
+      "common",
+      "rumdl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-rumdl-1",
+    "type": "command",
+    "title": "rumdl - Lint and automatically fix issues where possible",
+    "content": "rumdl check {{[-f|--fix]}} {{path/to/file_or_directory}}",
+    "group": "Common Tools",
+    "description": "rumdl: A fast Markdown linter and formatter written in Rust. (Lint and automatically fix issues where possible)",
+    "tags": [
+      "common",
+      "rumdl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-rumdl-2",
+    "type": "command",
+    "title": "rumdl - Lint with specific rules disabled",
+    "content": "rumdl check {{[-d|--disable]}} {{rule_id1,rule_id2,...}} {{path/to/file_or_directory}}",
+    "group": "Common Tools",
+    "description": "rumdl: A fast Markdown linter and formatter written in Rust. (Lint with specific rules disabled)",
+    "tags": [
+      "common",
+      "rumdl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-rumdl-3",
+    "type": "command",
+    "title": "rumdl - Re-run the linter whenever files change",
+    "content": "rumdl check {{[-w|--watch]}} {{path/to/file_or_directory}}",
+    "group": "Common Tools",
+    "description": "rumdl: A fast Markdown linter and formatter written in Rust. (Re-run the linter whenever files change)",
+    "tags": [
+      "common",
+      "rumdl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-rumdl-4",
+    "type": "command",
+    "title": "rumdl - Format files in place",
+    "content": "rumdl fmt {{path/to/file_or_directory}}",
+    "group": "Common Tools",
+    "description": "rumdl: A fast Markdown linter and formatter written in Rust. (Format files in place)",
+    "tags": [
+      "common",
+      "rumdl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-rumdl-5",
+    "type": "command",
+    "title": "rumdl - Create a default configuration file (`.rumdl.toml`) in the current directory",
+    "content": "rumdl init",
+    "group": "Common Tools",
+    "description": "rumdl: A fast Markdown linter and formatter written in Rust. (Create a default configuration file (`.rumdl.toml`) in the current directory)",
+    "tags": [
+      "common",
+      "rumdl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-rumdl-6",
+    "type": "command",
+    "title": "rumdl - Show information about a specific rule (list all rules if omitted)",
+    "content": "rumdl rule {{MD013}}",
+    "group": "Common Tools",
+    "description": "rumdl: A fast Markdown linter and formatter written in Rust. (Show information about a specific rule (list all rules if omitted))",
+    "tags": [
+      "common",
+      "rumdl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-rumdl-7",
+    "type": "command",
+    "title": "rumdl - Display version",
+    "content": "rumdl version",
+    "group": "Common Tools",
+    "description": "rumdl: A fast Markdown linter and formatter written in Rust. (Display version)",
+    "tags": [
+      "common",
+      "rumdl",
       "tldr",
       "en"
     ],

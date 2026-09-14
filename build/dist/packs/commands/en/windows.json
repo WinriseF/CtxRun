@@ -12800,7 +12800,7 @@
     "title": "autopsy - Launch the Autopsy graphical interface",
     "content": "autopsy64.exe",
     "group": "Windows",
-    "description": "autopsy: Digital forensics platform for analyzing disk images and investigating file systems. (Launch the Autopsy graphical interface)",
+    "description": "autopsy: Digital forensics platform for analyzing disk images and investigating filesystems. (Launch the Autopsy graphical interface)",
     "tags": [
       "windows",
       "autopsy",
@@ -12815,7 +12815,7 @@
     "title": "autopsy - Create a new case and specify the base directory to store case files",
     "content": "autopsy64.exe --createCase --caseName {{case_name}} --caseBaseDir {{path\\to\\base_directory}}",
     "group": "Windows",
-    "description": "autopsy: Digital forensics platform for analyzing disk images and investigating file systems. (Create a new case and specify the base directory to store case files)",
+    "description": "autopsy: Digital forensics platform for analyzing disk images and investigating filesystems. (Create a new case and specify the base directory to store case files)",
     "tags": [
       "windows",
       "autopsy",
@@ -12830,7 +12830,7 @@
     "title": "autopsy - Add a data source to an existing case",
     "content": "autopsy64.exe --caseDir {{path\\to\\case_directory}} --addDataSource --dataSourcePath {{path\\to\\source}}",
     "group": "Windows",
-    "description": "autopsy: Digital forensics platform for analyzing disk images and investigating file systems. (Add a data source to an existing case)",
+    "description": "autopsy: Digital forensics platform for analyzing disk images and investigating filesystems. (Add a data source to an existing case)",
     "tags": [
       "windows",
       "autopsy",
@@ -12845,7 +12845,7 @@
     "title": "autopsy - Generate a report for an existing case",
     "content": "autopsy64.exe --caseDir {{path\\to\\case_directory}} --generateReports",
     "group": "Windows",
-    "description": "autopsy: Digital forensics platform for analyzing disk images and investigating file systems. (Generate a report for an existing case)",
+    "description": "autopsy: Digital forensics platform for analyzing disk images and investigating filesystems. (Generate a report for an existing case)",
     "tags": [
       "windows",
       "autopsy",
@@ -12860,7 +12860,7 @@
     "title": "autopsy - List all data sources in an existing case",
     "content": "autopsy64.exe --caseDir {{path\\to\\case_directory}} --listAllDataSources",
     "group": "Windows",
-    "description": "autopsy: Digital forensics platform for analyzing disk images and investigating file systems. (List all data sources in an existing case)",
+    "description": "autopsy: Digital forensics platform for analyzing disk images and investigating filesystems. (List all data sources in an existing case)",
     "tags": [
       "windows",
       "autopsy",
@@ -16863,7 +16863,7 @@
     "id": "tldr-en-windows-wmic-5",
     "type": "command",
     "title": "wmic - Display specific fields for a specific process",
-    "content": "wmic process where processid={{pid}} get {{name,commandline}}",
+    "content": "wmic process where processid={{process_id}} get {{name,commandline}}",
     "group": "Windows",
     "description": "wmic: Interactive shell for detailed information about running processes. (Display specific fields for a specific process)",
     "tags": [
@@ -16878,7 +16878,7 @@
     "id": "tldr-en-windows-wmic-6",
     "type": "command",
     "title": "wmic - Kill a process",
-    "content": "wmic process {{pid}} delete",
+    "content": "wmic process {{process_id}} delete",
     "group": "Windows",
     "description": "wmic: Interactive shell for detailed information about running processes. (Kill a process)",
     "tags": [

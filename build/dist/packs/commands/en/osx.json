@@ -4205,7 +4205,7 @@
     "title": "apfsd - Start the daemon",
     "content": "apfsd",
     "group": "macOS",
-    "description": "apfsd: Manage volumes in the file system. It should not be invoked manually. (Start the daemon)",
+    "description": "apfsd: Manage volumes in the filesystem. It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "apfsd",
@@ -5960,7 +5960,7 @@
     "title": "xcodes - List all installed Xcode versions",
     "content": "xcodes installed",
     "group": "macOS",
-    "description": "xcodes: Download, install, and manage multiple Xcode versions. (List all installed Xcode versions)",
+    "description": "xcodes: Download, install, and manage multiple Xcode versions. Some subcommands such as `runtimes` have their own usage documentation. (List all installed Xcode versions)",
     "tags": [
       "osx",
       "xcodes",
@@ -5975,7 +5975,7 @@
     "title": "xcodes - List all available Xcode versions",
     "content": "xcodes list",
     "group": "macOS",
-    "description": "xcodes: Download, install, and manage multiple Xcode versions. (List all available Xcode versions)",
+    "description": "xcodes: Download, install, and manage multiple Xcode versions. Some subcommands such as `runtimes` have their own usage documentation. (List all available Xcode versions)",
     "tags": [
       "osx",
       "xcodes",
@@ -5990,7 +5990,7 @@
     "title": "xcodes - Select an Xcode version by specifying a version number or a path",
     "content": "xcodes select {{xcode_version|path/to/Xcode.app}}",
     "group": "macOS",
-    "description": "xcodes: Download, install, and manage multiple Xcode versions. (Select an Xcode version by specifying a version number or a path)",
+    "description": "xcodes: Download, install, and manage multiple Xcode versions. Some subcommands such as `runtimes` have their own usage documentation. (Select an Xcode version by specifying a version number or a path)",
     "tags": [
       "osx",
       "xcodes",
@@ -6005,7 +6005,7 @@
     "title": "xcodes - Download and install a specific Xcode version",
     "content": "xcodes install {{xcode_version}}",
     "group": "macOS",
-    "description": "xcodes: Download, install, and manage multiple Xcode versions. (Download and install a specific Xcode version)",
+    "description": "xcodes: Download, install, and manage multiple Xcode versions. Some subcommands such as `runtimes` have their own usage documentation. (Download and install a specific Xcode version)",
     "tags": [
       "osx",
       "xcodes",
@@ -6020,7 +6020,7 @@
     "title": "xcodes - Install the latest Xcode release and select it",
     "content": "xcodes install --latest --select",
     "group": "macOS",
-    "description": "xcodes: Download, install, and manage multiple Xcode versions. (Install the latest Xcode release and select it)",
+    "description": "xcodes: Download, install, and manage multiple Xcode versions. Some subcommands such as `runtimes` have their own usage documentation. (Install the latest Xcode release and select it)",
     "tags": [
       "osx",
       "xcodes",
@@ -6035,7 +6035,7 @@
     "title": "xcodes - Download a specific Xcode version archive to a given directory without installing it",
     "content": "xcodes download {{xcode_version}} --directory {{path/to/directory}}",
     "group": "macOS",
-    "description": "xcodes: Download, install, and manage multiple Xcode versions. (Download a specific Xcode version archive to a given directory without installing it)",
+    "description": "xcodes: Download, install, and manage multiple Xcode versions. Some subcommands such as `runtimes` have their own usage documentation. (Download a specific Xcode version archive to a given directory without installing it)",
     "tags": [
       "osx",
       "xcodes",
@@ -8514,6 +8514,51 @@
     "tags": [
       "osx",
       "symptomsd",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-osx-sync-0",
+    "type": "command",
+    "title": "sync - Flush all pending write operations on all disks",
+    "content": "sync",
+    "group": "macOS",
+    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush all pending write operations on all disks)",
+    "tags": [
+      "osx",
+      "sync",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-osx-sync-1",
+    "type": "command",
+    "title": "sync - Flush all pending write operations on a single file to disk",
+    "content": "sync {{path/to/file}}",
+    "group": "macOS",
+    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush all pending write operations on a single file to disk)",
+    "tags": [
+      "osx",
+      "sync",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-osx-sync-2",
+    "type": "command",
+    "title": "sync - Flush disk writes and attempts to clear inactive memory and filesystem caches",
+    "content": "sync; sudo purge",
+    "group": "macOS",
+    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush disk writes and attempts to clear inactive memory and filesystem caches)",
+    "tags": [
+      "osx",
+      "sync",
       "tldr",
       "en"
     ],

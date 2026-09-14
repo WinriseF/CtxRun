@@ -813,7 +813,7 @@
     "id": "tldr-zh-common-unset-1",
     "type": "command",
     "title": "unset - 删除变量 foo 和 bar",
-    "content": "unset -v {{foo}} {{bar}}",
+    "content": "unset -v {{foo bar ...}}",
     "group": "通用工具 (Common)",
     "description": "unset: 删除 Shell 变量或函数。 (删除变量 foo 和 bar)",
     "tags": [
@@ -44402,6 +44402,21 @@
   {
     "id": "tldr-zh-common-bun-0",
     "type": "command",
+    "title": "bun - 在当前文件夹创建新的 Bun 项目",
+    "content": "bun init",
+    "group": "通用工具 (Common)",
+    "description": "bun: JavaScript 运行时和工具箱。 包含打包工具、测试运行器和包管理器。 (在当前文件夹创建新的 Bun 项目)",
+    "tags": [
+      "common",
+      "bun",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-zh-common-bun-1",
+    "type": "command",
     "title": "bun - 运行 JavaScript 文件或 `package.json` 脚本",
     "content": "bun run {{path/to/file|script_name}}",
     "group": "通用工具 (Common)",
@@ -44415,7 +44430,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-common-bun-1",
+    "id": "tldr-zh-common-bun-2",
     "type": "command",
     "title": "bun - 运行单元测试",
     "content": "bun test",
@@ -44430,10 +44445,10 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-common-bun-2",
+    "id": "tldr-zh-common-bun-3",
     "type": "command",
     "title": "bun - 下载并安装 `package.json` 中列为依赖项的包",
-    "content": "bun install",
+    "content": "bun {{[i|install]}}",
     "group": "通用工具 (Common)",
     "description": "bun: JavaScript 运行时和工具箱。 包含打包工具、测试运行器和包管理器。 (下载并安装 `package.json` 中列为依赖项的包)",
     "tags": [
@@ -44445,10 +44460,10 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-common-bun-3",
+    "id": "tldr-zh-common-bun-4",
     "type": "command",
     "title": "bun - 向 `package.json` 添加依赖",
-    "content": "bun add {{模块名称}}",
+    "content": "bun {{[a|add]}} {{模块名称}}",
     "group": "通用工具 (Common)",
     "description": "bun: JavaScript 运行时和工具箱。 包含打包工具、测试运行器和包管理器。 (向 `package.json` 添加依赖)",
     "tags": [
@@ -44460,27 +44475,12 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-common-bun-4",
-    "type": "command",
-    "title": "bun - 从 `package.json` 删除依赖",
-    "content": "bun remove {{模块名称}}",
-    "group": "通用工具 (Common)",
-    "description": "bun: JavaScript 运行时和工具箱。 包含打包工具、测试运行器和包管理器。 (从 `package.json` 删除依赖)",
-    "tags": [
-      "common",
-      "bun",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
     "id": "tldr-zh-common-bun-5",
     "type": "command",
-    "title": "bun - 在当前文件夹创建新的 Bun 项目",
-    "content": "bun init",
+    "title": "bun - 从 `package.json` 删除依赖",
+    "content": "bun {{[rm|remove]}} {{模块名称}}",
     "group": "通用工具 (Common)",
-    "description": "bun: JavaScript 运行时和工具箱。 包含打包工具、测试运行器和包管理器。 (在当前文件夹创建新的 Bun 项目)",
+    "description": "bun: JavaScript 运行时和工具箱。 包含打包工具、测试运行器和包管理器。 (从 `package.json` 删除依赖)",
     "tags": [
       "common",
       "bun",

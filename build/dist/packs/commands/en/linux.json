@@ -72930,6 +72930,51 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-linux-sync-0",
+    "type": "command",
+    "title": "sync - Flush all pending write operations on all disks",
+    "content": "sync",
+    "group": "Linux Ops",
+    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush all pending write operations on all disks)",
+    "tags": [
+      "linux",
+      "sync",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-sync-1",
+    "type": "command",
+    "title": "sync - Flush all pending write operations on a single file to disk",
+    "content": "sync {{path/to/file}}",
+    "group": "Linux Ops",
+    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush all pending write operations on a single file to disk)",
+    "tags": [
+      "linux",
+      "sync",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-sync-2",
+    "type": "command",
+    "title": "sync - Flush writes and drop filesystem caches",
+    "content": "sync; echo 3 | sudo tee /proc/sys/vm/drop_caches",
+    "group": "Linux Ops",
+    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush writes and drop filesystem caches)",
+    "tags": [
+      "linux",
+      "sync",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-linux-module-0",
     "type": "command",
     "title": "module - Display available modules",

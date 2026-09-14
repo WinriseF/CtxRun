@@ -243,7 +243,7 @@
     "id": "tldr-en-sunos-truss-1",
     "type": "command",
     "title": "truss - Start tracing a specific process by its PID",
-    "content": "truss -p {{pid}}",
+    "content": "truss -p {{process_id}}",
     "group": "SunOS",
     "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of strace. (Start tracing a specific process by its PID)",
     "tags": [
@@ -273,7 +273,7 @@
     "id": "tldr-en-sunos-truss-3",
     "type": "command",
     "title": "truss - Count time, calls, and errors for each system call and report a summary on program exit",
-    "content": "truss -c -p {{pid}}",
+    "content": "truss -c -p {{process_id}}",
     "group": "SunOS",
     "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of strace. (Count time, calls, and errors for each system call and report a summary on program exit)",
     "tags": [
@@ -288,7 +288,7 @@
     "id": "tldr-en-sunos-truss-4",
     "type": "command",
     "title": "truss - Trace a process filtering output by system call",
-    "content": "truss -p {{pid}} -t {{system_call_name}}",
+    "content": "truss -p {{process_id}} -t {{system_call_name}}",
     "group": "SunOS",
     "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of strace. (Trace a process filtering output by system call)",
     "tags": [
@@ -693,7 +693,7 @@
     "id": "tldr-en-sunos-prctl-0",
     "type": "command",
     "title": "prctl - Examine process limits and permissions",
-    "content": "prctl {{pid}}",
+    "content": "prctl {{process_id}}",
     "group": "SunOS",
     "description": "prctl: Get or set the resource controls of running processes, tasks, and projects. (Examine process limits and permissions)",
     "tags": [
@@ -708,7 +708,7 @@
     "id": "tldr-en-sunos-prctl-1",
     "type": "command",
     "title": "prctl - Examine process limits and permissions in machine parsable format",
-    "content": "prctl -P {{pid}}",
+    "content": "prctl -P {{process_id}}",
     "group": "SunOS",
     "description": "prctl: Get or set the resource controls of running processes, tasks, and projects. (Examine process limits and permissions in machine parsable format)",
     "tags": [
@@ -723,7 +723,7 @@
     "id": "tldr-en-sunos-prctl-2",
     "type": "command",
     "title": "prctl - Get specific limit for a running process",
-    "content": "prctl -n process.max-file-descriptor {{pid}}",
+    "content": "prctl -n process.max-file-descriptor {{process_id}}",
     "group": "SunOS",
     "description": "prctl: Get or set the resource controls of running processes, tasks, and projects. (Get specific limit for a running process)",
     "tags": [

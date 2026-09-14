@@ -3,7 +3,7 @@
     "id": "tldr-en-freebsd-procstat-0",
     "type": "command",
     "title": "procstat - Display file descriptors of a specific process",
-    "content": "procstat fds {{pid}}",
+    "content": "procstat fds {{process_id}}",
     "group": "Freebsd",
     "description": "procstat: Display detailed information about processes in FreeBSD. (Display file descriptors of a specific process)",
     "tags": [
@@ -18,7 +18,7 @@
     "id": "tldr-en-freebsd-procstat-1",
     "type": "command",
     "title": "procstat - Show virtual memory mappings of a process",
-    "content": "procstat vm {{pid}}",
+    "content": "procstat vm {{process_id}}",
     "group": "Freebsd",
     "description": "procstat: Display detailed information about processes in FreeBSD. (Show virtual memory mappings of a process)",
     "tags": [
@@ -33,7 +33,7 @@
     "id": "tldr-en-freebsd-procstat-2",
     "type": "command",
     "title": "procstat - Display process arguments",
-    "content": "procstat arguments {{pid}}",
+    "content": "procstat arguments {{process_id}}",
     "group": "Freebsd",
     "description": "procstat: Display detailed information about processes in FreeBSD. (Display process arguments)",
     "tags": [
@@ -48,7 +48,7 @@
     "id": "tldr-en-freebsd-procstat-3",
     "type": "command",
     "title": "procstat - Show resource limits of a process",
-    "content": "procstat rlimit {{pid}}",
+    "content": "procstat rlimit {{process_id}}",
     "group": "Freebsd",
     "description": "procstat: Display detailed information about processes in FreeBSD. (Show resource limits of a process)",
     "tags": [
