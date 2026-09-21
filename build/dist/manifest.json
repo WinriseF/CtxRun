@@ -1,5 +1,5 @@
 {
-  "updated_at": 1789356371723,
+  "updated_at": 1789961001909,
   "version": "2.1.0",
   "packages": [
     {
@@ -29,9 +29,9 @@
       "language": "zh",
       "platform": "linux",
       "name": "Linux 运维 (ZH)",
-      "description": "Contains 790 zh commands for linux.",
-      "count": 790,
-      "size_kb": 356,
+      "description": "Contains 789 zh commands for linux.",
+      "count": 789,
+      "size_kb": 355,
       "url": "packs/commands/zh/linux.json",
       "category": "command"
     },
@@ -128,9 +128,9 @@
       "language": "zh",
       "platform": "common",
       "name": "通用工具 (Common) (ZH)",
-      "description": "Contains 3866 zh commands for common.",
-      "count": 3866,
-      "size_kb": 1889,
+      "description": "Contains 3863 zh commands for common.",
+      "count": 3863,
+      "size_kb": 1887,
       "url": "packs/commands/zh/common.json",
       "category": "command"
     },
@@ -139,9 +139,9 @@
       "language": "en",
       "platform": "linux",
       "name": "Linux Ops (EN)",
-      "description": "Contains 8520 en commands for linux.",
-      "count": 8520,
-      "size_kb": 4025,
+      "description": "Contains 8606 en commands for linux.",
+      "count": 8606,
+      "size_kb": 4065,
       "url": "packs/commands/en/linux.json",
       "category": "command"
     },
@@ -150,9 +150,9 @@
       "language": "en",
       "platform": "windows",
       "name": "Windows (EN)",
-      "description": "Contains 1266 en commands for windows.",
-      "count": 1266,
-      "size_kb": 636,
+      "description": "Contains 1263 en commands for windows.",
+      "count": 1263,
+      "size_kb": 635,
       "url": "packs/commands/en/windows.json",
       "category": "command"
     },
@@ -249,9 +249,9 @@
       "language": "en",
       "platform": "common",
       "name": "Common Tools (EN)",
-      "description": "Contains 21262 en commands for common.",
-      "count": 21262,
-      "size_kb": 10299,
+      "description": "Contains 21369 en commands for common.",
+      "count": 21369,
+      "size_kb": 10351,
       "url": "packs/commands/en/common.json",
       "category": "command"
     },

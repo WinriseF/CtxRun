@@ -527,10 +527,10 @@
   {
     "id": "tldr-en-sunos-devfsadm-2",
     "type": "command",
-    "title": "devfsadm - Dry-run - output what would be changed but make no modifications",
+    "title": "devfsadm - Simulate what would happen but make no modifications",
     "content": "devfsadm -C -v -n",
     "group": "SunOS",
-    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Dry-run - output what would be changed but make no modifications)",
+    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Simulate what would happen but make no modifications)",
     "tags": [
       "sunos",
       "devfsadm",
@@ -617,10 +617,10 @@
   {
     "id": "tldr-en-sunos-prstat-0",
     "type": "command",
-    "title": "prstat - Examine all processes and reports statistics sorted by CPU usage",
+    "title": "prstat - Examine all processes and report statistics sorted by CPU usage",
     "content": "prstat",
     "group": "SunOS",
-    "description": "prstat: Report active process statistics. (Examine all processes and reports statistics sorted by CPU usage)",
+    "description": "prstat: Report active process statistics. (Examine all processes and report statistics sorted by CPU usage)",
     "tags": [
       "sunos",
       "prstat",
@@ -632,10 +632,10 @@
   {
     "id": "tldr-en-sunos-prstat-1",
     "type": "command",
-    "title": "prstat - Examine all processes and reports statistics sorted by memory usage",
+    "title": "prstat - Examine all processes and report statistics sorted by memory usage",
     "content": "prstat -s rss",
     "group": "SunOS",
-    "description": "prstat: Report active process statistics. (Examine all processes and reports statistics sorted by memory usage)",
+    "description": "prstat: Report active process statistics. (Examine all processes and report statistics sorted by memory usage)",
     "tags": [
       "sunos",
       "prstat",

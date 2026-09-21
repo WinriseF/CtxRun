@@ -287,10 +287,10 @@
   {
     "id": "tldr-en-openbsd-pkg_delete-2",
     "type": "command",
-    "title": "pkg_delete - Dry-run deletion of a package",
+    "title": "pkg_delete - Simulate deleting a package",
     "content": "pkg_delete -n {{package}}",
     "group": "Openbsd",
-    "description": "pkg_delete: Remove packages in OpenBSD. (Dry-run deletion of a package)",
+    "description": "pkg_delete: Remove packages in OpenBSD. (Simulate deleting a package)",
     "tags": [
       "openbsd",
       "pkg_delete",

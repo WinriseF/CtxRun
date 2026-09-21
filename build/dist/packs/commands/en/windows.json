@@ -377,21 +377,6 @@
   {
     "id": "tldr-en-windows-gcrane-completion-3",
     "type": "command",
-    "title": "gcrane-completion - Load completions for every new session (PowerShell)",
-    "content": "gcrane completion powershell | Out-String | Invoke-Expression",
-    "group": "Windows",
-    "description": "gcrane-completion: Generate the autocompletion script for gcrane for the specified shell. The available shells are Bash, fish, PowerShell, and Zsh. (Load completions for every new session (PowerShell))",
-    "tags": [
-      "windows",
-      "gcrane-completion",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-windows-gcrane-completion-4",
-    "type": "command",
     "title": "gcrane-completion - Display help",
     "content": "gcrane completion {{shell_name}} {{[-h|--help]}}",
     "group": "Windows",
@@ -483,7 +468,7 @@
     "id": "tldr-en-windows-get-history-1",
     "type": "command",
     "title": "get-history - Get PowerShell history item by ID",
-    "content": "Get-History -Id {{id}}",
+    "content": "Get-History -Id {{item_id}}",
     "group": "Windows",
     "description": "get-history: Display PowerShell command history. Note: This command can only be used through PowerShell. (Get PowerShell history item by ID)",
     "tags": [
@@ -572,10 +557,10 @@
   {
     "id": "tldr-en-windows-ftp-4",
     "type": "command",
-    "title": "ftp - [Interactive] Download multiple files (glob expression)",
+    "title": "ftp - [Interactive] Download multiple files (`glob` expression)",
     "content": "mget {{*.png}}",
     "group": "Windows",
-    "description": "ftp: Interactively transfer files between a local and remote FTP server. ([Interactive] Download multiple files (glob expression))",
+    "description": "ftp: Interactively transfer files between a local and remote FTP server. ([Interactive] Download multiple files (`glob` expression))",
     "tags": [
       "windows",
       "ftp",
@@ -587,10 +572,10 @@
   {
     "id": "tldr-en-windows-ftp-5",
     "type": "command",
-    "title": "ftp - [Interactive] Upload multiple files (glob expression)",
+    "title": "ftp - [Interactive] Upload multiple files (`glob` expression)",
     "content": "mput {{*.zip}}",
     "group": "Windows",
-    "description": "ftp: Interactively transfer files between a local and remote FTP server. ([Interactive] Upload multiple files (glob expression))",
+    "description": "ftp: Interactively transfer files between a local and remote FTP server. ([Interactive] Upload multiple files (`glob` expression))",
     "tags": [
       "windows",
       "ftp",
@@ -2675,7 +2660,7 @@
     "title": "iewzd - View the documentation for `iesetup`",
     "content": "tldr {{[-p|--platform]}} windows iesetup",
     "group": "Windows",
-    "description": "iewzd: Internet Explorer Setup Wizard:  Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (View the documentation for `iesetup`)",
+    "description": "iewzd: Internet Explorer Setup Wizard: Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (View the documentation for `iesetup`)",
     "tags": [
       "windows",
       "iewzd",
@@ -2690,7 +2675,7 @@
     "title": "iewzd - Run the Internet Explorer Wizard",
     "content": "iewzd",
     "group": "Windows",
-    "description": "iewzd: Internet Explorer Setup Wizard:  Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (Run the Internet Explorer Wizard)",
+    "description": "iewzd: Internet Explorer Setup Wizard: Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (Run the Internet Explorer Wizard)",
     "tags": [
       "windows",
       "iewzd",
@@ -2705,7 +2690,7 @@
     "title": "iewzd - Force or do not restart the computer after installing Internet Explorer",
     "content": "iewzd {{/norestart|/forcerestart}}",
     "group": "Windows",
-    "description": "iewzd: Internet Explorer Setup Wizard:  Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (Force or do not restart the computer after installing Internet Explorer)",
+    "description": "iewzd: Internet Explorer Setup Wizard: Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (Force or do not restart the computer after installing Internet Explorer)",
     "tags": [
       "windows",
       "iewzd",
@@ -2720,7 +2705,7 @@
     "title": "iewzd - Do not set Internet Explorer as the default browser",
     "content": "iewzd /no-default",
     "group": "Windows",
-    "description": "iewzd: Internet Explorer Setup Wizard:  Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (Do not set Internet Explorer as the default browser)",
+    "description": "iewzd: Internet Explorer Setup Wizard: Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (Do not set Internet Explorer as the default browser)",
     "tags": [
       "windows",
       "iewzd",
@@ -2735,7 +2720,7 @@
     "title": "iewzd - Do not check for Internet Explorer updates",
     "content": "iewzd /update-no",
     "group": "Windows",
-    "description": "iewzd: Internet Explorer Setup Wizard:  Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (Do not check for Internet Explorer updates)",
+    "description": "iewzd: Internet Explorer Setup Wizard: Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (Do not check for Internet Explorer updates)",
     "tags": [
       "windows",
       "iewzd",
@@ -2750,7 +2735,7 @@
     "title": "iewzd - Run the Wizard in passive (no interaction) or quiet (no interaction and output) mode",
     "content": "iewzd {{/passive|/quiet}}",
     "group": "Windows",
-    "description": "iewzd: Internet Explorer Setup Wizard:  Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (Run the Wizard in passive (no interaction) or quiet (no interaction and output) mode)",
+    "description": "iewzd: Internet Explorer Setup Wizard: Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (Run the Wizard in passive (no interaction) or quiet (no interaction and output) mode)",
     "tags": [
       "windows",
       "iewzd",
@@ -2765,7 +2750,7 @@
     "title": "iewzd - Save the installation log to a file",
     "content": "iewzd /log {{path\\to\\file}}",
     "group": "Windows",
-    "description": "iewzd: Internet Explorer Setup Wizard:  Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (Save the installation log to a file)",
+    "description": "iewzd: Internet Explorer Setup Wizard: Programmatically configure installation of Internet Explorer. Not to be confused with `iesetup`, which also bundles a customized version of Internet Explorer and `iewzd`. Note: You may need to replace the `iewzd` command with your desired IE version and executable, such as `Ie11wzd.exe`, `ie10_setup.exe`, or `IE9-Windows6.0-x86-en-us.exe`. (Save the installation log to a file)",
     "tags": [
       "windows",
       "iewzd",
@@ -3005,7 +2990,7 @@
     "title": "enable-pnpdevice - Enable a device",
     "content": "Enable-PnpDevice -InstanceId 'RETRIEVED USING Get-PnpDevice COMMAND'",
     "group": "Windows",
-    "description": "enable-pnpdevice: The Enable-PnpDevice cmdlet enables a Plug and Play (PnP) device. You must use an Administrator account to enable a device. Note: This command can only be used through PowerShell. (Enable a device)",
+    "description": "enable-pnpdevice: Enable a Plug and Play (PnP) device. You must use an Administrator account to enable a device. Note: This command can only be used through PowerShell. (Enable a device)",
     "tags": [
       "windows",
       "enable-pnpdevice",
@@ -3020,7 +3005,7 @@
     "title": "enable-pnpdevice - Enable all disabled PnP devices",
     "content": "Get-PnpDevice | Where-Object {$_.Problem -eq 22} | Enable-PnpDevice",
     "group": "Windows",
-    "description": "enable-pnpdevice: The Enable-PnpDevice cmdlet enables a Plug and Play (PnP) device. You must use an Administrator account to enable a device. Note: This command can only be used through PowerShell. (Enable all disabled PnP devices)",
+    "description": "enable-pnpdevice: Enable a Plug and Play (PnP) device. You must use an Administrator account to enable a device. Note: This command can only be used through PowerShell. (Enable all disabled PnP devices)",
     "tags": [
       "windows",
       "enable-pnpdevice",
@@ -3035,7 +3020,7 @@
     "title": "enable-pnpdevice - Enable a device without confirmation",
     "content": "Enable-PnpDevice -InstanceId 'RETRIEVED USING Get-PnpDevice COMMAND' -Confirm:$False",
     "group": "Windows",
-    "description": "enable-pnpdevice: The Enable-PnpDevice cmdlet enables a Plug and Play (PnP) device. You must use an Administrator account to enable a device. Note: This command can only be used through PowerShell. (Enable a device without confirmation)",
+    "description": "enable-pnpdevice: Enable a Plug and Play (PnP) device. You must use an Administrator account to enable a device. Note: This command can only be used through PowerShell. (Enable a device without confirmation)",
     "tags": [
       "windows",
       "enable-pnpdevice",
@@ -3047,10 +3032,10 @@
   {
     "id": "tldr-en-windows-enable-pnpdevice-3",
     "type": "command",
-    "title": "enable-pnpdevice - Dry run of what would happen if the cmdlet runs",
+    "title": "enable-pnpdevice - Simulate what would happen if the cmdlet runs",
     "content": "Enable-PnpDevice -InstanceId 'USB\\VID_5986&;PID_0266&;MI_00\\7&;1E5D3568&;0&;0000' -WhatIf:$True",
     "group": "Windows",
-    "description": "enable-pnpdevice: The Enable-PnpDevice cmdlet enables a Plug and Play (PnP) device. You must use an Administrator account to enable a device. Note: This command can only be used through PowerShell. (Dry run of what would happen if the cmdlet runs)",
+    "description": "enable-pnpdevice: Enable a Plug and Play (PnP) device. You must use an Administrator account to enable a device. Note: This command can only be used through PowerShell. (Simulate what would happen if the cmdlet runs)",
     "tags": [
       "windows",
       "enable-pnpdevice",
@@ -3485,7 +3470,7 @@
     "title": "doskey - List available macros",
     "content": "doskey /macros",
     "group": "Windows",
-    "description": "doskey: Manage macros, windows commands and command-lines. (List available macros)",
+    "description": "doskey: Manage macros, windows commands, and command-lines. (List available macros)",
     "tags": [
       "windows",
       "doskey",
@@ -3500,7 +3485,7 @@
     "title": "doskey - Create a new macro",
     "content": "doskey {{name}} = \"{{command}}\"",
     "group": "Windows",
-    "description": "doskey: Manage macros, windows commands and command-lines. (Create a new macro)",
+    "description": "doskey: Manage macros, windows commands, and command-lines. (Create a new macro)",
     "tags": [
       "windows",
       "doskey",
@@ -3515,7 +3500,7 @@
     "title": "doskey - Create a new macro for a specific executable",
     "content": "doskey /exename={{executable}} {{name}} = \"{{command}}\"",
     "group": "Windows",
-    "description": "doskey: Manage macros, windows commands and command-lines. (Create a new macro for a specific executable)",
+    "description": "doskey: Manage macros, windows commands, and command-lines. (Create a new macro for a specific executable)",
     "tags": [
       "windows",
       "doskey",
@@ -3530,7 +3515,7 @@
     "title": "doskey - Remove a macro",
     "content": "doskey {{name}} =",
     "group": "Windows",
-    "description": "doskey: Manage macros, windows commands and command-lines. (Remove a macro)",
+    "description": "doskey: Manage macros, windows commands, and command-lines. (Remove a macro)",
     "tags": [
       "windows",
       "doskey",
@@ -3545,7 +3530,7 @@
     "title": "doskey - Display all commands that are stored in memory",
     "content": "doskey /history",
     "group": "Windows",
-    "description": "doskey: Manage macros, windows commands and command-lines. (Display all commands that are stored in memory)",
+    "description": "doskey: Manage macros, windows commands, and command-lines. (Display all commands that are stored in memory)",
     "tags": [
       "windows",
       "doskey",
@@ -3560,7 +3545,7 @@
     "title": "doskey - Save macros to a file for portability",
     "content": "doskey /macros > {{path\\to\\macinit_file}}",
     "group": "Windows",
-    "description": "doskey: Manage macros, windows commands and command-lines. (Save macros to a file for portability)",
+    "description": "doskey: Manage macros, windows commands, and command-lines. (Save macros to a file for portability)",
     "tags": [
       "windows",
       "doskey",
@@ -3575,7 +3560,7 @@
     "title": "doskey - Load macros from a file",
     "content": "doskey /macrofile = {{path\\to\\macinit_file}}",
     "group": "Windows",
-    "description": "doskey: Manage macros, windows commands and command-lines. (Load macros from a file)",
+    "description": "doskey: Manage macros, windows commands, and command-lines. (Load macros from a file)",
     "tags": [
       "windows",
       "doskey",
@@ -3962,10 +3947,10 @@
   {
     "id": "tldr-en-windows-invoke-item-5",
     "type": "command",
-    "title": "invoke-item - Perform a dry run to determine which files will be opened inside a directory through `Invoke-Item`",
+    "title": "invoke-item - Simulate a run to determine which files will be opened inside a directory through `Invoke-Item`",
     "content": "Invoke-Item -Path {{path\\to\\directory}}\\* -WhatIf",
     "group": "Windows",
-    "description": "invoke-item: Open files in their respective default programs. Note: This command can only be used through PowerShell. (Perform a dry run to determine which files will be opened inside a directory through `Invoke-Item`)",
+    "description": "invoke-item: Open files in their respective default programs. Note: This command can only be used through PowerShell. (Simulate a run to determine which files will be opened inside a directory through `Invoke-Item`)",
     "tags": [
       "windows",
       "invoke-item",
@@ -4067,10 +4052,10 @@
   {
     "id": "tldr-en-windows-remove-item-5",
     "type": "command",
-    "title": "remove-item - Perform a dry run of the deletion process",
+    "title": "remove-item - Simulate the deletion process",
     "content": "Remove-Item -WhatIf {{path\\to\\file1 , path\\to\\file2 ...}}",
     "group": "Windows",
-    "description": "remove-item: Delete files, folders, as well as registry keys and subkeys. This command can only be run through PowerShell. (Perform a dry run of the deletion process)",
+    "description": "remove-item: Delete files, folders, as well as registry keys and subkeys. This command can only be run through PowerShell. (Simulate the deletion process)",
     "tags": [
       "windows",
       "remove-item",
@@ -4263,7 +4248,7 @@
     "id": "tldr-en-windows-eventcreate-0",
     "type": "command",
     "title": "eventcreate - Create a new event with a given ID (1-1000) in the log",
-    "content": "eventcreate /t {{success|error|warning|information}} /id {{id}} /d \"{{message}}\"",
+    "content": "eventcreate /t {{success|error|warning|information}} /id {{event_id}} /d \"{{message}}\"",
     "group": "Windows",
     "description": "eventcreate: Create custom entries in the event log. Event IDs can be any number between 1 and 1000. (Create a new event with a given ID (1-1000) in the log)",
     "tags": [
@@ -4278,7 +4263,7 @@
     "id": "tldr-en-windows-eventcreate-1",
     "type": "command",
     "title": "eventcreate - Create an event in a specific event log",
-    "content": "eventcreate /l {{log_name}} /t {{type}} /id {{id}} /d \"{{message}}\"",
+    "content": "eventcreate /l {{log_name}} /t {{type}} /id {{event_id}} /d \"{{message}}\"",
     "group": "Windows",
     "description": "eventcreate: Create custom entries in the event log. Event IDs can be any number between 1 and 1000. (Create an event in a specific event log)",
     "tags": [
@@ -4293,7 +4278,7 @@
     "id": "tldr-en-windows-eventcreate-2",
     "type": "command",
     "title": "eventcreate - Create an event with a specific source",
-    "content": "eventcreate /so {{source_name}} /t {{type}} /id {{id}} /d \"{{message}}\"",
+    "content": "eventcreate /so {{source_name}} /t {{type}} /id {{event_id}} /d \"{{message}}\"",
     "group": "Windows",
     "description": "eventcreate: Create custom entries in the event log. Event IDs can be any number between 1 and 1000. (Create an event with a specific source)",
     "tags": [
@@ -4308,7 +4293,7 @@
     "id": "tldr-en-windows-eventcreate-3",
     "type": "command",
     "title": "eventcreate - Create an event in a remote machine's event log",
-    "content": "eventcreate /s {{hostname}} /u {{username}} /p {{password}} /t {{type}} /id {{id}} /d \"{{message}}\"",
+    "content": "eventcreate /s {{hostname}} /u {{username}} /p {{password}} /t {{type}} /id {{event_id}} /d \"{{message}}\"",
     "group": "Windows",
     "description": "eventcreate: Create custom entries in the event log. Event IDs can be any number between 1 and 1000. (Create an event in a remote machine's event log)",
     "tags": [
@@ -4880,7 +4865,7 @@
     "title": "add-appxpackage - Add an app package",
     "content": "Add-AppxPackage -Path {{path\\to\\package.msix}}",
     "group": "Windows",
-    "description": "add-appxpackage: A PowerShell utility to add a signed app package (`.appx`, `.msix`, `.appxbundle` and `.msixbundle`) to a user account. (Add an app package)",
+    "description": "add-appxpackage: A PowerShell utility to add a signed app package (`.appx`, `.msix`, `.appxbundle`, and `.msixbundle`) to a user account. (Add an app package)",
     "tags": [
       "windows",
       "add-appxpackage",
@@ -4895,7 +4880,7 @@
     "title": "add-appxpackage - Add an app package with dependencies",
     "content": "Add-AppxPackage -Path {{path\\to\\package.msix}} -DependencyPath {{path\\to\\dependencies.msix}}",
     "group": "Windows",
-    "description": "add-appxpackage: A PowerShell utility to add a signed app package (`.appx`, `.msix`, `.appxbundle` and `.msixbundle`) to a user account. (Add an app package with dependencies)",
+    "description": "add-appxpackage: A PowerShell utility to add a signed app package (`.appx`, `.msix`, `.appxbundle`, and `.msixbundle`) to a user account. (Add an app package with dependencies)",
     "tags": [
       "windows",
       "add-appxpackage",
@@ -4910,7 +4895,7 @@
     "title": "add-appxpackage - Install an app using the app installer file",
     "content": "Add-AppxPackage -AppInstallerFile {{path\\to\\app.appinstaller}}",
     "group": "Windows",
-    "description": "add-appxpackage: A PowerShell utility to add a signed app package (`.appx`, `.msix`, `.appxbundle` and `.msixbundle`) to a user account. (Install an app using the app installer file)",
+    "description": "add-appxpackage: A PowerShell utility to add a signed app package (`.appx`, `.msix`, `.appxbundle`, and `.msixbundle`) to a user account. (Install an app using the app installer file)",
     "tags": [
       "windows",
       "add-appxpackage",
@@ -4925,7 +4910,7 @@
     "title": "add-appxpackage - Add an unsigned package",
     "content": "Add-AppxPackage -Path {{path\\to\\package.msix}} -DependencyPath {{path\\to\\dependencies.msix}} -AllowUnsigned",
     "group": "Windows",
-    "description": "add-appxpackage: A PowerShell utility to add a signed app package (`.appx`, `.msix`, `.appxbundle` and `.msixbundle`) to a user account. (Add an unsigned package)",
+    "description": "add-appxpackage: A PowerShell utility to add a signed app package (`.appx`, `.msix`, `.appxbundle`, and `.msixbundle`) to a user account. (Add an unsigned package)",
     "tags": [
       "windows",
       "add-appxpackage",
@@ -5075,7 +5060,7 @@
     "title": "reg-save - Save a registry key, its subkeys and values to a specific file",
     "content": "reg save {{key_name}} {{path\\to\\file.hiv}}",
     "group": "Windows",
-    "description": "reg-save: Save a registry key, its subkeys and values to a native `.hiv` file. (Save a registry key, its subkeys and values to a specific file)",
+    "description": "reg-save: Save a registry key, its subkeys, and values to a native `.hiv` file. (Save a registry key, its subkeys and values to a specific file)",
     "tags": [
       "windows",
       "reg-save",
@@ -5090,7 +5075,7 @@
     "title": "reg-save - Forcefully (assuming [y]es) overwrite an existing file",
     "content": "reg save {{key_name}} {{path\\to\\file.hiv}} /y",
     "group": "Windows",
-    "description": "reg-save: Save a registry key, its subkeys and values to a native `.hiv` file. (Forcefully (assuming [y]es) overwrite an existing file)",
+    "description": "reg-save: Save a registry key, its subkeys, and values to a native `.hiv` file. (Forcefully (assuming [y]es) overwrite an existing file)",
     "tags": [
       "windows",
       "reg-save",
@@ -10082,10 +10067,10 @@
   {
     "id": "tldr-en-windows-move-item-7",
     "type": "command",
-    "title": "move-item - Move files in dry-run mode, showing files and directories which could be moved without executing them",
+    "title": "move-item - Simulate moving files, showing files and directories which could be moved without executing them",
     "content": "mv -WhatIf {{path\\to\\source}} {{path\\to\\target}}",
     "group": "Windows",
-    "description": "move-item: Move or rename files, directories, registry keys, and other PowerShell data items. This command can only be run through PowerShell. (Move files in dry-run mode, showing files and directories which could be moved without executing them)",
+    "description": "move-item: Move or rename files, directories, registry keys, and other PowerShell data items. This command can only be run through PowerShell. (Simulate moving files, showing files and directories which could be moved without executing them)",
     "tags": [
       "windows",
       "move-item",
@@ -10982,10 +10967,10 @@
   {
     "id": "tldr-en-windows-taskkill-5",
     "type": "command",
-    "title": "taskkill - Display information about the usage of the command",
+    "title": "taskkill - Display help",
     "content": "taskkill /?",
     "group": "Windows",
-    "description": "taskkill: Terminate a process by its process ID or name. (Display information about the usage of the command)",
+    "description": "taskkill: Terminate a process by its process ID or name. (Display help)",
     "tags": [
       "windows",
       "taskkill",
@@ -11087,21 +11072,6 @@
   {
     "id": "tldr-en-windows-sfc-0",
     "type": "command",
-    "title": "sfc - Display information about the usage of the command",
-    "content": "sfc",
-    "group": "Windows",
-    "description": "sfc: Scan the integrity of Windows system files. (Display information about the usage of the command)",
-    "tags": [
-      "windows",
-      "sfc",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-windows-sfc-1",
-    "type": "command",
     "title": "sfc - Scan all system files and, if possible, repair any problems",
     "content": "sfc /scannow",
     "group": "Windows",
@@ -11115,7 +11085,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-windows-sfc-2",
+    "id": "tldr-en-windows-sfc-1",
     "type": "command",
     "title": "sfc - Scan all system files without attempting to repair any",
     "content": "sfc /verifyonly",
@@ -11130,7 +11100,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-windows-sfc-3",
+    "id": "tldr-en-windows-sfc-2",
     "type": "command",
     "title": "sfc - Scan a specific file and, if possible, repair any problems",
     "content": "sfc /scanfile={{path\\to\\file}}",
@@ -11145,7 +11115,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-windows-sfc-4",
+    "id": "tldr-en-windows-sfc-3",
     "type": "command",
     "title": "sfc - Scan a specific file without attempting to repair it",
     "content": "sfc /verifyfile={{path\\to\\file}}",
@@ -11160,7 +11130,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-windows-sfc-5",
+    "id": "tldr-en-windows-sfc-4",
     "type": "command",
     "title": "sfc - When repairing offline, specify the boot directory",
     "content": "sfc /offbootdir={{path\\to\\directory}}",
@@ -11175,12 +11145,27 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-windows-sfc-6",
+    "id": "tldr-en-windows-sfc-5",
     "type": "command",
     "title": "sfc - When repairing offline, specify the Windows directory",
     "content": "sfc /offwindir={{path\\to\\directory}}",
     "group": "Windows",
     "description": "sfc: Scan the integrity of Windows system files. (When repairing offline, specify the Windows directory)",
+    "tags": [
+      "windows",
+      "sfc",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-windows-sfc-6",
+    "type": "command",
+    "title": "sfc - Display help",
+    "content": "sfc",
+    "group": "Windows",
+    "description": "sfc: Scan the integrity of Windows system files. (Display help)",
     "tags": [
       "windows",
       "sfc",
@@ -11327,10 +11312,10 @@
   {
     "id": "tldr-en-windows-install-module-7",
     "type": "command",
-    "title": "install-module - Perform a dry run to determine which modules will be installed, upgraded, or removed through `Install-Module`",
+    "title": "install-module - Simulate a run to determine which modules will be installed, upgraded, or removed through `Install-Module`",
     "content": "Install-Module {{module}} -WhatIf",
     "group": "Windows",
-    "description": "install-module: Install PowerShell modules from PowerShell Gallery, NuGet, and other repositories. (Perform a dry run to determine which modules will be installed, upgraded, or removed through `Install-Module`)",
+    "description": "install-module: Install PowerShell modules from PowerShell Gallery, NuGet, and other repositories. (Simulate a run to determine which modules will be installed, upgraded, or removed through `Install-Module`)",
     "tags": [
       "windows",
       "install-module",
@@ -11780,7 +11765,7 @@
     "title": "netstat - Display active TCP connections",
     "content": "netstat",
     "group": "Windows",
-    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics. (Display active TCP connections)",
+    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics, and IPv6 statistics. (Display active TCP connections)",
     "tags": [
       "windows",
       "netstat",
@@ -11795,7 +11780,7 @@
     "title": "netstat - Display all active TCP connections and the TCP and UDP ports on which the computer is listening",
     "content": "netstat -a",
     "group": "Windows",
-    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics. (Display all active TCP connections and the TCP and UDP ports on which the computer is listening)",
+    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics, and IPv6 statistics. (Display all active TCP connections and the TCP and UDP ports on which the computer is listening)",
     "tags": [
       "windows",
       "netstat",
@@ -11810,7 +11795,7 @@
     "title": "netstat - Display network adapter statistics, such as the number of bytes and packets sent and received",
     "content": "netstat -e",
     "group": "Windows",
-    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics. (Display network adapter statistics, such as the number of bytes and packets sent and received)",
+    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics, and IPv6 statistics. (Display network adapter statistics, such as the number of bytes and packets sent and received)",
     "tags": [
       "windows",
       "netstat",
@@ -11825,7 +11810,7 @@
     "title": "netstat - Display active TCP connections and express addresses and port numbers numerically",
     "content": "netstat -n",
     "group": "Windows",
-    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics. (Display active TCP connections and express addresses and port numbers numerically)",
+    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics, and IPv6 statistics. (Display active TCP connections and express addresses and port numbers numerically)",
     "tags": [
       "windows",
       "netstat",
@@ -11840,7 +11825,7 @@
     "title": "netstat - Display active TCP connections and include the process ID (PID) for each connection",
     "content": "netstat -o",
     "group": "Windows",
-    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics. (Display active TCP connections and include the process ID (PID) for each connection)",
+    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics, and IPv6 statistics. (Display active TCP connections and include the process ID (PID) for each connection)",
     "tags": [
       "windows",
       "netstat",
@@ -11855,7 +11840,7 @@
     "title": "netstat - Display the contents of the IP routing table",
     "content": "netstat -r",
     "group": "Windows",
-    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics. (Display the contents of the IP routing table)",
+    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics, and IPv6 statistics. (Display the contents of the IP routing table)",
     "tags": [
       "windows",
       "netstat",
@@ -11870,7 +11855,7 @@
     "title": "netstat - Display statistics by protocol",
     "content": "netstat -s",
     "group": "Windows",
-    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics. (Display statistics by protocol)",
+    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics, and IPv6 statistics. (Display statistics by protocol)",
     "tags": [
       "windows",
       "netstat",
@@ -11885,7 +11870,7 @@
     "title": "netstat - Display a list of currently open ports and related IP addresses",
     "content": "netstat -an",
     "group": "Windows",
-    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics. (Display a list of currently open ports and related IP addresses)",
+    "description": "netstat: Display active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics, and IPv6 statistics. (Display a list of currently open ports and related IP addresses)",
     "tags": [
       "windows",
       "netstat",
@@ -12047,21 +12032,6 @@
   {
     "id": "tldr-en-windows-query-3",
     "type": "command",
-    "title": "query - Display all user sessions on a remote computer",
-    "content": "query session /server:{{hostname}}",
-    "group": "Windows",
-    "description": "query: Display information about user sessions and process. (Display all user sessions on a remote computer)",
-    "tags": [
-      "windows",
-      "query",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-windows-query-4",
-    "type": "command",
     "title": "query - Display all running processes",
     "content": "query process",
     "group": "Windows",
@@ -12075,7 +12045,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-windows-query-5",
+    "id": "tldr-en-windows-query-4",
     "type": "command",
     "title": "query - Display running processes by session or user name",
     "content": "query process {{session_name|user_name}}",
@@ -12092,10 +12062,10 @@
   {
     "id": "tldr-en-windows-powerpnt-0",
     "type": "command",
-    "title": "powerpnt - Launch the presentation application",
-    "content": "powerpnt",
+    "title": "powerpnt - Launch the presentation application (omitting the file path will launch the File page)",
+    "content": "powerpnt {{path\\to\\file.pptx}}",
     "group": "Windows",
-    "description": "powerpnt: Microsoft Office's presentation application. (Launch the presentation application)",
+    "description": "powerpnt: Microsoft Office's presentation application. (Launch the presentation application (omitting the file path will launch the File page))",
     "tags": [
       "windows",
       "powerpnt",
@@ -13562,10 +13532,10 @@
   {
     "id": "tldr-en-windows-winword-0",
     "type": "command",
-    "title": "winword - Launch the word processor application",
-    "content": "winword",
+    "title": "winword - Launch the word processor application (omitting the file path will launch the File page)",
+    "content": "winword {{path\\to\\file.docx}}",
     "group": "Windows",
-    "description": "winword: Microsoft Office's word processor application. (Launch the word processor application)",
+    "description": "winword: Microsoft Office's word processor application. (Launch the word processor application (omitting the file path will launch the File page))",
     "tags": [
       "windows",
       "winword",
@@ -14597,10 +14567,10 @@
   {
     "id": "tldr-en-windows-forfiles-3",
     "type": "command",
-    "title": "forfiles - Search for files using a specific glob mask",
+    "title": "forfiles - Search for files using a specific `glob` mask",
     "content": "forfiles /m {{glob_pattern}}",
     "group": "Windows",
-    "description": "forfiles: Select files to execute a specified command on. (Search for files using a specific glob mask)",
+    "description": "forfiles: Select files to execute a specified command on. (Search for files using a specific `glob` mask)",
     "tags": [
       "windows",
       "forfiles",
@@ -15287,10 +15257,10 @@
   {
     "id": "tldr-en-windows-remove-appxpackage-3",
     "type": "command",
-    "title": "remove-appxpackage - Remove an app package but preserve it's app data",
+    "title": "remove-appxpackage - Remove an app package but preserve its app data",
     "content": "Remove-AppxPackage {{package}} -PreserveApplicationData",
     "group": "Windows",
-    "description": "remove-appxpackage: A PowerShell utility to remove an app package from user accounts. (Remove an app package but preserve it's app data)",
+    "description": "remove-appxpackage: A PowerShell utility to remove an app package from user accounts. (Remove an app package but preserve its app data)",
     "tags": [
       "windows",
       "remove-appxpackage",
@@ -16622,10 +16592,10 @@
   {
     "id": "tldr-en-windows-get-dedupproperties-2",
     "type": "command",
-    "title": "get-dedupproperties - Get Data Dedpulication information of the drive using the input object",
+    "title": "get-dedupproperties - Get Data Deduplication information of the drive using the input object",
     "content": "Get-DedupProperties -InputObject $(Get-Volume -DriveLetter 'E')",
     "group": "Windows",
-    "description": "get-dedupproperties: Get Data Deduplication information. Note: This command can only be used through PowerShell. (Get Data Dedpulication information of the drive using the input object)",
+    "description": "get-dedupproperties: Get Data Deduplication information. Note: This command can only be used through PowerShell. (Get Data Deduplication information of the drive using the input object)",
     "tags": [
       "windows",
       "get-dedupproperties",
@@ -16638,7 +16608,7 @@
     "id": "tldr-en-windows-tracert-0",
     "type": "command",
     "title": "tracert - Trace a route",
-    "content": "tracert {{ip}}",
+    "content": "tracert {{ip_address}}",
     "group": "Windows",
     "description": "tracert: Receive information about each step in the route between your PC and the target. (Trace a route)",
     "tags": [
@@ -16653,7 +16623,7 @@
     "id": "tldr-en-windows-tracert-1",
     "type": "command",
     "title": "tracert - Prevent `tracert` from resolving IP addresses to hostnames",
-    "content": "tracert /d {{ip}}",
+    "content": "tracert /d {{ip_address}}",
     "group": "Windows",
     "description": "tracert: Receive information about each step in the route between your PC and the target. (Prevent `tracert` from resolving IP addresses to hostnames)",
     "tags": [
@@ -16668,7 +16638,7 @@
     "id": "tldr-en-windows-tracert-2",
     "type": "command",
     "title": "tracert - Force `tracert` to use IPv4 only",
-    "content": "tracert /4 {{ip}}",
+    "content": "tracert /4 {{ip_address}}",
     "group": "Windows",
     "description": "tracert: Receive information about each step in the route between your PC and the target. (Force `tracert` to use IPv4 only)",
     "tags": [
@@ -16683,7 +16653,7 @@
     "id": "tldr-en-windows-tracert-3",
     "type": "command",
     "title": "tracert - Force `tracert` to use IPv6 only",
-    "content": "tracert /6 {{ip}}",
+    "content": "tracert /6 {{ip_address}}",
     "group": "Windows",
     "description": "tracert: Receive information about each step in the route between your PC and the target. (Force `tracert` to use IPv6 only)",
     "tags": [
@@ -16698,7 +16668,7 @@
     "id": "tldr-en-windows-tracert-4",
     "type": "command",
     "title": "tracert - Specify the maximum number of hops in the search for the target",
-    "content": "tracert /h {{max_hops}} {{ip}}",
+    "content": "tracert /h {{max_hops}} {{ip_address}}",
     "group": "Windows",
     "description": "tracert: Receive information about each step in the route between your PC and the target. (Specify the maximum number of hops in the search for the target)",
     "tags": [
@@ -16967,10 +16937,10 @@
   {
     "id": "tldr-en-windows-pathping-5",
     "type": "command",
-    "title": "pathping - Force IPV4 usage",
+    "title": "pathping - Force IPv4 usage",
     "content": "pathping {{hostname}} -4",
     "group": "Windows",
-    "description": "pathping: A trace route tool combining features of `ping` and `tracert`. (Force IPV4 usage)",
+    "description": "pathping: A trace route tool combining features of `ping` and `tracert`. (Force IPv4 usage)",
     "tags": [
       "windows",
       "pathping",
@@ -16982,10 +16952,10 @@
   {
     "id": "tldr-en-windows-pathping-6",
     "type": "command",
-    "title": "pathping - Force IPV6 usage",
+    "title": "pathping - Force IPv6 usage",
     "content": "pathping {{hostname}} -6",
     "group": "Windows",
-    "description": "pathping: A trace route tool combining features of `ping` and `tracert`. (Force IPV6 usage)",
+    "description": "pathping: A trace route tool combining features of `ping` and `tracert`. (Force IPv6 usage)",
     "tags": [
       "windows",
       "pathping",
@@ -18197,10 +18167,10 @@
   {
     "id": "tldr-en-windows-excel-0",
     "type": "command",
-    "title": "excel - Launch the spreadsheet application",
-    "content": "excel",
+    "title": "excel - Launch the spreadsheet application (omitting the file path will launch the File page)",
+    "content": "excel {{path\\to\\file.xlsx}}",
     "group": "Windows",
-    "description": "excel: Microsoft Office's spreadsheet application. (Launch the spreadsheet application)",
+    "description": "excel: Microsoft Office's spreadsheet application. (Launch the spreadsheet application (omitting the file path will launch the File page))",
     "tags": [
       "windows",
       "excel",
@@ -18257,10 +18227,10 @@
   {
     "id": "tldr-en-windows-vcvarsall-0",
     "type": "command",
-    "title": "vcvarsall - Setup the environment for native x64",
+    "title": "vcvarsall - Set up the environment for native x64",
     "content": "vcvarsall x64",
     "group": "Windows",
-    "description": "vcvarsall: Setup the environment variables required for using the Microsoft Visual Studio tools. The path of `vcvarsall` for a certain Visual Studio installation can be found using `vswhere`. (Setup the environment for native x64)",
+    "description": "vcvarsall: Setup the environment variables required for using the Microsoft Visual Studio tools. The path of `vcvarsall` for a certain Visual Studio installation can be found using `vswhere`. (Set up the environment for native x64)",
     "tags": [
       "windows",
       "vcvarsall",
@@ -18392,21 +18362,6 @@
   {
     "id": "tldr-en-windows-mimikatz-2",
     "type": "command",
-    "title": "mimikatz - List available logon sessions",
-    "content": "mimikatz \"sekurlsa::logonpasswords\"",
-    "group": "Windows",
-    "description": "mimikatz: Interact with Windows credentials, perform credential dumping, token manipulation, and more. Requires administrator privileges and typically runs on Windows. (List available logon sessions)",
-    "tags": [
-      "windows",
-      "mimikatz",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-windows-mimikatz-3",
-    "type": "command",
     "title": "mimikatz - Dump plaintext passwords, NTLM hashes, and Kerberos tickets from memory",
     "content": "mimikatz \"sekurlsa::logonpasswords\"",
     "group": "Windows",
@@ -18420,7 +18375,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-windows-mimikatz-4",
+    "id": "tldr-en-windows-mimikatz-3",
     "type": "command",
     "title": "mimikatz - Pass-the-Hash with a specific NTLM hash and launch a command",
     "content": "mimikatz \"sekurlsa::pth /user:{{username}} /domain:{{domain}} /ntlm:{{hash}} /run:{{cmd}}\"",
@@ -18435,7 +18390,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-windows-mimikatz-5",
+    "id": "tldr-en-windows-mimikatz-4",
     "type": "command",
     "title": "mimikatz - Dump local SAM database hashes",
     "content": "mimikatz \"lsadump::sam\"",
@@ -18450,7 +18405,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-windows-mimikatz-6",
+    "id": "tldr-en-windows-mimikatz-5",
     "type": "command",
     "title": "mimikatz - Extract Kerberos tickets and export to a file",
     "content": "mimikatz \"kerberos::list /export\"",
@@ -18465,7 +18420,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-windows-mimikatz-7",
+    "id": "tldr-en-windows-mimikatz-6",
     "type": "command",
     "title": "mimikatz - [Interactive] Exit mimikatz",
     "content": "exit",
@@ -18872,10 +18827,10 @@
   {
     "id": "tldr-en-windows-vswhere-1",
     "type": "command",
-    "title": "vswhere - Find the directory of the x64 MSVC compiler (`cl.exe`, etc)",
+    "title": "vswhere - Find the directory of the x64 MSVC compiler (`cl.exe`, etc.)",
     "content": "vswhere -products * -latest -prerelease -find **\\Hostx64\\x64\\*",
     "group": "Windows",
-    "description": "vswhere: Locate Visual Studio 2017 and newer installations. (Find the directory of the x64 MSVC compiler (`cl.exe`, etc))",
+    "description": "vswhere: Locate Visual Studio 2017 and newer installations. (Find the directory of the x64 MSVC compiler (`cl.exe`, etc.))",
     "tags": [
       "windows",
       "vswhere",
@@ -18887,10 +18842,10 @@
   {
     "id": "tldr-en-windows-vswhere-2",
     "type": "command",
-    "title": "vswhere - Find the directory of Clang bundled with Visual Studio bundled (clang-cl, clang-tidy, etc)",
+    "title": "vswhere - Find the directory of Clang bundled with Visual Studio bundled (clang-cl, clang-tidy, etc.)",
     "content": "vswhere -products * -latest -prerelease -find **\\Llvm\\bin\\*",
     "group": "Windows",
-    "description": "vswhere: Locate Visual Studio 2017 and newer installations. (Find the directory of Clang bundled with Visual Studio bundled (clang-cl, clang-tidy, etc))",
+    "description": "vswhere: Locate Visual Studio 2017 and newer installations. (Find the directory of Clang bundled with Visual Studio bundled (clang-cl, clang-tidy, etc.))",
     "tags": [
       "windows",
       "vswhere",

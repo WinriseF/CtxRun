@@ -7170,21 +7170,6 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-linux-ip-route-list-0",
-    "type": "command",
-    "title": "ip-route-list - 原命令的文档在",
-    "content": "tldr ip route show",
-    "group": "Linux 运维",
-    "description": "ip-route-list: 这是 `ip route show`.命令的一个别名。 (原命令的文档在)",
-    "tags": [
-      "linux",
-      "ip-route-list",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
     "id": "tldr-zh-linux-btrfs-filesystem-0",
     "type": "command",
     "title": "btrfs-filesystem - 显示文件系统使用情况（可以选择以 root 身份运行以显示详细信息）",

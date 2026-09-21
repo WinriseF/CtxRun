@@ -4862,10 +4862,10 @@
   {
     "id": "tldr-zh-osx-networksetup-3",
     "type": "command",
-    "title": "networksetup - 连接到给定的 Wi-Fi 网络 Connect to a particular Wi-Fi network",
+    "title": "networksetup - 连接到给定的 Wi-Fi 网络",
     "content": "networksetup -setairportnetwork {{en0}} {{ssid}} {{密码}}",
     "group": "macOS",
-    "description": "networksetup: 网络系统首选项配置工具。 (连接到给定的 Wi-Fi 网络 Connect to a particular Wi-Fi network)",
+    "description": "networksetup: 网络系统首选项配置工具。 (连接到给定的 Wi-Fi 网络)",
     "tags": [
       "osx",
       "networksetup",
@@ -5883,7 +5883,7 @@
     "id": "tldr-zh-osx-softwareupdate-0",
     "type": "command",
     "title": "softwareupdate - 列出所有可用的更新",
-    "content": "softwareupdate --list",
+    "content": "softwareupdate {{[-l|--list]}}",
     "group": "macOS",
     "description": "softwareupdate: 通过命令行更新 macOS 应用商店中应用程序的工具。 (列出所有可用的更新)",
     "tags": [
@@ -5898,7 +5898,7 @@
     "id": "tldr-zh-osx-softwareupdate-1",
     "type": "command",
     "title": "softwareupdate - 下载并安装所有更新",
-    "content": "softwareupdate --install --all",
+    "content": "softwareupdate {{[-i|--install]}} {{[-a|--all]}}",
     "group": "macOS",
     "description": "softwareupdate: 通过命令行更新 macOS 应用商店中应用程序的工具。 (下载并安装所有更新)",
     "tags": [
@@ -5913,7 +5913,7 @@
     "id": "tldr-zh-osx-softwareupdate-2",
     "type": "command",
     "title": "softwareupdate - 下载并安装所有推荐的更新",
-    "content": "softwareupdate --install --recommended",
+    "content": "softwareupdate {{[-i|--install]}} {{[-r|--recommended]}}",
     "group": "macOS",
     "description": "softwareupdate: 通过命令行更新 macOS 应用商店中应用程序的工具。 (下载并安装所有推荐的更新)",
     "tags": [
@@ -5928,7 +5928,7 @@
     "id": "tldr-zh-osx-softwareupdate-3",
     "type": "command",
     "title": "softwareupdate - 下载并安装特定的应用程序",
-    "content": "softwareupdate --install {{更新应用程序名}}",
+    "content": "softwareupdate {{[-i|--install]}} {{更新应用程序名}}",
     "group": "macOS",
     "description": "softwareupdate: 通过命令行更新 macOS 应用商店中应用程序的工具。 (下载并安装特定的应用程序)",
     "tags": [

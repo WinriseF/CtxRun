@@ -272,10 +272,10 @@
   {
     "id": "tldr-en-linux-xmodmap-0",
     "type": "command",
-    "title": "xmodmap - Swap `<LeftClick>` and `<RightCLick>` on the pointer",
+    "title": "xmodmap - Swap `<LeftClick>` and `<RightClick>` on the pointer",
     "content": "xmodmap -e 'pointer = 3 2 1'",
     "group": "Linux Ops",
-    "description": "xmodmap: Utility for modifying keymaps and pointer button mappings in X. (Swap `<LeftClick>` and `<RightCLick>` on the pointer)",
+    "description": "xmodmap: Utility for modifying keymaps and pointer button mappings in X. (Swap `<LeftClick>` and `<RightClick>` on the pointer)",
     "tags": [
       "linux",
       "xmodmap",
@@ -1430,7 +1430,7 @@
     "title": "rauc - Display the current system status and slot overview",
     "content": "rauc status",
     "group": "Linux Ops",
-    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect and install update bundles. (Display the current system status and slot overview)",
+    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect, and install update bundles. (Display the current system status and slot overview)",
     "tags": [
       "linux",
       "rauc",
@@ -1445,7 +1445,7 @@
     "title": "rauc - Install an update bundle",
     "content": "rauc install {{path/to/bundle.raucb|https://example.com/bundle.raucb}}",
     "group": "Linux Ops",
-    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect and install update bundles. (Install an update bundle)",
+    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect, and install update bundles. (Install an update bundle)",
     "tags": [
       "linux",
       "rauc",
@@ -1460,7 +1460,7 @@
     "title": "rauc - Show information about a specific update bundle",
     "content": "rauc info {{path/to/bundle.raucb}}",
     "group": "Linux Ops",
-    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect and install update bundles. (Show information about a specific update bundle)",
+    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect, and install update bundles. (Show information about a specific update bundle)",
     "tags": [
       "linux",
       "rauc",
@@ -1475,7 +1475,7 @@
     "title": "rauc - Create a signed update bundle from a directory",
     "content": "rauc bundle --cert {{path/to/cert.pem}} --key {{path/to/key.pem}} {{path/to/input_dir}} {{path/to/output.raucb}}",
     "group": "Linux Ops",
-    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect and install update bundles. (Create a signed update bundle from a directory)",
+    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect, and install update bundles. (Create a signed update bundle from a directory)",
     "tags": [
       "linux",
       "rauc",
@@ -1490,7 +1490,7 @@
     "title": "rauc - Extract the contents of an update bundle",
     "content": "rauc extract {{path/to/bundle.raucb}} {{path/to/output_directory}}",
     "group": "Linux Ops",
-    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect and install update bundles. (Extract the contents of an update bundle)",
+    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect, and install update bundles. (Extract the contents of an update bundle)",
     "tags": [
       "linux",
       "rauc",
@@ -1505,7 +1505,7 @@
     "title": "rauc - Mark the currently booted slot as good to confirm successful update",
     "content": "rauc status mark-good",
     "group": "Linux Ops",
-    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect and install update bundles. (Mark the currently booted slot as good to confirm successful update)",
+    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect, and install update bundles. (Mark the currently booted slot as good to confirm successful update)",
     "tags": [
       "linux",
       "rauc",
@@ -1520,7 +1520,7 @@
     "title": "rauc - Mark a specific slot as bad to prevent it from booting",
     "content": "rauc status mark-bad {{slot_name}}",
     "group": "Linux Ops",
-    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect and install update bundles. (Mark a specific slot as bad to prevent it from booting)",
+    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect, and install update bundles. (Mark a specific slot as bad to prevent it from booting)",
     "tags": [
       "linux",
       "rauc",
@@ -1535,7 +1535,7 @@
     "title": "rauc - Switch the active boot slot to the other available slot",
     "content": "rauc status mark-active other",
     "group": "Linux Ops",
-    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect and install update bundles. (Switch the active boot slot to the other available slot)",
+    "description": "rauc: Lightweight update client for Embedded Linux devices to create, inspect, and install update bundles. (Switch the active boot slot to the other available slot)",
     "tags": [
       "linux",
       "rauc",
@@ -1655,7 +1655,7 @@
     "title": "ostree - Initialize a repository of the files in `$PWD` with metadata in `$PWD/path/to/repo`",
     "content": "ostree init --repo {{path/to/repo}}",
     "group": "Linux Ops",
-    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. OSTree is the foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Initialize a repository of the files in `$PWD` with metadata in `$PWD/path/to/repo`)",
+    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. Foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Initialize a repository of the files in `$PWD` with metadata in `$PWD/path/to/repo`)",
     "tags": [
       "linux",
       "ostree",
@@ -1670,7 +1670,7 @@
     "title": "ostree - Create a commit (snapshot) of the files",
     "content": "ostree commit --repo {{path/to/repo}} --branch {{branch_name}}",
     "group": "Linux Ops",
-    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. OSTree is the foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Create a commit (snapshot) of the files)",
+    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. Foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Create a commit (snapshot) of the files)",
     "tags": [
       "linux",
       "ostree",
@@ -1685,7 +1685,7 @@
     "title": "ostree - Show files in commit",
     "content": "ostree ls --repo {{path/to/repo}} {{commit_id}}",
     "group": "Linux Ops",
-    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. OSTree is the foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Show files in commit)",
+    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. Foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Show files in commit)",
     "tags": [
       "linux",
       "ostree",
@@ -1700,7 +1700,7 @@
     "title": "ostree - Show metadata of commit",
     "content": "ostree show --repo {{path/to/repo}} {{commit_id}}",
     "group": "Linux Ops",
-    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. OSTree is the foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Show metadata of commit)",
+    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. Foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Show metadata of commit)",
     "tags": [
       "linux",
       "ostree",
@@ -1715,7 +1715,7 @@
     "title": "ostree - Show list of commits",
     "content": "ostree log --repo {{path/to/repo}} {{branch_name}}",
     "group": "Linux Ops",
-    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. OSTree is the foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Show list of commits)",
+    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. Foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Show list of commits)",
     "tags": [
       "linux",
       "ostree",
@@ -1730,7 +1730,7 @@
     "title": "ostree - Show repo summary",
     "content": "ostree summary --repo {{path/to/repo}} --view",
     "group": "Linux Ops",
-    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. OSTree is the foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Show repo summary)",
+    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. Foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Show repo summary)",
     "tags": [
       "linux",
       "ostree",
@@ -1745,7 +1745,7 @@
     "title": "ostree - Show available refs (branches)",
     "content": "ostree refs --repo {{path/to/repo}}",
     "group": "Linux Ops",
-    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. OSTree is the foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Show available refs (branches))",
+    "description": "ostree: Version control for binary files similar to `git` but optimized for operating system root filesystems. Foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS. (Show available refs (branches))",
     "tags": [
       "linux",
       "ostree",
@@ -2750,7 +2750,7 @@
     "title": "namei - Resolve the pathnames specified as the argument parameters",
     "content": "namei {{path/to/a}} {{path/to/b}} {{path/to/c}}",
     "group": "Linux Ops",
-    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc). This program is useful for finding \"too many levels of symbolic links\" problems. (Resolve the pathnames specified as the argument parameters)",
+    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Resolve the pathnames specified as the argument parameters)",
     "tags": [
       "linux",
       "namei",
@@ -2765,7 +2765,7 @@
     "title": "namei - Display the results in a long-listing format",
     "content": "namei {{[-l|--long]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}",
     "group": "Linux Ops",
-    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc). This program is useful for finding \"too many levels of symbolic links\" problems. (Display the results in a long-listing format)",
+    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Display the results in a long-listing format)",
     "tags": [
       "linux",
       "namei",
@@ -2780,7 +2780,7 @@
     "title": "namei - Show the mode bits of each file type in the style of `ls`",
     "content": "namei {{[-m|--modes]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}",
     "group": "Linux Ops",
-    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc). This program is useful for finding \"too many levels of symbolic links\" problems. (Show the mode bits of each file type in the style of `ls`)",
+    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Show the mode bits of each file type in the style of `ls`)",
     "tags": [
       "linux",
       "namei",
@@ -2795,7 +2795,7 @@
     "title": "namei - Show owner and group name of each file",
     "content": "namei {{[-o|--owners]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}",
     "group": "Linux Ops",
-    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc). This program is useful for finding \"too many levels of symbolic links\" problems. (Show owner and group name of each file)",
+    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Show owner and group name of each file)",
     "tags": [
       "linux",
       "namei",
@@ -2810,7 +2810,7 @@
     "title": "namei - Don't follow symlinks while resolving",
     "content": "namei {{[-n|--nosymlinks]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}",
     "group": "Linux Ops",
-    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc). This program is useful for finding \"too many levels of symbolic links\" problems. (Don't follow symlinks while resolving)",
+    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Don't follow symlinks while resolving)",
     "tags": [
       "linux",
       "namei",
@@ -5972,10 +5972,10 @@
   {
     "id": "tldr-en-linux-znc-2",
     "type": "command",
-    "title": "znc - Setup `znc` for systemd",
+    "title": "znc - Set up `znc` for systemd",
     "content": "sudo {{[-u|--user]}} znc znc {{[-c|--makeconf]}} {{[-d|--datadir]}} /var/lib/znc",
     "group": "Linux Ops",
-    "description": "znc: IRC bouncer. (Setup `znc` for systemd)",
+    "description": "znc: IRC bouncer. (Set up `znc` for systemd)",
     "tags": [
       "linux",
       "znc",
@@ -6995,7 +6995,7 @@
     "title": "update-alternatives - Add a symbolic link",
     "content": "sudo update-alternatives --install {{path/to/symlink}} {{command_name}} {{path/to/command_binary}} {{priority}}",
     "group": "Linux Ops",
-    "description": "update-alternatives: Convenientily maintain symbolic links to determine default commands. (Add a symbolic link)",
+    "description": "update-alternatives: Conveniently maintain symbolic links to determine default commands. (Add a symbolic link)",
     "tags": [
       "linux",
       "update-alternatives",
@@ -7010,7 +7010,7 @@
     "title": "update-alternatives - Configure a symbolic link for `java`",
     "content": "sudo update-alternatives --config java",
     "group": "Linux Ops",
-    "description": "update-alternatives: Convenientily maintain symbolic links to determine default commands. (Configure a symbolic link for `java`)",
+    "description": "update-alternatives: Conveniently maintain symbolic links to determine default commands. (Configure a symbolic link for `java`)",
     "tags": [
       "linux",
       "update-alternatives",
@@ -7025,7 +7025,7 @@
     "title": "update-alternatives - Remove a symbolic link",
     "content": "sudo update-alternatives --remove {{java}} {{/opt/java/jdk1.8.0_102/bin/java}}",
     "group": "Linux Ops",
-    "description": "update-alternatives: Convenientily maintain symbolic links to determine default commands. (Remove a symbolic link)",
+    "description": "update-alternatives: Conveniently maintain symbolic links to determine default commands. (Remove a symbolic link)",
     "tags": [
       "linux",
       "update-alternatives",
@@ -7040,7 +7040,7 @@
     "title": "update-alternatives - Display information about a specified command",
     "content": "update-alternatives --display {{java}}",
     "group": "Linux Ops",
-    "description": "update-alternatives: Convenientily maintain symbolic links to determine default commands. (Display information about a specified command)",
+    "description": "update-alternatives: Conveniently maintain symbolic links to determine default commands. (Display information about a specified command)",
     "tags": [
       "linux",
       "update-alternatives",
@@ -7055,7 +7055,7 @@
     "title": "update-alternatives - Display all commands and their current selection",
     "content": "update-alternatives --get-selections",
     "group": "Linux Ops",
-    "description": "update-alternatives: Convenientily maintain symbolic links to determine default commands. (Display all commands and their current selection)",
+    "description": "update-alternatives: Conveniently maintain symbolic links to determine default commands. (Display all commands and their current selection)",
     "tags": [
       "linux",
       "update-alternatives",
@@ -8927,10 +8927,10 @@
   {
     "id": "tldr-en-linux-lrztar-0",
     "type": "command",
-    "title": "lrztar - Archive a directory with tar, then compress",
+    "title": "lrztar - Archive a directory with `tar`, then compress",
     "content": "lrztar {{path/to/directory}}",
     "group": "Linux Ops",
-    "description": "lrztar: A wrapper for `lrzip` to simplify compression of directories. (Archive a directory with tar, then compress)",
+    "description": "lrztar: A wrapper for `lrzip` to simplify compression of directories. (Archive a directory with `tar`, then compress)",
     "tags": [
       "linux",
       "lrztar",
@@ -9155,7 +9155,7 @@
     "title": "ruget - Download the contents of a URL to a file",
     "content": "ruget {{https://example.com/file}}",
     "group": "Linux Ops",
-    "description": "ruget: Alternative to wget written in Rust. (Download the contents of a URL to a file)",
+    "description": "ruget: Alternative to `wget` written in Rust. (Download the contents of a URL to a file)",
     "tags": [
       "linux",
       "ruget",
@@ -9170,7 +9170,7 @@
     "title": "ruget - Download the contents of a URL to a specified output file",
     "content": "ruget {{[-o|--output]}} {{file_name}} {{https://example.com/file}}",
     "group": "Linux Ops",
-    "description": "ruget: Alternative to wget written in Rust. (Download the contents of a URL to a specified output file)",
+    "description": "ruget: Alternative to `wget` written in Rust. (Download the contents of a URL to a specified output file)",
     "tags": [
       "linux",
       "ruget",
@@ -9872,10 +9872,10 @@
   {
     "id": "tldr-en-linux-authconfig-0",
     "type": "command",
-    "title": "authconfig - Display the current configuration (or dry run)",
+    "title": "authconfig - Display the current configuration",
     "content": "authconfig --test",
     "group": "Linux Ops",
-    "description": "authconfig: Configure system authentication resources. (Display the current configuration (or dry run))",
+    "description": "authconfig: Configure system authentication resources. (Display the current configuration)",
     "tags": [
       "linux",
       "authconfig",
@@ -11252,10 +11252,10 @@
   {
     "id": "tldr-en-linux-mkvpropedit-1",
     "type": "command",
-    "title": "mkvpropedit - Mark subtitle track 3 as SDH - Subtitles for deaf and hearing impared",
+    "title": "mkvpropedit - Mark subtitle track 3 as SDH - Subtitles for deaf and hearing impaired",
     "content": "mkvpropedit {{path/to/file.mkv}} {{[-e|--edit]}} track:s3 {{[-s|--set]}} flag-hearing-impaired=1",
     "group": "Linux Ops",
-    "description": "mkvpropedit: Modify properties of existing Matroska files without a complete remux. (Mark subtitle track 3 as SDH - Subtitles for deaf and hearing impared)",
+    "description": "mkvpropedit: Modify properties of existing Matroska files without a complete remux. (Mark subtitle track 3 as SDH - Subtitles for deaf and hearing impaired)",
     "tags": [
       "linux",
       "mkvpropedit",
@@ -12620,7 +12620,7 @@
     "title": "id3v2 - List all genres",
     "content": "id3v2 {{[-L|--list-genres]}}",
     "group": "Linux Ops",
-    "description": "id3v2: Manage id3v2 tags, converts and lists id3v1. (List all genres)",
+    "description": "id3v2: Manage id3v2 tags, convert and list id3v1 tags. (List all genres)",
     "tags": [
       "linux",
       "id3v2",
@@ -12635,7 +12635,7 @@
     "title": "id3v2 - List all tags of specific files",
     "content": "id3v2 {{[-l|--list]}} {{path/to/file1 path/to/file2 ...}}",
     "group": "Linux Ops",
-    "description": "id3v2: Manage id3v2 tags, converts and lists id3v1. (List all tags of specific files)",
+    "description": "id3v2: Manage id3v2 tags, convert and list id3v1 tags. (List all tags of specific files)",
     "tags": [
       "linux",
       "id3v2",
@@ -12650,7 +12650,7 @@
     "title": "id3v2 - Delete all `id3v2` or `id3v1` tags of specific files",
     "content": "id3v2 {{--delete-v2|--delete-v1}} {{path/to/file1 path/to/file2 ...}}",
     "group": "Linux Ops",
-    "description": "id3v2: Manage id3v2 tags, converts and lists id3v1. (Delete all `id3v2` or `id3v1` tags of specific files)",
+    "description": "id3v2: Manage id3v2 tags, convert and list id3v1 tags. (Delete all `id3v2` or `id3v1` tags of specific files)",
     "tags": [
       "linux",
       "id3v2",
@@ -12665,7 +12665,7 @@
     "title": "id3v2 - Display help",
     "content": "id3v2 {{[-h|--help]}}",
     "group": "Linux Ops",
-    "description": "id3v2: Manage id3v2 tags, converts and lists id3v1. (Display help)",
+    "description": "id3v2: Manage id3v2 tags, convert and list id3v1 tags. (Display help)",
     "tags": [
       "linux",
       "id3v2",
@@ -12680,7 +12680,7 @@
     "title": "id3v2 - Display version",
     "content": "id3v2 {{[-v|--version]}}",
     "group": "Linux Ops",
-    "description": "id3v2: Manage id3v2 tags, converts and lists id3v1. (Display version)",
+    "description": "id3v2: Manage id3v2 tags, convert and list id3v1 tags. (Display version)",
     "tags": [
       "linux",
       "id3v2",
@@ -13385,7 +13385,7 @@
     "title": "cryptcat - [l]isten on a specified [p]ort and print any data received",
     "content": "cryptcat -k {{password}} -l -p {{port}}",
     "group": "Linux Ops",
-    "description": "cryptcat: Cryptcat is netcat with encryption capabilities. ([l]isten on a specified [p]ort and print any data received)",
+    "description": "cryptcat: Netcat fork with encryption capabilities. ([l]isten on a specified [p]ort and print any data received)",
     "tags": [
       "linux",
       "cryptcat",
@@ -13400,7 +13400,7 @@
     "title": "cryptcat - Connect to a certain port",
     "content": "cryptcat -k {{password}} {{ip_address}} {{port}}",
     "group": "Linux Ops",
-    "description": "cryptcat: Cryptcat is netcat with encryption capabilities. (Connect to a certain port)",
+    "description": "cryptcat: Netcat fork with encryption capabilities. (Connect to a certain port)",
     "tags": [
       "linux",
       "cryptcat",
@@ -13415,7 +13415,7 @@
     "title": "cryptcat - Specify the timeout ([w])",
     "content": "cryptcat -k {{password}} -w {{timeout_in_seconds}} {{ip_address}} {{port}}",
     "group": "Linux Ops",
-    "description": "cryptcat: Cryptcat is netcat with encryption capabilities. (Specify the timeout ([w]))",
+    "description": "cryptcat: Netcat fork with encryption capabilities. (Specify the timeout ([w]))",
     "tags": [
       "linux",
       "cryptcat",
@@ -13430,7 +13430,7 @@
     "title": "cryptcat - Scan ([z]) the open ports of a specified host",
     "content": "cryptcat -v -z {{ip_address}} {{port}}",
     "group": "Linux Ops",
-    "description": "cryptcat: Cryptcat is netcat with encryption capabilities. (Scan ([z]) the open ports of a specified host)",
+    "description": "cryptcat: Netcat fork with encryption capabilities. (Scan ([z]) the open ports of a specified host)",
     "tags": [
       "linux",
       "cryptcat",
@@ -13445,7 +13445,7 @@
     "title": "cryptcat - Act as proxy and forward data from a local TCP port to the given remote host",
     "content": "cryptcat -k {{password}} -l -p {{local_port}} | cryptcat -k {{password}} {{hostname}} {{remote_port}}",
     "group": "Linux Ops",
-    "description": "cryptcat: Cryptcat is netcat with encryption capabilities. (Act as proxy and forward data from a local TCP port to the given remote host)",
+    "description": "cryptcat: Netcat fork with encryption capabilities. (Act as proxy and forward data from a local TCP port to the given remote host)",
     "tags": [
       "linux",
       "cryptcat",
@@ -13487,10 +13487,10 @@
   {
     "id": "tldr-en-linux-lftp-1",
     "type": "command",
-    "title": "lftp - [Interactive] Download multiple files (glob expression)",
+    "title": "lftp - [Interactive] Download multiple files (`glob` expression)",
     "content": "mget {{path/to/*.png}}",
     "group": "Linux Ops",
-    "description": "lftp: Sophisticated file transfer program. ([Interactive] Download multiple files (glob expression))",
+    "description": "lftp: Sophisticated file transfer program. ([Interactive] Download multiple files (`glob` expression))",
     "tags": [
       "linux",
       "lftp",
@@ -13502,10 +13502,10 @@
   {
     "id": "tldr-en-linux-lftp-2",
     "type": "command",
-    "title": "lftp - [Interactive] Upload multiple files (glob expression)",
+    "title": "lftp - [Interactive] Upload multiple files (`glob` expression)",
     "content": "mput {{path/to/*.zip}}",
     "group": "Linux Ops",
-    "description": "lftp: Sophisticated file transfer program. ([Interactive] Upload multiple files (glob expression))",
+    "description": "lftp: Sophisticated file transfer program. ([Interactive] Upload multiple files (`glob` expression))",
     "tags": [
       "linux",
       "lftp",
@@ -16235,7 +16235,7 @@
     "title": "ip - List interfaces with detailed info",
     "content": "ip {{[a|address]}}",
     "group": "Linux Ops",
-    "description": "ip: Show/manipulate routing, devices, policy routing and tunnels. Some subcommands such as `address` have their own usage documentation. (List interfaces with detailed info)",
+    "description": "ip: Show/manipulate routing, devices, policy routing, and tunnels. Some subcommands such as `address` have their own usage documentation. (List interfaces with detailed info)",
     "tags": [
       "linux",
       "ip",
@@ -16250,7 +16250,7 @@
     "title": "ip - List interfaces with brief network layer info",
     "content": "ip {{[-br|-brief]}} {{[a|address]}}",
     "group": "Linux Ops",
-    "description": "ip: Show/manipulate routing, devices, policy routing and tunnels. Some subcommands such as `address` have their own usage documentation. (List interfaces with brief network layer info)",
+    "description": "ip: Show/manipulate routing, devices, policy routing, and tunnels. Some subcommands such as `address` have their own usage documentation. (List interfaces with brief network layer info)",
     "tags": [
       "linux",
       "ip",
@@ -16265,7 +16265,7 @@
     "title": "ip - List interfaces with brief link layer info",
     "content": "ip {{[-br|-brief]}} {{[l|link]}}",
     "group": "Linux Ops",
-    "description": "ip: Show/manipulate routing, devices, policy routing and tunnels. Some subcommands such as `address` have their own usage documentation. (List interfaces with brief link layer info)",
+    "description": "ip: Show/manipulate routing, devices, policy routing, and tunnels. Some subcommands such as `address` have their own usage documentation. (List interfaces with brief link layer info)",
     "tags": [
       "linux",
       "ip",
@@ -16280,7 +16280,7 @@
     "title": "ip - Display the routing table",
     "content": "ip {{[r|route]}}",
     "group": "Linux Ops",
-    "description": "ip: Show/manipulate routing, devices, policy routing and tunnels. Some subcommands such as `address` have their own usage documentation. (Display the routing table)",
+    "description": "ip: Show/manipulate routing, devices, policy routing, and tunnels. Some subcommands such as `address` have their own usage documentation. (Display the routing table)",
     "tags": [
       "linux",
       "ip",
@@ -16295,7 +16295,7 @@
     "title": "ip - Show neighbors (ARP table)",
     "content": "ip {{[n|neighbor]}}",
     "group": "Linux Ops",
-    "description": "ip: Show/manipulate routing, devices, policy routing and tunnels. Some subcommands such as `address` have their own usage documentation. (Show neighbors (ARP table))",
+    "description": "ip: Show/manipulate routing, devices, policy routing, and tunnels. Some subcommands such as `address` have their own usage documentation. (Show neighbors (ARP table))",
     "tags": [
       "linux",
       "ip",
@@ -16310,7 +16310,7 @@
     "title": "ip - Make an interface up/down",
     "content": "sudo ip {{[l|link]}} {{[s|set]}} {{ethX}} {{up|down}}",
     "group": "Linux Ops",
-    "description": "ip: Show/manipulate routing, devices, policy routing and tunnels. Some subcommands such as `address` have their own usage documentation. (Make an interface up/down)",
+    "description": "ip: Show/manipulate routing, devices, policy routing, and tunnels. Some subcommands such as `address` have their own usage documentation. (Make an interface up/down)",
     "tags": [
       "linux",
       "ip",
@@ -16325,7 +16325,7 @@
     "title": "ip - Add/Delete an IP address to an interface",
     "content": "sudo ip {{[a|address]}} {{add|delete}} {{ip_address}}/{{mask}} dev {{ethX}}",
     "group": "Linux Ops",
-    "description": "ip: Show/manipulate routing, devices, policy routing and tunnels. Some subcommands such as `address` have their own usage documentation. (Add/Delete an IP address to an interface)",
+    "description": "ip: Show/manipulate routing, devices, policy routing, and tunnels. Some subcommands such as `address` have their own usage documentation. (Add/Delete an IP address to an interface)",
     "tags": [
       "linux",
       "ip",
@@ -16340,7 +16340,7 @@
     "title": "ip - Add a default route",
     "content": "sudo ip {{[r|route]}} {{[a|add]}} default via {{ip_address}} dev {{ethX}}",
     "group": "Linux Ops",
-    "description": "ip: Show/manipulate routing, devices, policy routing and tunnels. Some subcommands such as `address` have their own usage documentation. (Add a default route)",
+    "description": "ip: Show/manipulate routing, devices, policy routing, and tunnels. Some subcommands such as `address` have their own usage documentation. (Add a default route)",
     "tags": [
       "linux",
       "ip",
@@ -16982,10 +16982,10 @@
   {
     "id": "tldr-en-linux-e2undo-1",
     "type": "command",
-    "title": "e2undo - Perform a dry-run and display the candidate blocks for replaying",
+    "title": "e2undo - Simulate a run and display the candidate blocks for replaying",
     "content": "e2undo -nv {{path/to/undo_file}} {{/dev/sdXN}}",
     "group": "Linux Ops",
-    "description": "e2undo: Replay undo logs for an ext2/ext3/ext4 filesystem. This can be used to undo a failed operation by an e2fsprogs program. (Perform a dry-run and display the candidate blocks for replaying)",
+    "description": "e2undo: Replay undo logs for an ext2/ext3/ext4 filesystem. This can be used to undo a failed operation by an e2fsprogs program. (Simulate a run and display the candidate blocks for replaying)",
     "tags": [
       "linux",
       "e2undo",
@@ -17402,10 +17402,10 @@
   {
     "id": "tldr-en-linux-gpclient-5",
     "type": "command",
-    "title": "gpclient - Display version",
-    "content": "gpclient --version",
+    "title": "gpclient - Display help for any command",
+    "content": "gpclient help {{command}}",
     "group": "Linux Ops",
-    "description": "gpclient: Connect to a GlobalProtect VPN on Linux via OpenConnect. (Display version)",
+    "description": "gpclient: Connect to a GlobalProtect VPN on Linux via OpenConnect. (Display help for any command)",
     "tags": [
       "linux",
       "gpclient",
@@ -17417,10 +17417,10 @@
   {
     "id": "tldr-en-linux-gpclient-6",
     "type": "command",
-    "title": "gpclient - Display help for any command",
-    "content": "gpclient help {{command}}",
+    "title": "gpclient - Display version",
+    "content": "gpclient --version",
     "group": "Linux Ops",
-    "description": "gpclient: Connect to a GlobalProtect VPN on Linux via OpenConnect. (Display help for any command)",
+    "description": "gpclient: Connect to a GlobalProtect VPN on Linux via OpenConnect. (Display version)",
     "tags": [
       "linux",
       "gpclient",
@@ -18485,7 +18485,7 @@
     "title": "systemd-resolve - View documentation for `resolvectl`",
     "content": "tldr resolvectl",
     "group": "Linux Ops",
-    "description": "systemd-resolve: Resolve domain names, IPV4 and IPv6 addresses, DNS resource records, and services. Note: This tool has been renamed to `resolvectl` in new versions of `systemd`. (View documentation for `resolvectl`)",
+    "description": "systemd-resolve: Resolve domain names, IPv4 and IPv6 addresses, DNS resource records, and services. Note: This tool has been renamed to `resolvectl` in new versions of `systemd`. (View documentation for `resolvectl`)",
     "tags": [
       "linux",
       "systemd-resolve",
@@ -18947,21 +18947,6 @@
   {
     "id": "tldr-en-linux-ionice-2",
     "type": "command",
-    "title": "ionice - Run a command with custom I/O scheduling class and priority",
-    "content": "ionice {{[-c|--class]}} {{scheduling_class}} {{[-n|--classdata]}} {{priority}} {{command}}",
-    "group": "Linux Ops",
-    "description": "ionice: Get or set program I/O scheduling class and priority. Scheduling classes: 1 (realtime), 2 (best-effort), 3 (idle). Priority levels: 0 (the highest) - 7 (the lowest). (Run a command with custom I/O scheduling class and priority)",
-    "tags": [
-      "linux",
-      "ionice",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-linux-ionice-3",
-    "type": "command",
     "title": "ionice - Ignore failure to set the requested priority",
     "content": "ionice {{[-t|--ignore]}} {{[-n|--classdata]}} {{priority}} {{[-p|--pid]}} {{process_id}}",
     "group": "Linux Ops",
@@ -18975,7 +18960,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-linux-ionice-4",
+    "id": "tldr-en-linux-ionice-3",
     "type": "command",
     "title": "ionice - Run the command even in case it was not possible to set the desired priority (this can happen due to insufficient privileges or an old kernel version)",
     "content": "ionice {{[-t|--ignore]}} {{[-n|--classdata]}} {{priority}} {{[-p|--pid]}} {{process_id}}",
@@ -18990,7 +18975,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-linux-ionice-5",
+    "id": "tldr-en-linux-ionice-4",
     "type": "command",
     "title": "ionice - Print the I/O scheduling class and priority of a running process",
     "content": "ionice {{[-p|--pid]}} {{process_id}}",
@@ -19725,6 +19710,126 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-linux-wine-start-0",
+    "type": "command",
+    "title": "wine-start - Launch a Windows program",
+    "content": "wine start {{path\\to\\program.exe}}",
+    "group": "Linux Ops",
+    "description": "wine-start: Launch a program or open a document in a Wine prefix. A reimplementation of the Windows `start` command. (Launch a Windows program)",
+    "tags": [
+      "linux",
+      "wine-start",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-start-1",
+    "type": "command",
+    "title": "wine-start - Open a document with its associated program",
+    "content": "wine start {{path\\to\\document.ext}}",
+    "group": "Linux Ops",
+    "description": "wine-start: Launch a program or open a document in a Wine prefix. A reimplementation of the Windows `start` command. (Open a document with its associated program)",
+    "tags": [
+      "linux",
+      "wine-start",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-start-2",
+    "type": "command",
+    "title": "wine-start - Launch a program from a Unix-style path",
+    "content": "wine start /unix {{path/to/program.exe}}",
+    "group": "Linux Ops",
+    "description": "wine-start: Launch a program or open a document in a Wine prefix. A reimplementation of the Windows `start` command. (Launch a program from a Unix-style path)",
+    "tags": [
+      "linux",
+      "wine-start",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-start-3",
+    "type": "command",
+    "title": "wine-start - Launch a program and wait for it to exit, returning its exit code",
+    "content": "wine start /wait {{path\\to\\program.exe}}",
+    "group": "Linux Ops",
+    "description": "wine-start: Launch a program or open a document in a Wine prefix. A reimplementation of the Windows `start` command. (Launch a program and wait for it to exit, returning its exit code)",
+    "tags": [
+      "linux",
+      "wine-start",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-start-4",
+    "type": "command",
+    "title": "wine-start - Launch a program minimized or maximized",
+    "content": "wine start {{/min|/max}} {{path\\to\\program.exe}}",
+    "group": "Linux Ops",
+    "description": "wine-start: Launch a program or open a document in a Wine prefix. A reimplementation of the Windows `start` command. (Launch a program minimized or maximized)",
+    "tags": [
+      "linux",
+      "wine-start",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-start-5",
+    "type": "command",
+    "title": "wine-start - Launch a program from a specific working [d]irectory",
+    "content": "wine start /d {{path\\to\\directory}} {{path\\to\\program.exe}}",
+    "group": "Linux Ops",
+    "description": "wine-start: Launch a program or open a document in a Wine prefix. A reimplementation of the Windows `start` command. (Launch a program from a specific working [d]irectory)",
+    "tags": [
+      "linux",
+      "wine-start",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-start-6",
+    "type": "command",
+    "title": "wine-start - Launch a program without opening a new console window",
+    "content": "wine start /b {{path\\to\\program.exe}}",
+    "group": "Linux Ops",
+    "description": "wine-start: Launch a program or open a document in a Wine prefix. A reimplementation of the Windows `start` command. (Launch a program without opening a new console window)",
+    "tags": [
+      "linux",
+      "wine-start",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-start-7",
+    "type": "command",
+    "title": "wine-start - Display help",
+    "content": "wine start /?",
+    "group": "Linux Ops",
+    "description": "wine-start: Launch a program or open a document in a Wine prefix. A reimplementation of the Windows `start` command. (Display help)",
+    "tags": [
+      "linux",
+      "wine-start",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-linux-img2webp-0",
     "type": "command",
     "title": "img2webp - Convert an image to WebP",
@@ -19848,7 +19953,7 @@
     "id": "tldr-en-linux-gio-trash-3",
     "type": "command",
     "title": "gio-trash - Restore a specific item from trash using its ID",
-    "content": "gio trash trash://{{id}}",
+    "content": "gio trash trash://{{item_id}}",
     "group": "Linux Ops",
     "description": "gio-trash: Move files to the trash bin. Used by GNOME to handle trash. (Restore a specific item from trash using its ID)",
     "tags": [
@@ -21257,21 +21362,6 @@
   {
     "id": "tldr-en-linux-cpupower-0",
     "type": "command",
-    "title": "cpupower - List CPUs",
-    "content": "sudo cpupower {{[-c|--cpu]}} {{all}} info",
-    "group": "Linux Ops",
-    "description": "cpupower: Tools regarding CPU power and tuning options. (List CPUs)",
-    "tags": [
-      "linux",
-      "cpupower",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-linux-cpupower-1",
-    "type": "command",
     "title": "cpupower - Print information about all cores",
     "content": "sudo cpupower {{[-c|--cpu]}} {{all}} info",
     "group": "Linux Ops",
@@ -21285,7 +21375,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-linux-cpupower-2",
+    "id": "tldr-en-linux-cpupower-1",
     "type": "command",
     "title": "cpupower - Set all CPUs to a power-saving frequency governor",
     "content": "sudo cpupower {{[-c|--cpu]}} {{all}} frequency-set --governor {{powersave}}",
@@ -21300,7 +21390,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-linux-cpupower-3",
+    "id": "tldr-en-linux-cpupower-2",
     "type": "command",
     "title": "cpupower - Print CPU 0's available frequency governors",
     "content": "sudo cpupower {{[-c|--cpu]}} {{0}} frequency-info {{[-g|--governors]}} | grep \"analyzing\\|governors\"",
@@ -21315,7 +21405,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-linux-cpupower-4",
+    "id": "tldr-en-linux-cpupower-3",
     "type": "command",
     "title": "cpupower - Print CPU 4's frequency from the hardware, in a human-readable format",
     "content": "sudo cpupower {{[-c|--cpu]}} {{4}} frequency-info {{[-w|--hwfreq]}} {{[-m|--human]}}",
@@ -24393,7 +24483,7 @@
     "id": "tldr-en-linux-cliphist-3",
     "type": "command",
     "title": "cliphist - Delete a specific clipboard entry by ID",
-    "content": "cliphist delete {{id}}",
+    "content": "cliphist delete {{entry_id}}",
     "group": "Linux Ops",
     "description": "cliphist: Manage clipboard history for Wayland compositors. Works with `wl-copy` and `wl-paste`. (Delete a specific clipboard entry by ID)",
     "tags": [
@@ -25847,10 +25937,10 @@
   {
     "id": "tldr-en-linux-setxkbmap-1",
     "type": "command",
-    "title": "setxkbmap - Set multiple keyboard layouts, their variants and switching option",
+    "title": "setxkbmap - Set multiple keyboard layouts, their variants, and switching option",
     "content": "setxkbmap -layout {{us,de}} -variant {{,qwerty}} -option '{{grp:alt_caps_toggle}}'",
     "group": "Linux Ops",
-    "description": "setxkbmap: Set the keyboard using the X Keyboard Extension. (Set multiple keyboard layouts, their variants and switching option)",
+    "description": "setxkbmap: Set the keyboard using the X Keyboard Extension. (Set multiple keyboard layouts, their variants, and switching option)",
     "tags": [
       "linux",
       "setxkbmap",
@@ -26049,6 +26139,126 @@
     "tags": [
       "linux",
       "smbnetfs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-asusctl-0",
+    "type": "command",
+    "title": "asusctl - Show the current profile",
+    "content": "asusctl profile get",
+    "group": "Linux Ops",
+    "description": "asusctl: Control various features of ASUS laptops on Linux. (Show the current profile)",
+    "tags": [
+      "linux",
+      "asusctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-asusctl-1",
+    "type": "command",
+    "title": "asusctl - List available profiles",
+    "content": "asusctl profile list",
+    "group": "Linux Ops",
+    "description": "asusctl: Control various features of ASUS laptops on Linux. (List available profiles)",
+    "tags": [
+      "linux",
+      "asusctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-asusctl-2",
+    "type": "command",
+    "title": "asusctl - Set the active performance profile",
+    "content": "asusctl profile set performance",
+    "group": "Linux Ops",
+    "description": "asusctl: Control various features of ASUS laptops on Linux. (Set the active performance profile)",
+    "tags": [
+      "linux",
+      "asusctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-asusctl-3",
+    "type": "command",
+    "title": "asusctl - Set the keyboard LED brightness",
+    "content": "asusctl leds set {{off|low|med|high}}",
+    "group": "Linux Ops",
+    "description": "asusctl: Control various features of ASUS laptops on Linux. (Set the keyboard LED brightness)",
+    "tags": [
+      "linux",
+      "asusctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-asusctl-4",
+    "type": "command",
+    "title": "asusctl - Set the battery charge limit",
+    "content": "asusctl battery limit {{80}}",
+    "group": "Linux Ops",
+    "description": "asusctl: Control various features of ASUS laptops on Linux. (Set the battery charge limit)",
+    "tags": [
+      "linux",
+      "asusctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-asusctl-5",
+    "type": "command",
+    "title": "asusctl - Show the current battery charge limit",
+    "content": "asusctl battery info",
+    "group": "Linux Ops",
+    "description": "asusctl: Control various features of ASUS laptops on Linux. (Show the current battery charge limit)",
+    "tags": [
+      "linux",
+      "asusctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-asusctl-6",
+    "type": "command",
+    "title": "asusctl - Get enabled fan profiles",
+    "content": "asusctl fan-curve --get-enabled",
+    "group": "Linux Ops",
+    "description": "asusctl: Control various features of ASUS laptops on Linux. (Get enabled fan profiles)",
+    "tags": [
+      "linux",
+      "asusctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-asusctl-7",
+    "type": "command",
+    "title": "asusctl - Show system and supported-feature information",
+    "content": "asusctl info --show-supported",
+    "group": "Linux Ops",
+    "description": "asusctl: Control various features of ASUS laptops on Linux. (Show system and supported-feature information)",
+    "tags": [
+      "linux",
+      "asusctl",
       "tldr",
       "en"
     ],
@@ -26972,10 +27182,10 @@
   {
     "id": "tldr-en-linux-pacstrap-0",
     "type": "command",
-    "title": "pacstrap - Install the `base` package, the Linux kernel and firmware for common hardware",
+    "title": "pacstrap - Install the `base` package, the Linux kernel, and firmware for common hardware",
     "content": "pacstrap {{path/to/new_root}} {{base}} {{linux}} {{linux-firmware}}",
     "group": "Linux Ops",
-    "description": "pacstrap: Install Arch Linux packages in the specified new root directory. (Install the `base` package, the Linux kernel and firmware for common hardware)",
+    "description": "pacstrap: Install Arch Linux packages in the specified new root directory. (Install the `base` package, the Linux kernel, and firmware for common hardware)",
     "tags": [
       "linux",
       "pacstrap",
@@ -26987,10 +27197,10 @@
   {
     "id": "tldr-en-linux-pacstrap-1",
     "type": "command",
-    "title": "pacstrap - Install the `base` package, the Linux LTS kernel and `base-devel` build tools",
+    "title": "pacstrap - Install the `base` package, the Linux LTS kernel, and `base-devel` build tools",
     "content": "pacstrap {{path/to/new_root}} {{base}} {{base-devel}} {{linux-lts}}",
     "group": "Linux Ops",
-    "description": "pacstrap: Install Arch Linux packages in the specified new root directory. (Install the `base` package, the Linux LTS kernel and `base-devel` build tools)",
+    "description": "pacstrap: Install Arch Linux packages in the specified new root directory. (Install the `base` package, the Linux LTS kernel, and `base-devel` build tools)",
     "tags": [
       "linux",
       "pacstrap",
@@ -27498,7 +27708,7 @@
     "id": "tldr-en-linux-run0-1",
     "type": "command",
     "title": "run0 - Run a command as another user and/or group",
-    "content": "run0 {{[-u|--user]}} {{username|uid}} {{[-g|--group]}} {{group_name|gid}} {{command}}",
+    "content": "run0 {{[-u|--user]}} {{username|user_id}} {{[-g|--group]}} {{group_name|group_id}} {{command}}",
     "group": "Linux Ops",
     "description": "run0: Elevate privileges interactively. Similar to `sudo`, but it's not a SUID binary, authentication takes place via polkit, and commands are invoked from a `systemd` service. (Run a command as another user and/or group)",
     "tags": [
@@ -30678,7 +30888,7 @@
     "id": "tldr-en-linux-waitpid-0",
     "type": "command",
     "title": "waitpid - Sleep until all processes whose PIDs have been specified have exited",
-    "content": "waitpid {{pid1 pid2 ...}}",
+    "content": "waitpid {{process_id1 process_id2 ...}}",
     "group": "Linux Ops",
     "description": "waitpid: Wait for the termination of arbitrary processes. (Sleep until all processes whose PIDs have been specified have exited)",
     "tags": [
@@ -30693,7 +30903,7 @@
     "id": "tldr-en-linux-waitpid-1",
     "type": "command",
     "title": "waitpid - Sleep for at most `n` seconds",
-    "content": "waitpid {{[-t|--timeout]}} {{n}} {{pid1 pid2 ...}}",
+    "content": "waitpid {{[-t|--timeout]}} {{n}} {{process_id1 process_id2 ...}}",
     "group": "Linux Ops",
     "description": "waitpid: Wait for the termination of arbitrary processes. (Sleep for at most `n` seconds)",
     "tags": [
@@ -30708,7 +30918,7 @@
     "id": "tldr-en-linux-waitpid-2",
     "type": "command",
     "title": "waitpid - Do not error if specified PIDs have already exited",
-    "content": "waitpid {{[-e|--exited]}} {{pid1 pid2 ...}}",
+    "content": "waitpid {{[-e|--exited]}} {{process_id1 process_id2 ...}}",
     "group": "Linux Ops",
     "description": "waitpid: Wait for the termination of arbitrary processes. (Do not error if specified PIDs have already exited)",
     "tags": [
@@ -30723,7 +30933,7 @@
     "id": "tldr-en-linux-waitpid-3",
     "type": "command",
     "title": "waitpid - Sleep until `n` of the specified processes have exited",
-    "content": "waitpid {{[-c|--count]}} {{n}} {{pid1 pid2 ...}}",
+    "content": "waitpid {{[-c|--count]}} {{n}} {{process_id1 process_id2 ...}}",
     "group": "Linux Ops",
     "description": "waitpid: Wait for the termination of arbitrary processes. (Sleep until `n` of the specified processes have exited)",
     "tags": [
@@ -31115,7 +31325,7 @@
     "title": "vkpurge - List all removable kernel versions (or those matching `version` if the argument is specified)",
     "content": "vkpurge list {{version}}",
     "group": "Linux Ops",
-    "description": "vkpurge: List or remove old kernel versions left behind by `xbps`. The `version` arguments support shell globs. (List all removable kernel versions (or those matching `version` if the argument is specified))",
+    "description": "vkpurge: List or remove old kernel versions left behind by `xbps`. The `version` arguments support shell `glob`s. (List all removable kernel versions (or those matching `version` if the argument is specified))",
     "tags": [
       "linux",
       "vkpurge",
@@ -31130,7 +31340,7 @@
     "title": "vkpurge - Remove all unused kernels",
     "content": "vkpurge rm all",
     "group": "Linux Ops",
-    "description": "vkpurge: List or remove old kernel versions left behind by `xbps`. The `version` arguments support shell globs. (Remove all unused kernels)",
+    "description": "vkpurge: List or remove old kernel versions left behind by `xbps`. The `version` arguments support shell `glob`s. (Remove all unused kernels)",
     "tags": [
       "linux",
       "vkpurge",
@@ -31145,7 +31355,7 @@
     "title": "vkpurge - Remove kernel versions matching `version`",
     "content": "vkpurge rm {{version}}",
     "group": "Linux Ops",
-    "description": "vkpurge: List or remove old kernel versions left behind by `xbps`. The `version` arguments support shell globs. (Remove kernel versions matching `version`)",
+    "description": "vkpurge: List or remove old kernel versions left behind by `xbps`. The `version` arguments support shell `glob`s. (Remove kernel versions matching `version`)",
     "tags": [
       "linux",
       "vkpurge",
@@ -32477,10 +32687,10 @@
   {
     "id": "tldr-en-linux-paru-4",
     "type": "command",
-    "title": "paru - Remove an installed package, it's configuration files, and dependencies",
+    "title": "paru - Remove an installed package, its configuration files, and dependencies",
     "content": "paru -Rns {{package}}",
     "group": "Linux Ops",
-    "description": "paru: An AUR helper and pacman wrapper. (Remove an installed package, it's configuration files, and dependencies)",
+    "description": "paru: An AUR helper and pacman wrapper. (Remove an installed package, its configuration files, and dependencies)",
     "tags": [
       "linux",
       "paru",
@@ -33272,10 +33482,10 @@
   {
     "id": "tldr-en-linux-importctl-1",
     "type": "command",
-    "title": "importctl - Pull or download from a remote source that is either raw or `.qcow2` file, and stores it as a raw file",
+    "title": "importctl - Pull or download from a remote source that is either raw or `.qcow2` file, and store it as a raw file",
     "content": "sudo importctl pull-raw {{https://example.com/source.ext}} {{name}} --class={{machine|portable|sysext|confext}}",
     "group": "Linux Ops",
-    "description": "importctl: Download, Import, or Export disk images. (Pull or download from a remote source that is either raw or `.qcow2` file, and stores it as a raw file)",
+    "description": "importctl: Download, Import, or Export disk images. (Pull or download from a remote source that is either raw or `.qcow2` file, and store it as a raw file)",
     "tags": [
       "linux",
       "importctl",
@@ -33309,6 +33519,96 @@
     "tags": [
       "linux",
       "importctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winemaker-0",
+    "type": "command",
+    "title": "winemaker - Generate build files for a source tree (assumes a graphical application)",
+    "content": "winemaker {{path/to/source_directory}}",
+    "group": "Linux Ops",
+    "description": "winemaker: Generate build files to port Windows source code to a Winelib application. (Generate build files for a source tree (assumes a graphical application))",
+    "tags": [
+      "linux",
+      "winemaker",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winemaker-1",
+    "type": "command",
+    "title": "winemaker - Treat the target as a console application",
+    "content": "winemaker --console {{path/to/source_directory}}",
+    "group": "Linux Ops",
+    "description": "winemaker: Generate build files to port Windows source code to a Winelib application. (Treat the target as a console application)",
+    "tags": [
+      "linux",
+      "winemaker",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winemaker-2",
+    "type": "command",
+    "title": "winemaker - Treat the target as a DLL",
+    "content": "winemaker --dll {{path/to/source_directory}}",
+    "group": "Linux Ops",
+    "description": "winemaker: Generate build files to port Windows source code to a Winelib application. (Treat the target as a DLL)",
+    "tags": [
+      "linux",
+      "winemaker",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winemaker-3",
+    "type": "command",
+    "title": "winemaker - Generate build files without modifying or renaming the original sources",
+    "content": "winemaker --nosource-fix {{path/to/source_directory}}",
+    "group": "Linux Ops",
+    "description": "winemaker: Generate build files to port Windows source code to a Winelib application. (Generate build files without modifying or renaming the original sources)",
+    "tags": [
+      "linux",
+      "winemaker",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winemaker-4",
+    "type": "command",
+    "title": "winemaker - Process a project that uses MFC",
+    "content": "winemaker --mfc {{path/to/source_directory}}",
+    "group": "Linux Ops",
+    "description": "winemaker: Generate build files to port Windows source code to a Winelib application. (Process a project that uses MFC)",
+    "tags": [
+      "linux",
+      "winemaker",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winemaker-5",
+    "type": "command",
+    "title": "winemaker - Display help",
+    "content": "winemaker --help",
+    "group": "Linux Ops",
+    "description": "winemaker: Generate build files to port Windows source code to a Winelib application. (Display help)",
+    "tags": [
+      "linux",
+      "winemaker",
       "tldr",
       "en"
     ],
@@ -35765,7 +36065,7 @@
     "title": "pacdiff - Review files that need maintenance in interactive mode",
     "content": "pacdiff",
     "group": "Linux Ops",
-    "description": "pacdiff: Maintenance utility for `.pacorig`, `.pacnew` and `.pacsave` files created by `pacman`. (Review files that need maintenance in interactive mode)",
+    "description": "pacdiff: Maintenance utility for `.pacorig`, `.pacnew`, and `.pacsave` files created by `pacman`. (Review files that need maintenance in interactive mode)",
     "tags": [
       "linux",
       "pacdiff",
@@ -35780,7 +36080,7 @@
     "title": "pacdiff - Use sudo and sudoedit to remove and merge files",
     "content": "pacdiff {{[-s|--sudo]}}",
     "group": "Linux Ops",
-    "description": "pacdiff: Maintenance utility for `.pacorig`, `.pacnew` and `.pacsave` files created by `pacman`. (Use sudo and sudoedit to remove and merge files)",
+    "description": "pacdiff: Maintenance utility for `.pacorig`, `.pacnew`, and `.pacsave` files created by `pacman`. (Use sudo and sudoedit to remove and merge files)",
     "tags": [
       "linux",
       "pacdiff",
@@ -35795,7 +36095,7 @@
     "title": "pacdiff - Review files needing maintenance, creating `.bak`ups of the original if you `(O)verwrite`",
     "content": "pacdiff {{[-s|--sudo]}} {{[-b|--backup]}}",
     "group": "Linux Ops",
-    "description": "pacdiff: Maintenance utility for `.pacorig`, `.pacnew` and `.pacsave` files created by `pacman`. (Review files needing maintenance, creating `.bak`ups of the original if you `(O)verwrite`)",
+    "description": "pacdiff: Maintenance utility for `.pacorig`, `.pacnew`, and `.pacsave` files created by `pacman`. (Review files needing maintenance, creating `.bak`ups of the original if you `(O)verwrite`)",
     "tags": [
       "linux",
       "pacdiff",
@@ -35810,7 +36110,7 @@
     "title": "pacdiff - Use a specific editor to view and merge configuration files (default is `vim -d`)",
     "content": "DIFFPROG={{editor}} pacdiff",
     "group": "Linux Ops",
-    "description": "pacdiff: Maintenance utility for `.pacorig`, `.pacnew` and `.pacsave` files created by `pacman`. (Use a specific editor to view and merge configuration files (default is `vim -d`))",
+    "description": "pacdiff: Maintenance utility for `.pacorig`, `.pacnew`, and `.pacsave` files created by `pacman`. (Use a specific editor to view and merge configuration files (default is `vim -d`))",
     "tags": [
       "linux",
       "pacdiff",
@@ -35825,7 +36125,7 @@
     "title": "pacdiff - Scan for configuration files with `locate` instead of using `pacman` database",
     "content": "pacdiff {{[-l|--locate]}}",
     "group": "Linux Ops",
-    "description": "pacdiff: Maintenance utility for `.pacorig`, `.pacnew` and `.pacsave` files created by `pacman`. (Scan for configuration files with `locate` instead of using `pacman` database)",
+    "description": "pacdiff: Maintenance utility for `.pacorig`, `.pacnew`, and `.pacsave` files created by `pacman`. (Scan for configuration files with `locate` instead of using `pacman` database)",
     "tags": [
       "linux",
       "pacdiff",
@@ -35840,7 +36140,7 @@
     "title": "pacdiff - Display help",
     "content": "pacdiff {{[-h|--help]}}",
     "group": "Linux Ops",
-    "description": "pacdiff: Maintenance utility for `.pacorig`, `.pacnew` and `.pacsave` files created by `pacman`. (Display help)",
+    "description": "pacdiff: Maintenance utility for `.pacorig`, `.pacnew`, and `.pacsave` files created by `pacman`. (Display help)",
     "tags": [
       "linux",
       "pacdiff",
@@ -36722,10 +37022,10 @@
   {
     "id": "tldr-en-linux-mkinitfs-2",
     "type": "command",
-    "title": "mkinitfs - Compress the initramfs using the specified compression algorithm (default: gzip)",
+    "title": "mkinitfs - Compress the initramfs using the specified compression algorithm (default: `gzip`)",
     "content": "mkinitfs -C {{gzip|xz|zstd|lz4|none}}",
     "group": "Linux Ops",
-    "description": "mkinitfs: Generate an initramfs on Alpine Linux. (Compress the initramfs using the specified compression algorithm (default: gzip))",
+    "description": "mkinitfs: Generate an initramfs on Alpine Linux. (Compress the initramfs using the specified compression algorithm (default: `gzip`))",
     "tags": [
       "linux",
       "mkinitfs",
@@ -37265,7 +37565,7 @@
     "title": "engrampa - Start Engrampa",
     "content": "engrampa",
     "group": "Linux Ops",
-    "description": "engrampa: Package files into zip/`.tar` file in MATE desktop environment. (Start Engrampa)",
+    "description": "engrampa: Package files into `zip`/`.tar` file in MATE desktop environment. (Start Engrampa)",
     "tags": [
       "linux",
       "engrampa",
@@ -37280,7 +37580,7 @@
     "title": "engrampa - Open specific archives",
     "content": "engrampa {{path/to/archive1.tar path/to/archive2.tar ...}}",
     "group": "Linux Ops",
-    "description": "engrampa: Package files into zip/`.tar` file in MATE desktop environment. (Open specific archives)",
+    "description": "engrampa: Package files into `zip`/`.tar` file in MATE desktop environment. (Open specific archives)",
     "tags": [
       "linux",
       "engrampa",
@@ -37295,7 +37595,7 @@
     "title": "engrampa - Archive specific files and/or directories recursively",
     "content": "engrampa --add-to={{path/to/compressed.tar}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}",
     "group": "Linux Ops",
-    "description": "engrampa: Package files into zip/`.tar` file in MATE desktop environment. (Archive specific files and/or directories recursively)",
+    "description": "engrampa: Package files into `zip`/`.tar` file in MATE desktop environment. (Archive specific files and/or directories recursively)",
     "tags": [
       "linux",
       "engrampa",
@@ -37310,7 +37610,7 @@
     "title": "engrampa - Extract files and/or directories from archives to a specific path",
     "content": "engrampa --extract-to={{path/to/directory}} {{path/to/archive1.tar path/to/archive2.tar ...}}",
     "group": "Linux Ops",
-    "description": "engrampa: Package files into zip/`.tar` file in MATE desktop environment. (Extract files and/or directories from archives to a specific path)",
+    "description": "engrampa: Package files into `zip`/`.tar` file in MATE desktop environment. (Extract files and/or directories from archives to a specific path)",
     "tags": [
       "linux",
       "engrampa",
@@ -37562,10 +37862,10 @@
   {
     "id": "tldr-en-linux-wipefs-2",
     "type": "command",
-    "title": "wipefs - Wipe all available signature types for the device and partitions using a glob pattern",
+    "title": "wipefs - Wipe all available signature types for the device and partitions using a `glob` pattern",
     "content": "sudo wipefs {{[-a|--all]}} {{/dev/sdX}}*",
     "group": "Linux Ops",
-    "description": "wipefs: Wipe filesystem, raid, or partition-table signatures from a device. (Wipe all available signature types for the device and partitions using a glob pattern)",
+    "description": "wipefs: Wipe filesystem, raid, or partition-table signatures from a device. (Wipe all available signature types for the device and partitions using a `glob` pattern)",
     "tags": [
       "linux",
       "wipefs",
@@ -37577,10 +37877,10 @@
   {
     "id": "tldr-en-linux-wipefs-3",
     "type": "command",
-    "title": "wipefs - Perform dry run",
+    "title": "wipefs - Simulate wiping all signature types from a device without actually modifying it",
     "content": "sudo wipefs {{[-a|--all]}} {{[-n|--no-act]}} {{/dev/sdX}}",
     "group": "Linux Ops",
-    "description": "wipefs: Wipe filesystem, raid, or partition-table signatures from a device. (Perform dry run)",
+    "description": "wipefs: Wipe filesystem, raid, or partition-table signatures from a device. (Simulate wiping all signature types from a device without actually modifying it)",
     "tags": [
       "linux",
       "wipefs",
@@ -37712,10 +38012,10 @@
   {
     "id": "tldr-en-linux-aa-remove-unknown-0",
     "type": "command",
-    "title": "aa-remove-unknown - Perform a dry run to see which profiles would be removed",
+    "title": "aa-remove-unknown - Simulate removing profiles and display which ones would be removed",
     "content": "sudo aa-remove-unknown -n",
     "group": "Linux Ops",
-    "description": "aa-remove-unknown: Remove AppArmor profiles that are no longer present in the configuration directory. (Perform a dry run to see which profiles would be removed)",
+    "description": "aa-remove-unknown: Remove AppArmor profiles that are no longer present in the configuration directory. (Simulate removing profiles and display which ones would be removed)",
     "tags": [
       "linux",
       "aa-remove-unknown",
@@ -38192,10 +38492,10 @@
   {
     "id": "tldr-en-linux-trash-5",
     "type": "command",
-    "title": "trash - Remove all files in the trash, which match a specific glob pattern",
+    "title": "trash - Remove all files in the trash, which match a specific `glob` pattern",
     "content": "trash-rm \"{{*.o}}\"",
     "group": "Linux Ops",
-    "description": "trash: Manage the trashcan/recycling bin. (Remove all files in the trash, which match a specific glob pattern)",
+    "description": "trash: Manage the trashcan/recycling bin. (Remove all files in the trash, which match a specific `glob` pattern)",
     "tags": [
       "linux",
       "trash",
@@ -45800,7 +46100,7 @@
     "title": "dnsmap - Scan for subdomains using the internal wordlist",
     "content": "dnsmap {{example.com}}",
     "group": "Linux Ops",
-    "description": "dnsmap: The dnsmap command scans a domain for common subdomains e.g. smtp.domain.org. (Scan for subdomains using the internal wordlist)",
+    "description": "dnsmap: Scans a domain for common subdomains e.g. smtp.domain.org. (Scan for subdomains using the internal wordlist)",
     "tags": [
       "linux",
       "dnsmap",
@@ -45815,7 +46115,7 @@
     "title": "dnsmap - Specify a list of subdomains to check for",
     "content": "dnsmap {{example.com}} -w {{path/to/wordlist.txt}}",
     "group": "Linux Ops",
-    "description": "dnsmap: The dnsmap command scans a domain for common subdomains e.g. smtp.domain.org. (Specify a list of subdomains to check for)",
+    "description": "dnsmap: Scans a domain for common subdomains e.g. smtp.domain.org. (Specify a list of subdomains to check for)",
     "tags": [
       "linux",
       "dnsmap",
@@ -45830,7 +46130,7 @@
     "title": "dnsmap - Store results to a CSV file",
     "content": "dnsmap {{example.com}} -c {{path/to/file.csv}}",
     "group": "Linux Ops",
-    "description": "dnsmap: The dnsmap command scans a domain for common subdomains e.g. smtp.domain.org. (Store results to a CSV file)",
+    "description": "dnsmap: Scans a domain for common subdomains e.g. smtp.domain.org. (Store results to a CSV file)",
     "tags": [
       "linux",
       "dnsmap",
@@ -45845,7 +46145,7 @@
     "title": "dnsmap - Ignore 2 IPs that are false positives (up to 5 possible)",
     "content": "dnsmap {{example.com}} -i {{123.45.67.89,98.76.54.32}}",
     "group": "Linux Ops",
-    "description": "dnsmap: The dnsmap command scans a domain for common subdomains e.g. smtp.domain.org. (Ignore 2 IPs that are false positives (up to 5 possible))",
+    "description": "dnsmap: Scans a domain for common subdomains e.g. smtp.domain.org. (Ignore 2 IPs that are false positives (up to 5 possible))",
     "tags": [
       "linux",
       "dnsmap",
@@ -46787,10 +47087,10 @@
   {
     "id": "tldr-en-linux-mksquashfs-3",
     "type": "command",
-    "title": "mksquashfs - Create or append files and directories to a squashfs filesystem, [e]xcluding those ending with gzip",
+    "title": "mksquashfs - Create or append files and directories to a squashfs filesystem, [e]xcluding those ending with `gzip`",
     "content": "mksquashfs {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} {{filesystem.squashfs}} -wildcards -e \"{{*.gz}}\"",
     "group": "Linux Ops",
-    "description": "mksquashfs: Create or append files and directories to squashfs filesystems. (Create or append files and directories to a squashfs filesystem, [e]xcluding those ending with gzip)",
+    "description": "mksquashfs: Create or append files and directories to squashfs filesystems. (Create or append files and directories to a squashfs filesystem, [e]xcluding those ending with `gzip`)",
     "tags": [
       "linux",
       "mksquashfs",
@@ -53732,10 +54032,10 @@
   {
     "id": "tldr-en-linux-aa-status-4",
     "type": "command",
-    "title": "aa-status - Display the number of loaded enforicing policies",
+    "title": "aa-status - Display the number of loaded enforcing policies",
     "content": "sudo aa-status --enforced",
     "group": "Linux Ops",
-    "description": "aa-status: List currently loaded AppArmor modules. (Display the number of loaded enforicing policies)",
+    "description": "aa-status: List currently loaded AppArmor modules. (Display the number of loaded enforcing policies)",
     "tags": [
       "linux",
       "aa-status",
@@ -54144,6 +54444,81 @@
     "tags": [
       "linux",
       "loginctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-net-0",
+    "type": "command",
+    "title": "wine-net - List the currently running services",
+    "content": "wine net start",
+    "group": "Linux Ops",
+    "description": "wine-net: Start, stop, and list Windows services in a Wine prefix. A reimplementation of a subset of the Windows `net` command. (List the currently running services)",
+    "tags": [
+      "linux",
+      "wine-net",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-net-1",
+    "type": "command",
+    "title": "wine-net - Start a specific service",
+    "content": "wine net start {{service_name}}",
+    "group": "Linux Ops",
+    "description": "wine-net: Start, stop, and list Windows services in a Wine prefix. A reimplementation of a subset of the Windows `net` command. (Start a specific service)",
+    "tags": [
+      "linux",
+      "wine-net",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-net-2",
+    "type": "command",
+    "title": "wine-net - Stop a running service",
+    "content": "wine net stop {{service_name}}",
+    "group": "Linux Ops",
+    "description": "wine-net: Start, stop, and list Windows services in a Wine prefix. A reimplementation of a subset of the Windows `net` command. (Stop a running service)",
+    "tags": [
+      "linux",
+      "wine-net",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-net-3",
+    "type": "command",
+    "title": "wine-net - List the current network connections",
+    "content": "wine net use",
+    "group": "Linux Ops",
+    "description": "wine-net: Start, stop, and list Windows services in a Wine prefix. A reimplementation of a subset of the Windows `net` command. (List the current network connections)",
+    "tags": [
+      "linux",
+      "wine-net",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-net-4",
+    "type": "command",
+    "title": "wine-net - Display help",
+    "content": "wine net help",
+    "group": "Linux Ops",
+    "description": "wine-net: Start, stop, and list Windows services in a Wine prefix. A reimplementation of a subset of the Windows `net` command. (Display help)",
+    "tags": [
+      "linux",
+      "wine-net",
       "tldr",
       "en"
     ],
@@ -56342,10 +56717,10 @@
   {
     "id": "tldr-en-linux-matchpathcon-0",
     "type": "command",
-    "title": "matchpathcon - Lookup the persistent security context setting of an absolute path",
+    "title": "matchpathcon - Look up the persistent security context setting of an absolute path",
     "content": "matchpathcon /{{path/to/file}}",
     "group": "Linux Ops",
-    "description": "matchpathcon: Lookup the persistent SELinux security context setting of a path. (Lookup the persistent security context setting of an absolute path)",
+    "description": "matchpathcon: Look up the persistent SELinux security context setting of a path. (Look up the persistent security context setting of an absolute path)",
     "tags": [
       "linux",
       "matchpathcon",
@@ -56360,7 +56735,7 @@
     "title": "matchpathcon - Restrict lookup to settings on a specific file type",
     "content": "matchpathcon -m {{file|dir|pipe|chr_file|blk_file|lnk_file|sock_file}} /{{path/to/file}}",
     "group": "Linux Ops",
-    "description": "matchpathcon: Lookup the persistent SELinux security context setting of a path. (Restrict lookup to settings on a specific file type)",
+    "description": "matchpathcon: Look up the persistent SELinux security context setting of a path. (Restrict lookup to settings on a specific file type)",
     "tags": [
       "linux",
       "matchpathcon",
@@ -56375,7 +56750,7 @@
     "title": "matchpathcon - [V]erify that the persistent and current security context of a path agree",
     "content": "matchpathcon -V /{{path/to/file}}",
     "group": "Linux Ops",
-    "description": "matchpathcon: Lookup the persistent SELinux security context setting of a path. ([V]erify that the persistent and current security context of a path agree)",
+    "description": "matchpathcon: Look up the persistent SELinux security context setting of a path. ([V]erify that the persistent and current security context of a path agree)",
     "tags": [
       "linux",
       "matchpathcon",
@@ -56493,7 +56868,7 @@
     "id": "tldr-en-linux-usermod-1",
     "type": "command",
     "title": "usermod - Change a user ID",
-    "content": "sudo usermod {{[-u|--uid]}} {{id}} {{username}}",
+    "content": "sudo usermod {{[-u|--uid]}} {{user_id}} {{username}}",
     "group": "Linux Ops",
     "description": "usermod: Modify a user account. (Change a user ID)",
     "tags": [
@@ -56600,7 +56975,7 @@
     "title": "rig - Display a random name (male or female) and address",
     "content": "rig",
     "group": "Linux Ops",
-    "description": "rig: Utility to piece together a random first name, last name, street number and address, along with a geographically consistent (ie, they all match the same area) city, state, ZIP code, and area code. (Display a random name (male or female) and address)",
+    "description": "rig: Utility to piece together a random first name, last name, street number, and address, along with a geographically consistent (i.e. they all match the same area) city, state, ZIP code, and area code. (Display a random name (male or female) and address)",
     "tags": [
       "linux",
       "rig",
@@ -56615,7 +56990,7 @@
     "title": "rig - Display a [m]ale (or [f]emale) random name and address",
     "content": "rig {{-m|-f}}",
     "group": "Linux Ops",
-    "description": "rig: Utility to piece together a random first name, last name, street number and address, along with a geographically consistent (ie, they all match the same area) city, state, ZIP code, and area code. (Display a [m]ale (or [f]emale) random name and address)",
+    "description": "rig: Utility to piece together a random first name, last name, street number, and address, along with a geographically consistent (i.e. they all match the same area) city, state, ZIP code, and area code. (Display a [m]ale (or [f]emale) random name and address)",
     "tags": [
       "linux",
       "rig",
@@ -56630,7 +57005,7 @@
     "title": "rig - Use [d]ata files from a specific directory (default is `/usr/share/rig`)",
     "content": "rig -d {{path/to/directory}}",
     "group": "Linux Ops",
-    "description": "rig: Utility to piece together a random first name, last name, street number and address, along with a geographically consistent (ie, they all match the same area) city, state, ZIP code, and area code. (Use [d]ata files from a specific directory (default is `/usr/share/rig`))",
+    "description": "rig: Utility to piece together a random first name, last name, street number, and address, along with a geographically consistent (i.e. they all match the same area) city, state, ZIP code, and area code. (Use [d]ata files from a specific directory (default is `/usr/share/rig`))",
     "tags": [
       "linux",
       "rig",
@@ -56645,7 +57020,7 @@
     "title": "rig - Display a specific number of identities",
     "content": "rig -c {{number}}",
     "group": "Linux Ops",
-    "description": "rig: Utility to piece together a random first name, last name, street number and address, along with a geographically consistent (ie, they all match the same area) city, state, ZIP code, and area code. (Display a specific number of identities)",
+    "description": "rig: Utility to piece together a random first name, last name, street number, and address, along with a geographically consistent (i.e. they all match the same area) city, state, ZIP code, and area code. (Display a specific number of identities)",
     "tags": [
       "linux",
       "rig",
@@ -56660,7 +57035,7 @@
     "title": "rig - Display a specific number of [f]emale identities",
     "content": "rig -f -c {{number}}",
     "group": "Linux Ops",
-    "description": "rig: Utility to piece together a random first name, last name, street number and address, along with a geographically consistent (ie, they all match the same area) city, state, ZIP code, and area code. (Display a specific number of [f]emale identities)",
+    "description": "rig: Utility to piece together a random first name, last name, street number, and address, along with a geographically consistent (i.e. they all match the same area) city, state, ZIP code, and area code. (Display a specific number of [f]emale identities)",
     "tags": [
       "linux",
       "rig",
@@ -57765,6 +58140,96 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-linux-wine-sc-0",
+    "type": "command",
+    "title": "wine-sc - Query the status of a service",
+    "content": "wine sc query {{service_name}}",
+    "group": "Linux Ops",
+    "description": "wine-sc: Create, query, and control Windows services in a Wine prefix. A reimplementation of the Windows `sc` service control command. (Query the status of a service)",
+    "tags": [
+      "linux",
+      "wine-sc",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-sc-1",
+    "type": "command",
+    "title": "wine-sc - Create a new service from an executable (note the space after `binpath=`)",
+    "content": "wine sc create {{service_name}} binpath= {{C:\\path\\to\\service.exe}}",
+    "group": "Linux Ops",
+    "description": "wine-sc: Create, query, and control Windows services in a Wine prefix. A reimplementation of the Windows `sc` service control command. (Create a new service from an executable (note the space after `binpath=`))",
+    "tags": [
+      "linux",
+      "wine-sc",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-sc-2",
+    "type": "command",
+    "title": "wine-sc - Start or stop a service",
+    "content": "wine sc {{start|stop}} {{service_name}}",
+    "group": "Linux Ops",
+    "description": "wine-sc: Create, query, and control Windows services in a Wine prefix. A reimplementation of the Windows `sc` service control command. (Start or stop a service)",
+    "tags": [
+      "linux",
+      "wine-sc",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-sc-3",
+    "type": "command",
+    "title": "wine-sc - Set the description of a service",
+    "content": "wine sc description {{service_name}} \"{{description_text}}\"",
+    "group": "Linux Ops",
+    "description": "wine-sc: Create, query, and control Windows services in a Wine prefix. A reimplementation of the Windows `sc` service control command. (Set the description of a service)",
+    "tags": [
+      "linux",
+      "wine-sc",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-sc-4",
+    "type": "command",
+    "title": "wine-sc - Delete a service",
+    "content": "wine sc delete {{service_name}}",
+    "group": "Linux Ops",
+    "description": "wine-sc: Create, query, and control Windows services in a Wine prefix. A reimplementation of the Windows `sc` service control command. (Delete a service)",
+    "tags": [
+      "linux",
+      "wine-sc",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-sc-5",
+    "type": "command",
+    "title": "wine-sc - Display help",
+    "content": "wine sc /?",
+    "group": "Linux Ops",
+    "description": "wine-sc: Create, query, and control Windows services in a Wine prefix. A reimplementation of the Windows `sc` service control command. (Display help)",
+    "tags": [
+      "linux",
+      "wine-sc",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-linux-sar-0",
     "type": "command",
     "title": "sar - Report I/O and transfer rate issued to physical devices, one per second (press `<Ctrl c>` to quit)",
@@ -58112,10 +58577,10 @@
   {
     "id": "tldr-en-linux-rename.util-1",
     "type": "command",
-    "title": "rename.util - Dry-run - display which renames would occur without performing them",
+    "title": "rename.util - Simulate running the program without doing anything",
     "content": "rename {{[-vn|--verbose --no-act]}} {{foo}} {{bar}} {{*}}",
     "group": "Linux Ops",
-    "description": "rename.util: Rename multiple files. WARNING: This command will overwrite files without prompting unless the dry-run option is used. Note: This page refers to the command from the `util-linux` package. (Dry-run - display which renames would occur without performing them)",
+    "description": "rename.util: Rename multiple files. WARNING: This command will overwrite files without prompting unless the dry-run option is used. Note: This page refers to the command from the `util-linux` package. (Simulate running the program without doing anything)",
     "tags": [
       "linux",
       "rename.util",
@@ -58743,7 +59208,7 @@
     "id": "tldr-en-linux-tuned-4",
     "type": "command",
     "title": "tuned - Start the `tuned` daemon writing its process ID to a custom PID file",
-    "content": "sudo tuned {{[-P|--pid]}} {{path/to/pid_file.pid}}",
+    "content": "sudo tuned {{[-P|--pid]}} {{path/to/process_id_file.pid}}",
     "group": "Linux Ops",
     "description": "tuned: Dynamic adaptive system tuning daemon. (Start the `tuned` daemon writing its process ID to a custom PID file)",
     "tags": [
@@ -59045,7 +59510,7 @@
     "title": "vso - Check for system updates to the host system",
     "content": "vso sys-upgrade check",
     "group": "Linux Ops",
-    "description": "vso: Package manager, system updater and a task automator for Vanilla OS. (Check for system updates to the host system)",
+    "description": "vso: Package manager, system updater, and a task automator for Vanilla OS. (Check for system updates to the host system)",
     "tags": [
       "linux",
       "vso",
@@ -59060,7 +59525,7 @@
     "title": "vso - Upgrade the host system now",
     "content": "vso sys-upgrade upgrade --now",
     "group": "Linux Ops",
-    "description": "vso: Package manager, system updater and a task automator for Vanilla OS. (Upgrade the host system now)",
+    "description": "vso: Package manager, system updater, and a task automator for Vanilla OS. (Upgrade the host system now)",
     "tags": [
       "linux",
       "vso",
@@ -59075,7 +59540,7 @@
     "title": "vso - Initialize the Pico subsystem (used for package management)",
     "content": "vso pico-init",
     "group": "Linux Ops",
-    "description": "vso: Package manager, system updater and a task automator for Vanilla OS. (Initialize the Pico subsystem (used for package management))",
+    "description": "vso: Package manager, system updater, and a task automator for Vanilla OS. (Initialize the Pico subsystem (used for package management))",
     "tags": [
       "linux",
       "vso",
@@ -59090,7 +59555,7 @@
     "title": "vso - Install applications inside the subsystem",
     "content": "vso install {{package1 package2 ...}}",
     "group": "Linux Ops",
-    "description": "vso: Package manager, system updater and a task automator for Vanilla OS. (Install applications inside the subsystem)",
+    "description": "vso: Package manager, system updater, and a task automator for Vanilla OS. (Install applications inside the subsystem)",
     "tags": [
       "linux",
       "vso",
@@ -59105,7 +59570,7 @@
     "title": "vso - Remove applications from the subsystem",
     "content": "vso remove {{package1 package2 ...}}",
     "group": "Linux Ops",
-    "description": "vso: Package manager, system updater and a task automator for Vanilla OS. (Remove applications from the subsystem)",
+    "description": "vso: Package manager, system updater, and a task automator for Vanilla OS. (Remove applications from the subsystem)",
     "tags": [
       "linux",
       "vso",
@@ -59120,7 +59585,7 @@
     "title": "vso - Enter the subsystem's shell",
     "content": "vso shell",
     "group": "Linux Ops",
-    "description": "vso: Package manager, system updater and a task automator for Vanilla OS. (Enter the subsystem's shell)",
+    "description": "vso: Package manager, system updater, and a task automator for Vanilla OS. (Enter the subsystem's shell)",
     "tags": [
       "linux",
       "vso",
@@ -59135,7 +59600,7 @@
     "title": "vso - Run an application from the subsystem",
     "content": "vso run {{package}}",
     "group": "Linux Ops",
-    "description": "vso: Package manager, system updater and a task automator for Vanilla OS. (Run an application from the subsystem)",
+    "description": "vso: Package manager, system updater, and a task automator for Vanilla OS. (Run an application from the subsystem)",
     "tags": [
       "linux",
       "vso",
@@ -59150,7 +59615,7 @@
     "title": "vso - Display VSO configuration",
     "content": "vso config show",
     "group": "Linux Ops",
-    "description": "vso: Package manager, system updater and a task automator for Vanilla OS. (Display VSO configuration)",
+    "description": "vso: Package manager, system updater, and a task automator for Vanilla OS. (Display VSO configuration)",
     "tags": [
       "linux",
       "vso",
@@ -60617,10 +61082,10 @@
   {
     "id": "tldr-en-linux-qm-shutdown-0",
     "type": "command",
-    "title": "qm-shutdown - Shutdown a virtual machine",
+    "title": "qm-shutdown - Shut down a virtual machine",
     "content": "qm {{[shu|shutdown]}} {{100}}",
     "group": "Linux Ops",
-    "description": "qm-shutdown: Shutdown a virtual machine on QEMU/KVM Virtual Machine Manager. (Shutdown a virtual machine)",
+    "description": "qm-shutdown: Shut down a virtual machine on QEMU/KVM Virtual Machine Manager. (Shut down a virtual machine)",
     "tags": [
       "linux",
       "qm-shutdown",
@@ -60632,10 +61097,10 @@
   {
     "id": "tldr-en-linux-qm-shutdown-1",
     "type": "command",
-    "title": "qm-shutdown - Shutdown a virtual machine after wait for at most 10 seconds",
+    "title": "qm-shutdown - Shut down a virtual machine after wait for at most 10 seconds",
     "content": "qm {{[shu|shutdown]}} {{100}} --timeout 10",
     "group": "Linux Ops",
-    "description": "qm-shutdown: Shutdown a virtual machine on QEMU/KVM Virtual Machine Manager. (Shutdown a virtual machine after wait for at most 10 seconds)",
+    "description": "qm-shutdown: Shut down a virtual machine on QEMU/KVM Virtual Machine Manager. (Shut down a virtual machine after wait for at most 10 seconds)",
     "tags": [
       "linux",
       "qm-shutdown",
@@ -60647,10 +61112,10 @@
   {
     "id": "tldr-en-linux-qm-shutdown-2",
     "type": "command",
-    "title": "qm-shutdown - Shutdown a virtual machine and do not deactivate storage volumes",
+    "title": "qm-shutdown - Shut down a virtual machine and do not deactivate storage volumes",
     "content": "qm {{[shu|shutdown]}} {{100}} --keepActive true",
     "group": "Linux Ops",
-    "description": "qm-shutdown: Shutdown a virtual machine on QEMU/KVM Virtual Machine Manager. (Shutdown a virtual machine and do not deactivate storage volumes)",
+    "description": "qm-shutdown: Shut down a virtual machine on QEMU/KVM Virtual Machine Manager. (Shut down a virtual machine and do not deactivate storage volumes)",
     "tags": [
       "linux",
       "qm-shutdown",
@@ -60662,10 +61127,10 @@
   {
     "id": "tldr-en-linux-qm-shutdown-3",
     "type": "command",
-    "title": "qm-shutdown - Shutdown a virtual machine and skip lock (only root can use this option)",
+    "title": "qm-shutdown - Shut down a virtual machine and skip lock (only root can use this option)",
     "content": "qm {{[shu|shutdown]}} {{100}} --skiplock true",
     "group": "Linux Ops",
-    "description": "qm-shutdown: Shutdown a virtual machine on QEMU/KVM Virtual Machine Manager. (Shutdown a virtual machine and skip lock (only root can use this option))",
+    "description": "qm-shutdown: Shut down a virtual machine on QEMU/KVM Virtual Machine Manager. (Shut down a virtual machine and skip lock (only root can use this option))",
     "tags": [
       "linux",
       "qm-shutdown",
@@ -60677,10 +61142,10 @@
   {
     "id": "tldr-en-linux-qm-shutdown-4",
     "type": "command",
-    "title": "qm-shutdown - Stop and shutdown a virtual machine",
+    "title": "qm-shutdown - Stop and shut down a virtual machine",
     "content": "qm {{[shu|shutdown]}} {{100}} --forceStop true",
     "group": "Linux Ops",
-    "description": "qm-shutdown: Shutdown a virtual machine on QEMU/KVM Virtual Machine Manager. (Stop and shutdown a virtual machine)",
+    "description": "qm-shutdown: Shut down a virtual machine on QEMU/KVM Virtual Machine Manager. (Stop and shut down a virtual machine)",
     "tags": [
       "linux",
       "qm-shutdown",
@@ -61503,7 +61968,7 @@
     "id": "tldr-en-linux-xfreerdp-0",
     "type": "command",
     "title": "xfreerdp - Connect to a FreeRDP server",
-    "content": "xfreerdp /u:{{username}} /p:{{password}} /v:{{ip_address}}",
+    "content": "xfreerdp /u:{{username}} /p:{{password}} /v:{{host}}",
     "group": "Linux Ops",
     "description": "xfreerdp: Free Remote Desktop Protocol implementation. (Connect to a FreeRDP server)",
     "tags": [
@@ -61517,10 +61982,10 @@
   {
     "id": "tldr-en-linux-xfreerdp-1",
     "type": "command",
-    "title": "xfreerdp - Connect to a FreeRDP server and activate audio output redirection using `sys:alsa` device",
-    "content": "xfreerdp /u:{{username}} /p:{{password}} /v:{{ip_address}} /sound:{{sys:alsa}}",
+    "title": "xfreerdp - Connect to a FreeRDP server with a custom window width and height",
+    "content": "xfreerdp /v:{{host}} /u:{{username}} /p:{{password}} /w:{{width_in_pixels}} /h:{{height_in_pixels}}",
     "group": "Linux Ops",
-    "description": "xfreerdp: Free Remote Desktop Protocol implementation. (Connect to a FreeRDP server and activate audio output redirection using `sys:alsa` device)",
+    "description": "xfreerdp: Free Remote Desktop Protocol implementation. (Connect to a FreeRDP server with a custom window width and height)",
     "tags": [
       "linux",
       "xfreerdp",
@@ -61533,7 +61998,7 @@
     "id": "tldr-en-linux-xfreerdp-2",
     "type": "command",
     "title": "xfreerdp - Connect to a FreeRDP server with dynamic resolution",
-    "content": "xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /dynamic-resolution",
+    "content": "xfreerdp /v:{{host}} /u:{{username}} /p:{{password}} /dynamic-resolution",
     "group": "Linux Ops",
     "description": "xfreerdp: Free Remote Desktop Protocol implementation. (Connect to a FreeRDP server with dynamic resolution)",
     "tags": [
@@ -61548,7 +62013,7 @@
     "id": "tldr-en-linux-xfreerdp-3",
     "type": "command",
     "title": "xfreerdp - Connect to a FreeRDP server with clipboard redirection",
-    "content": "xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} +clipboard",
+    "content": "xfreerdp /v:{{host}} /u:{{username}} /p:{{password}} +clipboard",
     "group": "Linux Ops",
     "description": "xfreerdp: Free Remote Desktop Protocol implementation. (Connect to a FreeRDP server with clipboard redirection)",
     "tags": [
@@ -61563,7 +62028,7 @@
     "id": "tldr-en-linux-xfreerdp-4",
     "type": "command",
     "title": "xfreerdp - Connect to a FreeRDP server ignoring any certificate checks",
-    "content": "xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /cert:ignore",
+    "content": "xfreerdp /v:{{host}} /u:{{username}} /p:{{password}} /cert:ignore",
     "group": "Linux Ops",
     "description": "xfreerdp: Free Remote Desktop Protocol implementation. (Connect to a FreeRDP server ignoring any certificate checks)",
     "tags": [
@@ -61578,9 +62043,24 @@
     "id": "tldr-en-linux-xfreerdp-5",
     "type": "command",
     "title": "xfreerdp - Connect to a FreeRDP server with a shared directory",
-    "content": "xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /drive:{{path/to/directory}},{{share_name}}",
+    "content": "xfreerdp /v:{{host}} /u:{{username}} /p:{{password}} /drive:{{path/to/directory}},{{share_name}}",
     "group": "Linux Ops",
     "description": "xfreerdp: Free Remote Desktop Protocol implementation. (Connect to a FreeRDP server with a shared directory)",
+    "tags": [
+      "linux",
+      "xfreerdp",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-xfreerdp-6",
+    "type": "command",
+    "title": "xfreerdp - Connect to a FreeRDP server and activate audio output redirection using `sys:alsa` device",
+    "content": "xfreerdp /u:{{username}} /p:{{password}} /v:{{host}} /sound:{{sys:alsa}}",
+    "group": "Linux Ops",
+    "description": "xfreerdp: Free Remote Desktop Protocol implementation. (Connect to a FreeRDP server and activate audio output redirection using `sys:alsa` device)",
     "tags": [
       "linux",
       "xfreerdp",
@@ -63645,6 +64125,141 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-linux-wineserver-0",
+    "type": "command",
+    "title": "wineserver - Kill the current Wine server, terminating all of its Wine processes",
+    "content": "wineserver {{[-k|--kill]}}",
+    "group": "Linux Ops",
+    "description": "wineserver: Manage the Wine server, the daemon that backs each Wine prefix. (Kill the current Wine server, terminating all of its Wine processes)",
+    "tags": [
+      "linux",
+      "wineserver",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wineserver-1",
+    "type": "command",
+    "title": "wineserver - Wait until the current Wine server has finished",
+    "content": "wineserver {{[-w|--wait]}}",
+    "group": "Linux Ops",
+    "description": "wineserver: Manage the Wine server, the daemon that backs each Wine prefix. (Wait until the current Wine server has finished)",
+    "tags": [
+      "linux",
+      "wineserver",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wineserver-2",
+    "type": "command",
+    "title": "wineserver - Keep the server persistent so it does not exit when the last process closes",
+    "content": "wineserver {{[-p|--persistent]}}",
+    "group": "Linux Ops",
+    "description": "wineserver: Manage the Wine server, the daemon that backs each Wine prefix. (Keep the server persistent so it does not exit when the last process closes)",
+    "tags": [
+      "linux",
+      "wineserver",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wineserver-3",
+    "type": "command",
+    "title": "wineserver - Display help",
+    "content": "wineserver {{[-h|--help]}}",
+    "group": "Linux Ops",
+    "description": "wineserver: Manage the Wine server, the daemon that backs each Wine prefix. (Display help)",
+    "tags": [
+      "linux",
+      "wineserver",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wineserver-4",
+    "type": "command",
+    "title": "wineserver - Display version",
+    "content": "wineserver {{[-v|--version]}}",
+    "group": "Linux Ops",
+    "description": "wineserver: Manage the Wine server, the daemon that backs each Wine prefix. (Display version)",
+    "tags": [
+      "linux",
+      "wineserver",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-arch-update-0",
+    "type": "command",
+    "title": "arch-update - Start the system update",
+    "content": "arch-update",
+    "group": "Linux Ops",
+    "description": "arch-update: Interactively check for, notify, and apply updates on Arch Linux. (Start the system update)",
+    "tags": [
+      "linux",
+      "arch-update",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-arch-update-1",
+    "type": "command",
+    "title": "arch-update - List pending updates",
+    "content": "arch-update {{[-l|--list]}}",
+    "group": "Linux Ops",
+    "description": "arch-update: Interactively check for, notify, and apply updates on Arch Linux. (List pending updates)",
+    "tags": [
+      "linux",
+      "arch-update",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-arch-update-2",
+    "type": "command",
+    "title": "arch-update - Start the systray applet and enable it automatically at boot",
+    "content": "arch-update --tray --enable",
+    "group": "Linux Ops",
+    "description": "arch-update: Interactively check for, notify, and apply updates on Arch Linux. (Start the systray applet and enable it automatically at boot)",
+    "tags": [
+      "linux",
+      "arch-update",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-arch-update-3",
+    "type": "command",
+    "title": "arch-update - List the last 10 Arch Linux news posts",
+    "content": "arch-update {{[-n|--news]}} 10",
+    "group": "Linux Ops",
+    "description": "arch-update: Interactively check for, notify, and apply updates on Arch Linux. (List the last 10 Arch Linux news posts)",
+    "tags": [
+      "linux",
+      "arch-update",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-linux-abrt-0",
     "type": "command",
     "title": "abrt - View documentation for the original command",
@@ -64262,10 +64877,10 @@
   {
     "id": "tldr-en-linux-steamosctl-6",
     "type": "command",
-    "title": "steamosctl - Set the the default desktop session",
+    "title": "steamosctl - Set the default desktop session",
     "content": "steamosctl set-default-desktop-session {{plasma.desktop|plasmax11.desktop|...}}",
     "group": "Linux Ops",
-    "description": "steamosctl: Control the SteamOS system. (Set the the default desktop session)",
+    "description": "steamosctl: Control the SteamOS system. (Set the default desktop session)",
     "tags": [
       "linux",
       "steamosctl",
@@ -64532,10 +65147,10 @@
   {
     "id": "tldr-en-linux-farge-0",
     "type": "command",
-    "title": "farge - Display a small preview window of a pixel's color with it's hexadecimal value, and copy this value to the clipboard",
+    "title": "farge - Display a small preview window of a pixel's color with its hexadecimal value, and copy this value to the clipboard",
     "content": "farge",
     "group": "Linux Ops",
-    "description": "farge: Display the color of a specific pixel on the screen in either hexadecimal or RGB formats. (Display a small preview window of a pixel's color with it's hexadecimal value, and copy this value to the clipboard)",
+    "description": "farge: Display the color of a specific pixel on the screen in either hexadecimal or RGB formats. (Display a small preview window of a pixel's color with its hexadecimal value, and copy this value to the clipboard)",
     "tags": [
       "linux",
       "farge",
@@ -68057,10 +68672,10 @@
   {
     "id": "tldr-en-linux-flock-4",
     "type": "command",
-    "title": "flock - Backup a bunch of files, waiting for the previous `tar` command to finish if it's still running elsewhere and holding the same lock file (can be used in a `cron` job that runs often)",
+    "title": "flock - Back up a bunch of files, waiting for the previous `tar` command to finish if it's still running elsewhere and holding the same lock file (can be used in a `cron` job that runs often)",
     "content": "flock {{path/to/backup.lock}} {{tar -cvf path/to/backup.tar path/to/data/}}",
     "group": "Linux Ops",
-    "description": "flock: Manage file locks from shell scripts. It can be used to ensure that only one instance of a command is running. (Backup a bunch of files, waiting for the previous `tar` command to finish if it's still running elsewhere and holding the same lock file (can be used in a `cron` job that runs often))",
+    "description": "flock: Manage file locks from shell scripts. It can be used to ensure that only one instance of a command is running. (Back up a bunch of files, waiting for the previous `tar` command to finish if it's still running elsewhere and holding the same lock file (can be used in a `cron` job that runs often))",
     "tags": [
       "linux",
       "flock",
@@ -68240,7 +68855,7 @@
     "title": "dnstracer - Find out where your local DNS got the information on www.example.com",
     "content": "dnstracer {{www.example.com}}",
     "group": "Linux Ops",
-    "description": "dnstracer: The dnstracer command determines where a DNS gets its information from. (Find out where your local DNS got the information on www.example.com)",
+    "description": "dnstracer: Determines where a DNS gets its information from. (Find out where your local DNS got the information on www.example.com)",
     "tags": [
       "linux",
       "dnstracer",
@@ -68255,7 +68870,7 @@
     "title": "dnstracer - Start with a [s]pecific DNS that you already know",
     "content": "dnstracer -s {{dns.example.org}} {{www.example.com}}",
     "group": "Linux Ops",
-    "description": "dnstracer: The dnstracer command determines where a DNS gets its information from. (Start with a [s]pecific DNS that you already know)",
+    "description": "dnstracer: Determines where a DNS gets its information from. (Start with a [s]pecific DNS that you already know)",
     "tags": [
       "linux",
       "dnstracer",
@@ -68270,7 +68885,7 @@
     "title": "dnstracer - Only query IPv[4] servers",
     "content": "dnstracer -4 {{www.example.com}}",
     "group": "Linux Ops",
-    "description": "dnstracer: The dnstracer command determines where a DNS gets its information from. (Only query IPv[4] servers)",
+    "description": "dnstracer: Determines where a DNS gets its information from. (Only query IPv[4] servers)",
     "tags": [
       "linux",
       "dnstracer",
@@ -68285,7 +68900,7 @@
     "title": "dnstracer - [r]etry each request 5 times on failure",
     "content": "dnstracer -r {{5}} {{www.example.com}}",
     "group": "Linux Ops",
-    "description": "dnstracer: The dnstracer command determines where a DNS gets its information from. ([r]etry each request 5 times on failure)",
+    "description": "dnstracer: Determines where a DNS gets its information from. ([r]etry each request 5 times on failure)",
     "tags": [
       "linux",
       "dnstracer",
@@ -68300,7 +68915,7 @@
     "title": "dnstracer - Display all steps during execution",
     "content": "dnstracer -v {{www.example.com}}",
     "group": "Linux Ops",
-    "description": "dnstracer: The dnstracer command determines where a DNS gets its information from. (Display all steps during execution)",
+    "description": "dnstracer: Determines where a DNS gets its information from. (Display all steps during execution)",
     "tags": [
       "linux",
       "dnstracer",
@@ -68315,7 +68930,7 @@
     "title": "dnstracer - Display an [o]verview of all received answers after execution",
     "content": "dnstracer -o {{www.example.com}}",
     "group": "Linux Ops",
-    "description": "dnstracer: The dnstracer command determines where a DNS gets its information from. (Display an [o]verview of all received answers after execution)",
+    "description": "dnstracer: Determines where a DNS gets its information from. (Display an [o]verview of all received answers after execution)",
     "tags": [
       "linux",
       "dnstracer",
@@ -69002,10 +69617,10 @@
   {
     "id": "tldr-en-linux-whatis-2",
     "type": "command",
-    "title": "whatis - Display descriptions for all commands matching a glob",
+    "title": "whatis - Display descriptions for all commands matching a `glob`",
     "content": "whatis {{[-w|--wildcard]}} {{net*}}",
     "group": "Linux Ops",
-    "description": "whatis: Display one-line descriptions from manual pages. (Display descriptions for all commands matching a glob)",
+    "description": "whatis: Display one-line descriptions from manual pages. (Display descriptions for all commands matching a `glob`)",
     "tags": [
       "linux",
       "whatis",
@@ -70937,10 +71552,10 @@
   {
     "id": "tldr-en-linux-b4-send-4",
     "type": "command",
-    "title": "b4-send - Perform a dry run without sending any mail",
+    "title": "b4-send - Simulate sending the path series without sending any mail",
     "content": "b4 send {{[-d|--dry-run]}}",
     "group": "Linux Ops",
-    "description": "b4-send: Send a patch series prepared with `b4 prep` to a mailing list. (Perform a dry run without sending any mail)",
+    "description": "b4-send: Send a patch series prepared with `b4 prep` to a mailing list. (Simulate sending the path series without sending any mail)",
     "tags": [
       "linux",
       "b4-send",
@@ -72015,6 +72630,66 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-linux-wine-uninstaller-0",
+    "type": "command",
+    "title": "wine-uninstaller - Open the graphical \"Add/Remove Programs\" dialog",
+    "content": "wine uninstaller",
+    "group": "Linux Ops",
+    "description": "wine-uninstaller: List and remove Windows applications installed in a Wine prefix. (Open the graphical \"Add/Remove Programs\" dialog)",
+    "tags": [
+      "linux",
+      "wine-uninstaller",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-uninstaller-1",
+    "type": "command",
+    "title": "wine-uninstaller - List all installed applications and their registry keys",
+    "content": "wine uninstaller --list",
+    "group": "Linux Ops",
+    "description": "wine-uninstaller: List and remove Windows applications installed in a Wine prefix. (List all installed applications and their registry keys)",
+    "tags": [
+      "linux",
+      "wine-uninstaller",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-uninstaller-2",
+    "type": "command",
+    "title": "wine-uninstaller - Remove a specific application by its registry key",
+    "content": "wine uninstaller --remove {{registry_key}}",
+    "group": "Linux Ops",
+    "description": "wine-uninstaller: List and remove Windows applications installed in a Wine prefix. (Remove a specific application by its registry key)",
+    "tags": [
+      "linux",
+      "wine-uninstaller",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wine-uninstaller-3",
+    "type": "command",
+    "title": "wine-uninstaller - Display help",
+    "content": "wine uninstaller --help",
+    "group": "Linux Ops",
+    "description": "wine-uninstaller: List and remove Windows applications installed in a Wine prefix. (Display help)",
+    "tags": [
+      "linux",
+      "wine-uninstaller",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-linux-aa-cleanprof-0",
     "type": "command",
     "title": "aa-cleanprof - Clean a profile to remove unused rules",
@@ -72903,7 +73578,7 @@
     "id": "tldr-en-linux-groupadd-2",
     "type": "command",
     "title": "groupadd - Create a new group with the specific groupid",
-    "content": "sudo groupadd {{[-g|--gid]}} {{id}} {{group_name}}",
+    "content": "sudo groupadd {{[-g|--gid]}} {{group_id}} {{group_name}}",
     "group": "Linux Ops",
     "description": "groupadd: Add user groups to the system. (Create a new group with the specific groupid)",
     "tags": [
@@ -73607,10 +74282,10 @@
   {
     "id": "tldr-en-linux-tlp-stat-5",
     "type": "command",
-    "title": "tlp-stat - Show [p]ower [sup]ply diagonistics",
+    "title": "tlp-stat - Show [p]ower [sup]ply diagnostics",
     "content": "sudo tlp-stat --psup",
     "group": "Linux Ops",
-    "description": "tlp-stat: Generate TLP status reports. (Show [p]ower [sup]ply diagonistics)",
+    "description": "tlp-stat: Generate TLP status reports. (Show [p]ower [sup]ply diagnostics)",
     "tags": [
       "linux",
       "tlp-stat",
@@ -73997,10 +74672,10 @@
   {
     "id": "tldr-en-linux-bpftrace-4",
     "type": "command",
-    "title": "bpftrace - Do a dry run and display the output in eBPF format",
+    "title": "bpftrace - Simulate running the program and display the output in eBPF format",
     "content": "sudo bpftrace -d -e '{{one_line_program}}'",
     "group": "Linux Ops",
-    "description": "bpftrace: High-level tracing language for Linux eBPF. (Do a dry run and display the output in eBPF format)",
+    "description": "bpftrace: High-level tracing language for Linux eBPF. (Simulate running the program and display the output in eBPF format)",
     "tags": [
       "linux",
       "bpftrace",
@@ -75332,10 +76007,10 @@
   {
     "id": "tldr-en-linux-xclock-2",
     "type": "command",
-    "title": "xclock - Display a digital clock using an strftime format string (see strftime(3))",
+    "title": "xclock - Display a digital clock using a strftime format string (see strftime(3))",
     "content": "xclock -digital -strftime {{format}}",
     "group": "Linux Ops",
-    "description": "xclock: Display the time in analog or digital form. (Display a digital clock using an strftime format string (see strftime(3)))",
+    "description": "xclock: Display the time in analog or digital form. (Display a digital clock using a strftime format string (see strftime(3)))",
     "tags": [
       "linux",
       "xclock",
@@ -75497,10 +76172,10 @@
   {
     "id": "tldr-en-linux-wol-4",
     "type": "command",
-    "title": "wol - Read hardware addresses, IP addresses/hostnames, optional ports and SecureON passwords from a file",
+    "title": "wol - Read hardware addresses, IP addresses/hostnames, optional ports, and SecureON passwords from a file",
     "content": "wol {{[-f|--file]}} {{path/to/file}}",
     "group": "Linux Ops",
-    "description": "wol: Client for sending Wake-on-LAN magic packets. (Read hardware addresses, IP addresses/hostnames, optional ports and SecureON passwords from a file)",
+    "description": "wol: Client for sending Wake-on-LAN magic packets. (Read hardware addresses, IP addresses/hostnames, optional ports, and SecureON passwords from a file)",
     "tags": [
       "linux",
       "wol",
@@ -75651,6 +76326,21 @@
     "content": "faketime '{{next Friday 1 am}}' {{path/to/program}}",
     "group": "Linux Ops",
     "description": "faketime: Fake the system time for a command. (Simulate how a program would act next Friday night)",
+    "tags": [
+      "linux",
+      "faketime",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-faketime-3",
+    "type": "command",
+    "title": "faketime - Run a program on a specific date and time",
+    "content": "faketime '{{2020-01-01 12:00:00}}' {{program}}",
+    "group": "Linux Ops",
+    "description": "faketime: Fake the system time for a command. (Run a program on a specific date and time)",
     "tags": [
       "linux",
       "faketime",
@@ -78678,7 +79368,7 @@
     "id": "tldr-en-linux-prlimit-1",
     "type": "command",
     "title": "prlimit - Display limit values for all current resources of a specified process",
-    "content": "prlimit {{[-p|--pid]}} {{pid_number}}",
+    "content": "prlimit {{[-p|--pid]}} {{process_id_number}}",
     "group": "Linux Ops",
     "description": "prlimit: Get or set process resource soft and hard limits. Given a process ID and one or more resources, prlimit tries to retrieve and/or modify the limits. (Display limit values for all current resources of a specified process)",
     "tags": [
@@ -80012,10 +80702,10 @@
   {
     "id": "tldr-en-linux-nala-3",
     "type": "command",
-    "title": "nala - Search package names and descriptions using a word, `regex` (default) or glob",
+    "title": "nala - Search package names and descriptions using a word, `regex` (default) or `glob`",
     "content": "nala search \"{{pattern}}\"",
     "group": "Linux Ops",
-    "description": "nala: Package management utility with better formatting. Front-end for the `python-apt` API. (Search package names and descriptions using a word, `regex` (default) or glob)",
+    "description": "nala: Package management utility with better formatting. Front-end for the `python-apt` API. (Search package names and descriptions using a word, `regex` (default) or `glob`)",
     "tags": [
       "linux",
       "nala",
@@ -87677,10 +88367,10 @@
   {
     "id": "tldr-en-linux-hardlink-0",
     "type": "command",
-    "title": "hardlink - Perform a dry run without modifying files",
+    "title": "hardlink - Simulate hardlinking duplicate files without modifying them",
     "content": "hardlink {{[-n|--dry-run]}} {{path/to/directory}}",
     "group": "Linux Ops",
-    "description": "hardlink: Consolidate duplicate files by replacing them with hard links. Part of `util-linux`, useful for saving disk space when identical files exist across directories. (Perform a dry run without modifying files)",
+    "description": "hardlink: Consolidate duplicate files by replacing them with hard links. Part of `util-linux`, useful for saving disk space when identical files exist across directories. (Simulate hardlinking duplicate files without modifying them)",
     "tags": [
       "linux",
       "hardlink",
@@ -88085,7 +88775,7 @@
     "title": "xinput - List all input devices",
     "content": "xinput list",
     "group": "Linux Ops",
-    "description": "xinput: List available input devices, query information about a device and change input device settings. (List all input devices)",
+    "description": "xinput: List available input devices, query information about a device, and change input device settings. (List all input devices)",
     "tags": [
       "linux",
       "xinput",
@@ -88098,9 +88788,9 @@
     "id": "tldr-en-linux-xinput-1",
     "type": "command",
     "title": "xinput - Disable an input",
-    "content": "xinput disable {{id}}",
+    "content": "xinput disable {{device_id}}",
     "group": "Linux Ops",
-    "description": "xinput: List available input devices, query information about a device and change input device settings. (Disable an input)",
+    "description": "xinput: List available input devices, query information about a device, and change input device settings. (Disable an input)",
     "tags": [
       "linux",
       "xinput",
@@ -88113,9 +88803,9 @@
     "id": "tldr-en-linux-xinput-2",
     "type": "command",
     "title": "xinput - Enable an input",
-    "content": "xinput enable {{id}}",
+    "content": "xinput enable {{device_id}}",
     "group": "Linux Ops",
-    "description": "xinput: List available input devices, query information about a device and change input device settings. (Enable an input)",
+    "description": "xinput: List available input devices, query information about a device, and change input device settings. (Enable an input)",
     "tags": [
       "linux",
       "xinput",
@@ -88128,9 +88818,9 @@
     "id": "tldr-en-linux-xinput-3",
     "type": "command",
     "title": "xinput - Disconnect an input from its master",
-    "content": "xinput float {{id}}",
+    "content": "xinput float {{device_id}}",
     "group": "Linux Ops",
-    "description": "xinput: List available input devices, query information about a device and change input device settings. (Disconnect an input from its master)",
+    "description": "xinput: List available input devices, query information about a device, and change input device settings. (Disconnect an input from its master)",
     "tags": [
       "linux",
       "xinput",
@@ -88143,9 +88833,9 @@
     "id": "tldr-en-linux-xinput-4",
     "type": "command",
     "title": "xinput - Reattach an input as slave to a master",
-    "content": "xinput reattach {{id}} {{master_id}}",
+    "content": "xinput reattach {{device_id}} {{master_id}}",
     "group": "Linux Ops",
-    "description": "xinput: List available input devices, query information about a device and change input device settings. (Reattach an input as slave to a master)",
+    "description": "xinput: List available input devices, query information about a device, and change input device settings. (Reattach an input as slave to a master)",
     "tags": [
       "linux",
       "xinput",
@@ -88158,9 +88848,9 @@
     "id": "tldr-en-linux-xinput-5",
     "type": "command",
     "title": "xinput - List settings of an input device",
-    "content": "xinput list-props {{id}}",
+    "content": "xinput list-props {{device_id}}",
     "group": "Linux Ops",
-    "description": "xinput: List available input devices, query information about a device and change input device settings. (List settings of an input device)",
+    "description": "xinput: List available input devices, query information about a device, and change input device settings. (List settings of an input device)",
     "tags": [
       "linux",
       "xinput",
@@ -88173,9 +88863,9 @@
     "id": "tldr-en-linux-xinput-6",
     "type": "command",
     "title": "xinput - Change a setting of an input device",
-    "content": "xinput set-prop {{id}} {{setting_id}} {{value}}",
+    "content": "xinput set-prop {{device_id}} {{setting_id}} {{value}}",
     "group": "Linux Ops",
-    "description": "xinput: List available input devices, query information about a device and change input device settings. (Change a setting of an input device)",
+    "description": "xinput: List available input devices, query information about a device, and change input device settings. (Change a setting of an input device)",
     "tags": [
       "linux",
       "xinput",
@@ -88292,10 +88982,10 @@
   {
     "id": "tldr-en-linux-rtcwake-5",
     "type": "command",
-    "title": "rtcwake - Perform a dry run to wakeup the computer at a given time. (Press `<Ctrl c>` to abort)",
+    "title": "rtcwake - Simulate waking up the computer at a given time. (Press `<Ctrl c>` to abort)",
     "content": "sudo rtcwake {{[-m|--mode]}} on --date {{hh:ss}}",
     "group": "Linux Ops",
-    "description": "rtcwake: Enter a system sleep state until specified wakeup time relative to your BIOS clock. (Perform a dry run to wakeup the computer at a given time. (Press `<Ctrl c>` to abort))",
+    "description": "rtcwake: Enter a system sleep state until specified wakeup time relative to your BIOS clock. (Simulate waking up the computer at a given time. (Press `<Ctrl c>` to abort))",
     "tags": [
       "linux",
       "rtcwake",
@@ -88908,7 +89598,7 @@
     "id": "tldr-en-linux-avahi-resolve-1",
     "type": "command",
     "title": "avahi-resolve - Resolve an IP to a hostname, verbosely",
-    "content": "avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{ip}}",
+    "content": "avahi-resolve {{[-v|--verbose]}} {{[-a|--address]}} {{ip_address}}",
     "group": "Linux Ops",
     "description": "avahi-resolve: Translate between host names and IP Addresses. (Resolve an IP to a hostname, verbosely)",
     "tags": [
@@ -89523,7 +90213,7 @@
     "id": "tldr-en-linux-rpicam-still-0",
     "type": "command",
     "title": "rpicam-still - Capture a photo with different encoding",
-    "content": "rpicam-still {{[-e|--encoding]}} {{bmp|png|rgb|yuv420}} {{[-o|--output]}} {{path/to/file.[bmp|png|rgb|yuv420]}}",
+    "content": "rpicam-still {{[-e|--encoding]}} {{bmp|png|rgb|yuv420}} {{[-o|--output]}} {{path/to/file.ext}}",
     "group": "Linux Ops",
     "description": "rpicam-still: Capture and store a photo using a Raspberry Pi camera with legacy features missing from `rpicam-jpeg`. (Capture a photo with different encoding)",
     "tags": [
@@ -90594,6 +91284,81 @@
     "tags": [
       "linux",
       "needrestart",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winedbg-0",
+    "type": "command",
+    "title": "winedbg - Launch a program under the debugger",
+    "content": "winedbg {{path/to/program.exe}}",
+    "group": "Linux Ops",
+    "description": "winedbg: The Wine debugger, for debugging Windows and Winelib applications. (Launch a program under the debugger)",
+    "tags": [
+      "linux",
+      "winedbg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winedbg-1",
+    "type": "command",
+    "title": "winedbg - Attach to an already-running process by its PID",
+    "content": "winedbg {{process_id}}",
+    "group": "Linux Ops",
+    "description": "winedbg: The Wine debugger, for debugging Windows and Winelib applications. (Attach to an already-running process by its PID)",
+    "tags": [
+      "linux",
+      "winedbg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winedbg-2",
+    "type": "command",
+    "title": "winedbg - Debug a program through a gdb proxy (drive it from gdb)",
+    "content": "winedbg --gdb {{path/to/program.exe}}",
+    "group": "Linux Ops",
+    "description": "winedbg: The Wine debugger, for debugging Windows and Winelib applications. (Debug a program through a gdb proxy (drive it from gdb))",
+    "tags": [
+      "linux",
+      "winedbg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winedbg-3",
+    "type": "command",
+    "title": "winedbg - Load and inspect a minidump crash file",
+    "content": "winedbg {{path/to/crash.mdmp}}",
+    "group": "Linux Ops",
+    "description": "winedbg: The Wine debugger, for debugging Windows and Winelib applications. (Load and inspect a minidump crash file)",
+    "tags": [
+      "linux",
+      "winedbg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winedbg-4",
+    "type": "command",
+    "title": "winedbg - Display help",
+    "content": "winedbg --help",
+    "group": "Linux Ops",
+    "description": "winedbg: The Wine debugger, for debugging Windows and Winelib applications. (Display help)",
+    "tags": [
+      "linux",
+      "winedbg",
       "tldr",
       "en"
     ],
@@ -93528,7 +94293,7 @@
     "id": "tldr-en-linux-llama-cli-2",
     "type": "command",
     "title": "llama-cli - Start with set offload [n]umber of layer [g]pu [l]ayers",
-    "content": "llama-cli {{[-m|--model]}} {{path/to/model}} {{[-ngl|--gpu-layers|--n-gpu-layers]}} {{auto|all|number}}",
+    "content": "llama-cli {{[-m|--model]}} {{path/to/model}} {{[-ngl|--n-gpu-layers]}} {{auto|all|number}}",
     "group": "Linux Ops",
     "description": "llama-cli: Command-line interface for LLM inference. (Start with set offload [n]umber of layer [g]pu [l]ayers)",
     "tags": [
@@ -93842,10 +94607,10 @@
   {
     "id": "tldr-en-linux-sockstat-3",
     "type": "command",
-    "title": "sockstat - Only show sockets of the specified `pid` or process",
-    "content": "sockstat -P {{pid|process}}",
+    "title": "sockstat - Only show sockets of the specified `process_id` or process",
+    "content": "sockstat -P {{process_id|process_name}}",
     "group": "Linux Ops",
-    "description": "sockstat: List open Internet or UNIX domain sockets. (Only show sockets of the specified `pid` or process)",
+    "description": "sockstat: List open Internet or UNIX domain sockets. (Only show sockets of the specified `process_id` or process)",
     "tags": [
       "linux",
       "sockstat",
@@ -93857,10 +94622,10 @@
   {
     "id": "tldr-en-linux-sockstat-4",
     "type": "command",
-    "title": "sockstat - Only show sockets of the specified `uid` or user",
-    "content": "sockstat -U {{uid|user}}",
+    "title": "sockstat - Only show sockets of the specified `user_id` or user",
+    "content": "sockstat -U {{user_id|username}}",
     "group": "Linux Ops",
-    "description": "sockstat: List open Internet or UNIX domain sockets. (Only show sockets of the specified `uid` or user)",
+    "description": "sockstat: List open Internet or UNIX domain sockets. (Only show sockets of the specified `user_id` or user)",
     "tags": [
       "linux",
       "sockstat",
@@ -93872,10 +94637,10 @@
   {
     "id": "tldr-en-linux-sockstat-5",
     "type": "command",
-    "title": "sockstat - Only show sockets of the specified `gid` or group",
-    "content": "sockstat -G {{gid|group}}",
+    "title": "sockstat - Only show sockets of the specified `group_id` or group",
+    "content": "sockstat -G {{group_id|group_name}}",
     "group": "Linux Ops",
-    "description": "sockstat: List open Internet or UNIX domain sockets. (Only show sockets of the specified `gid` or group)",
+    "description": "sockstat: List open Internet or UNIX domain sockets. (Only show sockets of the specified `group_id` or group)",
     "tags": [
       "linux",
       "sockstat",
@@ -96783,7 +97548,7 @@
     "id": "tldr-en-linux-pyrit-2",
     "type": "command",
     "title": "pyrit - Set [e]SSID",
-    "content": "pyrit -e \"{{essid}}\" create_essid",
+    "content": "pyrit -e \"{{extended_ssid}}\" create_essid",
     "group": "Linux Ops",
     "description": "pyrit: WPA/WPA2 cracking tool using computational power. (Set [e]SSID)",
     "tags": [
@@ -97502,10 +98267,10 @@
   {
     "id": "tldr-en-linux-koji-1",
     "type": "command",
-    "title": "koji - Introduce yourself to test connectivity with koijhub",
+    "title": "koji - Introduce yourself to test connectivity with kojihub",
     "content": "koji moshimoshi",
     "group": "Linux Ops",
-    "description": "koji: Interact with kojihub. Some subcommands such as `build`, `tag-build`, `download-build`, `buildinfo`, `call`, etc. have their own usage documentation. (Introduce yourself to test connectivity with koijhub)",
+    "description": "koji: Interact with kojihub. Some subcommands such as `build`, `tag-build`, `download-build`, `buildinfo`, `call`, etc. have their own usage documentation. (Introduce yourself to test connectivity with kojihub)",
     "tags": [
       "linux",
       "koji",
@@ -97637,10 +98402,10 @@
   {
     "id": "tldr-en-linux-paccache-2",
     "type": "command",
-    "title": "paccache - Perform a dry-run and show the number of candidate packages for deletion",
+    "title": "paccache - Simulate a run and show the number of candidate packages for deletion",
     "content": "paccache {{[-d|--dryrun]}}",
     "group": "Linux Ops",
-    "description": "paccache: A `pacman` cache cleaning utility. (Perform a dry-run and show the number of candidate packages for deletion)",
+    "description": "paccache: A `pacman` cache cleaning utility. (Simulate a run and show the number of candidate packages for deletion)",
     "tags": [
       "linux",
       "paccache",
@@ -97854,6 +98619,96 @@
     "tags": [
       "linux",
       "mandb",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winepath-0",
+    "type": "command",
+    "title": "winepath - Convert a Windows path to a Unix path",
+    "content": "winepath {{[-u|--unix]}} '{{C:\\path\\to\\file}}'",
+    "group": "Linux Ops",
+    "description": "winepath: Convert file paths between Windows and Unix formats for a Wine prefix. (Convert a Windows path to a Unix path)",
+    "tags": [
+      "linux",
+      "winepath",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winepath-1",
+    "type": "command",
+    "title": "winepath - Convert a Unix path to a long Windows path",
+    "content": "winepath {{[-w|--windows]}} {{path/to/file}}",
+    "group": "Linux Ops",
+    "description": "winepath: Convert file paths between Windows and Unix formats for a Wine prefix. (Convert a Unix path to a long Windows path)",
+    "tags": [
+      "linux",
+      "winepath",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winepath-2",
+    "type": "command",
+    "title": "winepath - Convert a short (8.3) Windows path of an existing file to its long form",
+    "content": "winepath {{[-l|--long]}} '{{C:\\PROGRA~1}}'",
+    "group": "Linux Ops",
+    "description": "winepath: Convert file paths between Windows and Unix formats for a Wine prefix. (Convert a short (8.3) Windows path of an existing file to its long form)",
+    "tags": [
+      "linux",
+      "winepath",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winepath-3",
+    "type": "command",
+    "title": "winepath - Convert a long Windows path of an existing file to its short (8.3) form",
+    "content": "winepath {{[-s|--short]}} '{{C:\\Program Files}}'",
+    "group": "Linux Ops",
+    "description": "winepath: Convert file paths between Windows and Unix formats for a Wine prefix. (Convert a long Windows path of an existing file to its short (8.3) form)",
+    "tags": [
+      "linux",
+      "winepath",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winepath-4",
+    "type": "command",
+    "title": "winepath - Separate output paths with a null character instead of a newline",
+    "content": "winepath {{[-u|--unix]}} -0 {{path1 path2 ...}}",
+    "group": "Linux Ops",
+    "description": "winepath: Convert file paths between Windows and Unix formats for a Wine prefix. (Separate output paths with a null character instead of a newline)",
+    "tags": [
+      "linux",
+      "winepath",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winepath-5",
+    "type": "command",
+    "title": "winepath - Display help",
+    "content": "winepath {{[-h|--help]}}",
+    "group": "Linux Ops",
+    "description": "winepath: Convert file paths between Windows and Unix formats for a Wine prefix. (Display help)",
+    "tags": [
+      "linux",
+      "winepath",
       "tldr",
       "en"
     ],
@@ -98439,6 +99294,66 @@
     "tags": [
       "linux",
       "gnupinky",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winecfg-0",
+    "type": "command",
+    "title": "winecfg - Open the graphical Wine configuration tool",
+    "content": "winecfg",
+    "group": "Linux Ops",
+    "description": "winecfg: Configure a Wine prefix (drives, libraries, graphics, and the emulated Windows version). (Open the graphical Wine configuration tool)",
+    "tags": [
+      "linux",
+      "winecfg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winecfg-1",
+    "type": "command",
+    "title": "winecfg - Display the Windows [v]ersion the prefix currently emulates",
+    "content": "winecfg /v",
+    "group": "Linux Ops",
+    "description": "winecfg: Configure a Wine prefix (drives, libraries, graphics, and the emulated Windows version). (Display the Windows [v]ersion the prefix currently emulates)",
+    "tags": [
+      "linux",
+      "winecfg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winecfg-2",
+    "type": "command",
+    "title": "winecfg - Set the Windows [v]ersion the prefix emulates",
+    "content": "winecfg /v {{win11|win10|win7|winxp|...}}",
+    "group": "Linux Ops",
+    "description": "winecfg: Configure a Wine prefix (drives, libraries, graphics, and the emulated Windows version). (Set the Windows [v]ersion the prefix emulates)",
+    "tags": [
+      "linux",
+      "winecfg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winecfg-3",
+    "type": "command",
+    "title": "winecfg - Display help",
+    "content": "winecfg /?",
+    "group": "Linux Ops",
+    "description": "winecfg: Configure a Wine prefix (drives, libraries, graphics, and the emulated Windows version). (Display help)",
+    "tags": [
+      "linux",
+      "winecfg",
       "tldr",
       "en"
     ],
@@ -99275,7 +100190,7 @@
     "title": "lz - List all files inside a compressed archive",
     "content": "lz {{path/to/file.tar.gz}}",
     "group": "Linux Ops",
-    "description": "lz: List all files inside a '.tar.gz' compressed archive. (List all files inside a compressed archive)",
+    "description": "lz: List all files inside a `.tar.gz` compressed archive. (List all files inside a compressed archive)",
     "tags": [
       "linux",
       "lz",
@@ -103040,7 +103955,7 @@
     "title": "cgroups - View documentation for `cgclassify`",
     "content": "tldr cgclassify",
     "group": "Linux Ops",
-    "description": "cgroups: Cgroups aka control groups is a Linux kernel feature for limiting, measuring, and controlling resource usage by processes. Cgroups however is not a command, but rather a collection of commands, see the relevant pages below. (View documentation for `cgclassify`)",
+    "description": "cgroups: Linux kernel feature for limiting, measuring, and controlling resource usage by processes. Cgroups (control groups) however is not a command, but rather a collection of commands, see the relevant pages below. (View documentation for `cgclassify`)",
     "tags": [
       "linux",
       "cgroups",
@@ -103055,7 +103970,7 @@
     "title": "cgroups - View documentation for `cgcreate`",
     "content": "tldr cgcreate",
     "group": "Linux Ops",
-    "description": "cgroups: Cgroups aka control groups is a Linux kernel feature for limiting, measuring, and controlling resource usage by processes. Cgroups however is not a command, but rather a collection of commands, see the relevant pages below. (View documentation for `cgcreate`)",
+    "description": "cgroups: Linux kernel feature for limiting, measuring, and controlling resource usage by processes. Cgroups (control groups) however is not a command, but rather a collection of commands, see the relevant pages below. (View documentation for `cgcreate`)",
     "tags": [
       "linux",
       "cgroups",
@@ -103070,7 +103985,7 @@
     "title": "cgroups - View documentation for `cgexec`",
     "content": "tldr cgexec",
     "group": "Linux Ops",
-    "description": "cgroups: Cgroups aka control groups is a Linux kernel feature for limiting, measuring, and controlling resource usage by processes. Cgroups however is not a command, but rather a collection of commands, see the relevant pages below. (View documentation for `cgexec`)",
+    "description": "cgroups: Linux kernel feature for limiting, measuring, and controlling resource usage by processes. Cgroups (control groups) however is not a command, but rather a collection of commands, see the relevant pages below. (View documentation for `cgexec`)",
     "tags": [
       "linux",
       "cgroups",
@@ -105107,10 +106022,10 @@
   {
     "id": "tldr-en-linux-qm-disk-5",
     "type": "command",
-    "title": "qm-disk - Perform a dry-run of a rescan and do not write any changes to configurations",
+    "title": "qm-disk - Simulate a rescan but do not write any changes to configurations",
     "content": "qm {{[di|disk]}} {{[resc|rescan]}} --dryrun",
     "group": "Linux Ops",
-    "description": "qm-disk: Manage disk images. (Perform a dry-run of a rescan and do not write any changes to configurations)",
+    "description": "qm-disk: Manage disk images. (Simulate a rescan but do not write any changes to configurations)",
     "tags": [
       "linux",
       "qm-disk",
@@ -108660,6 +109575,111 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-linux-wineboot-0",
+    "type": "command",
+    "title": "wineboot - Perform a simulated reboot of the Wine prefix",
+    "content": "wineboot",
+    "group": "Linux Ops",
+    "description": "wineboot: Simulate a Windows reboot, or initialize, update, or shut down a Wine prefix. (Perform a simulated reboot of the Wine prefix)",
+    "tags": [
+      "linux",
+      "wineboot",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wineboot-1",
+    "type": "command",
+    "title": "wineboot - Initialize or update the prefix (e.g. after upgrading Wine)",
+    "content": "wineboot {{[-u|--update]}}",
+    "group": "Linux Ops",
+    "description": "wineboot: Simulate a Windows reboot, or initialize, update, or shut down a Wine prefix. (Initialize or update the prefix (e.g. after upgrading Wine))",
+    "tags": [
+      "linux",
+      "wineboot",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wineboot-2",
+    "type": "command",
+    "title": "wineboot - Restart Wine without performing a full boot",
+    "content": "wineboot {{[-r|--restart]}}",
+    "group": "Linux Ops",
+    "description": "wineboot: Simulate a Windows reboot, or initialize, update, or shut down a Wine prefix. (Restart Wine without performing a full boot)",
+    "tags": [
+      "linux",
+      "wineboot",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wineboot-3",
+    "type": "command",
+    "title": "wineboot - Shut down the Wine session without rebooting",
+    "content": "wineboot {{[-s|--shutdown]}}",
+    "group": "Linux Ops",
+    "description": "wineboot: Simulate a Windows reboot, or initialize, update, or shut down a Wine prefix. (Shut down the Wine session without rebooting)",
+    "tags": [
+      "linux",
+      "wineboot",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wineboot-4",
+    "type": "command",
+    "title": "wineboot - End the current session, forcing unresponsive processes to close",
+    "content": "wineboot {{[-ef|--end-session --force]}}",
+    "group": "Linux Ops",
+    "description": "wineboot: Simulate a Windows reboot, or initialize, update, or shut down a Wine prefix. (End the current session, forcing unresponsive processes to close)",
+    "tags": [
+      "linux",
+      "wineboot",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wineboot-5",
+    "type": "command",
+    "title": "wineboot - Kill all processes in the prefix without any cleanup",
+    "content": "wineboot {{[-k|--kill]}}",
+    "group": "Linux Ops",
+    "description": "wineboot: Simulate a Windows reboot, or initialize, update, or shut down a Wine prefix. (Kill all processes in the prefix without any cleanup)",
+    "tags": [
+      "linux",
+      "wineboot",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-wineboot-6",
+    "type": "command",
+    "title": "wineboot - Display help",
+    "content": "wineboot {{[-h|--help]}}",
+    "group": "Linux Ops",
+    "description": "wineboot: Simulate a Windows reboot, or initialize, update, or shut down a Wine prefix. (Display help)",
+    "tags": [
+      "linux",
+      "wineboot",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-linux-eclean-0",
     "type": "command",
     "title": "eclean - Clean the source file directory",
@@ -110297,10 +111317,10 @@
   {
     "id": "tldr-en-linux-qm-clone-2",
     "type": "command",
-    "title": "qm-clone - Copy a virtual machine using a specific descriptionn",
+    "title": "qm-clone - Copy a virtual machine using a specific description",
     "content": "qm clone {{100}} {{101}} --description {{description}}",
     "group": "Linux Ops",
-    "description": "qm-clone: Create a copy of virtual machine on QEMU/KVM Virtual Machine Manager. (Copy a virtual machine using a specific descriptionn)",
+    "description": "qm-clone: Create a copy of virtual machine on QEMU/KVM Virtual Machine Manager. (Copy a virtual machine using a specific description)",
     "tags": [
       "linux",
       "qm-clone",
@@ -111189,6 +112209,81 @@
     "tags": [
       "linux",
       "ark-survival-ascended",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-opi-0",
+    "type": "command",
+    "title": "opi - Search for a package",
+    "content": "opi {{package}}",
+    "group": "Linux Ops",
+    "description": "opi: Search and install packages from openSUSE, community, and proprietary repositories. (Search for a package)",
+    "tags": [
+      "linux",
+      "opi",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-opi-1",
+    "type": "command",
+    "title": "opi - Install media codecs",
+    "content": "opi codecs",
+    "group": "Linux Ops",
+    "description": "opi: Search and install packages from openSUSE, community, and proprietary repositories. (Install media codecs)",
+    "tags": [
+      "linux",
+      "opi",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-opi-2",
+    "type": "command",
+    "title": "opi - Search for a package without running scripts",
+    "content": "opi -P {{package}}",
+    "group": "Linux Ops",
+    "description": "opi: Search and install packages from openSUSE, community, and proprietary repositories. (Search for a package without running scripts)",
+    "tags": [
+      "linux",
+      "opi",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-opi-3",
+    "type": "command",
+    "title": "opi - Search for a package in non-interactive mode",
+    "content": "sudo opi -n {{package}}",
+    "group": "Linux Ops",
+    "description": "opi: Search and install packages from openSUSE, community, and proprietary repositories. (Search for a package in non-interactive mode)",
+    "tags": [
+      "linux",
+      "opi",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-opi-4",
+    "type": "command",
+    "title": "opi - Search for multiple packages",
+    "content": "opi -m {{package1 package2 ...}}",
+    "group": "Linux Ops",
+    "description": "opi: Search and install packages from openSUSE, community, and proprietary repositories. (Search for multiple packages)",
+    "tags": [
+      "linux",
+      "opi",
       "tldr",
       "en"
     ],
@@ -112205,7 +113300,7 @@
     "title": "ctrlaltdel - Get current setting",
     "content": "ctrlaltdel",
     "group": "Linux Ops",
-    "description": "ctrlaltdel: Utility to control what happens when CTRL+ALT+DEL is pressed. (Get current setting)",
+    "description": "ctrlaltdel: Utility to control what happens when `` is pressed. (Get current setting)",
     "tags": [
       "linux",
       "ctrlaltdel",
@@ -112217,10 +113312,10 @@
   {
     "id": "tldr-en-linux-ctrlaltdel-1",
     "type": "command",
-    "title": "ctrlaltdel - Set CTRL+ALT+DEL to reboot immediately, without any preparation",
+    "title": "ctrlaltdel - Set `<Ctrl Alt Del>` to reboot immediately, without any preparation",
     "content": "sudo ctrlaltdel hard",
     "group": "Linux Ops",
-    "description": "ctrlaltdel: Utility to control what happens when CTRL+ALT+DEL is pressed. (Set CTRL+ALT+DEL to reboot immediately, without any preparation)",
+    "description": "ctrlaltdel: Utility to control what happens when `` is pressed. (Set `<Ctrl Alt Del>` to reboot immediately, without any preparation)",
     "tags": [
       "linux",
       "ctrlaltdel",
@@ -112232,10 +113327,10 @@
   {
     "id": "tldr-en-linux-ctrlaltdel-2",
     "type": "command",
-    "title": "ctrlaltdel - Set CTRL+ALT+DEL to reboot \"normally\", giving processes a chance to exit first (send SIGINT to PID1)",
+    "title": "ctrlaltdel - Set `<Ctrl Alt Del>` to reboot \"normally\", giving processes a chance to exit first (send `SIGINT` to PID1)",
     "content": "sudo ctrlaltdel soft",
     "group": "Linux Ops",
-    "description": "ctrlaltdel: Utility to control what happens when CTRL+ALT+DEL is pressed. (Set CTRL+ALT+DEL to reboot \"normally\", giving processes a chance to exit first (send SIGINT to PID1))",
+    "description": "ctrlaltdel: Utility to control what happens when `` is pressed. (Set `<Ctrl Alt Del>` to reboot \"normally\", giving processes a chance to exit first (send `SIGINT` to PID1))",
     "tags": [
       "linux",
       "ctrlaltdel",
@@ -112475,7 +113570,7 @@
     "title": "auditctl - Display the [s]tatus of the audit system",
     "content": "sudo auditctl -s",
     "group": "Linux Ops",
-    "description": "auditctl: Utility to control the behavior, get status and manage rules of the Linux Auditing System. (Display the [s]tatus of the audit system)",
+    "description": "auditctl: Utility to control the behavior, get status, and manage rules of the Linux Auditing System. (Display the [s]tatus of the audit system)",
     "tags": [
       "linux",
       "auditctl",
@@ -112490,7 +113585,7 @@
     "title": "auditctl - [l]ist all currently loaded audit rules",
     "content": "sudo auditctl -l",
     "group": "Linux Ops",
-    "description": "auditctl: Utility to control the behavior, get status and manage rules of the Linux Auditing System. ([l]ist all currently loaded audit rules)",
+    "description": "auditctl: Utility to control the behavior, get status, and manage rules of the Linux Auditing System. ([l]ist all currently loaded audit rules)",
     "tags": [
       "linux",
       "auditctl",
@@ -112505,7 +113600,7 @@
     "title": "auditctl - [D]elete all audit rules",
     "content": "sudo auditctl -D",
     "group": "Linux Ops",
-    "description": "auditctl: Utility to control the behavior, get status and manage rules of the Linux Auditing System. ([D]elete all audit rules)",
+    "description": "auditctl: Utility to control the behavior, get status, and manage rules of the Linux Auditing System. ([D]elete all audit rules)",
     "tags": [
       "linux",
       "auditctl",
@@ -112520,7 +113615,7 @@
     "title": "auditctl - [e]nable/disable the audit system",
     "content": "sudo auditctl -e {{1|0}}",
     "group": "Linux Ops",
-    "description": "auditctl: Utility to control the behavior, get status and manage rules of the Linux Auditing System. ([e]nable/disable the audit system)",
+    "description": "auditctl: Utility to control the behavior, get status, and manage rules of the Linux Auditing System. ([e]nable/disable the audit system)",
     "tags": [
       "linux",
       "auditctl",
@@ -112535,7 +113630,7 @@
     "title": "auditctl - Watch a file for changes",
     "content": "sudo auditctl -a always,exit -F arch=b64 -F path=/{{path/to/file}} -F perm=wa",
     "group": "Linux Ops",
-    "description": "auditctl: Utility to control the behavior, get status and manage rules of the Linux Auditing System. (Watch a file for changes)",
+    "description": "auditctl: Utility to control the behavior, get status, and manage rules of the Linux Auditing System. (Watch a file for changes)",
     "tags": [
       "linux",
       "auditctl",
@@ -112550,7 +113645,7 @@
     "title": "auditctl - Recursively watch a directory for changes",
     "content": "sudo auditctl -a always,exit -F arch=b64 -F dir=/{{path/to/directory}}/ -F perm=wa",
     "group": "Linux Ops",
-    "description": "auditctl: Utility to control the behavior, get status and manage rules of the Linux Auditing System. (Recursively watch a directory for changes)",
+    "description": "auditctl: Utility to control the behavior, get status, and manage rules of the Linux Auditing System. (Recursively watch a directory for changes)",
     "tags": [
       "linux",
       "auditctl",
@@ -112565,7 +113660,7 @@
     "title": "auditctl - Display [h]elp",
     "content": "auditctl -h",
     "group": "Linux Ops",
-    "description": "auditctl: Utility to control the behavior, get status and manage rules of the Linux Auditing System. (Display [h]elp)",
+    "description": "auditctl: Utility to control the behavior, get status, and manage rules of the Linux Auditing System. (Display [h]elp)",
     "tags": [
       "linux",
       "auditctl",
@@ -113733,7 +114828,7 @@
     "id": "tldr-en-linux-useradd-1",
     "type": "command",
     "title": "useradd - Create a new user with the specified user ID",
-    "content": "sudo useradd {{[-u|--uid]}} {{id}} {{username}}",
+    "content": "sudo useradd {{[-u|--uid]}} {{user_id}} {{username}}",
     "group": "Linux Ops",
     "description": "useradd: Create a new user. (Create a new user with the specified user ID)",
     "tags": [
@@ -113897,10 +114992,10 @@
   {
     "id": "tldr-en-linux-mkinitcpio-0",
     "type": "command",
-    "title": "mkinitcpio - Perform a dry run (print what would be done without actually doing it)",
+    "title": "mkinitcpio - Simulate generating the initial ramdisk environments and print what would be done",
     "content": "mkinitcpio",
     "group": "Linux Ops",
-    "description": "mkinitcpio: Generate initial ramdisk environments for booting the Linux kernel based on the specified preset(s). (Perform a dry run (print what would be done without actually doing it))",
+    "description": "mkinitcpio: Generate initial ramdisk environments for booting the Linux kernel based on the specified preset(s). (Simulate generating the initial ramdisk environments and print what would be done)",
     "tags": [
       "linux",
       "mkinitcpio",
@@ -116253,7 +117348,7 @@
     "id": "tldr-en-linux-wpctl-1",
     "type": "command",
     "title": "wpctl - Print all properties of an object",
-    "content": "wpctl inspect {{id}}",
+    "content": "wpctl inspect {{object_id}}",
     "group": "Linux Ops",
     "description": "wpctl: Manage WirePlumber, a session and policy manager for PipeWire. Note: You can use the special name `@DEFAULT_SINK@` in place of `id` to operate on the default sink. (Print all properties of an object)",
     "tags": [
@@ -116268,7 +117363,7 @@
     "id": "tldr-en-linux-wpctl-2",
     "type": "command",
     "title": "wpctl - Set an object to be the default in its group",
-    "content": "wpctl set-default {{id}}",
+    "content": "wpctl set-default {{object_id}}",
     "group": "Linux Ops",
     "description": "wpctl: Manage WirePlumber, a session and policy manager for PipeWire. Note: You can use the special name `@DEFAULT_SINK@` in place of `id` to operate on the default sink. (Set an object to be the default in its group)",
     "tags": [
@@ -116283,7 +117378,7 @@
     "id": "tldr-en-linux-wpctl-3",
     "type": "command",
     "title": "wpctl - Get the volume of a sink",
-    "content": "wpctl get-volume {{id}}",
+    "content": "wpctl get-volume {{sink_id}}",
     "group": "Linux Ops",
     "description": "wpctl: Manage WirePlumber, a session and policy manager for PipeWire. Note: You can use the special name `@DEFAULT_SINK@` in place of `id` to operate on the default sink. (Get the volume of a sink)",
     "tags": [
@@ -116298,7 +117393,7 @@
     "id": "tldr-en-linux-wpctl-4",
     "type": "command",
     "title": "wpctl - Set the volume of a sink to `n` percent",
-    "content": "wpctl set-volume {{id}} {{n}}%",
+    "content": "wpctl set-volume {{sink_id}} {{n}}%",
     "group": "Linux Ops",
     "description": "wpctl: Manage WirePlumber, a session and policy manager for PipeWire. Note: You can use the special name `@DEFAULT_SINK@` in place of `id` to operate on the default sink. (Set the volume of a sink to `n` percent)",
     "tags": [
@@ -116313,7 +117408,7 @@
     "id": "tldr-en-linux-wpctl-5",
     "type": "command",
     "title": "wpctl - Increase/Decrease the volume of a sink by `n` percent",
-    "content": "wpctl set-volume {{id}} {{n}}%{{+|-}}",
+    "content": "wpctl set-volume {{sink_id}} {{n}}%{{+|-}}",
     "group": "Linux Ops",
     "description": "wpctl: Manage WirePlumber, a session and policy manager for PipeWire. Note: You can use the special name `@DEFAULT_SINK@` in place of `id` to operate on the default sink. (Increase/Decrease the volume of a sink by `n` percent)",
     "tags": [
@@ -116328,7 +117423,7 @@
     "id": "tldr-en-linux-wpctl-6",
     "type": "command",
     "title": "wpctl - Increase the volume of a sink by `n` percent but limit the volume below 100%",
-    "content": "wpctl set-volume {{[-l|--limit]}} 1 {{id}} {{n}}%-",
+    "content": "wpctl set-volume {{[-l|--limit]}} 1 {{sink_id}} {{n}}%-",
     "group": "Linux Ops",
     "description": "wpctl: Manage WirePlumber, a session and policy manager for PipeWire. Note: You can use the special name `@DEFAULT_SINK@` in place of `id` to operate on the default sink. (Increase the volume of a sink by `n` percent but limit the volume below 100%)",
     "tags": [
@@ -118352,10 +119447,10 @@
   {
     "id": "tldr-en-linux-fsadm-1",
     "type": "command",
-    "title": "fsadm - Perform a dry-run resize to a specific size (no changes made)",
+    "title": "fsadm - Simulate a resize to a specific size (no changes made)",
     "content": "fsadm {{[-n|--dry-run]}} resize {{/dev/vg_name/lv_name}} {{10G}}",
     "group": "Linux Ops",
-    "description": "fsadm: Check or resize a filesystem on a device. (Perform a dry-run resize to a specific size (no changes made))",
+    "description": "fsadm: Check or resize a filesystem on a device. (Simulate a resize to a specific size (no changes made))",
     "tags": [
       "linux",
       "fsadm",
@@ -119792,10 +120887,10 @@
   {
     "id": "tldr-en-linux-inxi-0",
     "type": "command",
-    "title": "inxi - Print a summary of CPU, memory, hard drive and kernel information",
+    "title": "inxi - Print a summary of CPU, memory, hard drive, and kernel information",
     "content": "inxi",
     "group": "Linux Ops",
-    "description": "inxi: Print a summary of system information and resources for debugging purposes. (Print a summary of CPU, memory, hard drive and kernel information)",
+    "description": "inxi: Print a summary of system information and resources for debugging purposes. (Print a summary of CPU, memory, hard drive, and kernel information)",
     "tags": [
       "linux",
       "inxi",
@@ -119915,7 +121010,7 @@
     "title": "retroarch - Start in the menu mode",
     "content": "retroarch",
     "group": "Linux Ops",
-    "description": "retroarch: A frontend for emulators, game engines and media players. The reference implementation of the libretro API. (Start in the menu mode)",
+    "description": "retroarch: A frontend for emulators, game engines, and media players. The reference implementation of the libretro API. (Start in the menu mode)",
     "tags": [
       "linux",
       "retroarch",
@@ -119930,7 +121025,7 @@
     "title": "retroarch - Start in full screen mode",
     "content": "retroarch {{[-f|--fullscreen]}}",
     "group": "Linux Ops",
-    "description": "retroarch: A frontend for emulators, game engines and media players. The reference implementation of the libretro API. (Start in full screen mode)",
+    "description": "retroarch: A frontend for emulators, game engines, and media players. The reference implementation of the libretro API. (Start in full screen mode)",
     "tags": [
       "linux",
       "retroarch",
@@ -119945,7 +121040,7 @@
     "title": "retroarch - List all compiled features",
     "content": "retroarch --features",
     "group": "Linux Ops",
-    "description": "retroarch: A frontend for emulators, game engines and media players. The reference implementation of the libretro API. (List all compiled features)",
+    "description": "retroarch: A frontend for emulators, game engines, and media players. The reference implementation of the libretro API. (List all compiled features)",
     "tags": [
       "linux",
       "retroarch",
@@ -119960,7 +121055,7 @@
     "title": "retroarch - Set the path of a configuration file",
     "content": "retroarch {{[-c|--config]}} {{path/to/config_file}}",
     "group": "Linux Ops",
-    "description": "retroarch: A frontend for emulators, game engines and media players. The reference implementation of the libretro API. (Set the path of a configuration file)",
+    "description": "retroarch: A frontend for emulators, game engines, and media players. The reference implementation of the libretro API. (Set the path of a configuration file)",
     "tags": [
       "linux",
       "retroarch",
@@ -119975,7 +121070,7 @@
     "title": "retroarch - Display help",
     "content": "retroarch {{[-h|--help]}}",
     "group": "Linux Ops",
-    "description": "retroarch: A frontend for emulators, game engines and media players. The reference implementation of the libretro API. (Display help)",
+    "description": "retroarch: A frontend for emulators, game engines, and media players. The reference implementation of the libretro API. (Display help)",
     "tags": [
       "linux",
       "retroarch",
@@ -119990,7 +121085,7 @@
     "title": "retroarch - Display version",
     "content": "retroarch --version",
     "group": "Linux Ops",
-    "description": "retroarch: A frontend for emulators, game engines and media players. The reference implementation of the libretro API. (Display version)",
+    "description": "retroarch: A frontend for emulators, game engines, and media players. The reference implementation of the libretro API. (Display version)",
     "tags": [
       "linux",
       "retroarch",
@@ -120152,10 +121247,10 @@
   {
     "id": "tldr-en-linux-grub-mkconfig-0",
     "type": "command",
-    "title": "grub-mkconfig - Do a dry run and print the configuration to `stdout`",
+    "title": "grub-mkconfig - Simulate generating a GRUB configuration and print it to `stdout`",
     "content": "sudo grub-mkconfig",
     "group": "Linux Ops",
-    "description": "grub-mkconfig: Generate a GRUB configuration file. (Do a dry run and print the configuration to `stdout`)",
+    "description": "grub-mkconfig: Generate a GRUB configuration file. (Simulate generating a GRUB configuration and print it to `stdout`)",
     "tags": [
       "linux",
       "grub-mkconfig",
@@ -120453,7 +121548,7 @@
     "id": "tldr-en-linux-grim-5",
     "type": "command",
     "title": "grim - Set the PNG compression level (default: 6)",
-    "content": "grim -l {{0-9}} {{path/to/output.png}}",
+    "content": "grim -l {{0..9}} {{path/to/output.png}}",
     "group": "Linux Ops",
     "description": "grim: Grab images (screenshots) from a Wayland compositor. By default, files are saved to `$GRIM_DEFAULT_DIR` or `$XDG_PICTURES_DIR` if the first variable is unset. If none of the environment variables are set, files are saved to the current working directory. (Set the PNG compression level (default: 6))",
     "tags": [
@@ -120468,7 +121563,7 @@
     "id": "tldr-en-linux-grim-6",
     "type": "command",
     "title": "grim - Set the JPEG quality level (default: 80)",
-    "content": "grim -t jpeg -q {{0-100}} {{path/to/output.jpg}}",
+    "content": "grim -t jpeg -q {{0..100}} {{path/to/output.jpg}}",
     "group": "Linux Ops",
     "description": "grim: Grab images (screenshots) from a Wayland compositor. By default, files are saved to `$GRIM_DEFAULT_DIR` or `$XDG_PICTURES_DIR` if the first variable is unset. If none of the environment variables are set, files are saved to the current working directory. (Set the JPEG quality level (default: 80))",
     "tags": [
@@ -121905,6 +123000,111 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-linux-xfreerdp3-0",
+    "type": "command",
+    "title": "xfreerdp3 - Connect to a FreeRDP server",
+    "content": "xfreerdp3 /u:{{username}} /p:{{password}} /v:{{host}}",
+    "group": "Linux Ops",
+    "description": "xfreerdp3: Free Remote Desktop Protocol implementation (version 3). (Connect to a FreeRDP server)",
+    "tags": [
+      "linux",
+      "xfreerdp3",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-xfreerdp3-1",
+    "type": "command",
+    "title": "xfreerdp3 - Connect to a server in fullscreen mode",
+    "content": "xfreerdp3 /u:{{username}} /p:{{password}} /v:{{host}} /f",
+    "group": "Linux Ops",
+    "description": "xfreerdp3: Free Remote Desktop Protocol implementation (version 3). (Connect to a server in fullscreen mode)",
+    "tags": [
+      "linux",
+      "xfreerdp3",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-xfreerdp3-2",
+    "type": "command",
+    "title": "xfreerdp3 - Connect to a server with custom display width and height",
+    "content": "xfreerdp3 /u:{{username}} /p:{{password}} /v:{{host}} /w:{{width_in_pixels}} /h:{{height_in_pixels}}",
+    "group": "Linux Ops",
+    "description": "xfreerdp3: Free Remote Desktop Protocol implementation (version 3). (Connect to a server with custom display width and height)",
+    "tags": [
+      "linux",
+      "xfreerdp3",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-xfreerdp3-3",
+    "type": "command",
+    "title": "xfreerdp3 - Connect to a server with dynamic resolution scaling",
+    "content": "xfreerdp3 /u:{{username}} /p:{{password}} /v:{{host}} /dynamic-resolution",
+    "group": "Linux Ops",
+    "description": "xfreerdp3: Free Remote Desktop Protocol implementation (version 3). (Connect to a server with dynamic resolution scaling)",
+    "tags": [
+      "linux",
+      "xfreerdp3",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-xfreerdp3-4",
+    "type": "command",
+    "title": "xfreerdp3 - Connect to a server with clipboard redirection",
+    "content": "xfreerdp3 /u:{{username}} /p:{{password}} /v:{{host}} +clipboard",
+    "group": "Linux Ops",
+    "description": "xfreerdp3: Free Remote Desktop Protocol implementation (version 3). (Connect to a server with clipboard redirection)",
+    "tags": [
+      "linux",
+      "xfreerdp3",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-xfreerdp3-5",
+    "type": "command",
+    "title": "xfreerdp3 - Connect to a server with a specific domain",
+    "content": "xfreerdp3 /u:{{username}} /p:{{password}} /d:{{domain}} /v:{{host}}",
+    "group": "Linux Ops",
+    "description": "xfreerdp3: Free Remote Desktop Protocol implementation (version 3). (Connect to a server with a specific domain)",
+    "tags": [
+      "linux",
+      "xfreerdp3",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-xfreerdp3-6",
+    "type": "command",
+    "title": "xfreerdp3 - Connect to a server ignoring certificate checks",
+    "content": "xfreerdp3 /u:{{username}} /p:{{password}} /v:{{host}} /cert:ignore",
+    "group": "Linux Ops",
+    "description": "xfreerdp3: Free Remote Desktop Protocol implementation (version 3). (Connect to a server ignoring certificate checks)",
+    "tags": [
+      "linux",
+      "xfreerdp3",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-linux-xrandr-0",
     "type": "command",
     "title": "xrandr - Display the current state of the system (known screens, resolutions, ...)",
@@ -122004,6 +123204,96 @@
     "tags": [
       "linux",
       "xrandr",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winedump-0",
+    "type": "command",
+    "title": "winedump - Dump the contents of a PE file, DLL, or executable",
+    "content": "winedump dump {{path/to/file.dll}}",
+    "group": "Linux Ops",
+    "description": "winedump: Dump the contents of Windows binaries (PE, NE, etc.), demangle C++ symbols, and generate Wine `.spec` files. (Dump the contents of a PE file, DLL, or executable)",
+    "tags": [
+      "linux",
+      "winedump",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winedump-1",
+    "type": "command",
+    "title": "winedump - Dump only the [f]ile header information",
+    "content": "winedump dump -f {{path/to/file.dll}}",
+    "group": "Linux Ops",
+    "description": "winedump: Dump the contents of Windows binaries (PE, NE, etc.), demangle C++ symbols, and generate Wine `.spec` files. (Dump only the [f]ile header information)",
+    "tags": [
+      "linux",
+      "winedump",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winedump-2",
+    "type": "command",
+    "title": "winedump - Dump a specific section, such as the import or export table",
+    "content": "winedump dump -j {{import|export}} {{path/to/file.dll}}",
+    "group": "Linux Ops",
+    "description": "winedump: Dump the contents of Windows binaries (PE, NE, etc.), demangle C++ symbols, and generate Wine `.spec` files. (Dump a specific section, such as the import or export table)",
+    "tags": [
+      "linux",
+      "winedump",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winedump-3",
+    "type": "command",
+    "title": "winedump - Demangle a C++ (MSVC-mangled) symbol",
+    "content": "winedump sym {{mangled_symbol}}",
+    "group": "Linux Ops",
+    "description": "winedump: Dump the contents of Windows binaries (PE, NE, etc.), demangle C++ symbols, and generate Wine `.spec` files. (Demangle a C++ (MSVC-mangled) symbol)",
+    "tags": [
+      "linux",
+      "winedump",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winedump-4",
+    "type": "command",
+    "title": "winedump - Generate a `.spec` file and stub implementation code from a DLL",
+    "content": "winedump spec {{path/to/file.dll}}",
+    "group": "Linux Ops",
+    "description": "winedump: Dump the contents of Windows binaries (PE, NE, etc.), demangle C++ symbols, and generate Wine `.spec` files. (Generate a `.spec` file and stub implementation code from a DLL)",
+    "tags": [
+      "linux",
+      "winedump",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-winedump-5",
+    "type": "command",
+    "title": "winedump - Display help",
+    "content": "winedump -h",
+    "group": "Linux Ops",
+    "description": "winedump: Dump the contents of Windows binaries (PE, NE, etc.), demangle C++ symbols, and generate Wine `.spec` files. (Display help)",
+    "tags": [
+      "linux",
+      "winedump",
       "tldr",
       "en"
     ],
@@ -122975,7 +124265,7 @@
     "title": "arpaname - Translate IP addresses (IPv4 and IPv6) to the corresponding ARPA name",
     "content": "arpaname {{ip_address}}",
     "group": "Linux Ops",
-    "description": "arpaname: Get the corresponding ARPA name for a IP addresses. (Translate IP addresses (IPv4 and IPv6) to the corresponding ARPA name)",
+    "description": "arpaname: Get the corresponding ARPA name for an IP address. (Translate IP addresses (IPv4 and IPv6) to the corresponding ARPA name)",
     "tags": [
       "linux",
       "arpaname",
@@ -122990,7 +124280,7 @@
     "title": "treetime - Infer ancestral sequences maximizing the joint or marginal likelihood",
     "content": "treetime ancestral",
     "group": "Linux Ops",
-    "description": "treetime: TreeTime provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Infer ancestral sequences maximizing the joint or marginal likelihood)",
+    "description": "treetime: Provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Infer ancestral sequences maximizing the joint or marginal likelihood)",
     "tags": [
       "linux",
       "treetime",
@@ -123005,7 +124295,7 @@
     "title": "treetime - Analyze patterns of recurrent mutations aka homoplasies",
     "content": "treetime homoplasy",
     "group": "Linux Ops",
-    "description": "treetime: TreeTime provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Analyze patterns of recurrent mutations aka homoplasies)",
+    "description": "treetime: Provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Analyze patterns of recurrent mutations aka homoplasies)",
     "tags": [
       "linux",
       "treetime",
@@ -123020,7 +124310,7 @@
     "title": "treetime - Estimate molecular clock parameters and reroot the tree",
     "content": "treetime clock",
     "group": "Linux Ops",
-    "description": "treetime: TreeTime provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Estimate molecular clock parameters and reroot the tree)",
+    "description": "treetime: Provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Estimate molecular clock parameters and reroot the tree)",
     "tags": [
       "linux",
       "treetime",
@@ -123035,7 +124325,7 @@
     "title": "treetime - Map discrete character such as host or country to the tree",
     "content": "treetime mugration",
     "group": "Linux Ops",
-    "description": "treetime: TreeTime provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Map discrete character such as host or country to the tree)",
+    "description": "treetime: Provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Map discrete character such as host or country to the tree)",
     "tags": [
       "linux",
       "treetime",
@@ -124082,10 +125372,10 @@
   {
     "id": "tldr-en-linux-tc-3",
     "type": "command",
-    "title": "tc - Limit bandwidth, burst rate and max latency",
+    "title": "tc - Limit bandwidth, burst rate, and max latency",
     "content": "sudo tc {{[q|qdisc]}} {{[a|add]}} dev eth0 root tbf rate {{max_bandwidth_mb}}mbit burst {{max_burst_rate_kb}}kbit latency {{max_latency_before_drop_ms}}ms",
     "group": "Linux Ops",
-    "description": "tc: Show/manipulate traffic control settings. (Limit bandwidth, burst rate and max latency)",
+    "description": "tc: Show/manipulate traffic control settings. (Limit bandwidth, burst rate, and max latency)",
     "tags": [
       "linux",
       "tc",
@@ -127398,7 +128688,7 @@
     "id": "tldr-en-linux-byzanz-record-0",
     "type": "command",
     "title": "byzanz-record - Record the screen and write the recording to a file (by default, `byzanz-record` will only record for 10 seconds)",
-    "content": "byzanz-record {{path/to/file.[byzanz|flv|gif|ogg|ogv|webm]}}",
+    "content": "byzanz-record {{path/to/file.ext}}",
     "group": "Linux Ops",
     "description": "byzanz-record: Record the screen. (Record the screen and write the recording to a file (by default, `byzanz-record` will only record for 10 seconds))",
     "tags": [
@@ -127413,7 +128703,7 @@
     "id": "tldr-en-linux-byzanz-record-1",
     "type": "command",
     "title": "byzanz-record - Show information while and after recording",
-    "content": "byzanz-record {{[-v|--verbose]}} {{path/to/file.[byzanz|flv|gif|ogg|ogv|webm]}}",
+    "content": "byzanz-record {{[-v|--verbose]}} {{path/to/file.ext}}",
     "group": "Linux Ops",
     "description": "byzanz-record: Record the screen. (Show information while and after recording)",
     "tags": [
@@ -127428,7 +128718,7 @@
     "id": "tldr-en-linux-byzanz-record-2",
     "type": "command",
     "title": "byzanz-record - Record the screen for a minute",
-    "content": "byzanz-record {{[-d|--duration]}} 60 {{path/to/file.[byzanz|flv|gif|ogg|ogv|webm]}}",
+    "content": "byzanz-record {{[-d|--duration]}} 60 {{path/to/file.ext}}",
     "group": "Linux Ops",
     "description": "byzanz-record: Record the screen. (Record the screen for a minute)",
     "tags": [
@@ -127443,7 +128733,7 @@
     "id": "tldr-en-linux-byzanz-record-3",
     "type": "command",
     "title": "byzanz-record - Delay recording for 10 seconds",
-    "content": "byzanz-record --delay 10 {{path/to/file.[byzanz|flv|gif|ogg|ogv|webm]}}",
+    "content": "byzanz-record --delay 10 {{path/to/file.ext}}",
     "group": "Linux Ops",
     "description": "byzanz-record: Record the screen. (Delay recording for 10 seconds)",
     "tags": [

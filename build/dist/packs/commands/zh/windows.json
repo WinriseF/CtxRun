@@ -2177,10 +2177,10 @@
   {
     "id": "tldr-zh-windows-tasklist-2",
     "type": "command",
-    "title": "tasklist - 已匹配的方式（.exe, .dll）显示当前运行的进程",
+    "title": "tasklist - 已匹配的方式（`.exe`, `.dll`）显示当前运行的进程",
     "content": "tasklist /m {{匹配模式}}",
     "group": "Windows",
-    "description": "tasklist: 显示本地或远程计算机上当前正在运行的进程的列表。 (已匹配的方式（.exe, .dll）显示当前运行的进程)",
+    "description": "tasklist: 显示本地或远程计算机上当前正在运行的进程的列表。 (已匹配的方式（`.exe`, `.dll`）显示当前运行的进程)",
     "tags": [
       "windows",
       "tasklist",
@@ -3392,21 +3392,6 @@
   {
     "id": "tldr-zh-windows-sfc-0",
     "type": "command",
-    "title": "sfc - 显示命令的使用方法",
-    "content": "sfc",
-    "group": "Windows",
-    "description": "sfc: 扫描 Windows 系统文件的完整性。 (显示命令的使用方法)",
-    "tags": [
-      "windows",
-      "sfc",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-zh-windows-sfc-1",
-    "type": "command",
     "title": "sfc - 扫描所有的系统文件，如果可能的话，修复所有出现的问题",
     "content": "sfc /scannow",
     "group": "Windows",
@@ -3420,7 +3405,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-windows-sfc-2",
+    "id": "tldr-zh-windows-sfc-1",
     "type": "command",
     "title": "sfc - 扫描系统文件，但不修复出现的问题",
     "content": "sfc /verifyonly",
@@ -3435,7 +3420,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-windows-sfc-3",
+    "id": "tldr-zh-windows-sfc-2",
     "type": "command",
     "title": "sfc - 扫描指定的文件，如果可能的话，修复所有出现的问题",
     "content": "sfc /scanfile={{文件的路径}}",
@@ -3450,7 +3435,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-windows-sfc-4",
+    "id": "tldr-zh-windows-sfc-3",
     "type": "command",
     "title": "sfc - 扫描指定的文件，但不修复出现的问题",
     "content": "sfc /verifyfile={{文件的路径}}",
@@ -3465,7 +3450,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-windows-sfc-5",
+    "id": "tldr-zh-windows-sfc-4",
     "type": "command",
     "title": "sfc - 当离线修复时，指定引导目录",
     "content": "sfc /offbootdir={{目录的路径}}",
@@ -3480,12 +3465,27 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-windows-sfc-6",
+    "id": "tldr-zh-windows-sfc-5",
     "type": "command",
     "title": "sfc - 当离线修复时，指定 Windows 目录",
     "content": "sfc /offwindir={{文件的路径}}",
     "group": "Windows",
     "description": "sfc: 扫描 Windows 系统文件的完整性。 (当离线修复时，指定 Windows 目录)",
+    "tags": [
+      "windows",
+      "sfc",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-zh-windows-sfc-6",
+    "type": "command",
+    "title": "sfc - 显示命令的使用方法",
+    "content": "sfc",
+    "group": "Windows",
+    "description": "sfc: 扫描 Windows 系统文件的完整性。 (显示命令的使用方法)",
     "tags": [
       "windows",
       "sfc",

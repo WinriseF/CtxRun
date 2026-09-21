@@ -2640,21 +2640,6 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-common-docker-container-rename-0",
-    "type": "command",
-    "title": "docker-container-rename - 查看原命令的文档",
-    "content": "tldr docker rename",
-    "group": "通用工具 (Common)",
-    "description": "docker-container-rename: 此命令为 `docker rename` 的别名。 (查看原命令的文档)",
-    "tags": [
-      "common",
-      "docker-container-rename",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
     "id": "tldr-zh-common-rustup-run-0",
     "type": "command",
     "title": "rustup-run - 使用指定的 Rust 工具链运行命令（有关工具链的更多信息，请参见 `rustup help toolchain`）",
@@ -12825,21 +12810,6 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-common-docker-container-top-0",
-    "type": "command",
-    "title": "docker-container-top - 查看原命令的文档",
-    "content": "tldr docker top",
-    "group": "通用工具 (Common)",
-    "description": "docker-container-top: 此命令为 `docker top` 的别名。 (查看原命令的文档)",
-    "tags": [
-      "common",
-      "docker-container-top",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
     "id": "tldr-zh-common-mingle-0",
     "type": "command",
     "title": "mingle - 捆绑一个或多个已经有布局信息的图形布局的边缘",
@@ -17433,7 +17403,7 @@
     "id": "tldr-zh-common-frps-1",
     "type": "command",
     "title": "frps - 使用新的 TOML 配置文件启动服务",
-    "content": "frps {{[-c|--config]}} {{path/to/frps.toml}}",
+    "content": "frps {{[-c|--config]}} {{路径/到/frps.toml}}",
     "group": "通用工具 (Common)",
     "description": "frps: 快速建立反向代理服务。 属于 `frp` 的一部分。 (使用新的 TOML 配置文件启动服务)",
     "tags": [
@@ -17448,7 +17418,7 @@
     "id": "tldr-zh-common-frps-2",
     "type": "command",
     "title": "frps - 使用指定的配置文件启动服务",
-    "content": "frps {{[-c|--config]}} {{path/to/file}}",
+    "content": "frps {{[-c|--config]}} {{路径/到/文件}}",
     "group": "通用工具 (Common)",
     "description": "frps: 快速建立反向代理服务。 属于 `frp` 的一部分。 (使用指定的配置文件启动服务)",
     "tags": [
@@ -17463,7 +17433,7 @@
     "id": "tldr-zh-common-frps-3",
     "type": "command",
     "title": "frps - 检查配置文件的有效性",
-    "content": "frps verify {{[-c|--config]}} {{path/to/file}}",
+    "content": "frps verify {{[-c|--config]}} {{路径/到/文件}}",
     "group": "通用工具 (Common)",
     "description": "frps: 快速建立反向代理服务。 属于 `frp` 的一部分。 (检查配置文件的有效性)",
     "tags": [
@@ -22128,7 +22098,7 @@
     "id": "tldr-zh-common-quarto-2",
     "type": "command",
     "title": "quarto - 将输入文件渲染为不同格式",
-    "content": "quarto render {{路径/到/文件.[qmd|rmd|ipynb]}} --to {{html|pdf|docx}}",
+    "content": "quarto render {{路径/到/文件.ext}} --to {{html|pdf|docx}}",
     "group": "通用工具 (Common)",
     "description": "quarto: 一个基于 Pandoc 的开源科学和技术出版系统。 (将输入文件渲染为不同格式)",
     "tags": [
@@ -34683,7 +34653,7 @@
     "id": "tldr-zh-common-tar-3",
     "type": "command",
     "title": "tar - 详细地将（压缩的）存档文件提取到当前目录中",
-    "content": "tar xvf {{源文件.tar[.gz|.bz2|.xz]}}",
+    "content": "tar xvf {{源文件.tar.ext}}",
     "group": "通用工具 (Common)",
     "description": "tar: 归档实用程序。 通常与压缩方法结合使用，例如 `gzip` 或 `bzip2`。 (详细地将（压缩的）存档文件提取到当前目录中)",
     "tags": [
@@ -34698,7 +34668,7 @@
     "id": "tldr-zh-common-tar-4",
     "type": "command",
     "title": "tar - 将（压缩的）存档文件解压缩到目标目录中",
-    "content": "tar xf {{源文件.tar[.gz|.bz2|.xz]}} {{[-C|--directory]}} {{目标目录}}",
+    "content": "tar xf {{源文件.tar.ext}} {{[-C|--directory]}} {{目标目录}}",
     "group": "通用工具 (Common)",
     "description": "tar: 归档实用程序。 通常与压缩方法结合使用，例如 `gzip` 或 `bzip2`。 (将（压缩的）存档文件解压缩到目标目录中)",
     "tags": [
@@ -36242,10 +36212,10 @@
   {
     "id": "tldr-zh-common-java-4",
     "type": "command",
-    "title": "java - 显示 JDK、JRE 和 HotSpot 的版本",
-    "content": "java -version",
+    "title": "java - 显示帮助",
+    "content": "java -help",
     "group": "通用工具 (Common)",
-    "description": "java: Java 程序启动器。 (显示 JDK、JRE 和 HotSpot 的版本)",
+    "description": "java: Java 程序启动器。 (显示帮助)",
     "tags": [
       "common",
       "java",
@@ -36257,10 +36227,10 @@
   {
     "id": "tldr-zh-common-java-5",
     "type": "command",
-    "title": "java - 显示帮助",
-    "content": "java -help",
+    "title": "java - 显示 JDK、JRE 和 HotSpot 的版本",
+    "content": "java -version",
     "group": "通用工具 (Common)",
-    "description": "java: Java 程序启动器。 (显示帮助)",
+    "description": "java: Java 程序启动器。 (显示 JDK、JRE 和 HotSpot 的版本)",
     "tags": [
       "common",
       "java",
@@ -36888,7 +36858,7 @@
     "id": "tldr-zh-common-frpc-1",
     "type": "command",
     "title": "frpc - 使用新的 TOML 配置文件启动服务",
-    "content": "frpc {{[-c|--config]}} {{path/to/frpc.toml}}",
+    "content": "frpc {{[-c|--config]}} {{路径/到/frpc.toml}}",
     "group": "通用工具 (Common)",
     "description": "frpc: frp 客户端组件，用于连接 frps 服务端并启动反向代理。 属于 `frp` 的一部分。 (使用新的 TOML 配置文件启动服务)",
     "tags": [
@@ -36903,7 +36873,7 @@
     "id": "tldr-zh-common-frpc-2",
     "type": "command",
     "title": "frpc - 使用指定的配置文件启动服务",
-    "content": "frpc {{[-c|--config]}} {{path/to/file}}",
+    "content": "frpc {{[-c|--config]}} {{路径/到/文件}}",
     "group": "通用工具 (Common)",
     "description": "frpc: frp 客户端组件，用于连接 frps 服务端并启动反向代理。 属于 `frp` 的一部分。 (使用指定的配置文件启动服务)",
     "tags": [
@@ -36918,7 +36888,7 @@
     "id": "tldr-zh-common-frpc-3",
     "type": "command",
     "title": "frpc - 检查配置文件的有效性",
-    "content": "frpc verify {{[-c|--config]}} {{path/to/file}}",
+    "content": "frpc verify {{[-c|--config]}} {{路径/到/文件}}",
     "group": "通用工具 (Common)",
     "description": "frpc: frp 客户端组件，用于连接 frps 服务端并启动反向代理。 属于 `frp` 的一部分。 (检查配置文件的有效性)",
     "tags": [
@@ -42990,21 +42960,6 @@
     "source": "official"
   },
   {
-    "id": "tldr-zh-common-docker-container-diff-0",
-    "type": "command",
-    "title": "docker-container-diff - 查看原命令的文档",
-    "content": "tldr docker diff",
-    "group": "通用工具 (Common)",
-    "description": "docker-container-diff: 此命令为 `docker diff` 的别名。 (查看原命令的文档)",
-    "tags": [
-      "common",
-      "docker-container-diff",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
     "id": "tldr-zh-common-git-diff-0",
     "type": "command",
     "title": "git-diff - 显示未暂存的更改",
@@ -48542,10 +48497,10 @@
   {
     "id": "tldr-zh-common-pip-install-2",
     "type": "command",
-    "title": "pip-install - 通过指定的依赖文件安装（通常文件名是 requirements.txt）",
+    "title": "pip-install - 通过指定的依赖文件安装（通常文件名是 `requirements.txt`）",
     "content": "pip install {{[-r|--requirement]}} {{requirements.txt}}",
     "group": "通用工具 (Common)",
-    "description": "pip-install: 用于安装 Python 包。 (通过指定的依赖文件安装（通常文件名是 requirements.txt）)",
+    "description": "pip-install: 用于安装 Python 包。 (通过指定的依赖文件安装（通常文件名是 `requirements.txt`）)",
     "tags": [
       "common",
       "pip-install",
@@ -54002,10 +53957,10 @@
   {
     "id": "tldr-zh-common-pixi-5",
     "type": "command",
-    "title": "pixi - 显示帮助",
-    "content": "pixi {{命令}} --help",
+    "title": "pixi - 清理环境和任务缓存",
+    "content": "pixi clean",
     "group": "通用工具 (Common)",
-    "description": "pixi: 针对项目的开发人员工作流与环境管理。 (显示帮助)",
+    "description": "pixi: 针对项目的开发人员工作流与环境管理。 (清理环境和任务缓存)",
     "tags": [
       "common",
       "pixi",
@@ -54017,10 +53972,10 @@
   {
     "id": "tldr-zh-common-pixi-6",
     "type": "command",
-    "title": "pixi - 清理环境和任务缓存",
-    "content": "pixi clean",
+    "title": "pixi - 显示帮助",
+    "content": "pixi {{命令}} --help",
     "group": "通用工具 (Common)",
-    "description": "pixi: 针对项目的开发人员工作流与环境管理。 (清理环境和任务缓存)",
+    "description": "pixi: 针对项目的开发人员工作流与环境管理。 (显示帮助)",
     "tags": [
       "common",
       "pixi",
@@ -54362,10 +54317,10 @@
   {
     "id": "tldr-zh-common-pip-6",
     "type": "command",
-    "title": "pip - 通过依赖文件（如 requirements.txt）来进行安装",
+    "title": "pip - 通过依赖文件（如 `requirements.txt`）来进行安装",
     "content": "pip install {{[-r|--requirement]}} {{requirements.txt}}",
     "group": "通用工具 (Common)",
-    "description": "pip: Python 主流的包安装管理工具。 (通过依赖文件（如 requirements.txt）来进行安装)",
+    "description": "pip: Python 主流的包安装管理工具。 (通过依赖文件（如 `requirements.txt`）来进行安装)",
     "tags": [
       "common",
       "pip",

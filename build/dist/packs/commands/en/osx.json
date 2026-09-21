@@ -707,10 +707,10 @@
   {
     "id": "tldr-en-osx-textutil-4",
     "type": "command",
-    "title": "textutil - Load all RTF files in the current directory, concatenates their contents, and writes the result out as `index.html` with the HTML title set to \"Several Files\"",
+    "title": "textutil - Load all RTF files in the current directory, concatenate their contents, and write the result out as `index.html` with the HTML title set to \"Several Files\"",
     "content": "textutil -cat {{html}} -title \"Several Files\" -output {{path/to/index.html}} *.rtf",
     "group": "macOS",
-    "description": "textutil: Manipulate text files of various formats. (Load all RTF files in the current directory, concatenates their contents, and writes the result out as `index.html` with the HTML title set to \"Several Files\")",
+    "description": "textutil: Manipulate text files of various formats. (Load all RTF files in the current directory, concatenate their contents, and write the result out as `index.html` with the HTML title set to \"Several Files\")",
     "tags": [
       "osx",
       "textutil",
@@ -2102,10 +2102,10 @@
   {
     "id": "tldr-en-osx-mac-cleanup-2",
     "type": "command",
-    "title": "mac-cleanup - Perform a dry-run, showing what will be removed without actually deleting it",
+    "title": "mac-cleanup - Simulate what would be removed without actually deleting it",
     "content": "mac-cleanup {{[-n|--dry-run]}}",
     "group": "macOS",
-    "description": "mac-cleanup: A modern macOS cleanup tool to remove caches and junk. (Perform a dry-run, showing what will be removed without actually deleting it)",
+    "description": "mac-cleanup: A modern macOS cleanup tool to remove caches and junk. (Simulate what would be removed without actually deleting it)",
     "tags": [
       "osx",
       "mac-cleanup",
@@ -5537,10 +5537,10 @@
   {
     "id": "tldr-en-osx-system_profiler-2",
     "type": "command",
-    "title": "system_profiler - Display a hardware overview (Model, CPU, Memory, Serial, etc) and software data (System, Kernel, Name, Uptime, etc)",
+    "title": "system_profiler - Display a hardware overview (Model, CPU, Memory, Serial, etc.) and software data (System, Kernel, Name, Uptime, etc.)",
     "content": "system_profiler SPHardwareDataType SPSoftwareDataType",
     "group": "macOS",
-    "description": "system_profiler: Report system hardware and software configuration. (Display a hardware overview (Model, CPU, Memory, Serial, etc) and software data (System, Kernel, Name, Uptime, etc))",
+    "description": "system_profiler: Report system hardware and software configuration. (Display a hardware overview (Model, CPU, Memory, Serial, etc.) and software data (System, Kernel, Name, Uptime, etc.))",
     "tags": [
       "osx",
       "system_profiler",
@@ -6095,7 +6095,7 @@
     "title": "dtrace - Set target data model for a specific architecture",
     "content": "dtrace -arch {{arch_name}}",
     "group": "macOS",
-    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Set target data model for a specific architecture)",
+    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Set target data model for a specific architecture)",
     "tags": [
       "osx",
       "dtrace",
@@ -6110,7 +6110,7 @@
     "title": "dtrace - Claim [a]nonymous tracing state and display the traced data",
     "content": "dtrace -a",
     "group": "macOS",
-    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Claim [a]nonymous tracing state and display the traced data)",
+    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Claim [a]nonymous tracing state and display the traced data)",
     "tags": [
       "osx",
       "dtrace",
@@ -6125,7 +6125,7 @@
     "title": "dtrace - Set principal trace buffer size. Supported units are `k`, `m`, `g`, or `t`",
     "content": "dtrace -b {{2g}}",
     "group": "macOS",
-    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Set principal trace buffer size. Supported units are `k`, `m`, `g`, or `t`)",
+    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Set principal trace buffer size. Supported units are `k`, `m`, `g`, or `t`)",
     "tags": [
       "osx",
       "dtrace",
@@ -6140,7 +6140,7 @@
     "title": "dtrace - Compile the specified D Program [s]ource file",
     "content": "dtrace -s {{D_script}}",
     "group": "macOS",
-    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Compile the specified D Program [s]ource file)",
+    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Compile the specified D Program [s]ource file)",
     "tags": [
       "osx",
       "dtrace",
@@ -6155,7 +6155,7 @@
     "title": "dtrace - Run the specified [c]ommand and exit upon its completion",
     "content": "dtrace -c {{command}}",
     "group": "macOS",
-    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Run the specified [c]ommand and exit upon its completion)",
+    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Run the specified [c]ommand and exit upon its completion)",
     "tags": [
       "osx",
       "dtrace",
@@ -6170,7 +6170,7 @@
     "title": "dtrace - Specify [f]unction name to trace or list (-l option). The corresponding argument can include any of the probe description forms like `provider:module:function`, `module:function`, or `function`",
     "content": "dtrace -f {{function}}",
     "group": "macOS",
-    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Specify [f]unction name to trace or list (-l option). The corresponding argument can include any of the probe description forms like `provider:module:function`, `module:function`, or `function`)",
+    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Specify [f]unction name to trace or list (-l option). The corresponding argument can include any of the probe description forms like `provider:module:function`, `module:function`, or `function`)",
     "tags": [
       "osx",
       "dtrace",
@@ -6185,7 +6185,7 @@
     "title": "dtrace - Grad the specified [p]rocess ID, cache its symbol table, and exit upon completion",
     "content": "dtrace -p {{process_id}}",
     "group": "macOS",
-    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Grad the specified [p]rocess ID, cache its symbol table, and exit upon completion)",
+    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Grad the specified [p]rocess ID, cache its symbol table, and exit upon completion)",
     "tags": [
       "osx",
       "dtrace",
@@ -6200,7 +6200,7 @@
     "title": "dtrace - Combine different options for tracing function in a process",
     "content": "dtrace -a -b {{buffer_size}} -f {{function}} -p {{process_id}}",
     "group": "macOS",
-    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Combine different options for tracing function in a process)",
+    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Combine different options for tracing function in a process)",
     "tags": [
       "osx",
       "dtrace",
@@ -6365,7 +6365,7 @@
     "title": "istats - Show all the stats",
     "content": "istats",
     "group": "macOS",
-    "description": "istats: Show various statistics such as the CPU temperature, fan speeds and battery status. (Show all the stats)",
+    "description": "istats: Show various statistics such as the CPU temperature, fan speeds, and battery status. (Show all the stats)",
     "tags": [
       "osx",
       "istats",
@@ -6380,7 +6380,7 @@
     "title": "istats - Show all CPU stats",
     "content": "istats cpu",
     "group": "macOS",
-    "description": "istats: Show various statistics such as the CPU temperature, fan speeds and battery status. (Show all CPU stats)",
+    "description": "istats: Show various statistics such as the CPU temperature, fan speeds, and battery status. (Show all CPU stats)",
     "tags": [
       "osx",
       "istats",
@@ -6395,7 +6395,7 @@
     "title": "istats - Show all fan stats",
     "content": "istats fan",
     "group": "macOS",
-    "description": "istats: Show various statistics such as the CPU temperature, fan speeds and battery status. (Show all fan stats)",
+    "description": "istats: Show various statistics such as the CPU temperature, fan speeds, and battery status. (Show all fan stats)",
     "tags": [
       "osx",
       "istats",
@@ -6410,7 +6410,7 @@
     "title": "istats - Scan and print temperatures",
     "content": "istats scan",
     "group": "macOS",
-    "description": "istats: Show various statistics such as the CPU temperature, fan speeds and battery status. (Scan and print temperatures)",
+    "description": "istats: Show various statistics such as the CPU temperature, fan speeds, and battery status. (Scan and print temperatures)",
     "tags": [
       "osx",
       "istats",
@@ -8192,10 +8192,10 @@
   {
     "id": "tldr-en-osx-rargs-1",
     "type": "command",
-    "title": "rargs - Do a dry run, which prints the commands that would be run instead of executing them",
+    "title": "rargs - Simulate which commands would be run without executing them",
     "content": "{{command}} | rargs -e {{command}} {0}",
     "group": "macOS",
-    "description": "rargs: Execute a command for each line of `stdin`. Like `xargs`, but with pattern matching support. (Do a dry run, which prints the commands that would be run instead of executing them)",
+    "description": "rargs: Execute a command for each line of `stdin`. Like `xargs`, but with pattern matching support. (Simulate which commands would be run without executing them)",
     "tags": [
       "osx",
       "rargs",
@@ -8552,10 +8552,10 @@
   {
     "id": "tldr-en-osx-sync-2",
     "type": "command",
-    "title": "sync - Flush disk writes and attempts to clear inactive memory and filesystem caches",
+    "title": "sync - Flush disk writes and attempt to clear inactive memory and filesystem caches",
     "content": "sync; sudo purge",
     "group": "macOS",
-    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush disk writes and attempts to clear inactive memory and filesystem caches)",
+    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush disk writes and attempt to clear inactive memory and filesystem caches)",
     "tags": [
       "osx",
       "sync",
@@ -9152,10 +9152,10 @@
   {
     "id": "tldr-en-osx-route-5",
     "type": "command",
-    "title": "route - Lookup and display the route for a destination (hostname or IP address)",
+    "title": "route - Look up and display the route for a destination (hostname or IP address)",
     "content": "sudo route get \"{{destination}}\"",
     "group": "macOS",
-    "description": "route: Manually manipulate the routing tables. (Lookup and display the route for a destination (hostname or IP address))",
+    "description": "route: Manually manipulate the routing tables. (Look up and display the route for a destination (hostname or IP address))",
     "tags": [
       "osx",
       "route",
@@ -10322,10 +10322,10 @@
   {
     "id": "tldr-en-osx-sysctl-3",
     "type": "command",
-    "title": "sysctl - Show available CPU features (MMX, SSE, SSE2, SSE3, AES, etc)",
+    "title": "sysctl - Show available CPU features (MMX, SSE, SSE2, SSE3, AES, etc.)",
     "content": "sysctl -n machdep.cpu.features",
     "group": "macOS",
-    "description": "sysctl: Access kernel state information. (Show available CPU features (MMX, SSE, SSE2, SSE3, AES, etc))",
+    "description": "sysctl: Access kernel state information. (Show available CPU features (MMX, SSE, SSE2, SSE3, AES, etc.))",
     "tags": [
       "osx",
       "sysctl",
@@ -10547,10 +10547,10 @@
   {
     "id": "tldr-en-osx-networksetup-0",
     "type": "command",
-    "title": "networksetup - List available network service providers (Ethernet, Wi-Fi, Bluetooth, etc)",
+    "title": "networksetup - List available network service providers (Ethernet, Wi-Fi, Bluetooth, etc.)",
     "content": "networksetup -listallnetworkservices",
     "group": "macOS",
-    "description": "networksetup: Configuration tool for Network System Preferences. (List available network service providers (Ethernet, Wi-Fi, Bluetooth, etc))",
+    "description": "networksetup: Configuration tool for Network System Preferences. (List available network service providers (Ethernet, Wi-Fi, Bluetooth, etc.))",
     "tags": [
       "osx",
       "networksetup",
@@ -12167,10 +12167,10 @@
   {
     "id": "tldr-en-osx-goku-2",
     "type": "command",
-    "title": "goku - Dry run the new configuration into `stdout` instead of updating `karabiner.json`",
+    "title": "goku - Simulate generating the new configuration and print it to `stdout` instead of updating `karabiner.json`",
     "content": "goku --dry-run",
     "group": "macOS",
-    "description": "goku: Manage Karabiner configuration. (Dry run the new configuration into `stdout` instead of updating `karabiner.json`)",
+    "description": "goku: Manage Karabiner configuration. (Simulate generating the new configuration and print it to `stdout` instead of updating `karabiner.json`)",
     "tags": [
       "osx",
       "goku",
@@ -12182,10 +12182,10 @@
   {
     "id": "tldr-en-osx-goku-3",
     "type": "command",
-    "title": "goku - Dry run the whole configuration into `stdout` instead of updating `karabiner.json`",
+    "title": "goku - Simulate generating the whole configuration and print it to `stdout` instead of updating `karabiner.json`",
     "content": "goku --dry-run-all",
     "group": "macOS",
-    "description": "goku: Manage Karabiner configuration. (Dry run the whole configuration into `stdout` instead of updating `karabiner.json`)",
+    "description": "goku: Manage Karabiner configuration. (Simulate generating the whole configuration and print it to `stdout` instead of updating `karabiner.json`)",
     "tags": [
       "osx",
       "goku",
@@ -13113,7 +13113,7 @@
     "id": "tldr-en-osx-softwareupdate-0",
     "type": "command",
     "title": "softwareupdate - List all available updates",
-    "content": "softwareupdate --list",
+    "content": "softwareupdate {{[-l|--list]}}",
     "group": "macOS",
     "description": "softwareupdate: Update macOS App Store apps. (List all available updates)",
     "tags": [
@@ -13128,7 +13128,7 @@
     "id": "tldr-en-osx-softwareupdate-1",
     "type": "command",
     "title": "softwareupdate - Download and install all updates",
-    "content": "softwareupdate --install --all",
+    "content": "softwareupdate {{[-i|--install]}} {{[-a|--all]}}",
     "group": "macOS",
     "description": "softwareupdate: Update macOS App Store apps. (Download and install all updates)",
     "tags": [
@@ -13142,10 +13142,10 @@
   {
     "id": "tldr-en-osx-softwareupdate-2",
     "type": "command",
-    "title": "softwareupdate - Download and install all [r]ecommended updates",
-    "content": "softwareupdate --install --recommended",
+    "title": "softwareupdate - Download and install all recommended updates",
+    "content": "softwareupdate {{[-i|--install]}} {{[-r|--recommended]}}",
     "group": "macOS",
-    "description": "softwareupdate: Update macOS App Store apps. (Download and install all [r]ecommended updates)",
+    "description": "softwareupdate: Update macOS App Store apps. (Download and install all recommended updates)",
     "tags": [
       "osx",
       "softwareupdate",
@@ -13158,7 +13158,7 @@
     "id": "tldr-en-osx-softwareupdate-3",
     "type": "command",
     "title": "softwareupdate - Download and install a specific app",
-    "content": "softwareupdate --install {{update_name}}",
+    "content": "softwareupdate {{[-i|--install]}} {{update_name}}",
     "group": "macOS",
     "description": "softwareupdate: Update macOS App Store apps. (Download and install a specific app)",
     "tags": [
@@ -14072,10 +14072,10 @@
   {
     "id": "tldr-en-osx-ping-3",
     "type": "command",
-    "title": "ping - Ping a host without trying to lookup symbolic names for addresses",
+    "title": "ping - Ping a host without trying to look up symbolic names for addresses",
     "content": "ping -n \"{{host}}\"",
     "group": "macOS",
-    "description": "ping: Send ICMP ECHO_REQUEST packets to network hosts. (Ping a host without trying to lookup symbolic names for addresses)",
+    "description": "ping: Send ICMP ECHO_REQUEST packets to network hosts. (Ping a host without trying to look up symbolic names for addresses)",
     "tags": [
       "osx",
       "ping",
@@ -14102,10 +14102,10 @@
   {
     "id": "tldr-en-osx-ping-5",
     "type": "command",
-    "title": "ping - Ping a host and prints the time a packet was received (this option is an Apple addition)",
+    "title": "ping - Ping a host and print the time a packet was received (this option is an Apple addition)",
     "content": "ping --apple-time \"{{host}}\"",
     "group": "macOS",
-    "description": "ping: Send ICMP ECHO_REQUEST packets to network hosts. (Ping a host and prints the time a packet was received (this option is an Apple addition))",
+    "description": "ping: Send ICMP ECHO_REQUEST packets to network hosts. (Ping a host and print the time a packet was received (this option is an Apple addition))",
     "tags": [
       "osx",
       "ping",

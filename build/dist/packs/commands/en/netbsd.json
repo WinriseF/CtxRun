@@ -258,7 +258,7 @@
     "id": "tldr-en-netbsd-chpass-3",
     "type": "command",
     "title": "chpass - Specify a user database entry in the `passwd` file format",
-    "content": "su -c 'chpass -a {{username:encrypted_password:uid:gid:...}} -s {{path/to/shell}}' {{username}}",
+    "content": "su -c 'chpass -a {{username:encrypted_password:user_id:group_id:...}} -s {{path/to/shell}}' {{username}}",
     "group": "Netbsd",
     "description": "chpass: Add or change user database information, including login shell and password. (Specify a user database entry in the `passwd` file format)",
     "tags": [

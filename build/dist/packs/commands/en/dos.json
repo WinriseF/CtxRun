@@ -260,7 +260,7 @@
     "title": "rescan - Refresh mounted drives",
     "content": "RESCAN",
     "group": "Dos",
-    "description": "rescan: Refresh mounted drives (like CTRL-F4). (Refresh mounted drives)",
+    "description": "rescan: Refresh mounted drives (like ``). (Refresh mounted drives)",
     "tags": [
       "dos",
       "rescan",
