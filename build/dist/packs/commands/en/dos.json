@@ -1,44 +1,134 @@
 [
   {
-    "id": "tldr-en-dos-boot-0",
+    "id": "tldr-en-dos-exit-0",
     "type": "command",
-    "title": "boot - Boot from floppy image",
-    "content": "BOOT {{path/to/floppy.img}}",
+    "title": "exit - Exit DOSBox",
+    "content": "EXIT",
     "group": "Dos",
-    "description": "boot: Boot floppy or hard disk images directly, bypassing OS emulation. (Boot from floppy image)",
+    "description": "exit: Exit DOSBox. (Exit DOSBox)",
     "tags": [
       "dos",
-      "boot",
+      "exit",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-boot-1",
+    "id": "tldr-en-dos-path-0",
     "type": "command",
-    "title": "boot - Boot from hard disk image",
-    "content": "BOOT {{path/to/hard_disk.img}}",
+    "title": "path - Display the current search path",
+    "content": "PATH",
     "group": "Dos",
-    "description": "boot: Boot floppy or hard disk images directly, bypassing OS emulation. (Boot from hard disk image)",
+    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Display the current search path)",
     "tags": [
       "dos",
-      "boot",
+      "path",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-boot-2",
+    "id": "tldr-en-dos-path-1",
     "type": "command",
-    "title": "boot - Boot multiple floppy images",
-    "content": "BOOT {{path/to/floppy1.img path/to/floppy2.img ...}}",
+    "title": "path - Set the semicolon-separated list of directories to search in",
+    "content": "PATH {{path/to/directory1;path/to/directory2;...}}",
     "group": "Dos",
-    "description": "boot: Boot floppy or hard disk images directly, bypassing OS emulation. (Boot multiple floppy images)",
+    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Set the semicolon-separated list of directories to search in)",
     "tags": [
       "dos",
-      "boot",
+      "path",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-path-2",
+    "type": "command",
+    "title": "path - Append a directory to the search path",
+    "content": "PATH %PATH%;{{path/to/directory}}",
+    "group": "Dos",
+    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Append a directory to the search path)",
+    "tags": [
+      "dos",
+      "path",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-path-3",
+    "type": "command",
+    "title": "path - Add a directory to the beginning of the search path",
+    "content": "PATH {{path/to/directory}};%PATH%",
+    "group": "Dos",
+    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Add a directory to the beginning of the search path)",
+    "tags": [
+      "dos",
+      "path",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-path-4",
+    "type": "command",
+    "title": "path - Clear the search path",
+    "content": "PATH;",
+    "group": "Dos",
+    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Clear the search path)",
+    "tags": [
+      "dos",
+      "path",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-path-5",
+    "type": "command",
+    "title": "path - Display help",
+    "content": "PATH /?",
+    "group": "Dos",
+    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Display help)",
+    "tags": [
+      "dos",
+      "path",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-rescan-0",
+    "type": "command",
+    "title": "rescan - Refresh mounted drives",
+    "content": "RESCAN",
+    "group": "Dos",
+    "description": "rescan: Refresh mounted drives (like ``). (Refresh mounted drives)",
+    "tags": [
+      "dos",
+      "rescan",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-loadhigh-0",
+    "type": "command",
+    "title": "loadhigh - Load program into upper memory",
+    "content": "LOADHIGH {{program}}",
+    "group": "Dos",
+    "description": "loadhigh: Load program into upper memory (requires `xms=true` and `umb=true`). (Load program into upper memory)",
+    "tags": [
+      "dos",
+      "loadhigh",
       "tldr",
       "en"
     ],
@@ -47,13 +137,58 @@
   {
     "id": "tldr-en-dos-type-0",
     "type": "command",
-    "title": "type - Show file",
+    "title": "type - Show a file",
     "content": "TYPE {{path/to/file.txt}}",
     "group": "Dos",
-    "description": "type: Display the contents of a text file. (Show file)",
+    "description": "type: Display the contents of a text file. (Show a file)",
     "tags": [
       "dos",
       "type",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-del-0",
+    "type": "command",
+    "title": "del - Delete a file",
+    "content": "DEL {{path/to/file}}",
+    "group": "Dos",
+    "description": "del: Delete one or more files. (Delete a file)",
+    "tags": [
+      "dos",
+      "del",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-del-1",
+    "type": "command",
+    "title": "del - Delete all files matching a pattern",
+    "content": "DEL {{path/to/*.ext}}",
+    "group": "Dos",
+    "description": "del: Delete one or more files. (Delete all files matching a pattern)",
+    "tags": [
+      "dos",
+      "del",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-md-0",
+    "type": "command",
+    "title": "md - Create a directory",
+    "content": "MD {{path/to/directory}}",
+    "group": "Dos",
+    "description": "md: Make a directory. (Create a directory)",
+    "tags": [
+      "dos",
+      "md",
       "tldr",
       "en"
     ],
@@ -69,21 +204,6 @@
     "tags": [
       "dos",
       "set",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-cls-0",
-    "type": "command",
-    "title": "cls - Clear the screen resetting colors to white on black",
-    "content": "CLS",
-    "group": "Dos",
-    "description": "cls: Clear the screen and reset colors. (Clear the screen resetting colors to white on black)",
-    "tags": [
-      "dos",
-      "cls",
       "tldr",
       "en"
     ],
@@ -120,225 +240,60 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-copy-0",
+    "id": "tldr-en-dos-cd-0",
     "type": "command",
-    "title": "copy - Copy a file",
-    "content": "COPY {{path/to/source_file}} {{path/to/destination_file}}",
+    "title": "cd - Go to the specified directory",
+    "content": "CD {{PATH\\TO\\DIRECTORY}}",
     "group": "Dos",
-    "description": "copy: Copy files. (Copy a file)",
+    "description": "cd: Change the current working directory. (Go to the specified directory)",
     "tags": [
       "dos",
-      "copy",
+      "cd",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-ipxnet-0",
+    "id": "tldr-en-dos-cd-1",
     "type": "command",
-    "title": "ipxnet - Start IPX server (default UDP port 213)",
-    "content": "IPXNET startserver",
+    "title": "cd - Go up to the parent of the current directory",
+    "content": "CD ..",
     "group": "Dos",
-    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Start IPX server (default UDP port 213))",
+    "description": "cd: Change the current working directory. (Go up to the parent of the current directory)",
     "tags": [
       "dos",
-      "ipxnet",
+      "cd",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-ipxnet-1",
+    "id": "tldr-en-dos-cd-2",
     "type": "command",
-    "title": "ipxnet - Start server on specific port",
-    "content": "IPXNET startserver {{19900}}",
+    "title": "cd - Go to the root directory of the current drive",
+    "content": "CD \\",
     "group": "Dos",
-    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Start server on specific port)",
+    "description": "cd: Change the current working directory. (Go to the root directory of the current drive)",
     "tags": [
       "dos",
-      "ipxnet",
+      "cd",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-ipxnet-2",
+    "id": "tldr-en-dos-rd-0",
     "type": "command",
-    "title": "ipxnet - Connect client to server IP",
-    "content": "IPXNET connect {{192.168.2.100}}",
+    "title": "rd - Remove a directory",
+    "content": "RD {{path\\to\\directory}}",
     "group": "Dos",
-    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Connect client to server IP)",
+    "description": "rd: Remove a directory. (Remove a directory)",
     "tags": [
       "dos",
-      "ipxnet",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-ipxnet-3",
-    "type": "command",
-    "title": "ipxnet - Connect with specific port",
-    "content": "IPXNET connect {{192.168.2.100}} {{19900}}",
-    "group": "Dos",
-    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Connect with specific port)",
-    "tags": [
-      "dos",
-      "ipxnet",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-ipxnet-4",
-    "type": "command",
-    "title": "ipxnet - Check network status",
-    "content": "IPXNET status",
-    "group": "Dos",
-    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Check network status)",
-    "tags": [
-      "dos",
-      "ipxnet",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-ipxnet-5",
-    "type": "command",
-    "title": "ipxnet - Ping to test speed/clients",
-    "content": "IPXNET ping",
-    "group": "Dos",
-    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Ping to test speed/clients)",
-    "tags": [
-      "dos",
-      "ipxnet",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-ipxnet-6",
-    "type": "command",
-    "title": "ipxnet - Disconnect client",
-    "content": "IPXNET disconnect",
-    "group": "Dos",
-    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Disconnect client)",
-    "tags": [
-      "dos",
-      "ipxnet",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-ipxnet-7",
-    "type": "command",
-    "title": "ipxnet - Stop server (after clients disconnect)",
-    "content": "IPXNET stopserver",
-    "group": "Dos",
-    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Stop server (after clients disconnect))",
-    "tags": [
-      "dos",
-      "ipxnet",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-rescan-0",
-    "type": "command",
-    "title": "rescan - Refresh mounted drives",
-    "content": "RESCAN",
-    "group": "Dos",
-    "description": "rescan: Refresh mounted drives (like ``). (Refresh mounted drives)",
-    "tags": [
-      "dos",
-      "rescan",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-loadhigh-0",
-    "type": "command",
-    "title": "loadhigh - Load program into upper memory",
-    "content": "LOADHIGH {{program}}",
-    "group": "Dos",
-    "description": "loadhigh: Load program into upper memory (requires `xms=true`, `umb=true`). (Load program into upper memory)",
-    "tags": [
-      "dos",
-      "loadhigh",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-ver-0",
-    "type": "command",
-    "title": "ver - Set version",
-    "content": "VER set {{major_version}} {{minor_version}}",
-    "group": "Dos",
-    "description": "ver: View/set reported DOS version. (Set version)",
-    "tags": [
-      "dos",
-      "ver",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-loadfix-0",
-    "type": "command",
-    "title": "loadfix - Start a program with 64KB allocated memory",
-    "content": "LOADFIX {{program}}",
-    "group": "Dos",
-    "description": "loadfix: Reduce available conventional memory for old programs (default: 64KB). (Start a program with 64KB allocated memory)",
-    "tags": [
-      "dos",
-      "loadfix",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-loadfix-1",
-    "type": "command",
-    "title": "loadfix - Load with custom KB reduction (1-1024)",
-    "content": "LOADFIX -{{32}} {{program}}",
-    "group": "Dos",
-    "description": "loadfix: Reduce available conventional memory for old programs (default: 64KB). (Load with custom KB reduction (1-1024))",
-    "tags": [
-      "dos",
-      "loadfix",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-loadfix-2",
-    "type": "command",
-    "title": "loadfix - Free all previously allocated memory",
-    "content": "LOADFIX -f",
-    "group": "Dos",
-    "description": "loadfix: Reduce available conventional memory for old programs (default: 64KB). (Free all previously allocated memory)",
-    "tags": [
-      "dos",
-      "loadfix",
+      "rd",
       "tldr",
       "en"
     ],
@@ -467,10 +422,10 @@
   {
     "id": "tldr-en-dos-dir-2",
     "type": "command",
-    "title": "dir - Wide view",
+    "title": "dir - List files in wide format",
     "content": "DIR /w",
     "group": "Dos",
-    "description": "dir: List files and directories. (Wide view)",
+    "description": "dir: List files and directories. (List files in wide format)",
     "tags": [
       "dos",
       "dir",
@@ -480,15 +435,225 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-rd-0",
+    "id": "tldr-en-dos-cls-0",
     "type": "command",
-    "title": "rd - Remove directory",
-    "content": "RD {{path\\to\\directory}}",
+    "title": "cls - Clear the screen resetting colors to white on black",
+    "content": "CLS",
     "group": "Dos",
-    "description": "rd: Remove a directory. (Remove directory)",
+    "description": "cls: Clear the screen and reset colors. (Clear the screen resetting colors to white on black)",
     "tags": [
       "dos",
-      "rd",
+      "cls",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-choice-0",
+    "type": "command",
+    "title": "choice - Prompt for yes/no",
+    "content": "CHOICE \"{{prompt}}\"",
+    "group": "Dos",
+    "description": "choice: Wait for keypress and set `ERRORLEVEL` in batch scripts. (Prompt for yes/no)",
+    "tags": [
+      "dos",
+      "choice",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-copy-0",
+    "type": "command",
+    "title": "copy - Copy a file",
+    "content": "COPY {{path/to/source_file}} {{path/to/destination_file}}",
+    "group": "Dos",
+    "description": "copy: Copy files. (Copy a file)",
+    "tags": [
+      "dos",
+      "copy",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-boot-0",
+    "type": "command",
+    "title": "boot - Boot from floppy image",
+    "content": "BOOT {{path/to/floppy.img}}",
+    "group": "Dos",
+    "description": "boot: Boot floppy or hard disk images directly, bypassing OS emulation. (Boot from floppy image)",
+    "tags": [
+      "dos",
+      "boot",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-boot-1",
+    "type": "command",
+    "title": "boot - Boot from hard disk image",
+    "content": "BOOT {{path/to/hard_disk.img}}",
+    "group": "Dos",
+    "description": "boot: Boot floppy or hard disk images directly, bypassing OS emulation. (Boot from hard disk image)",
+    "tags": [
+      "dos",
+      "boot",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-boot-2",
+    "type": "command",
+    "title": "boot - Boot multiple floppy images",
+    "content": "BOOT {{path/to/floppy1.img path/to/floppy2.img ...}}",
+    "group": "Dos",
+    "description": "boot: Boot floppy or hard disk images directly, bypassing OS emulation. (Boot multiple floppy images)",
+    "tags": [
+      "dos",
+      "boot",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-mount-0",
+    "type": "command",
+    "title": "mount - Mount current directory as C",
+    "content": "MOUNT C .",
+    "group": "Dos",
+    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Mount current directory as C)",
+    "tags": [
+      "dos",
+      "mount",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-mount-1",
+    "type": "command",
+    "title": "mount - Mount specific directory as C",
+    "content": "MOUNT C {{C:\\path\\to\\directory}}",
+    "group": "Dos",
+    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Mount specific directory as C)",
+    "tags": [
+      "dos",
+      "mount",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-mount-2",
+    "type": "command",
+    "title": "mount - Mount with a free space limit (in MB)",
+    "content": "MOUNT C {{C:\\path\\to\\directory}} -freesize {{1024}}",
+    "group": "Dos",
+    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Mount with a free space limit (in MB))",
+    "tags": [
+      "dos",
+      "mount",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-mount-3",
+    "type": "command",
+    "title": "mount - Mount floppy drive",
+    "content": "MOUNT A {{A:\\}} -t floppy",
+    "group": "Dos",
+    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Mount floppy drive)",
+    "tags": [
+      "dos",
+      "mount",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-mount-4",
+    "type": "command",
+    "title": "mount - Mount CD-ROM drive",
+    "content": "MOUNT D {{D:\\}} -t cdrom",
+    "group": "Dos",
+    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Mount CD-ROM drive)",
+    "tags": [
+      "dos",
+      "mount",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-mount-5",
+    "type": "command",
+    "title": "mount - Mount CD with extra options",
+    "content": "MOUNT D {{D:\\}} -t cdrom -usecd {{0}} -ioctl",
+    "group": "Dos",
+    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Mount CD with extra options)",
+    "tags": [
+      "dos",
+      "mount",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-mount-6",
+    "type": "command",
+    "title": "mount - Unmount drive",
+    "content": "MOUNT -u {{C}}",
+    "group": "Dos",
+    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Unmount drive)",
+    "tags": [
+      "dos",
+      "mount",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-ver-0",
+    "type": "command",
+    "title": "ver - Set the reported DOS version",
+    "content": "VER set {{major_version}} {{minor_version}}",
+    "group": "Dos",
+    "description": "ver: View/set reported DOS version. (Set the reported DOS version)",
+    "tags": [
+      "dos",
+      "ver",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-keyb-0",
+    "type": "command",
+    "title": "keyb - Set the keyboard layout",
+    "content": "KEYB {{us|uk|gr|...}}",
+    "group": "Dos",
+    "description": "keyb: Change keyboard layout. (Set the keyboard layout)",
+    "tags": [
+      "dos",
+      "keyb",
       "tldr",
       "en"
     ],
@@ -497,10 +662,10 @@
   {
     "id": "tldr-en-dos-ren-0",
     "type": "command",
-    "title": "ren - Rename file",
+    "title": "ren - Rename a file",
     "content": "REN {{path/to/file}} {{new_name}}",
     "group": "Dos",
-    "description": "ren: Rename files (use for moving too). (Rename file)",
+    "description": "ren: Rename files (use for moving too). (Rename a file)",
     "tags": [
       "dos",
       "ren",
@@ -510,45 +675,180 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-cd-0",
+    "id": "tldr-en-dos-chdir-0",
     "type": "command",
-    "title": "cd - Go to the specified directory",
-    "content": "CD {{PATH\\TO\\DIRECTORY}}",
+    "title": "chdir - View documentation for the original command",
+    "content": "tldr {{[-p|--platform]}} dos cd",
     "group": "Dos",
-    "description": "cd: Change the current working directory. (Go to the specified directory)",
+    "description": "chdir: This command is an alias of `CD`. (View documentation for the original command)",
     "tags": [
       "dos",
-      "cd",
+      "chdir",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-cd-1",
+    "id": "tldr-en-dos-ipxnet-0",
     "type": "command",
-    "title": "cd - Go up to the parent of the current directory",
-    "content": "CD ..",
+    "title": "ipxnet - Start IPX server (default UDP port 213)",
+    "content": "IPXNET startserver",
     "group": "Dos",
-    "description": "cd: Change the current working directory. (Go up to the parent of the current directory)",
+    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Start IPX server (default UDP port 213))",
     "tags": [
       "dos",
-      "cd",
+      "ipxnet",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-cd-2",
+    "id": "tldr-en-dos-ipxnet-1",
     "type": "command",
-    "title": "cd - Go to the root directory of the current drive",
-    "content": "CD \\",
+    "title": "ipxnet - Start server on specific port",
+    "content": "IPXNET startserver {{19900}}",
     "group": "Dos",
-    "description": "cd: Change the current working directory. (Go to the root directory of the current drive)",
+    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Start server on specific port)",
     "tags": [
       "dos",
-      "cd",
+      "ipxnet",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-ipxnet-2",
+    "type": "command",
+    "title": "ipxnet - Connect as a client to a server IP",
+    "content": "IPXNET connect {{192.168.2.100}}",
+    "group": "Dos",
+    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Connect as a client to a server IP)",
+    "tags": [
+      "dos",
+      "ipxnet",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-ipxnet-3",
+    "type": "command",
+    "title": "ipxnet - Connect with specific port",
+    "content": "IPXNET connect {{192.168.2.100}} {{19900}}",
+    "group": "Dos",
+    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Connect with specific port)",
+    "tags": [
+      "dos",
+      "ipxnet",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-ipxnet-4",
+    "type": "command",
+    "title": "ipxnet - Check network status",
+    "content": "IPXNET status",
+    "group": "Dos",
+    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Check network status)",
+    "tags": [
+      "dos",
+      "ipxnet",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-ipxnet-5",
+    "type": "command",
+    "title": "ipxnet - Ping to test speed/clients",
+    "content": "IPXNET ping",
+    "group": "Dos",
+    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Ping to test speed/clients)",
+    "tags": [
+      "dos",
+      "ipxnet",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-ipxnet-6",
+    "type": "command",
+    "title": "ipxnet - Disconnect client",
+    "content": "IPXNET disconnect",
+    "group": "Dos",
+    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Disconnect client)",
+    "tags": [
+      "dos",
+      "ipxnet",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-ipxnet-7",
+    "type": "command",
+    "title": "ipxnet - Stop server (after clients disconnect)",
+    "content": "IPXNET stopserver",
+    "group": "Dos",
+    "description": "ipxnet: Emulate IPX networking for multiplayer games (client-server model). (Stop server (after clients disconnect))",
+    "tags": [
+      "dos",
+      "ipxnet",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-loadfix-0",
+    "type": "command",
+    "title": "loadfix - Start a program with 64KB allocated memory",
+    "content": "LOADFIX {{program}}",
+    "group": "Dos",
+    "description": "loadfix: Reduce available conventional memory for old programs (default: 64KB). (Start a program with 64KB allocated memory)",
+    "tags": [
+      "dos",
+      "loadfix",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-loadfix-1",
+    "type": "command",
+    "title": "loadfix - Load with custom KB reduction (1-1024)",
+    "content": "LOADFIX -{{32}} {{program}}",
+    "group": "Dos",
+    "description": "loadfix: Reduce available conventional memory for old programs (default: 64KB). (Load with custom KB reduction (1-1024))",
+    "tags": [
+      "dos",
+      "loadfix",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-loadfix-2",
+    "type": "command",
+    "title": "loadfix - Free all previously allocated memory",
+    "content": "LOADFIX -f",
+    "group": "Dos",
+    "description": "loadfix: Reduce available conventional memory for old programs (default: 64KB). (Free all previously allocated memory)",
+    "tags": [
+      "dos",
+      "loadfix",
       "tldr",
       "en"
     ],
@@ -617,10 +917,10 @@
   {
     "id": "tldr-en-dos-config-4",
     "type": "command",
-    "title": "config - Set property (e.g., disable EMS)",
+    "title": "config - Set a property (e.g., disable EMS)",
     "content": "CONFIG -set \"dos ems=off\"",
     "group": "Dos",
-    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Set property (e.g., disable EMS))",
+    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Set a property (e.g., disable EMS))",
     "tags": [
       "dos",
       "config",
@@ -632,58 +932,13 @@
   {
     "id": "tldr-en-dos-config-5",
     "type": "command",
-    "title": "config - Get property value (stored in `%CONFIG%`)",
+    "title": "config - Get a property's value (stored in `%CONFIG%`)",
     "content": "CONFIG -get \"cpu core\"",
     "group": "Dos",
-    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Get property value (stored in `%CONFIG%`))",
+    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Get a property's value (stored in `%CONFIG%`))",
     "tags": [
       "dos",
       "config",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-del-0",
-    "type": "command",
-    "title": "del - Delete a file",
-    "content": "DEL {{path/to/file}}",
-    "group": "Dos",
-    "description": "del: Delete one or more files. (Delete a file)",
-    "tags": [
-      "dos",
-      "del",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-del-1",
-    "type": "command",
-    "title": "del - Delete all files matching a pattern",
-    "content": "DEL {{path/to/*.ext}}",
-    "group": "Dos",
-    "description": "del: Delete one or more files. (Delete all files matching a pattern)",
-    "tags": [
-      "dos",
-      "del",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-md-0",
-    "type": "command",
-    "title": "md - Create directory",
-    "content": "MD {{path/to/directory}}",
-    "group": "Dos",
-    "description": "md: Make a directory. (Create directory)",
-    "tags": [
-      "dos",
-      "md",
       "tldr",
       "en"
     ],
@@ -699,261 +954,6 @@
     "tags": [
       "dos",
       "mem",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-choice-0",
-    "type": "command",
-    "title": "choice - Prompt for yes/no",
-    "content": "CHOICE \"{{prompt}}\"",
-    "group": "Dos",
-    "description": "choice: Wait for keypress and set `ERRORLEVEL` in batch scripts. (Prompt for yes/no)",
-    "tags": [
-      "dos",
-      "choice",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-chdir-0",
-    "type": "command",
-    "title": "chdir - View documentation for the original command",
-    "content": "tldr {{[-p|--platform]}} dos cd",
-    "group": "Dos",
-    "description": "chdir: This command is an alias of `CD`. (View documentation for the original command)",
-    "tags": [
-      "dos",
-      "chdir",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-keyb-0",
-    "type": "command",
-    "title": "keyb - Set layout",
-    "content": "KEYB {{us|uk|gr|...}}",
-    "group": "Dos",
-    "description": "keyb: Change keyboard layout. (Set layout)",
-    "tags": [
-      "dos",
-      "keyb",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-exit-0",
-    "type": "command",
-    "title": "exit - Exit DOSBox",
-    "content": "EXIT",
-    "group": "Dos",
-    "description": "exit: Exit DOSBox. (Exit DOSBox)",
-    "tags": [
-      "dos",
-      "exit",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-path-0",
-    "type": "command",
-    "title": "path - Display the current search path",
-    "content": "PATH",
-    "group": "Dos",
-    "description": "path: Display or set the search path for executable files. This command is available in `FreeDOS` only. (Display the current search path)",
-    "tags": [
-      "dos",
-      "path",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-path-1",
-    "type": "command",
-    "title": "path - Set the semicolon-separated list of directories to search in",
-    "content": "PATH {{path/to/directory1;path/to/directory2;...}}",
-    "group": "Dos",
-    "description": "path: Display or set the search path for executable files. This command is available in `FreeDOS` only. (Set the semicolon-separated list of directories to search in)",
-    "tags": [
-      "dos",
-      "path",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-path-2",
-    "type": "command",
-    "title": "path - Append a directory to the search path",
-    "content": "PATH %PATH%;{{path/to/directory}}",
-    "group": "Dos",
-    "description": "path: Display or set the search path for executable files. This command is available in `FreeDOS` only. (Append a directory to the search path)",
-    "tags": [
-      "dos",
-      "path",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-path-3",
-    "type": "command",
-    "title": "path - Add a directory to the beginning of the search path",
-    "content": "PATH {{path/to/directory}};%PATH%",
-    "group": "Dos",
-    "description": "path: Display or set the search path for executable files. This command is available in `FreeDOS` only. (Add a directory to the beginning of the search path)",
-    "tags": [
-      "dos",
-      "path",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-path-4",
-    "type": "command",
-    "title": "path - Clear the search path",
-    "content": "PATH;",
-    "group": "Dos",
-    "description": "path: Display or set the search path for executable files. This command is available in `FreeDOS` only. (Clear the search path)",
-    "tags": [
-      "dos",
-      "path",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-path-5",
-    "type": "command",
-    "title": "path - Display help",
-    "content": "PATH /?",
-    "group": "Dos",
-    "description": "path: Display or set the search path for executable files. This command is available in `FreeDOS` only. (Display help)",
-    "tags": [
-      "dos",
-      "path",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-mount-0",
-    "type": "command",
-    "title": "mount - Mount current directory as C",
-    "content": "MOUNT C .",
-    "group": "Dos",
-    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Mount current directory as C)",
-    "tags": [
-      "dos",
-      "mount",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-mount-1",
-    "type": "command",
-    "title": "mount - Mount specific directory as C",
-    "content": "MOUNT C {{C:\\path\\to\\directory}}",
-    "group": "Dos",
-    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Mount specific directory as C)",
-    "tags": [
-      "dos",
-      "mount",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-mount-2",
-    "type": "command",
-    "title": "mount - Mount with free space limit (MB)",
-    "content": "MOUNT C {{C:\\path\\to\\directory}} -freesize {{1024}}",
-    "group": "Dos",
-    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Mount with free space limit (MB))",
-    "tags": [
-      "dos",
-      "mount",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-mount-3",
-    "type": "command",
-    "title": "mount - Mount floppy drive",
-    "content": "MOUNT A {{A:\\}} -t floppy",
-    "group": "Dos",
-    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Mount floppy drive)",
-    "tags": [
-      "dos",
-      "mount",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-mount-4",
-    "type": "command",
-    "title": "mount - Mount CD-ROM drive",
-    "content": "MOUNT D {{D:\\}} -t cdrom",
-    "group": "Dos",
-    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Mount CD-ROM drive)",
-    "tags": [
-      "dos",
-      "mount",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-mount-5",
-    "type": "command",
-    "title": "mount - Mount CD with extra options",
-    "content": "MOUNT D {{D:\\}} -t cdrom -usecd {{0}} -ioctl",
-    "group": "Dos",
-    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Mount CD with extra options)",
-    "tags": [
-      "dos",
-      "mount",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-mount-6",
-    "type": "command",
-    "title": "mount - Unmount drive",
-    "content": "MOUNT -u {{C}}",
-    "group": "Dos",
-    "description": "mount: Mount host directories/drives/images as virtual DOS drives. (Unmount drive)",
-    "tags": [
-      "dos",
-      "mount",
       "tldr",
       "en"
     ],
