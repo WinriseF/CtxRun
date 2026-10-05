@@ -362,10 +362,10 @@
   {
     "id": "tldr-zh-windows-iwr-0",
     "type": "command",
-    "title": "iwr - 原命令的文档在",
+    "title": "iwr - 查看原命令的文档",
     "content": "tldr invoke-webrequest",
     "group": "Windows",
-    "description": "iwr: 这是 `invoke-webrequest` 命令的一个别名。 (原命令的文档在)",
+    "description": "iwr: 此命令为 `invoke-webrequest` 的别名。 (查看原命令的文档)",
     "tags": [
       "windows",
       "iwr",
@@ -3572,10 +3572,10 @@
   {
     "id": "tldr-zh-windows-rd-0",
     "type": "command",
-    "title": "rd - 原命令的文档在",
+    "title": "rd - 查看原命令的文档",
     "content": "tldr rmdir",
     "group": "Windows",
-    "description": "rd: 这是 `rmdir` 命令的一个别名。 (原命令的文档在)",
+    "description": "rd: 此命令为 `rmdir` 的别名。 (查看原命令的文档)",
     "tags": [
       "windows",
       "rd",
@@ -4472,10 +4472,10 @@
   {
     "id": "tldr-zh-windows-chrome-0",
     "type": "command",
-    "title": "chrome - 原命令的文档在",
+    "title": "chrome - 查看原命令的文档",
     "content": "tldr chromium",
     "group": "Windows",
-    "description": "chrome: 这是 `chromium` 命令的一个别名。 (原命令的文档在)",
+    "description": "chrome: 此命令为 `chromium` 的别名。 (查看原命令的文档)",
     "tags": [
       "windows",
       "chrome",

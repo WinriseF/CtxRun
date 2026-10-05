@@ -1,5 +1,5 @@
 {
-  "updated_at": 1790566925644,
+  "updated_at": 1791173216492,
   "version": "2.1.0",
   "packages": [
     {
@@ -73,9 +73,9 @@
       "language": "zh",
       "platform": "linux",
       "name": "Linux 运维 (ZH)",
-      "description": "Contains 792 zh commands for linux.",
-      "count": 792,
-      "size_kb": 357,
+      "description": "Contains 787 zh commands for linux.",
+      "count": 787,
+      "size_kb": 354,
       "url": "packs/commands/zh/linux.json",
       "category": "command"
     },
@@ -117,8 +117,8 @@
       "language": "zh",
       "platform": "common",
       "name": "通用工具 (Common) (ZH)",
-      "description": "Contains 3866 zh commands for common.",
-      "count": 3866,
+      "description": "Contains 3868 zh commands for common.",
+      "count": 3868,
       "size_kb": 1889,
       "url": "packs/commands/zh/common.json",
       "category": "command"
@@ -161,9 +161,9 @@
       "language": "en",
       "platform": "osx",
       "name": "macOS (EN)",
-      "description": "Contains 1002 en commands for osx.",
-      "count": 1002,
-      "size_kb": 445,
+      "description": "Contains 1004 en commands for osx.",
+      "count": 1004,
+      "size_kb": 446,
       "url": "packs/commands/en/osx.json",
       "category": "command"
     },
@@ -194,9 +194,9 @@
       "language": "en",
       "platform": "linux",
       "name": "Linux Ops (EN)",
-      "description": "Contains 8611 en commands for linux.",
-      "count": 8611,
-      "size_kb": 4068,
+      "description": "Contains 8624 en commands for linux.",
+      "count": 8624,
+      "size_kb": 4074,
       "url": "packs/commands/en/linux.json",
       "category": "command"
     },
@@ -238,9 +238,9 @@
       "language": "en",
       "platform": "common",
       "name": "Common Tools (EN)",
-      "description": "Contains 21420 en commands for common.",
-      "count": 21420,
-      "size_kb": 10377,
+      "description": "Contains 21542 en commands for common.",
+      "count": 21542,
+      "size_kb": 10433,
       "url": "packs/commands/en/common.json",
       "category": "command"
     },

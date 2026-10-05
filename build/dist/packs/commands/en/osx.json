@@ -1025,7 +1025,7 @@
     "title": "alwaysonexclavesd - Start the daemon",
     "content": "alwaysonexclavesd",
     "group": "macOS",
-    "description": "alwaysonexclavesd: Hosts the Apple Exclaves framework. It should not be invoked manually. (Start the daemon)",
+    "description": "alwaysonexclavesd: Host the Apple Exclaves framework. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "alwaysonexclavesd",
@@ -1473,7 +1473,7 @@
     "id": "tldr-en-osx-vm_stat-1",
     "type": "command",
     "title": "vm_stat - Display reports every 2 seconds for 5 times",
-    "content": "vm_stat -c {{5}} {{2}}",
+    "content": "vm_stat -c 5 2",
     "group": "macOS",
     "description": "vm_stat: Show virtual memory statistics. (Display reports every 2 seconds for 5 times)",
     "tags": [
@@ -1682,10 +1682,10 @@
   {
     "id": "tldr-en-osx-dtrace-6",
     "type": "command",
-    "title": "dtrace - Grad the specified [p]rocess ID, cache its symbol table, and exit upon completion",
+    "title": "dtrace - Grab the specified [p]rocess ID, cache its symbol table, and exit upon completion",
     "content": "dtrace -p {{process_id}}",
     "group": "macOS",
-    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Grad the specified [p]rocess ID, cache its symbol table, and exit upon completion)",
+    "description": "dtrace: A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility. Generic front-end to DTrace facility, requiring root privileges. (Grab the specified [p]rocess ID, cache its symbol table, and exit upon completion)",
     "tags": [
       "osx",
       "dtrace",
@@ -1715,7 +1715,7 @@
     "title": "symptomsd - Start the daemon",
     "content": "symptomsd",
     "group": "macOS",
-    "description": "symptomsd: Provides services for `Symptoms.framework`. Note: It should not be invoked manually. (Start the daemon)",
+    "description": "symptomsd: Provide services for `Symptoms.framework`. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "symptomsd",
@@ -2810,7 +2810,7 @@
     "title": "biomesyncd - Start the daemon",
     "content": "biomesyncd",
     "group": "macOS",
-    "description": "biomesyncd: Synchronizes data between devices registered to the same account. Note: It should not be invoked manually. (Start the daemon)",
+    "description": "biomesyncd: Synchronize data between devices registered to the same account. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "biomesyncd",
@@ -3093,7 +3093,7 @@
     "id": "tldr-en-osx-airport-1",
     "type": "command",
     "title": "airport - Sniff wireless traffic on channel 1",
-    "content": "airport sniff {{1}}",
+    "content": "airport sniff 1",
     "group": "macOS",
     "description": "airport: Wireless network configuration utility. (Sniff wireless traffic on channel 1)",
     "tags": [
@@ -3159,6 +3159,21 @@
     "tags": [
       "osx",
       "gcsplit",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-osx-appinstalld-0",
+    "type": "command",
+    "title": "appinstalld - Start the daemon",
+    "content": "appinstalld",
+    "group": "macOS",
+    "description": "appinstalld: Manage the installation of iOS app packages on macOS. Note: It should not be invoked manually. (Start the daemon)",
+    "tags": [
+      "osx",
+      "appinstalld",
       "tldr",
       "en"
     ],
@@ -3500,7 +3515,7 @@
     "title": "vpnd - Start the daemon",
     "content": "vpnd",
     "group": "macOS",
-    "description": "vpnd: Listens for incoming VPN connections. Note: It should not be invoked manually. (Start the daemon)",
+    "description": "vpnd: Listen for incoming VPN connections. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "vpnd",
@@ -3515,7 +3530,7 @@
     "title": "vpnd - Run the daemon in the foreground",
     "content": "vpnd -x",
     "group": "macOS",
-    "description": "vpnd: Listens for incoming VPN connections. Note: It should not be invoked manually. (Run the daemon in the foreground)",
+    "description": "vpnd: Listen for incoming VPN connections. Note: It should not be invoked manually. (Run the daemon in the foreground)",
     "tags": [
       "osx",
       "vpnd",
@@ -3530,7 +3545,7 @@
     "title": "vpnd - Run the daemon in the foreground and print logs to the terminal",
     "content": "vpnd -d",
     "group": "macOS",
-    "description": "vpnd: Listens for incoming VPN connections. Note: It should not be invoked manually. (Run the daemon in the foreground and print logs to the terminal)",
+    "description": "vpnd: Listen for incoming VPN connections. Note: It should not be invoked manually. (Run the daemon in the foreground and print logs to the terminal)",
     "tags": [
       "osx",
       "vpnd",
@@ -3545,7 +3560,7 @@
     "title": "vpnd - Run the daemon in the foreground, print logs to the terminal, and quit after validating arguments",
     "content": "vpnd -n",
     "group": "macOS",
-    "description": "vpnd: Listens for incoming VPN connections. Note: It should not be invoked manually. (Run the daemon in the foreground, print logs to the terminal, and quit after validating arguments)",
+    "description": "vpnd: Listen for incoming VPN connections. Note: It should not be invoked manually. (Run the daemon in the foreground, print logs to the terminal, and quit after validating arguments)",
     "tags": [
       "osx",
       "vpnd",
@@ -3560,7 +3575,7 @@
     "title": "vpnd - Run the daemon for a specific server configuration",
     "content": "vpnd -i {{server_id}}",
     "group": "macOS",
-    "description": "vpnd: Listens for incoming VPN connections. Note: It should not be invoked manually. (Run the daemon for a specific server configuration)",
+    "description": "vpnd: Listen for incoming VPN connections. Note: It should not be invoked manually. (Run the daemon for a specific server configuration)",
     "tags": [
       "osx",
       "vpnd",
@@ -3575,7 +3590,7 @@
     "title": "vpnd - Display help",
     "content": "vpnd -h",
     "group": "macOS",
-    "description": "vpnd: Listens for incoming VPN connections. Note: It should not be invoked manually. (Display help)",
+    "description": "vpnd: Listen for incoming VPN connections. Note: It should not be invoked manually. (Display help)",
     "tags": [
       "osx",
       "vpnd",
@@ -3725,7 +3740,7 @@
     "title": "adprivacyd - Start the daemon",
     "content": "adprivacyd",
     "group": "macOS",
-    "description": "adprivacyd: Advertising privacy services. It should not be invoked manually. (Start the daemon)",
+    "description": "adprivacyd: Advertising privacy services. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "adprivacyd",
@@ -4385,7 +4400,7 @@
     "title": "sync - Flush all pending write operations on all disks",
     "content": "sync",
     "group": "macOS",
-    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush all pending write operations on all disks)",
+    "description": "sync: Flush all pending write operations to the appropriate disks. (Flush all pending write operations on all disks)",
     "tags": [
       "osx",
       "sync",
@@ -4400,7 +4415,7 @@
     "title": "sync - Flush all pending write operations on a single file to disk",
     "content": "sync {{path/to/file}}",
     "group": "macOS",
-    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush all pending write operations on a single file to disk)",
+    "description": "sync: Flush all pending write operations to the appropriate disks. (Flush all pending write operations on a single file to disk)",
     "tags": [
       "osx",
       "sync",
@@ -4415,7 +4430,7 @@
     "title": "sync - Flush disk writes and attempt to clear inactive memory and filesystem caches",
     "content": "sync; sudo purge",
     "group": "macOS",
-    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush disk writes and attempt to clear inactive memory and filesystem caches)",
+    "description": "sync: Flush all pending write operations to the appropriate disks. (Flush disk writes and attempt to clear inactive memory and filesystem caches)",
     "tags": [
       "osx",
       "sync",
@@ -4563,7 +4578,7 @@
     "id": "tldr-en-osx-tmutil-1",
     "type": "command",
     "title": "tmutil - Set an APF share or SMB share as the backup destination",
-    "content": "sudo tmutil setdestination \"{{protocol://user[:password]@host/share}}\"",
+    "content": "sudo tmutil setdestination \"{{protocol://user:password@host/share}}\"",
     "group": "macOS",
     "description": "tmutil: Utility for managing Time Machine backups. (Set an APF share or SMB share as the backup destination)",
     "tags": [
@@ -4700,7 +4715,7 @@
     "title": "amfid - Start the daemon",
     "content": "amfid",
     "group": "macOS",
-    "description": "amfid: Mobile file integrity services. It should not be invoked manually. (Start the daemon)",
+    "description": "amfid: Mobile file integrity services. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "amfid",
@@ -8720,7 +8735,7 @@
     "title": "usernoted - Start the daemon",
     "content": "usernoted",
     "group": "macOS",
-    "description": "usernoted: Provides notification services. Note: It should not be invoked manually. (Start the daemon)",
+    "description": "usernoted: Provide notification services. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "usernoted",
@@ -8735,7 +8750,7 @@
     "title": "photoanalysisd - Start the daemon",
     "content": "photoanalysisd",
     "group": "macOS",
-    "description": "photoanalysisd: Analyze photo libraries for Memories, People, and scene or object based search. `photoanalysisd` should not be invoked manually. (Start the daemon)",
+    "description": "photoanalysisd: Analyze photo libraries for Memories, People, and scene or object based search. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "photoanalysisd",
@@ -8765,7 +8780,7 @@
     "title": "cloudd - Start the daemon",
     "content": "cloudd",
     "group": "macOS",
-    "description": "cloudd: Backs the CloudKit feature. Note: It should not be invoked manually. (Start the daemon)",
+    "description": "cloudd: Back the CloudKit feature. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "cloudd",
@@ -9425,7 +9440,7 @@
     "title": "accessorysensormgrd - Start the daemon",
     "content": "accessorysensormgrd",
     "group": "macOS",
-    "description": "accessorysensormgrd: Control audio accessory sensors. It should not be invoked manually. (Start the daemon)",
+    "description": "accessorysensormgrd: Control audio accessory sensors. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "accessorysensormgrd",
@@ -9609,6 +9624,21 @@
     "tags": [
       "osx",
       "webinspectord",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-osx-appleeventsd-0",
+    "type": "command",
+    "title": "appleeventsd - Start the daemon",
+    "content": "appleeventsd",
+    "group": "macOS",
+    "description": "appleeventsd: Handles cross-application interaction in macOS. It is the underlying basis of AppleScript. Note: It should not be invoked manually. (Start the daemon)",
+    "tags": [
+      "osx",
+      "appleeventsd",
       "tldr",
       "en"
     ],
@@ -10655,7 +10685,7 @@
     "title": "coredatad - Start the daemon",
     "content": "coredatad",
     "group": "macOS",
-    "description": "coredatad: Schedules CloudKit operations for clients of NSPersistentCloudKitContainer. Note: It should not be invoked manually. (Start the daemon)",
+    "description": "coredatad: Schedule CloudKit operations for clients of NSPersistentCloudKitContainer. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "coredatad",
@@ -11360,7 +11390,7 @@
     "title": "deleted - Start the daemon",
     "content": "deleted",
     "group": "macOS",
-    "description": "deleted: Keeps track of purgeable space and asks clients to purge when space is low. Note: It should not be invoked manually. (Start the daemon)",
+    "description": "deleted: Keep track of purgeable space and ask clients to purge when space is low. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "deleted",
@@ -12425,7 +12455,7 @@
     "title": "diskutil-partitiondisk - Reformat a volume using APM/MBR/GPT partitioning scheme, leaving no partitions inside (this will erase all data on the volume)",
     "content": "diskutil partitionDisk {{/dev/disk_device}} 0 {{APM|MBR|GPT}}",
     "group": "macOS",
-    "description": "diskutil-partitiondisk: Utility to manage partitions inside disks and volumes. Part of `diskutil`. APM is only supported for macOS, MBR is optimized for DOS, while GPT is compatible for most modern systems. (Reformat a volume using APM/MBR/GPT partitioning scheme, leaving no partitions inside (this will erase all data on the volume))",
+    "description": "diskutil-partitiondisk: Utility to manage partitions inside disks and volumes. APM is only supported for macOS, MBR is optimized for DOS, while GPT is compatible for most modern systems. Part of `diskutil`. (Reformat a volume using APM/MBR/GPT partitioning scheme, leaving no partitions inside (this will erase all data on the volume))",
     "tags": [
       "osx",
       "diskutil-partitiondisk",
@@ -12440,7 +12470,7 @@
     "title": "diskutil-partitiondisk - Reformat a volume, then create a single partition using a specific filesystem filling up all free space",
     "content": "diskutil partitionDisk {{/dev/disk_device}} 1 {{APM|MBR|GPT}} {{partition_filesystem}} {{partition_name}}",
     "group": "macOS",
-    "description": "diskutil-partitiondisk: Utility to manage partitions inside disks and volumes. Part of `diskutil`. APM is only supported for macOS, MBR is optimized for DOS, while GPT is compatible for most modern systems. (Reformat a volume, then create a single partition using a specific filesystem filling up all free space)",
+    "description": "diskutil-partitiondisk: Utility to manage partitions inside disks and volumes. APM is only supported for macOS, MBR is optimized for DOS, while GPT is compatible for most modern systems. Part of `diskutil`. (Reformat a volume, then create a single partition using a specific filesystem filling up all free space)",
     "tags": [
       "osx",
       "diskutil-partitiondisk",
@@ -12455,7 +12485,7 @@
     "title": "diskutil-partitiondisk - Reformat a volume, then create a single partition using a specific filesystem under specific size (e.g. `16G` for 16GB or `50%` to fill half of total volume size)",
     "content": "diskutil partitionDisk {{/dev/disk_device}} 1 {{APM|MBR|GPT}} {{partition_filesystem}} {{partition_name}} {{partition_size}}",
     "group": "macOS",
-    "description": "diskutil-partitiondisk: Utility to manage partitions inside disks and volumes. Part of `diskutil`. APM is only supported for macOS, MBR is optimized for DOS, while GPT is compatible for most modern systems. (Reformat a volume, then create a single partition using a specific filesystem under specific size (e.g. `16G` for 16GB or `50%` to fill half of total volume size))",
+    "description": "diskutil-partitiondisk: Utility to manage partitions inside disks and volumes. APM is only supported for macOS, MBR is optimized for DOS, while GPT is compatible for most modern systems. Part of `diskutil`. (Reformat a volume, then create a single partition using a specific filesystem under specific size (e.g. `16G` for 16GB or `50%` to fill half of total volume size))",
     "tags": [
       "osx",
       "diskutil-partitiondisk",
@@ -12470,7 +12500,7 @@
     "title": "diskutil-partitiondisk - Reformat a volume, then create multiple partitions",
     "content": "diskutil partitionDisk {{/dev/disk_device}} {{number_of_partitions}} {{APM|MBR|GPT}} {{partition_filesystem1}} {{partition_name1}} {{partition_size1}} {{partition_filesystem2}} {{partition_name2}} {{partition_size2}} ...",
     "group": "macOS",
-    "description": "diskutil-partitiondisk: Utility to manage partitions inside disks and volumes. Part of `diskutil`. APM is only supported for macOS, MBR is optimized for DOS, while GPT is compatible for most modern systems. (Reformat a volume, then create multiple partitions)",
+    "description": "diskutil-partitiondisk: Utility to manage partitions inside disks and volumes. APM is only supported for macOS, MBR is optimized for DOS, while GPT is compatible for most modern systems. Part of `diskutil`. (Reformat a volume, then create multiple partitions)",
     "tags": [
       "osx",
       "diskutil-partitiondisk",
@@ -12485,7 +12515,7 @@
     "title": "diskutil-partitiondisk - List all supported filesystems for partitioning",
     "content": "diskutil listFilesystems",
     "group": "macOS",
-    "description": "diskutil-partitiondisk: Utility to manage partitions inside disks and volumes. Part of `diskutil`. APM is only supported for macOS, MBR is optimized for DOS, while GPT is compatible for most modern systems. (List all supported filesystems for partitioning)",
+    "description": "diskutil-partitiondisk: Utility to manage partitions inside disks and volumes. APM is only supported for macOS, MBR is optimized for DOS, while GPT is compatible for most modern systems. Part of `diskutil`. (List all supported filesystems for partitioning)",
     "tags": [
       "osx",
       "diskutil-partitiondisk",
@@ -14495,7 +14525,7 @@
     "title": "apfsd - Start the daemon",
     "content": "apfsd",
     "group": "macOS",
-    "description": "apfsd: Manage volumes in the filesystem. It should not be invoked manually. (Start the daemon)",
+    "description": "apfsd: Manage volumes in the filesystem. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "osx",
       "apfsd",
@@ -14793,7 +14823,7 @@
     "id": "tldr-en-osx-shutdown-3",
     "type": "command",
     "title": "shutdown - Reboot in 5 minutes",
-    "content": "shutdown -r \"+{{5}}\"",
+    "content": "shutdown -r \"+5\"",
     "group": "macOS",
     "description": "shutdown: Shut down and reboot the system. (Reboot in 5 minutes)",
     "tags": [
@@ -14808,7 +14838,7 @@
     "id": "tldr-en-osx-shutdown-4",
     "type": "command",
     "title": "shutdown - Power off (halt) at 1:00 pm (Uses 24h clock)",
-    "content": "shutdown -h {{1300}}",
+    "content": "shutdown -h 1300",
     "group": "macOS",
     "description": "shutdown: Shut down and reboot the system. (Power off (halt) at 1:00 pm (Uses 24h clock))",
     "tags": [
@@ -14823,7 +14853,7 @@
     "id": "tldr-en-osx-shutdown-5",
     "type": "command",
     "title": "shutdown - Reboot on May 10th 2042 at 11:30 am (Input format: YYMMDDHHMM)",
-    "content": "shutdown -r {{4205101130}}",
+    "content": "shutdown -r 4205101130",
     "group": "macOS",
     "description": "shutdown: Shut down and reboot the system. (Reboot on May 10th 2042 at 11:30 am (Input format: YYMMDDHHMM))",
     "tags": [

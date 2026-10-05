@@ -365,7 +365,7 @@
     "title": "treetime - Infer ancestral sequences maximizing the joint or marginal likelihood",
     "content": "treetime ancestral",
     "group": "Linux Ops",
-    "description": "treetime: Provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Infer ancestral sequences maximizing the joint or marginal likelihood)",
+    "description": "treetime: Provide routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Infer ancestral sequences maximizing the joint or marginal likelihood)",
     "tags": [
       "linux",
       "treetime",
@@ -380,7 +380,7 @@
     "title": "treetime - Analyze patterns of recurrent mutations aka homoplasies",
     "content": "treetime homoplasy",
     "group": "Linux Ops",
-    "description": "treetime: Provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Analyze patterns of recurrent mutations aka homoplasies)",
+    "description": "treetime: Provide routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Analyze patterns of recurrent mutations aka homoplasies)",
     "tags": [
       "linux",
       "treetime",
@@ -395,7 +395,7 @@
     "title": "treetime - Estimate molecular clock parameters and reroot the tree",
     "content": "treetime clock",
     "group": "Linux Ops",
-    "description": "treetime: Provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Estimate molecular clock parameters and reroot the tree)",
+    "description": "treetime: Provide routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Estimate molecular clock parameters and reroot the tree)",
     "tags": [
       "linux",
       "treetime",
@@ -410,7 +410,7 @@
     "title": "treetime - Map discrete character such as host or country to the tree",
     "content": "treetime mugration",
     "group": "Linux Ops",
-    "description": "treetime: Provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Map discrete character such as host or country to the tree)",
+    "description": "treetime: Provide routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies. (Map discrete character such as host or country to the tree)",
     "tags": [
       "linux",
       "treetime",
@@ -767,10 +767,10 @@
   {
     "id": "tldr-en-linux-fixfiles-0",
     "type": "command",
-    "title": "fixfiles - If specified with onboot, this fixfiles will record the current date in the `/.autorelabel` file, so that it can be used later to speed up labeling. If used with restore, the restore will only affect files that were modified today",
+    "title": "fixfiles - Record the current date in the `/.autorelabel` file when used with `onboot` (to speed up labeling later), or only restore files modified today when used with `restore`",
     "content": "fixfiles -B",
     "group": "Linux Ops",
-    "description": "fixfiles: Fix file SELinux security contexts. (If specified with onboot, this fixfiles will record the current date in the `/.autorelabel` file, so that it can be used later to speed up labeling. If used with restore, the restore will only affect files that were modified today)",
+    "description": "fixfiles: Fix file SELinux security contexts. (Record the current date in the `/.autorelabel` file when used with `onboot` (to speed up labeling later), or only restore files modified today when used with `restore`)",
     "tags": [
       "linux",
       "fixfiles",
@@ -1115,7 +1115,7 @@
     "title": "logwatch - Analyze logs for a range of dates at a certain level of detail",
     "content": "logwatch --range {{yesterday|today|all|help}} --detail {{low|medium|others}}'",
     "group": "Linux Ops",
-    "description": "logwatch: Summarizes many different logs for common services (e.g. apache, pam_unix, sshd, etc.) in a single report. (Analyze logs for a range of dates at a certain level of detail)",
+    "description": "logwatch: Summarize many different logs for common services (e.g. apache, pam_unix, sshd, etc.) in a single report. (Analyze logs for a range of dates at a certain level of detail)",
     "tags": [
       "linux",
       "logwatch",
@@ -1130,7 +1130,7 @@
     "title": "logwatch - Restrict report to only include information for a selected service",
     "content": "logwatch --range {{all}} --service {{apache|pam_unix|...}}",
     "group": "Linux Ops",
-    "description": "logwatch: Summarizes many different logs for common services (e.g. apache, pam_unix, sshd, etc.) in a single report. (Restrict report to only include information for a selected service)",
+    "description": "logwatch: Summarize many different logs for common services (e.g. apache, pam_unix, sshd, etc.) in a single report. (Restrict report to only include information for a selected service)",
     "tags": [
       "linux",
       "logwatch",
@@ -2146,6 +2146,21 @@
   },
   {
     "id": "tldr-en-linux-cat-6",
+    "type": "command",
+    "title": "cat - Omit repeating empty lines",
+    "content": "cat {{[-s|--squeeze-blank]}} {{path/to/file}}",
+    "group": "Linux Ops",
+    "description": "cat: Print and concatenate files. (Omit repeating empty lines)",
+    "tags": [
+      "linux",
+      "cat",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-cat-7",
     "type": "command",
     "title": "cat - Pass file contents to another program through `stdin`",
     "content": "cat {{path/to/file}} | {{program}}",
@@ -4067,10 +4082,10 @@
   {
     "id": "tldr-en-linux-apt-list-1",
     "type": "command",
-    "title": "apt-list - List packages by name only (supports wildcards like *)",
+    "title": "apt-list - List packages by name only (supports wildcards like `*`)",
     "content": "apt list {{package}}",
     "group": "Linux Ops",
-    "description": "apt-list: List packages. Note: Recommended to run `apt update` first to refresh local package index files. (List packages by name only (supports wildcards like *))",
+    "description": "apt-list: List packages. Note: Recommended to run `apt update` first to refresh local package index files. (List packages by name only (supports wildcards like `*`))",
     "tags": [
       "linux",
       "apt-list",
@@ -4713,7 +4728,7 @@
     "id": "tldr-en-linux-lsusb-3",
     "type": "command",
     "title": "lsusb - List detailed information about a USB device",
-    "content": "sudo lsusb {{[-v|--verbose]}} -s {{bus}}:{{device number}}",
+    "content": "sudo lsusb {{[-v|--verbose]}} -s {{bus}}:{{device_number}}",
     "group": "Linux Ops",
     "description": "lsusb: Display information about USB buses and devices connected to them. (List detailed information about a USB device)",
     "tags": [
@@ -5733,7 +5748,7 @@
     "id": "tldr-en-linux-smbnetfs-0",
     "type": "command",
     "title": "smbnetfs - Make shares available at `mountpoint`",
-    "content": "smbnetfs {{mountpoint}}",
+    "content": "smbnetfs {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "smbnetfs: Mount SMB shares interactively. (Make shares available at `mountpoint`)",
     "tags": [
@@ -8240,7 +8255,7 @@
     "title": "inotifywait - Watch a specific file for events, exiting after the first one",
     "content": "inotifywait {{path/to/file}}",
     "group": "Linux Ops",
-    "description": "inotifywait: Waits for changes to files. (Watch a specific file for events, exiting after the first one)",
+    "description": "inotifywait: Wait for changes to files. (Watch a specific file for events, exiting after the first one)",
     "tags": [
       "linux",
       "inotifywait",
@@ -8255,7 +8270,7 @@
     "title": "inotifywait - Continuously watch a specific file for events without exiting",
     "content": "inotifywait {{[-m|--monitor]}} {{path/to/file}}",
     "group": "Linux Ops",
-    "description": "inotifywait: Waits for changes to files. (Continuously watch a specific file for events without exiting)",
+    "description": "inotifywait: Wait for changes to files. (Continuously watch a specific file for events without exiting)",
     "tags": [
       "linux",
       "inotifywait",
@@ -8270,7 +8285,7 @@
     "title": "inotifywait - Watch a directory recursively for events",
     "content": "inotifywait {{[-m|--monitor]}} {{[-r|--recursive]}} {{path/to/directory}}",
     "group": "Linux Ops",
-    "description": "inotifywait: Waits for changes to files. (Watch a directory recursively for events)",
+    "description": "inotifywait: Wait for changes to files. (Watch a directory recursively for events)",
     "tags": [
       "linux",
       "inotifywait",
@@ -8285,7 +8300,7 @@
     "title": "inotifywait - Watch a directory for changes, excluding files, whose names match a `regex`",
     "content": "inotifywait {{[-m|--monitor]}} {{[-r|--recursive]}} --exclude \"{{regex}}\" {{path/to/directory}}",
     "group": "Linux Ops",
-    "description": "inotifywait: Waits for changes to files. (Watch a directory for changes, excluding files, whose names match a `regex`)",
+    "description": "inotifywait: Wait for changes to files. (Watch a directory for changes, excluding files, whose names match a `regex`)",
     "tags": [
       "linux",
       "inotifywait",
@@ -8300,7 +8315,7 @@
     "title": "inotifywait - Watch a file for changes, exiting when no event occurs for 30 seconds",
     "content": "inotifywait {{[-m|--monitor]}} {{[-t|--timeout]}} {{30}} {{path/to/file}}",
     "group": "Linux Ops",
-    "description": "inotifywait: Waits for changes to files. (Watch a file for changes, exiting when no event occurs for 30 seconds)",
+    "description": "inotifywait: Wait for changes to files. (Watch a file for changes, exiting when no event occurs for 30 seconds)",
     "tags": [
       "linux",
       "inotifywait",
@@ -8315,7 +8330,7 @@
     "title": "inotifywait - Only watch a file for file modification events",
     "content": "inotifywait {{[-e|--event]}} {{modify}} {{path/to/file}}",
     "group": "Linux Ops",
-    "description": "inotifywait: Waits for changes to files. (Only watch a file for file modification events)",
+    "description": "inotifywait: Wait for changes to files. (Only watch a file for file modification events)",
     "tags": [
       "linux",
       "inotifywait",
@@ -8330,7 +8345,7 @@
     "title": "inotifywait - Watch a file printing only events, and no status messages",
     "content": "inotifywait {{[-q|--quiet]}} {{path/to/file}}",
     "group": "Linux Ops",
-    "description": "inotifywait: Waits for changes to files. (Watch a file printing only events, and no status messages)",
+    "description": "inotifywait: Wait for changes to files. (Watch a file printing only events, and no status messages)",
     "tags": [
       "linux",
       "inotifywait",
@@ -8345,7 +8360,7 @@
     "title": "inotifywait - Run a command when a file is accessed",
     "content": "inotifywait {{[-e|--event]}} {{access}} {{path/to/file}} && {{command}}",
     "group": "Linux Ops",
-    "description": "inotifywait: Waits for changes to files. (Run a command when a file is accessed)",
+    "description": "inotifywait: Wait for changes to files. (Run a command when a file is accessed)",
     "tags": [
       "linux",
       "inotifywait",
@@ -10445,7 +10460,7 @@
     "title": "shnsplit - Split a `.wav` + `.cue` file into multiple files",
     "content": "shnsplit -f {{path/to/file.cue}} {{path/to/file.wav}}",
     "group": "Linux Ops",
-    "description": "shnsplit: Splits audio files according to a `.cue` file. (Split a `.wav` + `.cue` file into multiple files)",
+    "description": "shnsplit: Split audio files according to a `.cue` file. (Split a `.wav` + `.cue` file into multiple files)",
     "tags": [
       "linux",
       "shnsplit",
@@ -10460,7 +10475,7 @@
     "title": "shnsplit - Show supported formats",
     "content": "shnsplit -a",
     "group": "Linux Ops",
-    "description": "shnsplit: Splits audio files according to a `.cue` file. (Show supported formats)",
+    "description": "shnsplit: Split audio files according to a `.cue` file. (Show supported formats)",
     "tags": [
       "linux",
       "shnsplit",
@@ -10475,7 +10490,7 @@
     "title": "shnsplit - Split a `.flac` file into multiple files",
     "content": "shnsplit -f {{path/to/file.cue}} -o flac {{path/to/file.flac}}",
     "group": "Linux Ops",
-    "description": "shnsplit: Splits audio files according to a `.cue` file. (Split a `.flac` file into multiple files)",
+    "description": "shnsplit: Split audio files according to a `.cue` file. (Split a `.flac` file into multiple files)",
     "tags": [
       "linux",
       "shnsplit",
@@ -10490,7 +10505,7 @@
     "title": "shnsplit - Split a `.wav` file into files of the form \"track-number - album - title\"",
     "content": "shnsplit -f {{path/to/file.cue}} {{path/to/file.wav}} -t \"%n - %a - %t\"",
     "group": "Linux Ops",
-    "description": "shnsplit: Splits audio files according to a `.cue` file. (Split a `.wav` file into files of the form \"track-number - album - title\")",
+    "description": "shnsplit: Split audio files according to a `.cue` file. (Split a `.wav` file into files of the form \"track-number - album - title\")",
     "tags": [
       "linux",
       "shnsplit",
@@ -12633,7 +12648,7 @@
     "id": "tldr-en-linux-imgp-1",
     "type": "command",
     "title": "imgp - Scale an image by 75% and overwrite the source image to a target resolution",
-    "content": "imgp {{[-x|--res]}} {{75}} z-w {{path/to/file}}",
+    "content": "imgp {{[-x|--res]}} {{75}} {{[-w|--overwrite]}} {{path/to/file}}",
     "group": "Linux Ops",
     "description": "imgp: Resize and rotate JPEG and PNG images. (Scale an image by 75% and overwrite the source image to a target resolution)",
     "tags": [
@@ -14988,7 +15003,7 @@
     "id": "tldr-en-linux-systemctl-set-environment-0",
     "type": "command",
     "title": "systemctl-set-environment - Set a single environment variable",
-    "content": "systemctl set-environment {{var value}}",
+    "content": "systemctl set-environment {{variable}} {{value}}",
     "group": "Linux Ops",
     "description": "systemctl-set-environment: Set one or more service manager environment variables. (Set a single environment variable)",
     "tags": [
@@ -15003,7 +15018,7 @@
     "id": "tldr-en-linux-systemctl-set-environment-1",
     "type": "command",
     "title": "systemctl-set-environment - Set multiple environment variables at once",
-    "content": "systemctl set-environment {{var1 value1 var2 value2 ...}}",
+    "content": "systemctl set-environment {{variable1 value1 variable2 value2 ...}}",
     "group": "Linux Ops",
     "description": "systemctl-set-environment: Set one or more service manager environment variables. (Set multiple environment variables at once)",
     "tags": [
@@ -15018,7 +15033,7 @@
     "id": "tldr-en-linux-systemctl-set-environment-2",
     "type": "command",
     "title": "systemctl-set-environment - Set an environment variable for the user service manager",
-    "content": "systemctl set-environment {{var value}} --user",
+    "content": "systemctl set-environment {{variable}} {{value}} --user",
     "group": "Linux Ops",
     "description": "systemctl-set-environment: Set one or more service manager environment variables. (Set an environment variable for the user service manager)",
     "tags": [
@@ -15618,7 +15633,7 @@
     "id": "tldr-en-linux-cpulimit-0",
     "type": "command",
     "title": "cpulimit - Limit an existing process with PID 1234 to only use 25% of the CPU",
-    "content": "cpulimit {{[-p|--pid]}} {{1234}} {{[-l|--limit]}} {{25%}}",
+    "content": "cpulimit {{[-p|--pid]}} 1234 {{[-l|--limit]}} 25%",
     "group": "Linux Ops",
     "description": "cpulimit: A tool to throttle the CPU usage of other processes. (Limit an existing process with PID 1234 to only use 25% of the CPU)",
     "tags": [
@@ -15648,7 +15663,7 @@
     "id": "tldr-en-linux-cpulimit-2",
     "type": "command",
     "title": "cpulimit - Launch a given program and limit it to only use 50% of the CPU",
-    "content": "cpulimit {{[-l|--limit]}} {{50}} -- {{program argument1 argument2 ...}}",
+    "content": "cpulimit {{[-l|--limit]}} 50 -- {{program argument1 argument2 ...}}",
     "group": "Linux Ops",
     "description": "cpulimit: A tool to throttle the CPU usage of other processes. (Launch a given program and limit it to only use 50% of the CPU)",
     "tags": [
@@ -15663,7 +15678,7 @@
     "id": "tldr-en-linux-cpulimit-3",
     "type": "command",
     "title": "cpulimit - Launch a program, limit its CPU usage to 50% and run cpulimit in the background",
-    "content": "cpulimit {{[-l|--limit]}} {{50}} {{[-b|--background]}} -- {{program}}",
+    "content": "cpulimit {{[-l|--limit]}} 50 {{[-b|--background]}} -- {{program}}",
     "group": "Linux Ops",
     "description": "cpulimit: A tool to throttle the CPU usage of other processes. (Launch a program, limit its CPU usage to 50% and run cpulimit in the background)",
     "tags": [
@@ -15693,7 +15708,7 @@
     "id": "tldr-en-linux-cpulimit-5",
     "type": "command",
     "title": "cpulimit - Throttle both it and its child processes so that none go about 25% CPU",
-    "content": "cpulimit {{[-l|--limit]}} {{25}} {{[-m|--monitor-forks]}} -- {{program}}",
+    "content": "cpulimit {{[-l|--limit]}} 25 {{[-m|--monitor-forks]}} -- {{program}}",
     "group": "Linux Ops",
     "description": "cpulimit: A tool to throttle the CPU usage of other processes. (Throttle both it and its child processes so that none go about 25% CPU)",
     "tags": [
@@ -16835,7 +16850,7 @@
     "title": "away - Lock terminal and set away message",
     "content": "away {{message}}",
     "group": "Linux Ops",
-    "description": "away: Locks terminal with an away message. (Lock terminal and set away message)",
+    "description": "away: Lock terminal with an away message. (Lock terminal and set away message)",
     "tags": [
       "linux",
       "away",
@@ -16850,7 +16865,7 @@
     "title": "away - Lock terminal and enable mail check",
     "content": "away {{[-c|--mail]}} {{message}}",
     "group": "Linux Ops",
-    "description": "away: Locks terminal with an away message. (Lock terminal and enable mail check)",
+    "description": "away: Lock terminal with an away message. (Lock terminal and enable mail check)",
     "tags": [
       "linux",
       "away",
@@ -16865,7 +16880,7 @@
     "title": "away - Lock terminal and disable mail check",
     "content": "away {{[-C|--nomail]}} {{message}}",
     "group": "Linux Ops",
-    "description": "away: Locks terminal with an away message. (Lock terminal and disable mail check)",
+    "description": "away: Lock terminal with an away message. (Lock terminal and disable mail check)",
     "tags": [
       "linux",
       "away",
@@ -16880,7 +16895,7 @@
     "title": "away - Lock terminal and sleep background tasks for number of seconds",
     "content": "away {{[-t|--time]}} {{seconds}} {{message}}",
     "group": "Linux Ops",
-    "description": "away: Locks terminal with an away message. (Lock terminal and sleep background tasks for number of seconds)",
+    "description": "away: Lock terminal with an away message. (Lock terminal and sleep background tasks for number of seconds)",
     "tags": [
       "linux",
       "away",
@@ -16895,7 +16910,7 @@
     "title": "away - Lock terminal and check mail if at least one inbox hasn't received new mail",
     "content": "away {{[-p|--persist]}} {{message}}",
     "group": "Linux Ops",
-    "description": "away: Locks terminal with an away message. (Lock terminal and check mail if at least one inbox hasn't received new mail)",
+    "description": "away: Lock terminal with an away message. (Lock terminal and check mail if at least one inbox hasn't received new mail)",
     "tags": [
       "linux",
       "away",
@@ -16910,7 +16925,7 @@
     "title": "away - Lock terminal and check mail until at least one inbox has received new mail",
     "content": "away {{[-P|--nopersist]}} {{message}}",
     "group": "Linux Ops",
-    "description": "away: Locks terminal with an away message. (Lock terminal and check mail until at least one inbox has received new mail)",
+    "description": "away: Lock terminal with an away message. (Lock terminal and check mail until at least one inbox has received new mail)",
     "tags": [
       "linux",
       "away",
@@ -16925,7 +16940,7 @@
     "title": "away - Display help",
     "content": "away {{[-h|--help]}}",
     "group": "Linux Ops",
-    "description": "away: Locks terminal with an away message. (Display help)",
+    "description": "away: Lock terminal with an away message. (Display help)",
     "tags": [
       "linux",
       "away",
@@ -16940,7 +16955,7 @@
     "title": "away - Display version",
     "content": "away {{[-v|--version]}}",
     "group": "Linux Ops",
-    "description": "away: Locks terminal with an away message. (Display version)",
+    "description": "away: Lock terminal with an away message. (Display version)",
     "tags": [
       "linux",
       "away",
@@ -17747,10 +17762,10 @@
   {
     "id": "tldr-en-linux-systemctl-list-paths-1",
     "type": "command",
-    "title": "systemctl-list-paths - List path units matching specific wildcard pattern i.e. `shell-globbing`",
+    "title": "systemctl-list-paths - List path units matching specific wildcard pattern i.e. a `glob`",
     "content": "systemctl list-paths {{pattern}}",
     "group": "Linux Ops",
-    "description": "systemctl-list-paths: List path units currently in memory, ordered by path. (List path units matching specific wildcard pattern i.e. `shell-globbing`)",
+    "description": "systemctl-list-paths: List path units currently in memory, ordered by path. (List path units matching specific wildcard pattern i.e. a `glob`)",
     "tags": [
       "linux",
       "systemctl-list-paths",
@@ -18275,7 +18290,7 @@
     "title": "systemctl - Show all running services",
     "content": "systemctl status",
     "group": "Linux Ops",
-    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot` etc. have their own usage documentation. (Show all running services)",
+    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot`, etc. have their own usage documentation. (Show all running services)",
     "tags": [
       "linux",
       "systemctl",
@@ -18290,7 +18305,7 @@
     "title": "systemctl - List failed units",
     "content": "systemctl --failed",
     "group": "Linux Ops",
-    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot` etc. have their own usage documentation. (List failed units)",
+    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot`, etc. have their own usage documentation. (List failed units)",
     "tags": [
       "linux",
       "systemctl",
@@ -18305,7 +18320,7 @@
     "title": "systemctl - Start/Stop/Restart/Reload/Show the status of a service",
     "content": "systemctl {{start|stop|restart|reload|status}} {{unit}}",
     "group": "Linux Ops",
-    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot` etc. have their own usage documentation. (Start/Stop/Restart/Reload/Show the status of a service)",
+    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot`, etc. have their own usage documentation. (Start/Stop/Restart/Reload/Show the status of a service)",
     "tags": [
       "linux",
       "systemctl",
@@ -18320,7 +18335,7 @@
     "title": "systemctl - Enable/Disable a unit to be started on bootup",
     "content": "systemctl {{enable|disable}} {{unit}}",
     "group": "Linux Ops",
-    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot` etc. have their own usage documentation. (Enable/Disable a unit to be started on bootup)",
+    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot`, etc. have their own usage documentation. (Enable/Disable a unit to be started on bootup)",
     "tags": [
       "linux",
       "systemctl",
@@ -18335,7 +18350,7 @@
     "title": "systemctl - Reload systemd, scan for new or changed units",
     "content": "systemctl daemon-reload",
     "group": "Linux Ops",
-    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot` etc. have their own usage documentation. (Reload systemd, scan for new or changed units)",
+    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot`, etc. have their own usage documentation. (Reload systemd, scan for new or changed units)",
     "tags": [
       "linux",
       "systemctl",
@@ -18350,7 +18365,7 @@
     "title": "systemctl - Check if a unit is active/enabled/failed",
     "content": "systemctl {{is-active|is-enabled|is-failed}} {{unit}}",
     "group": "Linux Ops",
-    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot` etc. have their own usage documentation. (Check if a unit is active/enabled/failed)",
+    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot`, etc. have their own usage documentation. (Check if a unit is active/enabled/failed)",
     "tags": [
       "linux",
       "systemctl",
@@ -18365,7 +18380,7 @@
     "title": "systemctl - List all service/socket/automount units filtering by running/failed state",
     "content": "systemctl list-units {{[-t|--type]}} {{service|socket|automount|...}} --state {{failed|running}}",
     "group": "Linux Ops",
-    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot` etc. have their own usage documentation. (List all service/socket/automount units filtering by running/failed state)",
+    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot`, etc. have their own usage documentation. (List all service/socket/automount units filtering by running/failed state)",
     "tags": [
       "linux",
       "systemctl",
@@ -18380,7 +18395,7 @@
     "title": "systemctl - Show the contents & absolute path of a unit file or edit it",
     "content": "systemctl {{cat|edit}} {{unit}}",
     "group": "Linux Ops",
-    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot` etc. have their own usage documentation. (Show the contents & absolute path of a unit file or edit it)",
+    "description": "systemctl: Control the systemd system and service manager. Some subcommands such as `disable`, `status`, `reboot`, etc. have their own usage documentation. (Show the contents & absolute path of a unit file or edit it)",
     "tags": [
       "linux",
       "systemctl",
@@ -18845,7 +18860,7 @@
     "title": "rkhunter - Check a system for rootkits and malware",
     "content": "sudo rkhunter --check",
     "group": "Linux Ops",
-    "description": "rkhunter: Searches for rootkits and malware. (Check a system for rootkits and malware)",
+    "description": "rkhunter: Search for rootkits and malware. (Check a system for rootkits and malware)",
     "tags": [
       "linux",
       "rkhunter",
@@ -18860,7 +18875,7 @@
     "title": "rkhunter - Update rkhunter",
     "content": "sudo rkhunter --update",
     "group": "Linux Ops",
-    "description": "rkhunter: Searches for rootkits and malware. (Update rkhunter)",
+    "description": "rkhunter: Search for rootkits and malware. (Update rkhunter)",
     "tags": [
       "linux",
       "rkhunter",
@@ -18875,7 +18890,7 @@
     "title": "rkhunter - Print all available tests",
     "content": "sudo rkhunter --list",
     "group": "Linux Ops",
-    "description": "rkhunter: Searches for rootkits and malware. (Print all available tests)",
+    "description": "rkhunter: Search for rootkits and malware. (Print all available tests)",
     "tags": [
       "linux",
       "rkhunter",
@@ -18890,7 +18905,7 @@
     "title": "rkhunter - Display help",
     "content": "sudo rkhunter --help",
     "group": "Linux Ops",
-    "description": "rkhunter: Searches for rootkits and malware. (Display help)",
+    "description": "rkhunter: Search for rootkits and malware. (Display help)",
     "tags": [
       "linux",
       "rkhunter",
@@ -18905,7 +18920,7 @@
     "title": "rkhunter - Display version",
     "content": "sudo rkhunter --versioncheck",
     "group": "Linux Ops",
-    "description": "rkhunter: Searches for rootkits and malware. (Display version)",
+    "description": "rkhunter: Search for rootkits and malware. (Display version)",
     "tags": [
       "linux",
       "rkhunter",
@@ -21380,7 +21395,7 @@
     "title": "powerstat - Measure power with the default of 10 samples with an interval of 10 seconds",
     "content": "powerstat",
     "group": "Linux Ops",
-    "description": "powerstat: Measures the power consumption of a computer that has a battery power source or supports the RAPL interface. (Measure power with the default of 10 samples with an interval of 10 seconds)",
+    "description": "powerstat: Measure the power consumption of a computer that has a battery power source or supports the RAPL interface. (Measure power with the default of 10 samples with an interval of 10 seconds)",
     "tags": [
       "linux",
       "powerstat",
@@ -21395,7 +21410,7 @@
     "title": "powerstat - Measure power with custom number of samples and interval duration",
     "content": "powerstat {{interval}} {{number_of_samples}}",
     "group": "Linux Ops",
-    "description": "powerstat: Measures the power consumption of a computer that has a battery power source or supports the RAPL interface. (Measure power with custom number of samples and interval duration)",
+    "description": "powerstat: Measure the power consumption of a computer that has a battery power source or supports the RAPL interface. (Measure power with custom number of samples and interval duration)",
     "tags": [
       "linux",
       "powerstat",
@@ -21410,7 +21425,7 @@
     "title": "powerstat - Measure power using Intel's RAPL interface",
     "content": "powerstat -R {{interval}} {{number_of_samples}}",
     "group": "Linux Ops",
-    "description": "powerstat: Measures the power consumption of a computer that has a battery power source or supports the RAPL interface. (Measure power using Intel's RAPL interface)",
+    "description": "powerstat: Measure the power consumption of a computer that has a battery power source or supports the RAPL interface. (Measure power using Intel's RAPL interface)",
     "tags": [
       "linux",
       "powerstat",
@@ -21425,7 +21440,7 @@
     "title": "powerstat - Show a histogram of the power measurements",
     "content": "powerstat -H {{interval}} {{number_of_samples}}",
     "group": "Linux Ops",
-    "description": "powerstat: Measures the power consumption of a computer that has a battery power source or supports the RAPL interface. (Show a histogram of the power measurements)",
+    "description": "powerstat: Measure the power consumption of a computer that has a battery power source or supports the RAPL interface. (Show a histogram of the power measurements)",
     "tags": [
       "linux",
       "powerstat",
@@ -21440,7 +21455,7 @@
     "title": "powerstat - Enable all statistics gathering options",
     "content": "powerstat -a {{interval}} {{number_of_samples}}",
     "group": "Linux Ops",
-    "description": "powerstat: Measures the power consumption of a computer that has a battery power source or supports the RAPL interface. (Enable all statistics gathering options)",
+    "description": "powerstat: Measure the power consumption of a computer that has a battery power source or supports the RAPL interface. (Enable all statistics gathering options)",
     "tags": [
       "linux",
       "powerstat",
@@ -25005,6 +25020,96 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-linux-ufw-limit-0",
+    "type": "command",
+    "title": "ufw-limit - Simulate a rule without applying it",
+    "content": "sudo ufw --dry-run limit {{profile}}",
+    "group": "Linux Ops",
+    "description": "ufw-limit: Rate limit connections to deny an IP initiating 6 or more attempts within 30 seconds. (Simulate a rule without applying it)",
+    "tags": [
+      "linux",
+      "ufw-limit",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ufw-limit-1",
+    "type": "command",
+    "title": "ufw-limit - Rate limit a specific service by profile",
+    "content": "sudo ufw limit {{profile}}",
+    "group": "Linux Ops",
+    "description": "ufw-limit: Rate limit connections to deny an IP initiating 6 or more attempts within 30 seconds. (Rate limit a specific service by profile)",
+    "tags": [
+      "linux",
+      "ufw-limit",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ufw-limit-2",
+    "type": "command",
+    "title": "ufw-limit - Rate limit a specific port and protocol",
+    "content": "sudo ufw limit {{22}}/{{tcp}}",
+    "group": "Linux Ops",
+    "description": "ufw-limit: Rate limit connections to deny an IP initiating 6 or more attempts within 30 seconds. (Rate limit a specific port and protocol)",
+    "tags": [
+      "linux",
+      "ufw-limit",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ufw-limit-3",
+    "type": "command",
+    "title": "ufw-limit - Rate limit only from a specific source address or subnet",
+    "content": "sudo ufw limit from {{192.168.0.0/16}} to any port {{22}} proto {{tcp}}",
+    "group": "Linux Ops",
+    "description": "ufw-limit: Rate limit connections to deny an IP initiating 6 or more attempts within 30 seconds. (Rate limit only from a specific source address or subnet)",
+    "tags": [
+      "linux",
+      "ufw-limit",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ufw-limit-4",
+    "type": "command",
+    "title": "ufw-limit - Rate limit on a specific network interface",
+    "content": "sudo ufw limit in on {{eth0}} to any port {{22}}",
+    "group": "Linux Ops",
+    "description": "ufw-limit: Rate limit connections to deny an IP initiating 6 or more attempts within 30 seconds. (Rate limit on a specific network interface)",
+    "tags": [
+      "linux",
+      "ufw-limit",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ufw-limit-5",
+    "type": "command",
+    "title": "ufw-limit - Delete a limit rule",
+    "content": "sudo ufw delete limit {{service|port}}/{{tcp}}",
+    "group": "Linux Ops",
+    "description": "ufw-limit: Rate limit connections to deny an IP initiating 6 or more attempts within 30 seconds. (Delete a limit rule)",
+    "tags": [
+      "linux",
+      "ufw-limit",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-linux-systemctl-set-default-0",
     "type": "command",
     "title": "systemctl-set-default - Set `systemd`'s default boot mode",
@@ -25578,7 +25683,7 @@
     "id": "tldr-en-linux-chage-1",
     "type": "command",
     "title": "chage - Enable password expiration in 10 days",
-    "content": "sudo chage {{[-M|--maxdays]}} {{10}} {{username}}",
+    "content": "sudo chage {{[-M|--maxdays]}} 10 {{username}}",
     "group": "Linux Ops",
     "description": "chage: Change user account and password expiry information. (Enable password expiration in 10 days)",
     "tags": [
@@ -25593,7 +25698,7 @@
     "id": "tldr-en-linux-chage-2",
     "type": "command",
     "title": "chage - Disable password expiration",
-    "content": "sudo chage {{[-M|--maxdays]}} {{-1}} {{username}}",
+    "content": "sudo chage {{[-M|--maxdays]}} -1 {{username}}",
     "group": "Linux Ops",
     "description": "chage: Change user account and password expiry information. (Disable password expiration)",
     "tags": [
@@ -25623,7 +25728,7 @@
     "id": "tldr-en-linux-chage-4",
     "type": "command",
     "title": "chage - Force user to change password on next log in",
-    "content": "sudo chage {{[-d|--lastday]}} {{0}} {{username}}",
+    "content": "sudo chage {{[-d|--lastday]}} 0 {{username}}",
     "group": "Linux Ops",
     "description": "chage: Change user account and password expiry information. (Force user to change password on next log in)",
     "tags": [
@@ -26945,7 +27050,7 @@
     "title": "bpftool - List information about loaded `eBPF` programs",
     "content": "bpftool prog list",
     "group": "Linux Ops",
-    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. Some subcommands such as `prog` have their own usage documentation. (List information about loaded `eBPF` programs)",
+    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. (List information about loaded `eBPF` programs)",
     "tags": [
       "linux",
       "bpftool",
@@ -26960,7 +27065,7 @@
     "title": "bpftool - List `eBPF` program attachments in the kernel networking subsystem",
     "content": "bpftool net list",
     "group": "Linux Ops",
-    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. Some subcommands such as `prog` have their own usage documentation. (List `eBPF` program attachments in the kernel networking subsystem)",
+    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. (List `eBPF` program attachments in the kernel networking subsystem)",
     "tags": [
       "linux",
       "bpftool",
@@ -26975,7 +27080,7 @@
     "title": "bpftool - List all active links",
     "content": "bpftool link list",
     "group": "Linux Ops",
-    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. Some subcommands such as `prog` have their own usage documentation. (List all active links)",
+    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. (List all active links)",
     "tags": [
       "linux",
       "bpftool",
@@ -26990,7 +27095,7 @@
     "title": "bpftool - List all `raw_tracepoint`, `tracepoint`, `kprobe` attachments in the system",
     "content": "bpftool perf list",
     "group": "Linux Ops",
-    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. Some subcommands such as `prog` have their own usage documentation. (List all `raw_tracepoint`, `tracepoint`, `kprobe` attachments in the system)",
+    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. (List all `raw_tracepoint`, `tracepoint`, `kprobe` attachments in the system)",
     "tags": [
       "linux",
       "bpftool",
@@ -27005,7 +27110,7 @@
     "title": "bpftool - List `BPF Type Format (BTF)` data",
     "content": "bpftool btf list",
     "group": "Linux Ops",
-    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. Some subcommands such as `prog` have their own usage documentation. (List `BPF Type Format (BTF)` data)",
+    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. (List `BPF Type Format (BTF)` data)",
     "tags": [
       "linux",
       "bpftool",
@@ -27020,7 +27125,7 @@
     "title": "bpftool - List information about loaded maps",
     "content": "bpftool map list",
     "group": "Linux Ops",
-    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. Some subcommands such as `prog` have their own usage documentation. (List information about loaded maps)",
+    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. (List information about loaded maps)",
     "tags": [
       "linux",
       "bpftool",
@@ -27035,7 +27140,7 @@
     "title": "bpftool - Probe a network device \"eth0\" for supported `eBPF` features",
     "content": "bpftool feature probe dev {{eth0}}",
     "group": "Linux Ops",
-    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. Some subcommands such as `prog` have their own usage documentation. (Probe a network device \"eth0\" for supported `eBPF` features)",
+    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. (Probe a network device \"eth0\" for supported `eBPF` features)",
     "tags": [
       "linux",
       "bpftool",
@@ -27050,7 +27155,7 @@
     "title": "bpftool - Run commands in batch mode from a file",
     "content": "bpftool batch file {{myfile}}",
     "group": "Linux Ops",
-    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. Some subcommands such as `prog` have their own usage documentation. (Run commands in batch mode from a file)",
+    "description": "bpftool: Inspect and manipulate eBPF programs and maps in a simple way. (Run commands in batch mode from a file)",
     "tags": [
       "linux",
       "bpftool",
@@ -27186,6 +27291,21 @@
     "content": "trap '' {{[INT|SIGINT]}}",
     "group": "Linux Ops",
     "description": "trap: Execute a command upon an event. (Ignore a signal)",
+    "tags": [
+      "linux",
+      "trap",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-trap-5",
+    "type": "command",
+    "title": "trap - Display help",
+    "content": "help trap",
+    "group": "Linux Ops",
+    "description": "trap: Execute a command upon an event. (Display help)",
     "tags": [
       "linux",
       "trap",
@@ -31953,7 +32073,7 @@
     "id": "tldr-en-linux-mount.cifs-0",
     "type": "command",
     "title": "mount.cifs - Connect using the specified username or `$USER` by default (you will be prompted for a password)",
-    "content": "mount.cifs -o user={{username}} //{{server}}/{{share_name}} {{mountpoint}}",
+    "content": "mount.cifs -o user={{username}} //{{server}}/{{share_name}} {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "mount.cifs: Mount SMB (Server Message Block) or CIFS (Common Internet File System) shares. Note: You can also do the same thing by passing the `-t cifs` option to `mount`. (Connect using the specified username or `$USER` by default (you will be prompted for a password))",
     "tags": [
@@ -31968,7 +32088,7 @@
     "id": "tldr-en-linux-mount.cifs-1",
     "type": "command",
     "title": "mount.cifs - Connect as the guest user (without a password)",
-    "content": "mount.cifs -o guest //{{server}}/{{share_name}} {{mountpoint}}",
+    "content": "mount.cifs -o guest //{{server}}/{{share_name}} {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "mount.cifs: Mount SMB (Server Message Block) or CIFS (Common Internet File System) shares. Note: You can also do the same thing by passing the `-t cifs` option to `mount`. (Connect as the guest user (without a password))",
     "tags": [
@@ -31983,7 +32103,7 @@
     "id": "tldr-en-linux-mount.cifs-2",
     "type": "command",
     "title": "mount.cifs - Set ownership information for the mounted directory",
-    "content": "mount.cifs -o uid={{user_id|username}},gid={{group_id|groupname}} //{{server}}/{{share_name}} {{mountpoint}}",
+    "content": "mount.cifs -o uid={{user_id|username}},gid={{group_id|groupname}} //{{server}}/{{share_name}} {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "mount.cifs: Mount SMB (Server Message Block) or CIFS (Common Internet File System) shares. Note: You can also do the same thing by passing the `-t cifs` option to `mount`. (Set ownership information for the mounted directory)",
     "tags": [
@@ -33722,10 +33842,10 @@
   {
     "id": "tldr-en-linux-uncompress-3",
     "type": "command",
-    "title": "uncompress - Verbose mode (write to `stderr` about percentage reduction or expansion)",
+    "title": "uncompress - Uncompress files verbosely (write to `stderr` about percentage reduction or expansion)",
     "content": "uncompress -v {{path/to/file1.Z path/to/file2.Z ...}}",
     "group": "Linux Ops",
-    "description": "uncompress: Uncompress files compressed using the Unix `compress` command. (Verbose mode (write to `stderr` about percentage reduction or expansion))",
+    "description": "uncompress: Uncompress files compressed using the Unix `compress` command. (Uncompress files verbosely (write to `stderr` about percentage reduction or expansion))",
     "tags": [
       "linux",
       "uncompress",
@@ -35510,7 +35630,7 @@
     "title": "login - Log in as a user",
     "content": "login {{user}}",
     "group": "Linux Ops",
-    "description": "login: Initiates a session for a user. (Log in as a user)",
+    "description": "login: Initiate a session for a user. (Log in as a user)",
     "tags": [
       "linux",
       "login",
@@ -35525,7 +35645,7 @@
     "title": "login - Log in as user without authentication if user is preauthenticated",
     "content": "login -f {{user}}",
     "group": "Linux Ops",
-    "description": "login: Initiates a session for a user. (Log in as user without authentication if user is preauthenticated)",
+    "description": "login: Initiate a session for a user. (Log in as user without authentication if user is preauthenticated)",
     "tags": [
       "linux",
       "login",
@@ -35540,7 +35660,7 @@
     "title": "login - Log in as user and preserve environment",
     "content": "login -p {{user}}",
     "group": "Linux Ops",
-    "description": "login: Initiates a session for a user. (Log in as user and preserve environment)",
+    "description": "login: Initiate a session for a user. (Log in as user and preserve environment)",
     "tags": [
       "linux",
       "login",
@@ -35555,7 +35675,7 @@
     "title": "login - Log in as a user on a remote host",
     "content": "login -h {{host}} {{user}}",
     "group": "Linux Ops",
-    "description": "login: Initiates a session for a user. (Log in as a user on a remote host)",
+    "description": "login: Initiate a session for a user. (Log in as a user on a remote host)",
     "tags": [
       "linux",
       "login",
@@ -36290,7 +36410,7 @@
     "title": "logrotate - Trigger a run manually",
     "content": "logrotate {{path/to/logrotate.conf}} --force",
     "group": "Linux Ops",
-    "description": "logrotate: Rotates, compresses, and mails system logs. (Trigger a run manually)",
+    "description": "logrotate: Rotate, compress, and mail system logs. (Trigger a run manually)",
     "tags": [
       "linux",
       "logrotate",
@@ -36305,7 +36425,7 @@
     "title": "logrotate - Run using a specific command to mail reports",
     "content": "logrotate {{path/to/logrotate.conf}} --mail {{/usr/bin/mail_command}}",
     "group": "Linux Ops",
-    "description": "logrotate: Rotates, compresses, and mails system logs. (Run using a specific command to mail reports)",
+    "description": "logrotate: Rotate, compress, and mail system logs. (Run using a specific command to mail reports)",
     "tags": [
       "linux",
       "logrotate",
@@ -36320,7 +36440,7 @@
     "title": "logrotate - Run without using a state (lock) file",
     "content": "logrotate {{path/to/logrotate.conf}} --state /dev/null",
     "group": "Linux Ops",
-    "description": "logrotate: Rotates, compresses, and mails system logs. (Run without using a state (lock) file)",
+    "description": "logrotate: Rotate, compress, and mail system logs. (Run without using a state (lock) file)",
     "tags": [
       "linux",
       "logrotate",
@@ -36335,7 +36455,7 @@
     "title": "logrotate - Run and skip the state (lock) file check",
     "content": "logrotate {{path/to/logrotate.conf}} --skip-state-lock",
     "group": "Linux Ops",
-    "description": "logrotate: Rotates, compresses, and mails system logs. (Run and skip the state (lock) file check)",
+    "description": "logrotate: Rotate, compress, and mail system logs. (Run and skip the state (lock) file check)",
     "tags": [
       "linux",
       "logrotate",
@@ -36350,7 +36470,7 @@
     "title": "logrotate - Tell `logrotate` to log verbose output into the log file",
     "content": "logrotate {{path/to/logrotate.conf}} --log {{path/to/log_file}}",
     "group": "Linux Ops",
-    "description": "logrotate: Rotates, compresses, and mails system logs. (Tell `logrotate` to log verbose output into the log file)",
+    "description": "logrotate: Rotate, compress, and mail system logs. (Tell `logrotate` to log verbose output into the log file)",
     "tags": [
       "linux",
       "logrotate",
@@ -37145,7 +37265,7 @@
     "title": "dnsmap - Scan for subdomains using the internal wordlist",
     "content": "dnsmap {{example.com}}",
     "group": "Linux Ops",
-    "description": "dnsmap: Scans a domain for common subdomains e.g. smtp.domain.org. (Scan for subdomains using the internal wordlist)",
+    "description": "dnsmap: Scan a domain for common subdomains e.g. smtp.domain.org. (Scan for subdomains using the internal wordlist)",
     "tags": [
       "linux",
       "dnsmap",
@@ -37160,7 +37280,7 @@
     "title": "dnsmap - Specify a list of subdomains to check for",
     "content": "dnsmap {{example.com}} -w {{path/to/wordlist.txt}}",
     "group": "Linux Ops",
-    "description": "dnsmap: Scans a domain for common subdomains e.g. smtp.domain.org. (Specify a list of subdomains to check for)",
+    "description": "dnsmap: Scan a domain for common subdomains e.g. smtp.domain.org. (Specify a list of subdomains to check for)",
     "tags": [
       "linux",
       "dnsmap",
@@ -37175,7 +37295,7 @@
     "title": "dnsmap - Store results to a CSV file",
     "content": "dnsmap {{example.com}} -c {{path/to/file.csv}}",
     "group": "Linux Ops",
-    "description": "dnsmap: Scans a domain for common subdomains e.g. smtp.domain.org. (Store results to a CSV file)",
+    "description": "dnsmap: Scan a domain for common subdomains e.g. smtp.domain.org. (Store results to a CSV file)",
     "tags": [
       "linux",
       "dnsmap",
@@ -37190,7 +37310,7 @@
     "title": "dnsmap - Ignore 2 IPs that are false positives (up to 5 possible)",
     "content": "dnsmap {{example.com}} -i {{123.45.67.89,98.76.54.32}}",
     "group": "Linux Ops",
-    "description": "dnsmap: Scans a domain for common subdomains e.g. smtp.domain.org. (Ignore 2 IPs that are false positives (up to 5 possible))",
+    "description": "dnsmap: Scan a domain for common subdomains e.g. smtp.domain.org. (Ignore 2 IPs that are false positives (up to 5 possible))",
     "tags": [
       "linux",
       "dnsmap",
@@ -37659,36 +37779,6 @@
     "tags": [
       "linux",
       "create_ap",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-linux-wg-quick-0",
-    "type": "command",
-    "title": "wg-quick - Set up a VPN tunnel",
-    "content": "wg-quick up {{interface_name}}",
-    "group": "Linux Ops",
-    "description": "wg-quick: Quickly set up WireGuard tunnels based on config files. (Set up a VPN tunnel)",
-    "tags": [
-      "linux",
-      "wg-quick",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-linux-wg-quick-1",
-    "type": "command",
-    "title": "wg-quick - Delete a VPN tunnel",
-    "content": "wg-quick down {{interface_name}}",
-    "group": "Linux Ops",
-    "description": "wg-quick: Quickly set up WireGuard tunnels based on config files. (Delete a VPN tunnel)",
-    "tags": [
-      "linux",
-      "wg-quick",
       "tldr",
       "en"
     ],
@@ -38315,7 +38405,7 @@
     "title": "dnstracer - Find out where your local DNS got the information on www.example.com",
     "content": "dnstracer {{www.example.com}}",
     "group": "Linux Ops",
-    "description": "dnstracer: Determines where a DNS gets its information from. (Find out where your local DNS got the information on www.example.com)",
+    "description": "dnstracer: Determine where a DNS gets its information from. (Find out where your local DNS got the information on www.example.com)",
     "tags": [
       "linux",
       "dnstracer",
@@ -38330,7 +38420,7 @@
     "title": "dnstracer - Start with a [s]pecific DNS that you already know",
     "content": "dnstracer -s {{dns.example.org}} {{www.example.com}}",
     "group": "Linux Ops",
-    "description": "dnstracer: Determines where a DNS gets its information from. (Start with a [s]pecific DNS that you already know)",
+    "description": "dnstracer: Determine where a DNS gets its information from. (Start with a [s]pecific DNS that you already know)",
     "tags": [
       "linux",
       "dnstracer",
@@ -38345,7 +38435,7 @@
     "title": "dnstracer - Only query IPv[4] servers",
     "content": "dnstracer -4 {{www.example.com}}",
     "group": "Linux Ops",
-    "description": "dnstracer: Determines where a DNS gets its information from. (Only query IPv[4] servers)",
+    "description": "dnstracer: Determine where a DNS gets its information from. (Only query IPv[4] servers)",
     "tags": [
       "linux",
       "dnstracer",
@@ -38360,7 +38450,7 @@
     "title": "dnstracer - [r]etry each request 5 times on failure",
     "content": "dnstracer -r {{5}} {{www.example.com}}",
     "group": "Linux Ops",
-    "description": "dnstracer: Determines where a DNS gets its information from. ([r]etry each request 5 times on failure)",
+    "description": "dnstracer: Determine where a DNS gets its information from. ([r]etry each request 5 times on failure)",
     "tags": [
       "linux",
       "dnstracer",
@@ -38375,7 +38465,7 @@
     "title": "dnstracer - Display all steps during execution",
     "content": "dnstracer -v {{www.example.com}}",
     "group": "Linux Ops",
-    "description": "dnstracer: Determines where a DNS gets its information from. (Display all steps during execution)",
+    "description": "dnstracer: Determine where a DNS gets its information from. (Display all steps during execution)",
     "tags": [
       "linux",
       "dnstracer",
@@ -38390,7 +38480,7 @@
     "title": "dnstracer - Display an [o]verview of all received answers after execution",
     "content": "dnstracer -o {{www.example.com}}",
     "group": "Linux Ops",
-    "description": "dnstracer: Determines where a DNS gets its information from. (Display an [o]verview of all received answers after execution)",
+    "description": "dnstracer: Determine where a DNS gets its information from. (Display an [o]verview of all received answers after execution)",
     "tags": [
       "linux",
       "dnstracer",
@@ -38675,7 +38765,7 @@
     "title": "sync - Flush all pending write operations on all disks",
     "content": "sync",
     "group": "Linux Ops",
-    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush all pending write operations on all disks)",
+    "description": "sync: Flush all pending write operations to the appropriate disks. (Flush all pending write operations on all disks)",
     "tags": [
       "linux",
       "sync",
@@ -38690,7 +38780,7 @@
     "title": "sync - Flush all pending write operations on a single file to disk",
     "content": "sync {{path/to/file}}",
     "group": "Linux Ops",
-    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush all pending write operations on a single file to disk)",
+    "description": "sync: Flush all pending write operations to the appropriate disks. (Flush all pending write operations on a single file to disk)",
     "tags": [
       "linux",
       "sync",
@@ -38705,7 +38795,7 @@
     "title": "sync - Flush writes and drop filesystem caches",
     "content": "sync; echo 3 | sudo tee /proc/sys/vm/drop_caches",
     "group": "Linux Ops",
-    "description": "sync: Flushes all pending write operations to the appropriate disks. (Flush writes and drop filesystem caches)",
+    "description": "sync: Flush all pending write operations to the appropriate disks. (Flush writes and drop filesystem caches)",
     "tags": [
       "linux",
       "sync",
@@ -39185,7 +39275,7 @@
     "title": "blkdiscard - Discard all sectors on a device, removing all data",
     "content": "blkdiscard {{/dev/device}}",
     "group": "Linux Ops",
-    "description": "blkdiscard: Discards device sectors on storage devices. Useful for SSDs. (Discard all sectors on a device, removing all data)",
+    "description": "blkdiscard: Discard device sectors on storage devices. Useful for SSDs. (Discard all sectors on a device, removing all data)",
     "tags": [
       "linux",
       "blkdiscard",
@@ -39200,7 +39290,7 @@
     "title": "blkdiscard - Securely discard all blocks on a device, removing all data",
     "content": "blkdiscard {{[-s|--secure]}} {{/dev/device}}",
     "group": "Linux Ops",
-    "description": "blkdiscard: Discards device sectors on storage devices. Useful for SSDs. (Securely discard all blocks on a device, removing all data)",
+    "description": "blkdiscard: Discard device sectors on storage devices. Useful for SSDs. (Securely discard all blocks on a device, removing all data)",
     "tags": [
       "linux",
       "blkdiscard",
@@ -39215,7 +39305,7 @@
     "title": "blkdiscard - Discard the first 100 MB of a device",
     "content": "blkdiscard {{[-l|--length]}} {{100MB}} {{/dev/device}}",
     "group": "Linux Ops",
-    "description": "blkdiscard: Discards device sectors on storage devices. Useful for SSDs. (Discard the first 100 MB of a device)",
+    "description": "blkdiscard: Discard device sectors on storage devices. Useful for SSDs. (Discard the first 100 MB of a device)",
     "tags": [
       "linux",
       "blkdiscard",
@@ -39962,10 +40052,10 @@
   {
     "id": "tldr-en-linux-tracepath-0",
     "type": "command",
-    "title": "tracepath - A preferred way to trace the path to a host",
+    "title": "tracepath - Trace the path to a host using a specific destination port",
     "content": "tracepath -p {{33434}} {{host}}",
     "group": "Linux Ops",
-    "description": "tracepath: Trace the path to a network host discovering MTU along this path. (A preferred way to trace the path to a host)",
+    "description": "tracepath: Trace the path to a network host discovering MTU along this path. (Trace the path to a host using a specific destination port)",
     "tags": [
       "linux",
       "tracepath",
@@ -40098,7 +40188,7 @@
     "id": "tldr-en-linux-vgcreate-2",
     "type": "command",
     "title": "vgcreate - Create a new volume group with custom physical extent size",
-    "content": "sudo vgcreate {{-s|--physicalextentsize}} {{8M}} {{volume_group}} {{/dev/sdXY /dev/sdXZ ...}}",
+    "content": "sudo vgcreate {{[-s|--physicalextentsize]}} {{8M}} {{volume_group}} {{/dev/sdXY /dev/sdXZ ...}}",
     "group": "Linux Ops",
     "description": "vgcreate: Create volume groups combining multiple mass-storage devices. (Create a new volume group with custom physical extent size)",
     "tags": [
@@ -42242,10 +42332,10 @@
   {
     "id": "tldr-en-linux-rdesktop-1",
     "type": "command",
-    "title": "rdesktop - Simple Examples",
+    "title": "rdesktop - Connect to a remote computer as `Administrator` with a specific password",
     "content": "rdesktop -u Administrator -p passwd123 192.168.1.111:3389",
     "group": "Linux Ops",
-    "description": "rdesktop: Remote Desktop Protocol client. It can be used to connect the remote computer using the RDP protocol. (Simple Examples)",
+    "description": "rdesktop: Remote Desktop Protocol client. It can be used to connect the remote computer using the RDP protocol. (Connect to a remote computer as `Administrator` with a specific password)",
     "tags": [
       "linux",
       "rdesktop",
@@ -45155,7 +45245,7 @@
     "title": "apptainer - Download a container from Docker Hub",
     "content": "apptainer pull {{path/to/image.sif}} docker://{{image}}:{{tag}}",
     "group": "Linux Ops",
-    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, and `push` have their own usage documentation. (Download a container from Docker Hub)",
+    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, `push`, etc. have their own usage documentation. (Download a container from Docker Hub)",
     "tags": [
       "linux",
       "apptainer",
@@ -45170,7 +45260,7 @@
     "title": "apptainer - Download a container from the Container Library",
     "content": "apptainer pull {{path/to/image.sif}} library://{{user/collection/container}}:{{tag}}",
     "group": "Linux Ops",
-    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, and `push` have their own usage documentation. (Download a container from the Container Library)",
+    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, `push`, etc. have their own usage documentation. (Download a container from the Container Library)",
     "tags": [
       "linux",
       "apptainer",
@@ -45185,7 +45275,7 @@
     "title": "apptainer - Build a container from a definition file",
     "content": "apptainer build {{path/to/image.sif}} {{path/to/definition.def}}",
     "group": "Linux Ops",
-    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, and `push` have their own usage documentation. (Build a container from a definition file)",
+    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, `push`, etc. have their own usage documentation. (Build a container from a definition file)",
     "tags": [
       "linux",
       "apptainer",
@@ -45200,7 +45290,7 @@
     "title": "apptainer - Start an interactive shell inside a container",
     "content": "apptainer shell {{path/to/image.sif}}",
     "group": "Linux Ops",
-    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, and `push` have their own usage documentation. (Start an interactive shell inside a container)",
+    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, `push`, etc. have their own usage documentation. (Start an interactive shell inside a container)",
     "tags": [
       "linux",
       "apptainer",
@@ -45215,7 +45305,7 @@
     "title": "apptainer - Execute a command inside a container",
     "content": "apptainer exec {{path/to/image.sif}} {{command}}",
     "group": "Linux Ops",
-    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, and `push` have their own usage documentation. (Execute a command inside a container)",
+    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, `push`, etc. have their own usage documentation. (Execute a command inside a container)",
     "tags": [
       "linux",
       "apptainer",
@@ -45230,7 +45320,7 @@
     "title": "apptainer - Run the default runscript of a container",
     "content": "apptainer run {{path/to/image.sif}}",
     "group": "Linux Ops",
-    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, and `push` have their own usage documentation. (Run the default runscript of a container)",
+    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, `push`, etc. have their own usage documentation. (Run the default runscript of a container)",
     "tags": [
       "linux",
       "apptainer",
@@ -45245,7 +45335,7 @@
     "title": "apptainer - Inspect a container's metadata",
     "content": "apptainer inspect {{path/to/image.sif}}",
     "group": "Linux Ops",
-    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, and `push` have their own usage documentation. (Inspect a container's metadata)",
+    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, `push`, etc. have their own usage documentation. (Inspect a container's metadata)",
     "tags": [
       "linux",
       "apptainer",
@@ -45260,7 +45350,7 @@
     "title": "apptainer - Display help",
     "content": "apptainer {{[-h|--help]}}",
     "group": "Linux Ops",
-    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, and `push` have their own usage documentation. (Display help)",
+    "description": "apptainer: Manage containers for HPC and scientific computing. Some subcommands such as `build`, `pull`, `push`, etc. have their own usage documentation. (Display help)",
     "tags": [
       "linux",
       "apptainer",
@@ -46007,10 +46097,10 @@
   {
     "id": "tldr-en-linux-isosize-2",
     "type": "command",
-    "title": "isosize - Display the size of an ISO file divided by a given number (only usable when --sectors is not given)",
+    "title": "isosize - Display the size of an ISO file divided by a given number (only usable when `--sectors` is not given)",
     "content": "isosize {{[-d|--divisor]}} {{number}} {{path/to/file.iso}}",
     "group": "Linux Ops",
-    "description": "isosize: Display the size of an ISO file. (Display the size of an ISO file divided by a given number (only usable when --sectors is not given))",
+    "description": "isosize: Display the size of an ISO file. (Display the size of an ISO file divided by a given number (only usable when `--sectors` is not given))",
     "tags": [
       "linux",
       "isosize",
@@ -48830,7 +48920,7 @@
     "title": "qsub - Submit a script with default settings (depends on TORQUE settings)",
     "content": "qsub {{script.sh}}",
     "group": "Linux Ops",
-    "description": "qsub: Submits a script to the queue management system TORQUE. (Submit a script with default settings (depends on TORQUE settings))",
+    "description": "qsub: Submit a script to the queue management system TORQUE. (Submit a script with default settings (depends on TORQUE settings))",
     "tags": [
       "linux",
       "qsub",
@@ -48845,7 +48935,7 @@
     "title": "qsub - Submit a script with a specified wallclock runtime limit of 1 hour 2 minutes and 3 seconds",
     "content": "qsub -l walltime={{1}}:{{2}}:{{3}} {{script.sh}}",
     "group": "Linux Ops",
-    "description": "qsub: Submits a script to the queue management system TORQUE. (Submit a script with a specified wallclock runtime limit of 1 hour 2 minutes and 3 seconds)",
+    "description": "qsub: Submit a script to the queue management system TORQUE. (Submit a script with a specified wallclock runtime limit of 1 hour 2 minutes and 3 seconds)",
     "tags": [
       "linux",
       "qsub",
@@ -48860,7 +48950,7 @@
     "title": "qsub - Submit a script that is executed on 2 nodes using 4 cores per node",
     "content": "qsub -l nodes={{2}}:ppn={{4}} {{script.sh}}",
     "group": "Linux Ops",
-    "description": "qsub: Submits a script to the queue management system TORQUE. (Submit a script that is executed on 2 nodes using 4 cores per node)",
+    "description": "qsub: Submit a script to the queue management system TORQUE. (Submit a script that is executed on 2 nodes using 4 cores per node)",
     "tags": [
       "linux",
       "qsub",
@@ -48875,7 +48965,7 @@
     "title": "qsub - Submit a script to a specific queue. Note that different queues can have different maximum and minimum runtime limits",
     "content": "qsub -q {{queue_name}} {{script.sh}}",
     "group": "Linux Ops",
-    "description": "qsub: Submits a script to the queue management system TORQUE. (Submit a script to a specific queue. Note that different queues can have different maximum and minimum runtime limits)",
+    "description": "qsub: Submit a script to the queue management system TORQUE. (Submit a script to a specific queue. Note that different queues can have different maximum and minimum runtime limits)",
     "tags": [
       "linux",
       "qsub",
@@ -49173,7 +49263,7 @@
     "id": "tldr-en-linux-cliphist-3",
     "type": "command",
     "title": "cliphist - Delete a specific clipboard entry by ID",
-    "content": "cliphist delete {{entry_id}}",
+    "content": "echo {{entry_id}} | cliphist delete",
     "group": "Linux Ops",
     "description": "cliphist: Manage clipboard history for Wayland compositors. Works with `wl-copy` and `wl-paste`. (Delete a specific clipboard entry by ID)",
     "tags": [
@@ -49820,7 +49910,7 @@
     "title": "cryptsetup-open - Open a LUKS volume and create a decrypted mapping at `/dev/mapper/mapping_name`",
     "content": "cryptsetup open {{/dev/sdXY}} {{mapping_name}}",
     "group": "Linux Ops",
-    "description": "cryptsetup-open: Create a decrypted mapping of an encrypted volume. Note: With TRIM enabled, minimal data leakage in form of freed block information, perhaps sufficient to determine the filesystem in use may occur. However, you still most likely want to enable it, because the data inside is still safe and SSDs without TRIM will wear out faster. (Open a LUKS volume and create a decrypted mapping at `/dev/mapper/mapping_name`)",
+    "description": "cryptsetup-open: Create a decrypted mapping of an encrypted volume. Note: Enabling TRIM may leak minimal information (freed blocks, possibly revealing the filesystem in use), but is still recommended since the data stays safe and SSDs without TRIM wear out faster. (Open a LUKS volume and create a decrypted mapping at `/dev/mapper/mapping_name`)",
     "tags": [
       "linux",
       "cryptsetup-open",
@@ -49835,7 +49925,7 @@
     "title": "cryptsetup-open - Use a keyfile instead of a passphrase",
     "content": "cryptsetup open {{[-k|--key-file]}} {{path/to/file}} {{/dev/sdXY}} {{mapping_name}}",
     "group": "Linux Ops",
-    "description": "cryptsetup-open: Create a decrypted mapping of an encrypted volume. Note: With TRIM enabled, minimal data leakage in form of freed block information, perhaps sufficient to determine the filesystem in use may occur. However, you still most likely want to enable it, because the data inside is still safe and SSDs without TRIM will wear out faster. (Use a keyfile instead of a passphrase)",
+    "description": "cryptsetup-open: Create a decrypted mapping of an encrypted volume. Note: Enabling TRIM may leak minimal information (freed blocks, possibly revealing the filesystem in use), but is still recommended since the data stays safe and SSDs without TRIM wear out faster. (Use a keyfile instead of a passphrase)",
     "tags": [
       "linux",
       "cryptsetup-open",
@@ -49850,7 +49940,7 @@
     "title": "cryptsetup-open - Allow the use of TRIM on the device",
     "content": "cryptsetup open --allow-discards {{/dev/sdXY}} {{mapping_name}}",
     "group": "Linux Ops",
-    "description": "cryptsetup-open: Create a decrypted mapping of an encrypted volume. Note: With TRIM enabled, minimal data leakage in form of freed block information, perhaps sufficient to determine the filesystem in use may occur. However, you still most likely want to enable it, because the data inside is still safe and SSDs without TRIM will wear out faster. (Allow the use of TRIM on the device)",
+    "description": "cryptsetup-open: Create a decrypted mapping of an encrypted volume. Note: Enabling TRIM may leak minimal information (freed blocks, possibly revealing the filesystem in use), but is still recommended since the data stays safe and SSDs without TRIM wear out faster. (Allow the use of TRIM on the device)",
     "tags": [
       "linux",
       "cryptsetup-open",
@@ -49865,7 +49955,7 @@
     "title": "cryptsetup-open - Write the `--allow-discards` option into the LUKS header (the option will then always be used when you open the device)",
     "content": "cryptsetup open --allow-discards --persistent {{/dev/sdXY}} {{mapping_name}}",
     "group": "Linux Ops",
-    "description": "cryptsetup-open: Create a decrypted mapping of an encrypted volume. Note: With TRIM enabled, minimal data leakage in form of freed block information, perhaps sufficient to determine the filesystem in use may occur. However, you still most likely want to enable it, because the data inside is still safe and SSDs without TRIM will wear out faster. (Write the `--allow-discards` option into the LUKS header (the option will then always be used when you open the device))",
+    "description": "cryptsetup-open: Create a decrypted mapping of an encrypted volume. Note: Enabling TRIM may leak minimal information (freed blocks, possibly revealing the filesystem in use), but is still recommended since the data stays safe and SSDs without TRIM wear out faster. (Write the `--allow-discards` option into the LUKS header (the option will then always be used when you open the device))",
     "tags": [
       "linux",
       "cryptsetup-open",
@@ -49880,7 +49970,7 @@
     "title": "cryptsetup-open - Open a LUKS volume and make the decrypted mapping read-only",
     "content": "cryptsetup open {{[-r|--readonly]}} {{/dev/sdXY}} {{mapping_name}}",
     "group": "Linux Ops",
-    "description": "cryptsetup-open: Create a decrypted mapping of an encrypted volume. Note: With TRIM enabled, minimal data leakage in form of freed block information, perhaps sufficient to determine the filesystem in use may occur. However, you still most likely want to enable it, because the data inside is still safe and SSDs without TRIM will wear out faster. (Open a LUKS volume and make the decrypted mapping read-only)",
+    "description": "cryptsetup-open: Create a decrypted mapping of an encrypted volume. Note: Enabling TRIM may leak minimal information (freed blocks, possibly revealing the filesystem in use), but is still recommended since the data stays safe and SSDs without TRIM wear out faster. (Open a LUKS volume and make the decrypted mapping read-only)",
     "tags": [
       "linux",
       "cryptsetup-open",
@@ -54378,7 +54468,7 @@
     "id": "tldr-en-linux-mpstat-0",
     "type": "command",
     "title": "mpstat - Display CPU statistics every 2 seconds",
-    "content": "mpstat {{2}}",
+    "content": "mpstat 2",
     "group": "Linux Ops",
     "description": "mpstat: Report CPU statistics. (Display CPU statistics every 2 seconds)",
     "tags": [
@@ -54393,7 +54483,7 @@
     "id": "tldr-en-linux-mpstat-1",
     "type": "command",
     "title": "mpstat - Display 5 reports, one by one, at 2 second intervals",
-    "content": "mpstat {{2}} {{5}}",
+    "content": "mpstat 2 5",
     "group": "Linux Ops",
     "description": "mpstat: Report CPU statistics. (Display 5 reports, one by one, at 2 second intervals)",
     "tags": [
@@ -54408,7 +54498,7 @@
     "id": "tldr-en-linux-mpstat-2",
     "type": "command",
     "title": "mpstat - Display 5 reports, one by one, from a given processor, at 2 second intervals",
-    "content": "mpstat -P {{0}} {{2}} {{5}}",
+    "content": "mpstat -P {{0}} 2 5",
     "group": "Linux Ops",
     "description": "mpstat: Report CPU statistics. (Display 5 reports, one by one, from a given processor, at 2 second intervals)",
     "tags": [
@@ -56943,7 +57033,7 @@
     "id": "tldr-en-linux-nethogs-4",
     "type": "command",
     "title": "nethogs - Change the traffic display unit (default: 0, 0 = kB/s, 1 = total kB, 2 = total bytes, 3 = total MB, 4 = MB/s, 5 = GB/s)",
-    "content": "sudo nethogs -v {{0|1|2|3|4|5}}",
+    "content": "sudo nethogs -v {{0..5}}",
     "group": "Linux Ops",
     "description": "nethogs: Monitor bandwidth usage per process. (Change the traffic display unit (default: 0, 0 = kB/s, 1 = total kB, 2 = total bytes, 3 = total MB, 4 = MB/s, 5 = GB/s))",
     "tags": [
@@ -60183,7 +60273,7 @@
     "id": "tldr-en-linux-xmount-0",
     "type": "command",
     "title": "xmount - Mount a `.raw` image file into a DMG container file",
-    "content": "xmount --in {{raw}} {{path/to/image.dd}} --out {{dmg}} {{mountpoint}}",
+    "content": "xmount --in {{raw}} {{path/to/image.dd}} --out {{dmg}} {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "xmount: Convert on-the-fly between multiple input and output hard disk image types with optional write cache support. Create a virtual filesystem using FUSE (Filesystem in Userspace) that contains a virtual representation of the input image. (Mount a `.raw` image file into a DMG container file)",
     "tags": [
@@ -60198,7 +60288,7 @@
     "id": "tldr-en-linux-xmount-1",
     "type": "command",
     "title": "xmount - Mount an EWF image file with write-cache support into a VHD file to boot from",
-    "content": "xmount --cache {{path/to/cache.ovl}} --in {{ewf}} {{path/to/image.E??}} --out {{vhd}} {{mountpoint}}",
+    "content": "xmount --cache {{path/to/cache.ovl}} --in {{ewf}} {{path/to/image.E??}} --out {{vhd}} {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "xmount: Convert on-the-fly between multiple input and output hard disk image types with optional write cache support. Create a virtual filesystem using FUSE (Filesystem in Userspace) that contains a virtual representation of the input image. (Mount an EWF image file with write-cache support into a VHD file to boot from)",
     "tags": [
@@ -60213,7 +60303,7 @@
     "id": "tldr-en-linux-xmount-2",
     "type": "command",
     "title": "xmount - Mount the first partition at sector 2048 into a new `.raw` image file",
-    "content": "xmount --offset 2048 --in {{raw}} {{path/to/image.dd}} --out raw {{mountpoint}}",
+    "content": "xmount --offset 2048 --in {{raw}} {{path/to/image.dd}} --out raw {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "xmount: Convert on-the-fly between multiple input and output hard disk image types with optional write cache support. Create a virtual filesystem using FUSE (Filesystem in Userspace) that contains a virtual representation of the input image. (Mount the first partition at sector 2048 into a new `.raw` image file)",
     "tags": [
@@ -61655,7 +61745,7 @@
     "title": "b4 - Retrieve a thread from a public-inbox archive and save as an mbox file",
     "content": "b4 mbox {{message_id}}",
     "group": "Linux Ops",
-    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, `send` have their own usage documentation. (Retrieve a thread from a public-inbox archive and save as an mbox file)",
+    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, and `send` have their own usage documentation. (Retrieve a thread from a public-inbox archive and save as an mbox file)",
     "tags": [
       "linux",
       "b4",
@@ -61670,7 +61760,7 @@
     "title": "b4 - Retrieve patches from a thread and prepare them for applying with `git am`",
     "content": "b4 am {{message_id}}",
     "group": "Linux Ops",
-    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, `send` have their own usage documentation. (Retrieve patches from a thread and prepare them for applying with `git am`)",
+    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, and `send` have their own usage documentation. (Retrieve patches from a thread and prepare them for applying with `git am`)",
     "tags": [
       "linux",
       "b4",
@@ -61685,7 +61775,7 @@
     "title": "b4 - Retrieve and apply patches directly to the current Git tree",
     "content": "b4 shazam {{message_id}}",
     "group": "Linux Ops",
-    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, `send` have their own usage documentation. (Retrieve and apply patches directly to the current Git tree)",
+    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, and `send` have their own usage documentation. (Retrieve and apply patches directly to the current Git tree)",
     "tags": [
       "linux",
       "b4",
@@ -61700,7 +61790,7 @@
     "title": "b4 - Start a new patch series branch forked from a specific point",
     "content": "b4 prep {{[-n|--new]}} {{series_name}} {{[-f|--fork-point]}} {{fork_point}}",
     "group": "Linux Ops",
-    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, `send` have their own usage documentation. (Start a new patch series branch forked from a specific point)",
+    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, and `send` have their own usage documentation. (Start a new patch series branch forked from a specific point)",
     "tags": [
       "linux",
       "b4",
@@ -61715,7 +61805,7 @@
     "title": "b4 - Send patches from the current branch to the mailing list",
     "content": "b4 send",
     "group": "Linux Ops",
-    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, `send` have their own usage documentation. (Send patches from the current branch to the mailing list)",
+    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, and `send` have their own usage documentation. (Send patches from the current branch to the mailing list)",
     "tags": [
       "linux",
       "b4",
@@ -61730,7 +61820,7 @@
     "title": "b4 - Update the current branch with new code-review trailers",
     "content": "b4 trailers {{[-u|--update]}}",
     "group": "Linux Ops",
-    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, `send` have their own usage documentation. (Update the current branch with new code-review trailers)",
+    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, and `send` have their own usage documentation. (Update the current branch with new code-review trailers)",
     "tags": [
       "linux",
       "b4",
@@ -61745,7 +61835,7 @@
     "title": "b4 - Display help",
     "content": "b4 {{[-h|--help]}}",
     "group": "Linux Ops",
-    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, `send` have their own usage documentation. (Display help)",
+    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, and `send` have their own usage documentation. (Display help)",
     "tags": [
       "linux",
       "b4",
@@ -61760,7 +61850,7 @@
     "title": "b4 - Display version",
     "content": "b4 --version",
     "group": "Linux Ops",
-    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, `send` have their own usage documentation. (Display version)",
+    "description": "b4: A tool for working with patches and pull requests in a public-inbox archive. Some subcommands such as `am`, `shazam`, `prep`, and `send` have their own usage documentation. (Display version)",
     "tags": [
       "linux",
       "b4",
@@ -61937,10 +62027,10 @@
   {
     "id": "tldr-en-linux-setcap-4",
     "type": "command",
-    "title": "setcap - The optional `-n root_uid` argument can be used to set the file capability for use only in a user namespace with this root user ID owner",
+    "title": "setcap - Set the file capability for use only in a user namespace with a specific root user ID owner",
     "content": "setcap -n {{root_uid}} '{{cap_net_admin}}' {{path/to/file}}",
     "group": "Linux Ops",
-    "description": "setcap: Set capabilities of specified file. (The optional `-n root_uid` argument can be used to set the file capability for use only in a user namespace with this root user ID owner)",
+    "description": "setcap: Set capabilities of specified file. (Set the file capability for use only in a user namespace with a specific root user ID owner)",
     "tags": [
       "linux",
       "setcap",
@@ -62840,7 +62930,7 @@
     "title": "xbps - View documentation for installing and updating packages",
     "content": "tldr xbps-install",
     "group": "Linux Ops",
-    "description": "xbps: The X Binary Package System is the package manager used by Void Linux. Note: `xbps` isn't a command, but a set of commands. For equivalent commands in other package managers, see . (View documentation for installing and updating packages)",
+    "description": "xbps: The X Binary Package System is the package manager used by Void Linux. For equivalent commands in other package managers, see . Note: `xbps` isn't a command, but a set of commands. (View documentation for installing and updating packages)",
     "tags": [
       "linux",
       "xbps",
@@ -62855,7 +62945,7 @@
     "title": "xbps - View documentation for removing packages",
     "content": "tldr xbps-remove",
     "group": "Linux Ops",
-    "description": "xbps: The X Binary Package System is the package manager used by Void Linux. Note: `xbps` isn't a command, but a set of commands. For equivalent commands in other package managers, see . (View documentation for removing packages)",
+    "description": "xbps: The X Binary Package System is the package manager used by Void Linux. For equivalent commands in other package managers, see . Note: `xbps` isn't a command, but a set of commands. (View documentation for removing packages)",
     "tags": [
       "linux",
       "xbps",
@@ -62870,7 +62960,7 @@
     "title": "xbps - View documentation for querying for package and repository information",
     "content": "tldr xbps-query",
     "group": "Linux Ops",
-    "description": "xbps: The X Binary Package System is the package manager used by Void Linux. Note: `xbps` isn't a command, but a set of commands. For equivalent commands in other package managers, see . (View documentation for querying for package and repository information)",
+    "description": "xbps: The X Binary Package System is the package manager used by Void Linux. For equivalent commands in other package managers, see . Note: `xbps` isn't a command, but a set of commands. (View documentation for querying for package and repository information)",
     "tags": [
       "linux",
       "xbps",
@@ -64952,10 +65042,10 @@
   {
     "id": "tldr-en-linux-qm-mtunnel-0",
     "type": "command",
-    "title": "qm-mtunnel - Command used by `qmigrate` during data migration from a VM to another host",
+    "title": "qm-mtunnel - Open a tunnel for `qmigrate` during data migration from a VM to another host",
     "content": "qm {{[mt|mtunnel]}}",
     "group": "Linux Ops",
-    "description": "qm-mtunnel: Used by `qmigrate`. It should not be invoked manually. (Command used by `qmigrate` during data migration from a VM to another host)",
+    "description": "qm-mtunnel: Used by `qmigrate`. Note: It should not be invoked manually. (Open a tunnel for `qmigrate` during data migration from a VM to another host)",
     "tags": [
       "linux",
       "qm-mtunnel",
@@ -65124,6 +65214,126 @@
     "tags": [
       "linux",
       "gsettings",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-timekpra-0",
+    "type": "command",
+    "title": "timekpra - List all users known to Timekpr-nExT",
+    "content": "timekpra --getuserlist",
+    "group": "Linux Ops",
+    "description": "timekpra: Command-line administration client for Timekpr-nExT, a tool to manage and limit computer usage time per user account. (List all users known to Timekpr-nExT)",
+    "tags": [
+      "linux",
+      "timekpra",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-timekpra-1",
+    "type": "command",
+    "title": "timekpra - Show the stored configuration and time information for a user",
+    "content": "timekpra --getuserinfo {{username}}",
+    "group": "Linux Ops",
+    "description": "timekpra: Command-line administration client for Timekpr-nExT, a tool to manage and limit computer usage time per user account. (Show the stored configuration and time information for a user)",
+    "tags": [
+      "linux",
+      "timekpra",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-timekpra-2",
+    "type": "command",
+    "title": "timekpra - Show real-time configuration and time information for a user",
+    "content": "timekpra --getuserinfort {{username}}",
+    "group": "Linux Ops",
+    "description": "timekpra: Command-line administration client for Timekpr-nExT, a tool to manage and limit computer usage time per user account. (Show real-time configuration and time information for a user)",
+    "tags": [
+      "linux",
+      "timekpra",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-timekpra-3",
+    "type": "command",
+    "title": "timekpra - Set the allowed days of the week for a user (e.g. Monday to Friday)",
+    "content": "timekpra --setalloweddays {{username}} '{{1;2;3;4;5}}'",
+    "group": "Linux Ops",
+    "description": "timekpra: Command-line administration client for Timekpr-nExT, a tool to manage and limit computer usage time per user account. (Set the allowed days of the week for a user (e.g. Monday to Friday))",
+    "tags": [
+      "linux",
+      "timekpra",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-timekpra-4",
+    "type": "command",
+    "title": "timekpra - Set daily time limits for each allowed day",
+    "content": "timekpra --settimelimits {{username}} '{{2h;2h;2h;2h;3h}}'",
+    "group": "Linux Ops",
+    "description": "timekpra: Command-line administration client for Timekpr-nExT, a tool to manage and limit computer usage time per user account. (Set daily time limits for each allowed day)",
+    "tags": [
+      "linux",
+      "timekpra",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-timekpra-5",
+    "type": "command",
+    "title": "timekpra - Set the weekly time limit for a user",
+    "content": "timekpra --settimelimitweek {{username}} {{13h53m20s}}",
+    "group": "Linux Ops",
+    "description": "timekpra: Command-line administration client for Timekpr-nExT, a tool to manage and limit computer usage time per user account. (Set the weekly time limit for a user)",
+    "tags": [
+      "linux",
+      "timekpra",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-timekpra-6",
+    "type": "command",
+    "title": "timekpra - Add, subtract, or set a user's remaining time for today",
+    "content": "timekpra --settimeleft {{username}} {{+|-|=}} {{30m}}",
+    "group": "Linux Ops",
+    "description": "timekpra: Command-line administration client for Timekpr-nExT, a tool to manage and limit computer usage time per user account. (Add, subtract, or set a user's remaining time for today)",
+    "tags": [
+      "linux",
+      "timekpra",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-timekpra-7",
+    "type": "command",
+    "title": "timekpra - Set the lockout action applied once a user's time runs out",
+    "content": "timekpra --setlockouttype {{username}} {{lock|suspend|suspendwake|terminate|kill|shutdown}}",
+    "group": "Linux Ops",
+    "description": "timekpra: Command-line administration client for Timekpr-nExT, a tool to manage and limit computer usage time per user account. (Set the lockout action applied once a user's time runs out)",
+    "tags": [
+      "linux",
+      "timekpra",
       "tldr",
       "en"
     ],
@@ -65465,7 +65675,7 @@
     "title": "slurmd - Report node rebooted when daemon restarted (Used for testing purposes)",
     "content": "slurmd -b",
     "group": "Linux Ops",
-    "description": "slurmd: Monitors all tasks running on the compute node, accepts tasks, launches tasks, and kills running tasks upon request. (Report node rebooted when daemon restarted (Used for testing purposes))",
+    "description": "slurmd: Monitor all tasks running on the compute node, accept tasks, launch tasks, and kill running tasks upon request. (Report node rebooted when daemon restarted (Used for testing purposes))",
     "tags": [
       "linux",
       "slurmd",
@@ -65480,7 +65690,7 @@
     "title": "slurmd - Run the daemon with the given nodename",
     "content": "slurmd -N {{nodename}}",
     "group": "Linux Ops",
-    "description": "slurmd: Monitors all tasks running on the compute node, accepts tasks, launches tasks, and kills running tasks upon request. (Run the daemon with the given nodename)",
+    "description": "slurmd: Monitor all tasks running on the compute node, accept tasks, launch tasks, and kill running tasks upon request. (Run the daemon with the given nodename)",
     "tags": [
       "linux",
       "slurmd",
@@ -65495,7 +65705,7 @@
     "title": "slurmd - Write log messages to the specified file",
     "content": "slurmd -L {{path/to/output_file}}",
     "group": "Linux Ops",
-    "description": "slurmd: Monitors all tasks running on the compute node, accepts tasks, launches tasks, and kills running tasks upon request. (Write log messages to the specified file)",
+    "description": "slurmd: Monitor all tasks running on the compute node, accept tasks, launch tasks, and kill running tasks upon request. (Write log messages to the specified file)",
     "tags": [
       "linux",
       "slurmd",
@@ -65510,7 +65720,7 @@
     "title": "slurmd - Read configuration from the specified file",
     "content": "slurmd -f {{path/to/file}}",
     "group": "Linux Ops",
-    "description": "slurmd: Monitors all tasks running on the compute node, accepts tasks, launches tasks, and kills running tasks upon request. (Read configuration from the specified file)",
+    "description": "slurmd: Monitor all tasks running on the compute node, accept tasks, launch tasks, and kill running tasks upon request. (Read configuration from the specified file)",
     "tags": [
       "linux",
       "slurmd",
@@ -65525,7 +65735,7 @@
     "title": "slurmd - Display help",
     "content": "slurmd -h",
     "group": "Linux Ops",
-    "description": "slurmd: Monitors all tasks running on the compute node, accepts tasks, launches tasks, and kills running tasks upon request. (Display help)",
+    "description": "slurmd: Monitor all tasks running on the compute node, accept tasks, launch tasks, and kill running tasks upon request. (Display help)",
     "tags": [
       "linux",
       "slurmd",
@@ -68373,7 +68583,7 @@
     "id": "tldr-en-linux-slurmrestd-0",
     "type": "command",
     "title": "slurmrestd - Change the [g]roup ID (and drop supplemental groups) before processing client requests",
-    "content": "slurmrestd -g {{group_id}} {{[host]:port|unix:/path/to/socket}}",
+    "content": "slurmrestd -g {{group_id}} {{host:port|unix:/path/to/socket}}",
     "group": "Linux Ops",
     "description": "slurmrestd: Interface to Slurm via REST API. Note: Can be used in two modes: Inetd Mode and Listen Mode. (Change the [g]roup ID (and drop supplemental groups) before processing client requests)",
     "tags": [
@@ -68387,10 +68597,10 @@
   {
     "id": "tldr-en-linux-slurmrestd-1",
     "type": "command",
-    "title": "slurmrestd - Comma-delimited list of [a]uthentication plugins to load",
-    "content": "slurmrestd -a {{authentication_plugins}} {{[host]:port|unix:/path/to/socket}}",
+    "title": "slurmrestd - Specify a comma-delimited list of [a]uthentication plugins to load",
+    "content": "slurmrestd -a {{authentication_plugins}} {{host:port|unix:/path/to/socket}}",
     "group": "Linux Ops",
-    "description": "slurmrestd: Interface to Slurm via REST API. Note: Can be used in two modes: Inetd Mode and Listen Mode. (Comma-delimited list of [a]uthentication plugins to load)",
+    "description": "slurmrestd: Interface to Slurm via REST API. Note: Can be used in two modes: Inetd Mode and Listen Mode. (Specify a comma-delimited list of [a]uthentication plugins to load)",
     "tags": [
       "linux",
       "slurmrestd",
@@ -69677,10 +69887,10 @@
   {
     "id": "tldr-en-linux-lvm_import_vdo-4",
     "type": "command",
-    "title": "lvm_import_vdo - Verbose output and automatically answer \"yes\" to prompts",
+    "title": "lvm_import_vdo - Convert a VDO volume with verbose output and automatically answer \"yes\" to prompts",
     "content": "lvm_import_vdo {{[-v|--verbose]}} {{[-y|--yes]}} {{/dev/mapper/vdo_volume}}",
     "group": "Linux Ops",
-    "description": "lvm_import_vdo: Import a VDO volume created by the VDO manager into an LVM-managed logical volume (irreversible). (Verbose output and automatically answer \"yes\" to prompts)",
+    "description": "lvm_import_vdo: Import a VDO volume created by the VDO manager into an LVM-managed logical volume (irreversible). (Convert a VDO volume with verbose output and automatically answer \"yes\" to prompts)",
     "tags": [
       "linux",
       "lvm_import_vdo",
@@ -72602,10 +72812,10 @@
   {
     "id": "tldr-en-linux-systemctl-list-machines-3",
     "type": "command",
-    "title": "systemctl-list-machines - Filter machines using wildcard patterns i.e. `shell-globbing`",
+    "title": "systemctl-list-machines - Filter machines using wildcard patterns i.e. a `glob`",
     "content": "systemctl list-machines {{pattern}}",
     "group": "Linux Ops",
-    "description": "systemctl-list-machines: List the host and all running local virtual machines or containers with their state. (Filter machines using wildcard patterns i.e. `shell-globbing`)",
+    "description": "systemctl-list-machines: List the host and all running local virtual machines or containers with their state. (Filter machines using wildcard patterns i.e. a `glob`)",
     "tags": [
       "linux",
       "systemctl-list-machines",
@@ -72962,10 +73172,10 @@
   {
     "id": "tldr-en-linux-mopac-1",
     "type": "command",
-    "title": "mopac - Minimal working example with HF that writes to the current directory and streams the output file",
+    "title": "mopac - Run a minimal working example with HF that writes to the current directory and streams the output file",
     "content": "touch test.out; echo \"PM7\\n#comment\\n\\nH 0.95506 0.05781 -0.03133\\nF 1.89426 0.05781 -0.03133\" > test.mop; mopac test.mop & tail {{[-f|--follow]}} test.out",
     "group": "Linux Ops",
-    "description": "mopac: MOPAC (Molecular Orbital PACkage) is a semiempirical quantum chemistry program based on Dewar and Thiel's NDDO approximation. (Minimal working example with HF that writes to the current directory and streams the output file)",
+    "description": "mopac: MOPAC (Molecular Orbital PACkage) is a semiempirical quantum chemistry program based on Dewar and Thiel's NDDO approximation. (Run a minimal working example with HF that writes to the current directory and streams the output file)",
     "tags": [
       "linux",
       "mopac",
@@ -78470,7 +78680,7 @@
     "title": "daemon - Run a command as a daemon",
     "content": "daemon {{[-n|--name]}} \"{{name}}\" {{command}}",
     "group": "Linux Ops",
-    "description": "daemon: Turns other processes into daemons. (Run a command as a daemon)",
+    "description": "daemon: Turn other processes into daemons. (Run a command as a daemon)",
     "tags": [
       "linux",
       "daemon",
@@ -78485,7 +78695,7 @@
     "title": "daemon - Run a command as a daemon which will restart if the command crashes",
     "content": "daemon {{[-n|--name]}} \"{{name}}\" {{[-r|--respawn]}} {{command}}",
     "group": "Linux Ops",
-    "description": "daemon: Turns other processes into daemons. (Run a command as a daemon which will restart if the command crashes)",
+    "description": "daemon: Turn other processes into daemons. (Run a command as a daemon which will restart if the command crashes)",
     "tags": [
       "linux",
       "daemon",
@@ -78500,7 +78710,7 @@
     "title": "daemon - Run a command as a daemon which will restart if it crashes, with two attempts every 10 seconds",
     "content": "daemon {{[-n|--name]}} \"{{name}}\" {{[-r|--respawn]}} {{[-A|--attempts]}} 2 {{[-L|--delay]}} 10 {{command}}",
     "group": "Linux Ops",
-    "description": "daemon: Turns other processes into daemons. (Run a command as a daemon which will restart if it crashes, with two attempts every 10 seconds)",
+    "description": "daemon: Turn other processes into daemons. (Run a command as a daemon which will restart if it crashes, with two attempts every 10 seconds)",
     "tags": [
       "linux",
       "daemon",
@@ -78515,7 +78725,7 @@
     "title": "daemon - Run a command as a daemon, writing logs to a specific file",
     "content": "daemon {{[-n|--name]}} \"{{name}}\" {{[-l|--errlog]}} {{path/to/file.log}} {{command}}",
     "group": "Linux Ops",
-    "description": "daemon: Turns other processes into daemons. (Run a command as a daemon, writing logs to a specific file)",
+    "description": "daemon: Turn other processes into daemons. (Run a command as a daemon, writing logs to a specific file)",
     "tags": [
       "linux",
       "daemon",
@@ -78530,7 +78740,7 @@
     "title": "daemon - Kill a daemon (SIGTERM)",
     "content": "daemon {{[-n|--name]}} \"{{name}}\" --stop",
     "group": "Linux Ops",
-    "description": "daemon: Turns other processes into daemons. (Kill a daemon (SIGTERM))",
+    "description": "daemon: Turn other processes into daemons. (Kill a daemon (SIGTERM))",
     "tags": [
       "linux",
       "daemon",
@@ -78545,7 +78755,7 @@
     "title": "daemon - List daemons",
     "content": "daemon --list",
     "group": "Linux Ops",
-    "description": "daemon: Turns other processes into daemons. (List daemons)",
+    "description": "daemon: Turn other processes into daemons. (List daemons)",
     "tags": [
       "linux",
       "daemon",
@@ -82625,7 +82835,7 @@
     "title": "slurmstepd - Start the daemon",
     "content": "slurmstepd",
     "group": "Linux Ops",
-    "description": "slurmstepd: Slurm daemon for managing and monitoring individual job steps within a multi-step job. It should not be invoked manually. (Start the daemon)",
+    "description": "slurmstepd: Slurm daemon for managing and monitoring individual job steps within a multi-step job. Note: It should not be invoked manually. (Start the daemon)",
     "tags": [
       "linux",
       "slurmstepd",
@@ -83253,7 +83463,7 @@
     "id": "tldr-en-linux-sslstrip-1",
     "type": "command",
     "title": "sslstrip - Log only HTTPS POST traffic on port 8080",
-    "content": "sslstrip --listen={{8080}}",
+    "content": "sslstrip --listen=8080",
     "group": "Linux Ops",
     "description": "sslstrip: Perform Moxie Marlinspike's Secure Sockets Layer (SSL) stripping attacks. Perform an ARP spoofing attack in conjunction. (Log only HTTPS POST traffic on port 8080)",
     "tags": [
@@ -83268,7 +83478,7 @@
     "id": "tldr-en-linux-sslstrip-2",
     "type": "command",
     "title": "sslstrip - Log all SSL traffic to and from the server on port 8080",
-    "content": "sslstrip --ssl --listen={{8080}}",
+    "content": "sslstrip --ssl --listen=8080",
     "group": "Linux Ops",
     "description": "sslstrip: Perform Moxie Marlinspike's Secure Sockets Layer (SSL) stripping attacks. Perform an ARP spoofing attack in conjunction. (Log all SSL traffic to and from the server on port 8080)",
     "tags": [
@@ -83283,7 +83493,7 @@
     "id": "tldr-en-linux-sslstrip-3",
     "type": "command",
     "title": "sslstrip - Log all SSL and HTTP traffic to and from the server on port 8080",
-    "content": "sslstrip --listen={{8080}} --all",
+    "content": "sslstrip --listen=8080 --all",
     "group": "Linux Ops",
     "description": "sslstrip: Perform Moxie Marlinspike's Secure Sockets Layer (SSL) stripping attacks. Perform an ARP spoofing attack in conjunction. (Log all SSL and HTTP traffic to and from the server on port 8080)",
     "tags": [
@@ -83705,7 +83915,7 @@
     "title": "einfo - Print all database names",
     "content": "einfo -dbs",
     "group": "Linux Ops",
-    "description": "einfo: Provides the number of records indexed in each database field, the last update date of the database, and the available links from the database to other Entrez databases. (Print all database names)",
+    "description": "einfo: Provide the number of records indexed in each database field, the last update date of the database, and the available links from the database to other Entrez databases. (Print all database names)",
     "tags": [
       "linux",
       "einfo",
@@ -83720,7 +83930,7 @@
     "title": "einfo - Print all information of the protein database in XML format",
     "content": "einfo -db {{protein}}",
     "group": "Linux Ops",
-    "description": "einfo: Provides the number of records indexed in each database field, the last update date of the database, and the available links from the database to other Entrez databases. (Print all information of the protein database in XML format)",
+    "description": "einfo: Provide the number of records indexed in each database field, the last update date of the database, and the available links from the database to other Entrez databases. (Print all information of the protein database in XML format)",
     "tags": [
       "linux",
       "einfo",
@@ -83735,7 +83945,7 @@
     "title": "einfo - Print all fields of the nuccore database",
     "content": "einfo -db {{nuccore}} -fields",
     "group": "Linux Ops",
-    "description": "einfo: Provides the number of records indexed in each database field, the last update date of the database, and the available links from the database to other Entrez databases. (Print all fields of the nuccore database)",
+    "description": "einfo: Provide the number of records indexed in each database field, the last update date of the database, and the available links from the database to other Entrez databases. (Print all fields of the nuccore database)",
     "tags": [
       "linux",
       "einfo",
@@ -83750,7 +83960,7 @@
     "title": "einfo - Print all links of the protein database",
     "content": "einfo -db {{protein}} -links",
     "group": "Linux Ops",
-    "description": "einfo: Provides the number of records indexed in each database field, the last update date of the database, and the available links from the database to other Entrez databases. (Print all links of the protein database)",
+    "description": "einfo: Provide the number of records indexed in each database field, the last update date of the database, and the available links from the database to other Entrez databases. (Print all links of the protein database)",
     "tags": [
       "linux",
       "einfo",
@@ -85880,7 +86090,7 @@
     "title": "findfs - Search block devices by filesystem label",
     "content": "findfs LABEL={{label}}",
     "group": "Linux Ops",
-    "description": "findfs: Finds a filesystem by label or UUID. (Search block devices by filesystem label)",
+    "description": "findfs: Find a filesystem by label or UUID. (Search block devices by filesystem label)",
     "tags": [
       "linux",
       "findfs",
@@ -85895,7 +86105,7 @@
     "title": "findfs - Search by filesystem UUID",
     "content": "findfs UUID={{uuid}}",
     "group": "Linux Ops",
-    "description": "findfs: Finds a filesystem by label or UUID. (Search by filesystem UUID)",
+    "description": "findfs: Find a filesystem by label or UUID. (Search by filesystem UUID)",
     "tags": [
       "linux",
       "findfs",
@@ -85910,7 +86120,7 @@
     "title": "findfs - Search by partition label (GPT or MAC partition table)",
     "content": "findfs PARTLABEL={{partition_label}}",
     "group": "Linux Ops",
-    "description": "findfs: Finds a filesystem by label or UUID. (Search by partition label (GPT or MAC partition table))",
+    "description": "findfs: Find a filesystem by label or UUID. (Search by partition label (GPT or MAC partition table))",
     "tags": [
       "linux",
       "findfs",
@@ -85925,7 +86135,7 @@
     "title": "findfs - Search by partition UUID (GPT partition table only)",
     "content": "findfs PARTUUID={{partition_uuid}}",
     "group": "Linux Ops",
-    "description": "findfs: Finds a filesystem by label or UUID. (Search by partition UUID (GPT partition table only))",
+    "description": "findfs: Find a filesystem by label or UUID. (Search by partition UUID (GPT partition table only))",
     "tags": [
       "linux",
       "findfs",
@@ -92642,10 +92852,10 @@
   {
     "id": "tldr-en-linux-systemd-path-3",
     "type": "command",
-    "title": "systemd-path - Print a short version string and then exit",
+    "title": "systemd-path - Display version",
     "content": "systemd-path --version",
     "group": "Linux Ops",
-    "description": "systemd-path: List and query system and user paths. (Print a short version string and then exit)",
+    "description": "systemd-path: List and query system and user paths. (Display version)",
     "tags": [
       "linux",
       "systemd-path",
@@ -95780,7 +95990,7 @@
     "title": "nft - View current configuration",
     "content": "sudo nft list ruleset",
     "group": "Linux Ops",
-    "description": "nft: Allows configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (View current configuration)",
+    "description": "nft: Allow configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (View current configuration)",
     "tags": [
       "linux",
       "nft",
@@ -95795,7 +96005,7 @@
     "title": "nft - Add a new table with family \"inet\" and table \"filter\"",
     "content": "sudo nft add table {{inet}} {{filter}}",
     "group": "Linux Ops",
-    "description": "nft: Allows configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Add a new table with family \"inet\" and table \"filter\")",
+    "description": "nft: Allow configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Add a new table with family \"inet\" and table \"filter\")",
     "tags": [
       "linux",
       "nft",
@@ -95810,7 +96020,7 @@
     "title": "nft - Add a new chain to accept all inbound traffic",
     "content": "sudo nft add chain {{inet}} {{filter}} {{input}} \\{ type {{filter}} hook {{input}} priority {{0}} \\; policy {{accept}} \\; \\}",
     "group": "Linux Ops",
-    "description": "nft: Allows configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Add a new chain to accept all inbound traffic)",
+    "description": "nft: Allow configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Add a new chain to accept all inbound traffic)",
     "tags": [
       "linux",
       "nft",
@@ -95825,7 +96035,7 @@
     "title": "nft - Add a new rule to accept several TCP ports",
     "content": "sudo nft add rule {{inet}} {{filter}} {{input}} {{tcp}} {{dport \\{ telnet, ssh, http, https \\} accept}}",
     "group": "Linux Ops",
-    "description": "nft: Allows configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Add a new rule to accept several TCP ports)",
+    "description": "nft: Allow configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Add a new rule to accept several TCP ports)",
     "tags": [
       "linux",
       "nft",
@@ -95840,7 +96050,7 @@
     "title": "nft - Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP",
     "content": "sudo nft add rule {{nat}} {{postrouting}} ip saddr {{192.168.0.0/24}} {{masquerade}}",
     "group": "Linux Ops",
-    "description": "nft: Allows configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP)",
+    "description": "nft: Allow configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP)",
     "tags": [
       "linux",
       "nft",
@@ -95855,7 +96065,7 @@
     "title": "nft - Show rule handles",
     "content": "sudo nft --handle --numeric list chain {{family}} {{table}} {{chain}}",
     "group": "Linux Ops",
-    "description": "nft: Allows configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Show rule handles)",
+    "description": "nft: Allow configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Show rule handles)",
     "tags": [
       "linux",
       "nft",
@@ -95870,7 +96080,7 @@
     "title": "nft - Delete a rule",
     "content": "sudo nft delete rule {{inet}} {{filter}} {{input}} handle {{3}}",
     "group": "Linux Ops",
-    "description": "nft: Allows configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Delete a rule)",
+    "description": "nft: Allow configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Delete a rule)",
     "tags": [
       "linux",
       "nft",
@@ -95885,7 +96095,7 @@
     "title": "nft - Save current configuration",
     "content": "sudo nft list ruleset > {{/etc/nftables.conf}}",
     "group": "Linux Ops",
-    "description": "nft: Allows configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Save current configuration)",
+    "description": "nft: Allow configuration of tables, chains, and rules provided by the Linux kernel firewall. Nftables replaces iptables. (Save current configuration)",
     "tags": [
       "linux",
       "nft",
@@ -97758,7 +97968,7 @@
     "id": "tldr-en-linux-bcachefs-device-0",
     "type": "command",
     "title": "bcachefs-device - Format and add a new device to an existing filesystem",
-    "content": "sudo bcachefs device add --label {{group}}.{{name}} {{path/to/mountpoint}} {{path/to/device}}",
+    "content": "sudo bcachefs device add --label {{group}}.{{name}} {{path/to/mount_point}} {{path/to/device}}",
     "group": "Linux Ops",
     "description": "bcachefs-device: Manage devices within a running `bcachefs` filesystem. (Format and add a new device to an existing filesystem)",
     "tags": [
@@ -98019,6 +98229,66 @@
     "tags": [
       "linux",
       "abbr",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ifreload-0",
+    "type": "command",
+    "title": "ifreload - Reload all network interface configurations",
+    "content": "sudo ifreload {{[-a|--all]}}",
+    "group": "Linux Ops",
+    "description": "ifreload: Reload network interface configuration. (Reload all network interface configurations)",
+    "tags": [
+      "linux",
+      "ifreload",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ifreload-1",
+    "type": "command",
+    "title": "ifreload - Reload a specific network interface",
+    "content": "sudo ifreload {{interface}}",
+    "group": "Linux Ops",
+    "description": "ifreload: Reload network interface configuration. (Reload a specific network interface)",
+    "tags": [
+      "linux",
+      "ifreload",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ifreload-2",
+    "type": "command",
+    "title": "ifreload - Reload interfaces and print detailed output",
+    "content": "sudo ifreload {{[-v|--verbose]}}",
+    "group": "Linux Ops",
+    "description": "ifreload: Reload network interface configuration. (Reload interfaces and print detailed output)",
+    "tags": [
+      "linux",
+      "ifreload",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ifreload-3",
+    "type": "command",
+    "title": "ifreload - Check the configuration without applying changes",
+    "content": "sudo ifreload {{[-c|--currently-up]}}",
+    "group": "Linux Ops",
+    "description": "ifreload: Reload network interface configuration. (Check the configuration without applying changes)",
+    "tags": [
+      "linux",
+      "ifreload",
       "tldr",
       "en"
     ],
@@ -104685,81 +104955,6 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-linux-wg-0",
-    "type": "command",
-    "title": "wg - Check status of currently active interfaces",
-    "content": "sudo wg",
-    "group": "Linux Ops",
-    "description": "wg: Manage the configuration of WireGuard interfaces. (Check status of currently active interfaces)",
-    "tags": [
-      "linux",
-      "wg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-linux-wg-1",
-    "type": "command",
-    "title": "wg - Generate a new private key",
-    "content": "wg genkey",
-    "group": "Linux Ops",
-    "description": "wg: Manage the configuration of WireGuard interfaces. (Generate a new private key)",
-    "tags": [
-      "linux",
-      "wg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-linux-wg-2",
-    "type": "command",
-    "title": "wg - Generate a public key from a private key",
-    "content": "wg < {{path/to/private_key}} pubkey > {{path/to/public_key}}",
-    "group": "Linux Ops",
-    "description": "wg: Manage the configuration of WireGuard interfaces. (Generate a public key from a private key)",
-    "tags": [
-      "linux",
-      "wg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-linux-wg-3",
-    "type": "command",
-    "title": "wg - Generate a public and private key",
-    "content": "wg genkey | tee {{path/to/private_key}} | wg pubkey > {{path/to/public_key}}",
-    "group": "Linux Ops",
-    "description": "wg: Manage the configuration of WireGuard interfaces. (Generate a public and private key)",
-    "tags": [
-      "linux",
-      "wg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-linux-wg-4",
-    "type": "command",
-    "title": "wg - Show the current configuration of a wireguard interface",
-    "content": "sudo wg showconf {{wg0}}",
-    "group": "Linux Ops",
-    "description": "wg: Manage the configuration of WireGuard interfaces. (Show the current configuration of a wireguard interface)",
-    "tags": [
-      "linux",
-      "wg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
     "id": "tldr-en-linux-qm-template-0",
     "type": "command",
     "title": "qm-template - Create a template out of a specific virtual machine",
@@ -110747,10 +110942,10 @@
   {
     "id": "tldr-en-linux-mashtree-0",
     "type": "command",
-    "title": "mashtree - Fastest method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file",
+    "title": "mashtree - Create a tree from fastq and/or fasta files using the fastest method with multiple threads, piping into a newick file",
     "content": "mashtree --numcpus {{12}} {{*.fastq.gz}} {{*.fasta}} > {{mashtree.dnd}}",
     "group": "Linux Ops",
-    "description": "mashtree: Make a fast tree from genomes. Does not make a phylogeny. (Fastest method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file)",
+    "description": "mashtree: Make a fast tree from genomes. Does not make a phylogeny. (Create a tree from fastq and/or fasta files using the fastest method with multiple threads, piping into a newick file)",
     "tags": [
       "linux",
       "mashtree",
@@ -110762,10 +110957,10 @@
   {
     "id": "tldr-en-linux-mashtree-1",
     "type": "command",
-    "title": "mashtree - Most accurate method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file",
+    "title": "mashtree - Create a tree from fastq and/or fasta files using the most accurate method with multiple threads, piping into a newick file",
     "content": "mashtree --mindepth {{0}} --numcpus {{12}} {{*.fastq.gz}} {{*.fasta}} > {{mashtree.dnd}}",
     "group": "Linux Ops",
-    "description": "mashtree: Make a fast tree from genomes. Does not make a phylogeny. (Most accurate method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file)",
+    "description": "mashtree: Make a fast tree from genomes. Does not make a phylogeny. (Create a tree from fastq and/or fasta files using the most accurate method with multiple threads, piping into a newick file)",
     "tags": [
       "linux",
       "mashtree",
@@ -110777,10 +110972,10 @@
   {
     "id": "tldr-en-linux-mashtree-2",
     "type": "command",
-    "title": "mashtree - Most accurate method to create a tree with confidence values (note that any options for `mashtree` itself has to be on the right side of the `--`)",
+    "title": "mashtree - Create a tree with confidence values using the most accurate method (note that any options for `mashtree` itself have to be on the right side of the `--`)",
     "content": "mashtree_bootstrap.pl --reps {{100}} --numcpus {{12}} {{*.fastq.gz}} -- --min-depth {{0}} > {{mashtree.bootstrap.dnd}}",
     "group": "Linux Ops",
-    "description": "mashtree: Make a fast tree from genomes. Does not make a phylogeny. (Most accurate method to create a tree with confidence values (note that any options for `mashtree` itself has to be on the right side of the `--`))",
+    "description": "mashtree: Make a fast tree from genomes. Does not make a phylogeny. (Create a tree with confidence values using the most accurate method (note that any options for `mashtree` itself have to be on the right side of the `--`))",
     "tags": [
       "linux",
       "mashtree",
@@ -113450,7 +113645,7 @@
     "title": "dpkg - Install a package",
     "content": "sudo dpkg {{[-i|--install]}} {{path/to/file.deb}}",
     "group": "Linux Ops",
-    "description": "dpkg: Debian package manager. Some subcommands such as `deb` have their own usage documentation. For equivalent commands in other package managers, see . (Install a package)",
+    "description": "dpkg: Debian package manager. For equivalent commands in other package managers, see . Some subcommands such as `deb` have their own usage documentation. (Install a package)",
     "tags": [
       "linux",
       "dpkg",
@@ -113465,7 +113660,7 @@
     "title": "dpkg - Remove a package",
     "content": "sudo dpkg {{[-r|--remove]}} {{package}}",
     "group": "Linux Ops",
-    "description": "dpkg: Debian package manager. Some subcommands such as `deb` have their own usage documentation. For equivalent commands in other package managers, see . (Remove a package)",
+    "description": "dpkg: Debian package manager. For equivalent commands in other package managers, see . Some subcommands such as `deb` have their own usage documentation. (Remove a package)",
     "tags": [
       "linux",
       "dpkg",
@@ -113480,7 +113675,7 @@
     "title": "dpkg - List installed packages",
     "content": "dpkg {{[-l|--list]}} {{pattern}}",
     "group": "Linux Ops",
-    "description": "dpkg: Debian package manager. Some subcommands such as `deb` have their own usage documentation. For equivalent commands in other package managers, see . (List installed packages)",
+    "description": "dpkg: Debian package manager. For equivalent commands in other package managers, see . Some subcommands such as `deb` have their own usage documentation. (List installed packages)",
     "tags": [
       "linux",
       "dpkg",
@@ -113495,7 +113690,7 @@
     "title": "dpkg - List a package's contents",
     "content": "dpkg {{[-L|--listfiles]}} {{package}}",
     "group": "Linux Ops",
-    "description": "dpkg: Debian package manager. Some subcommands such as `deb` have their own usage documentation. For equivalent commands in other package managers, see . (List a package's contents)",
+    "description": "dpkg: Debian package manager. For equivalent commands in other package managers, see . Some subcommands such as `deb` have their own usage documentation. (List a package's contents)",
     "tags": [
       "linux",
       "dpkg",
@@ -113510,7 +113705,7 @@
     "title": "dpkg - List contents of a local package file",
     "content": "dpkg {{[-c|--contents]}} {{path/to/file.deb}}",
     "group": "Linux Ops",
-    "description": "dpkg: Debian package manager. Some subcommands such as `deb` have their own usage documentation. For equivalent commands in other package managers, see . (List contents of a local package file)",
+    "description": "dpkg: Debian package manager. For equivalent commands in other package managers, see . Some subcommands such as `deb` have their own usage documentation. (List contents of a local package file)",
     "tags": [
       "linux",
       "dpkg",
@@ -113525,7 +113720,7 @@
     "title": "dpkg - Find out which package owns a file",
     "content": "dpkg {{[-S|--search]}} {{path/to/file}}",
     "group": "Linux Ops",
-    "description": "dpkg: Debian package manager. Some subcommands such as `deb` have their own usage documentation. For equivalent commands in other package managers, see . (Find out which package owns a file)",
+    "description": "dpkg: Debian package manager. For equivalent commands in other package managers, see . Some subcommands such as `deb` have their own usage documentation. (Find out which package owns a file)",
     "tags": [
       "linux",
       "dpkg",
@@ -113540,7 +113735,7 @@
     "title": "dpkg - Purge an installed or already removed package, including configuration",
     "content": "sudo dpkg {{[-P|--purge]}} {{package}}",
     "group": "Linux Ops",
-    "description": "dpkg: Debian package manager. Some subcommands such as `deb` have their own usage documentation. For equivalent commands in other package managers, see . (Purge an installed or already removed package, including configuration)",
+    "description": "dpkg: Debian package manager. For equivalent commands in other package managers, see . Some subcommands such as `deb` have their own usage documentation. (Purge an installed or already removed package, including configuration)",
     "tags": [
       "linux",
       "dpkg",
@@ -116315,7 +116510,7 @@
     "title": "duperemove - Search for duplicate extents in a directory and show them",
     "content": "duperemove -r {{path/to/directory}}",
     "group": "Linux Ops",
-    "description": "duperemove: Finds duplicate filesystem extents and optionally schedule them for deduplication. An extent is small part of a file inside the filesystem. On some filesystems one extent can be referenced multiple times, when parts of the content of the files are identical. (Search for duplicate extents in a directory and show them)",
+    "description": "duperemove: Find duplicate filesystem extents and optionally schedule them for deduplication. An extent is small part of a file inside the filesystem. On some filesystems one extent can be referenced multiple times, when parts of the content of the files are identical. (Search for duplicate extents in a directory and show them)",
     "tags": [
       "linux",
       "duperemove",
@@ -116330,7 +116525,7 @@
     "title": "duperemove - Deduplicate duplicate extents on a Btrfs or XFS (experimental) filesystem",
     "content": "duperemove -r -d {{path/to/directory}}",
     "group": "Linux Ops",
-    "description": "duperemove: Finds duplicate filesystem extents and optionally schedule them for deduplication. An extent is small part of a file inside the filesystem. On some filesystems one extent can be referenced multiple times, when parts of the content of the files are identical. (Deduplicate duplicate extents on a Btrfs or XFS (experimental) filesystem)",
+    "description": "duperemove: Find duplicate filesystem extents and optionally schedule them for deduplication. An extent is small part of a file inside the filesystem. On some filesystems one extent can be referenced multiple times, when parts of the content of the files are identical. (Deduplicate duplicate extents on a Btrfs or XFS (experimental) filesystem)",
     "tags": [
       "linux",
       "duperemove",
@@ -116345,7 +116540,7 @@
     "title": "duperemove - Use a hash file to store extent hashes (less memory usage and can be reused on subsequent runs)",
     "content": "duperemove -r -d --hashfile={{path/to/hashfile}} {{path/to/directory}}",
     "group": "Linux Ops",
-    "description": "duperemove: Finds duplicate filesystem extents and optionally schedule them for deduplication. An extent is small part of a file inside the filesystem. On some filesystems one extent can be referenced multiple times, when parts of the content of the files are identical. (Use a hash file to store extent hashes (less memory usage and can be reused on subsequent runs))",
+    "description": "duperemove: Find duplicate filesystem extents and optionally schedule them for deduplication. An extent is small part of a file inside the filesystem. On some filesystems one extent can be referenced multiple times, when parts of the content of the files are identical. (Use a hash file to store extent hashes (less memory usage and can be reused on subsequent runs))",
     "tags": [
       "linux",
       "duperemove",
@@ -116360,7 +116555,7 @@
     "title": "duperemove - Limit I/O threads (for hashing and dedupe stage) and CPU threads (for duplicate extent finding stage)",
     "content": "duperemove -r -d --hashfile={{path/to/hashfile}} --io-threads={{n}} --cpu-threads={{n}} {{path/to/directory}}",
     "group": "Linux Ops",
-    "description": "duperemove: Finds duplicate filesystem extents and optionally schedule them for deduplication. An extent is small part of a file inside the filesystem. On some filesystems one extent can be referenced multiple times, when parts of the content of the files are identical. (Limit I/O threads (for hashing and dedupe stage) and CPU threads (for duplicate extent finding stage))",
+    "description": "duperemove: Find duplicate filesystem extents and optionally schedule them for deduplication. An extent is small part of a file inside the filesystem. On some filesystems one extent can be referenced multiple times, when parts of the content of the files are identical. (Limit I/O threads (for hashing and dedupe stage) and CPU threads (for duplicate extent finding stage))",
     "tags": [
       "linux",
       "duperemove",
@@ -117378,7 +117573,7 @@
     "id": "tldr-en-linux-quotacheck-1",
     "type": "command",
     "title": "quotacheck - Force check even if quotas are enabled (this can cause damage or loss to quota files)",
-    "content": "sudo quotacheck --force {{mountpoint}}",
+    "content": "sudo quotacheck --force {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "quotacheck: Scan a filesystem for disk usage; create, check, and repair quota files. It is best to run quota check with quotas turned off to prevent damage or loss to quota files. (Force check even if quotas are enabled (this can cause damage or loss to quota files))",
     "tags": [
@@ -117393,7 +117588,7 @@
     "id": "tldr-en-linux-quotacheck-2",
     "type": "command",
     "title": "quotacheck - Check quotas on a given filesystem in debug mode",
-    "content": "sudo quotacheck --debug {{mountpoint}}",
+    "content": "sudo quotacheck --debug {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "quotacheck: Scan a filesystem for disk usage; create, check, and repair quota files. It is best to run quota check with quotas turned off to prevent damage or loss to quota files. (Check quotas on a given filesystem in debug mode)",
     "tags": [
@@ -117408,7 +117603,7 @@
     "id": "tldr-en-linux-quotacheck-3",
     "type": "command",
     "title": "quotacheck - Check quotas on a given filesystem, displaying the progress",
-    "content": "sudo quotacheck --verbose {{mountpoint}}",
+    "content": "sudo quotacheck --verbose {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "quotacheck: Scan a filesystem for disk usage; create, check, and repair quota files. It is best to run quota check with quotas turned off to prevent damage or loss to quota files. (Check quotas on a given filesystem, displaying the progress)",
     "tags": [
@@ -117423,7 +117618,7 @@
     "id": "tldr-en-linux-quotacheck-4",
     "type": "command",
     "title": "quotacheck - Check user quotas",
-    "content": "sudo quotacheck --user {{user}} {{mountpoint}}",
+    "content": "sudo quotacheck --user {{user}} {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "quotacheck: Scan a filesystem for disk usage; create, check, and repair quota files. It is best to run quota check with quotas turned off to prevent damage or loss to quota files. (Check user quotas)",
     "tags": [
@@ -117438,7 +117633,7 @@
     "id": "tldr-en-linux-quotacheck-5",
     "type": "command",
     "title": "quotacheck - Check group quotas",
-    "content": "sudo quotacheck --group {{group}} {{mountpoint}}",
+    "content": "sudo quotacheck --group {{group}} {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "quotacheck: Scan a filesystem for disk usage; create, check, and repair quota files. It is best to run quota check with quotas turned off to prevent damage or loss to quota files. (Check group quotas)",
     "tags": [
@@ -126320,7 +126515,7 @@
     "title": "namei - Resolve the pathnames specified as the argument parameters",
     "content": "namei {{path/to/a}} {{path/to/b}} {{path/to/c}}",
     "group": "Linux Ops",
-    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Resolve the pathnames specified as the argument parameters)",
+    "description": "namei: Follow a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Resolve the pathnames specified as the argument parameters)",
     "tags": [
       "linux",
       "namei",
@@ -126335,7 +126530,7 @@
     "title": "namei - Display the results in a long-listing format",
     "content": "namei {{[-l|--long]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}",
     "group": "Linux Ops",
-    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Display the results in a long-listing format)",
+    "description": "namei: Follow a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Display the results in a long-listing format)",
     "tags": [
       "linux",
       "namei",
@@ -126350,7 +126545,7 @@
     "title": "namei - Show the mode bits of each file type in the style of `ls`",
     "content": "namei {{[-m|--modes]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}",
     "group": "Linux Ops",
-    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Show the mode bits of each file type in the style of `ls`)",
+    "description": "namei: Follow a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Show the mode bits of each file type in the style of `ls`)",
     "tags": [
       "linux",
       "namei",
@@ -126365,7 +126560,7 @@
     "title": "namei - Show owner and group name of each file",
     "content": "namei {{[-o|--owners]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}",
     "group": "Linux Ops",
-    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Show owner and group name of each file)",
+    "description": "namei: Follow a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Show owner and group name of each file)",
     "tags": [
       "linux",
       "namei",
@@ -126380,7 +126575,7 @@
     "title": "namei - Don't follow symlinks while resolving",
     "content": "namei {{[-n|--nosymlinks]}} {{path/to/a}} {{path/to/b}} {{path/to/c}}",
     "group": "Linux Ops",
-    "description": "namei: Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Don't follow symlinks while resolving)",
+    "description": "namei: Follow a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc.). This program is useful for finding \"too many levels of symbolic links\" problems. (Don't follow symlinks while resolving)",
     "tags": [
       "linux",
       "namei",
@@ -126918,7 +127113,7 @@
     "id": "tldr-en-linux-bcachefs-1",
     "type": "command",
     "title": "bcachefs - Mount a `bcachefs` filesystem",
-    "content": "sudo bcachefs mount {{path/to/partition}} {{path/to/mountpoint}}",
+    "content": "sudo bcachefs mount {{path/to/partition}} {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "bcachefs: Manage `bcachefs` filesystems/devices. Some subcommands such as `device` have their own usage documentation. (Mount a `bcachefs` filesystem)",
     "tags": [
@@ -126948,7 +127143,7 @@
     "id": "tldr-en-linux-bcachefs-3",
     "type": "command",
     "title": "bcachefs - Mount a multidevice filesystem",
-    "content": "sudo bcachefs mount {{path/to/partition1}}:{{path/to/partition2}} {{path/to/mountpoint}}",
+    "content": "sudo bcachefs mount {{path/to/partition1}}:{{path/to/partition2}} {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "bcachefs: Manage `bcachefs` filesystems/devices. Some subcommands such as `device` have their own usage documentation. (Mount a multidevice filesystem)",
     "tags": [
@@ -126963,7 +127158,7 @@
     "id": "tldr-en-linux-bcachefs-4",
     "type": "command",
     "title": "bcachefs - Display disk usage",
-    "content": "bcachefs fs usage {{[-h|--human-readable]}} {{path/to/mountpoint}}",
+    "content": "bcachefs fs usage {{[-h|--human-readable]}} {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "bcachefs: Manage `bcachefs` filesystems/devices. Some subcommands such as `device` have their own usage documentation. (Display disk usage)",
     "tags": [
@@ -126993,7 +127188,7 @@
     "id": "tldr-en-linux-bcachefs-6",
     "type": "command",
     "title": "bcachefs - Force `bcachefs` to ensure all files are replicated",
-    "content": "sudo bcachefs data rereplicate {{path/to/mountpoint}}",
+    "content": "sudo bcachefs data rereplicate {{path/to/mount_point}}",
     "group": "Linux Ops",
     "description": "bcachefs: Manage `bcachefs` filesystems/devices. Some subcommands such as `device` have their own usage documentation. (Force `bcachefs` to ensure all files are replicated)",
     "tags": [

@@ -1250,7 +1250,7 @@
     "title": "where-object - Filter aliases by its name",
     "content": "Get-Alias | Where-Object -{{Property}} {{Name}} -{{eq}} {{name}}",
     "group": "Windows",
-    "description": "where-object: Selects objects from a collection based on their property values. Note: This command can only be used through PowerShell. (Filter aliases by its name)",
+    "description": "where-object: Select objects from a collection based on their property values. Note: This command can only be used through PowerShell. (Filter aliases by its name)",
     "tags": [
       "windows",
       "where-object",
@@ -1265,7 +1265,7 @@
     "title": "where-object - List all services that are currently stopped. The `$_` automatic variable represents each object that is passed to the `Where-Object` cmdlet",
     "content": "Get-Service | Where-Object {$_.Status -eq \"Stopped\"}",
     "group": "Windows",
-    "description": "where-object: Selects objects from a collection based on their property values. Note: This command can only be used through PowerShell. (List all services that are currently stopped. The `$_` automatic variable represents each object that is passed to the `Where-Object` cmdlet)",
+    "description": "where-object: Select objects from a collection based on their property values. Note: This command can only be used through PowerShell. (List all services that are currently stopped. The `$_` automatic variable represents each object that is passed to the `Where-Object` cmdlet)",
     "tags": [
       "windows",
       "where-object",
@@ -1280,7 +1280,7 @@
     "title": "where-object - Use multiple conditions",
     "content": "Get-Module -ListAvailable | Where-Object { $_.Name -NotLike \"Microsoft*\" -And $_.Name -NotLike \"PS*\" }",
     "group": "Windows",
-    "description": "where-object: Selects objects from a collection based on their property values. Note: This command can only be used through PowerShell. (Use multiple conditions)",
+    "description": "where-object: Select objects from a collection based on their property values. Note: This command can only be used through PowerShell. (Use multiple conditions)",
     "tags": [
       "windows",
       "where-object",
@@ -6380,7 +6380,7 @@
     "title": "gethelpcmd-teamsaddinscenario - Run the troubleshooter, close Outlook, and accept this command's End-User License Agreement (EULA)",
     "content": "GetHelpCmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook",
     "group": "Windows",
-    "description": "gethelpcmd-teamsaddinscenario: Troubleshoot installation-related issues with the Microsoft Teams add-in for Microsoft Outlook (Classic). Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). Note: This command is deprecated and will not work in the new Outlook application. (Run the troubleshooter, close Outlook, and accept this command's End-User License Agreement (EULA))",
+    "description": "gethelpcmd-teamsaddinscenario: Troubleshoot installation-related issues with the Microsoft Teams add-in for Microsoft Outlook (Classic). Note: This command is deprecated and will not work in the new Outlook application. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). (Run the troubleshooter, close Outlook, and accept this command's End-User License Agreement (EULA))",
     "tags": [
       "windows",
       "gethelpcmd-teamsaddinscenario",
@@ -6662,10 +6662,10 @@
   {
     "id": "tldr-en-windows-wmic-0",
     "type": "command",
-    "title": "wmic - Fundamental grammar",
+    "title": "wmic - Run a command using the fundamental grammar",
     "content": "wmic {{alias}} {{where_clause}} {{verb_clause}}",
     "group": "Windows",
-    "description": "wmic: Interactive shell for detailed information about running processes. (Fundamental grammar)",
+    "description": "wmic: Interactive shell for detailed information about running processes. (Run a command using the fundamental grammar)",
     "tags": [
       "windows",
       "wmic",
@@ -7278,7 +7278,7 @@
     "id": "tldr-en-windows-psping-3",
     "type": "command",
     "title": "psping - Ping the target over TCP 50 times and produce a histogram of the results",
-    "content": "psping {{hostname}}:{{port}} -q -n {{50}} -h",
+    "content": "psping {{hostname}}:{{port}} -q -n 50 -h",
     "group": "Windows",
     "description": "psping: A ping tool that includes TCP ping, latency, and bandwidth measurement. (Ping the target over TCP 50 times and produce a histogram of the results)",
     "tags": [
@@ -8390,7 +8390,7 @@
     "title": "gethelpcmd - View documentation for PowerShell's `Get-Help` command",
     "content": "tldr get-help",
     "group": "Windows",
-    "description": "gethelpcmd: Analyze and fix common problems in Microsoft 365 Enterprise installations. Formerly Microsoft Support and Recovery Assistant (SaRA), command-line version (`SaRAcmd.exe`). Note: This command is deprecated, use the GUI troubleshooters available within Windows Settings instead. It is not related to PowerShell (`Get-Help`). Some subcommands such as `OutlookCalendarCheckTask`, `ExpertExperienceAdminTask` have their own usage documentation. (View documentation for PowerShell's `Get-Help` command)",
+    "description": "gethelpcmd: Analyze and fix common problems in Microsoft 365 Enterprise installations. Formerly Microsoft Support and Recovery Assistant (SaRA), command-line version (`SaRAcmd.exe`). Note: This command is deprecated, use the GUI troubleshooters available within Windows Settings instead. It is not related to PowerShell (`Get-Help`). Some subcommands such as `OutlookCalendarCheckTask`, `ExpertExperienceAdminTask`, etc. have their own usage documentation. (View documentation for PowerShell's `Get-Help` command)",
     "tags": [
       "windows",
       "gethelpcmd",
@@ -8405,7 +8405,7 @@
     "title": "gethelpcmd - View documentation for the `ExpertExperienceAdminTask` scenario",
     "content": "tldr gethelpcmd-expertexperienceadmintask",
     "group": "Windows",
-    "description": "gethelpcmd: Analyze and fix common problems in Microsoft 365 Enterprise installations. Formerly Microsoft Support and Recovery Assistant (SaRA), command-line version (`SaRAcmd.exe`). Note: This command is deprecated, use the GUI troubleshooters available within Windows Settings instead. It is not related to PowerShell (`Get-Help`). Some subcommands such as `OutlookCalendarCheckTask`, `ExpertExperienceAdminTask` have their own usage documentation. (View documentation for the `ExpertExperienceAdminTask` scenario)",
+    "description": "gethelpcmd: Analyze and fix common problems in Microsoft 365 Enterprise installations. Formerly Microsoft Support and Recovery Assistant (SaRA), command-line version (`SaRAcmd.exe`). Note: This command is deprecated, use the GUI troubleshooters available within Windows Settings instead. It is not related to PowerShell (`Get-Help`). Some subcommands such as `OutlookCalendarCheckTask`, `ExpertExperienceAdminTask`, etc. have their own usage documentation. (View documentation for the `ExpertExperienceAdminTask` scenario)",
     "tags": [
       "windows",
       "gethelpcmd",
@@ -8420,7 +8420,7 @@
     "title": "gethelpcmd - View documentation for the `OutlookCalendarCheckTask` scenario",
     "content": "tldr gethelpcmd-outlookcalendarchecktask",
     "group": "Windows",
-    "description": "gethelpcmd: Analyze and fix common problems in Microsoft 365 Enterprise installations. Formerly Microsoft Support and Recovery Assistant (SaRA), command-line version (`SaRAcmd.exe`). Note: This command is deprecated, use the GUI troubleshooters available within Windows Settings instead. It is not related to PowerShell (`Get-Help`). Some subcommands such as `OutlookCalendarCheckTask`, `ExpertExperienceAdminTask` have their own usage documentation. (View documentation for the `OutlookCalendarCheckTask` scenario)",
+    "description": "gethelpcmd: Analyze and fix common problems in Microsoft 365 Enterprise installations. Formerly Microsoft Support and Recovery Assistant (SaRA), command-line version (`SaRAcmd.exe`). Note: This command is deprecated, use the GUI troubleshooters available within Windows Settings instead. It is not related to PowerShell (`Get-Help`). Some subcommands such as `OutlookCalendarCheckTask`, `ExpertExperienceAdminTask`, etc. have their own usage documentation. (View documentation for the `OutlookCalendarCheckTask` scenario)",
     "tags": [
       "windows",
       "gethelpcmd",
@@ -8510,7 +8510,7 @@
     "title": "start - View the documentation of the equivalent PowerShell command",
     "content": "tldr start-process",
     "group": "Windows",
-    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (View the documentation of the equivalent PowerShell command)",
+    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `%PATH%` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (View the documentation of the equivalent PowerShell command)",
     "tags": [
       "windows",
       "start",
@@ -8525,7 +8525,7 @@
     "title": "start - Start a new shell window with a custom title",
     "content": "start \"{{window_title}}\" {{cmd|powershell|python|...}}",
     "group": "Windows",
-    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Start a new shell window with a custom title)",
+    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `%PATH%` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Start a new shell window with a custom title)",
     "tags": [
       "windows",
       "start",
@@ -8540,7 +8540,7 @@
     "title": "start - Open a specific directory on Windows Explorer (equivalent to `explorer path\\to\\directory`)",
     "content": "start \"\" \"{{path\\to\\directory}}\"",
     "group": "Windows",
-    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Open a specific directory on Windows Explorer (equivalent to `explorer path\\to\\directory`))",
+    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `%PATH%` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Open a specific directory on Windows Explorer (equivalent to `explorer path\\to\\directory`))",
     "tags": [
       "windows",
       "start",
@@ -8555,7 +8555,7 @@
     "title": "start - Start a specific Windows program file (command-line programs will open on a new console window)",
     "content": "start {{path\\to\\file}}",
     "group": "Windows",
-    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Start a specific Windows program file (command-line programs will open on a new console window))",
+    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `%PATH%` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Start a specific Windows program file (command-line programs will open on a new console window))",
     "tags": [
       "windows",
       "start",
@@ -8570,7 +8570,7 @@
     "title": "start - Start a registered Windows program name and pass its command arguments",
     "content": "start {{msedge}} {{--inprivate example.com}}",
     "group": "Windows",
-    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Start a registered Windows program name and pass its command arguments)",
+    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `%PATH%` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Start a registered Windows program name and pass its command arguments)",
     "tags": [
       "windows",
       "start",
@@ -8585,7 +8585,7 @@
     "title": "start - Start a Windows program in minimized or maximized window mode",
     "content": "start {{/min|/max}} {{path\\to\\file.exe}}",
     "group": "Windows",
-    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Start a Windows program in minimized or maximized window mode)",
+    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `%PATH%` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Start a Windows program in minimized or maximized window mode)",
     "tags": [
       "windows",
       "start",
@@ -8600,7 +8600,7 @@
     "title": "start - Start a command or Windows program with a specified working directory",
     "content": "start /d {{path\\to\\directory}} {{command_or_program}}",
     "group": "Windows",
-    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Start a command or Windows program with a specified working directory)",
+    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `%PATH%` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Start a command or Windows program with a specified working directory)",
     "tags": [
       "windows",
       "start",
@@ -8615,7 +8615,7 @@
     "title": "start - Do not finish this command until the target command or program exits",
     "content": "start /wait {{command_or_program}}",
     "group": "Windows",
-    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Do not finish this command until the target command or program exits)",
+    "description": "start: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `%PATH%` environment variable. In PowerShell, this command is an alias of `Start-Process`. This documentation is based on the Command Prompt (`cmd`) version of `start`. (Do not finish this command until the target command or program exits)",
     "tags": [
       "windows",
       "start",
@@ -9755,7 +9755,7 @@
     "title": "start-process - Open a specific directory on Windows Explorer (equivalent to `explorer path\\to\\directory`)",
     "content": "Start-Process {{path\\to\\directory}}",
     "group": "Windows",
-    "description": "start-process: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. (Open a specific directory on Windows Explorer (equivalent to `explorer path\\to\\directory`))",
+    "description": "start-process: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `$Env:PATH` environment variable. (Open a specific directory on Windows Explorer (equivalent to `explorer path\\to\\directory`))",
     "tags": [
       "windows",
       "start-process",
@@ -9770,7 +9770,7 @@
     "title": "start-process - Start a specific Windows program file (command-line programs will open on a new console window)",
     "content": "Start-Process {{path\\to\\file}}",
     "group": "Windows",
-    "description": "start-process: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. (Start a specific Windows program file (command-line programs will open on a new console window))",
+    "description": "start-process: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `$Env:PATH` environment variable. (Start a specific Windows program file (command-line programs will open on a new console window))",
     "tags": [
       "windows",
       "start-process",
@@ -9785,7 +9785,7 @@
     "title": "start-process - Start a registered Windows program name and pass its command arguments",
     "content": "Start-Process {{msedge}} {{--inprivate example.com}}",
     "group": "Windows",
-    "description": "start-process: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. (Start a registered Windows program name and pass its command arguments)",
+    "description": "start-process: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `$Env:PATH` environment variable. (Start a registered Windows program name and pass its command arguments)",
     "tags": [
       "windows",
       "start-process",
@@ -9800,7 +9800,7 @@
     "title": "start-process - Start a Windows program in minimized or maximized window mode",
     "content": "Start-Process -WindowStyle {{Minimized|Maximized}} {{program}}",
     "group": "Windows",
-    "description": "start-process: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. (Start a Windows program in minimized or maximized window mode)",
+    "description": "start-process: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `$Env:PATH` environment variable. (Start a Windows program in minimized or maximized window mode)",
     "tags": [
       "windows",
       "start-process",
@@ -9815,7 +9815,7 @@
     "title": "start-process - Start a command or Windows program with a specified working directory",
     "content": "Start-Process -WorkingDirectory {{path\\to\\directory}} {{command_or_program}}",
     "group": "Windows",
-    "description": "start-process: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. (Start a command or Windows program with a specified working directory)",
+    "description": "start-process: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `$Env:PATH` environment variable. (Start a command or Windows program with a specified working directory)",
     "tags": [
       "windows",
       "start-process",
@@ -9830,7 +9830,7 @@
     "title": "start-process - Do not finish this command until the target command or program exits",
     "content": "Start-Process -Wait {{command_or_program}}",
     "group": "Windows",
-    "description": "start-process: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in `PATH` environment variable. (Do not finish this command until the target command or program exits)",
+    "description": "start-process: Start a command in a new console. Can also be used to run Windows programs registered in the `App Paths` Windows Registry despite not registered in the `$Env:PATH` environment variable. (Do not finish this command until the target command or program exits)",
     "tags": [
       "windows",
       "start-process",
@@ -10715,7 +10715,7 @@
     "title": "choco - Install a package",
     "content": "choco install {{package_name}}",
     "group": "Windows",
-    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin` have their own usage documentation. (Install a package)",
+    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin`, etc. have their own usage documentation. (Install a package)",
     "tags": [
       "windows",
       "choco",
@@ -10730,7 +10730,7 @@
     "title": "choco - Upgrade a specific installed package",
     "content": "choco upgrade {{package_name}}",
     "group": "Windows",
-    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin` have their own usage documentation. (Upgrade a specific installed package)",
+    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin`, etc. have their own usage documentation. (Upgrade a specific installed package)",
     "tags": [
       "windows",
       "choco",
@@ -10745,7 +10745,7 @@
     "title": "choco - Upgrade all outdated packages and automatically confirm all prompts",
     "content": "choco upgrade all {{[-y|--yes]}}",
     "group": "Windows",
-    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin` have their own usage documentation. (Upgrade all outdated packages and automatically confirm all prompts)",
+    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin`, etc. have their own usage documentation. (Upgrade all outdated packages and automatically confirm all prompts)",
     "tags": [
       "windows",
       "choco",
@@ -10760,7 +10760,7 @@
     "title": "choco - Uninstall a package and automatically confirm all prompts",
     "content": "choco uninstall {{package_name}} {{[-y|--yes]}}",
     "group": "Windows",
-    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin` have their own usage documentation. (Uninstall a package and automatically confirm all prompts)",
+    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin`, etc. have their own usage documentation. (Uninstall a package and automatically confirm all prompts)",
     "tags": [
       "windows",
       "choco",
@@ -10775,7 +10775,7 @@
     "title": "choco - Search for packages by name or keyword",
     "content": "choco search {{query}}",
     "group": "Windows",
-    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin` have their own usage documentation. (Search for packages by name or keyword)",
+    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin`, etc. have their own usage documentation. (Search for packages by name or keyword)",
     "tags": [
       "windows",
       "choco",
@@ -10790,7 +10790,7 @@
     "title": "choco - List all packages installed on the machine",
     "content": "choco list",
     "group": "Windows",
-    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin` have their own usage documentation. (List all packages installed on the machine)",
+    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin`, etc. have their own usage documentation. (List all packages installed on the machine)",
     "tags": [
       "windows",
       "choco",
@@ -10805,7 +10805,7 @@
     "title": "choco - Show packages that have newer versions available",
     "content": "choco outdated",
     "group": "Windows",
-    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin` have their own usage documentation. (Show packages that have newer versions available)",
+    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin`, etc. have their own usage documentation. (Show packages that have newer versions available)",
     "tags": [
       "windows",
       "choco",
@@ -10820,7 +10820,7 @@
     "title": "choco - Install a package from a specific source",
     "content": "choco install {{package_name}} {{[-s|--source]}} {{source}}",
     "group": "Windows",
-    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin` have their own usage documentation. (Install a package from a specific source)",
+    "description": "choco: The Chocolatey package manager. Some subcommands such as `install`, `upgrade`, `pin`, etc. have their own usage documentation. (Install a package from a specific source)",
     "tags": [
       "windows",
       "choco",
@@ -10835,7 +10835,7 @@
     "title": "gethelpcmd-outlookcalendarchecktask - Analyze the calendar for the current, active profile, and accept this command's End-User License Agreement (EULA)",
     "content": "GetHelpCmd.exe -S OutlookCalendarCheckTask -AcceptEula",
     "group": "Windows",
-    "description": "gethelpcmd-outlookcalendarchecktask: Scan for calendar configuration issues in legacy Microsoft Outlook applications. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). Note: This command is deprecated and will not work in the new Outlook application. (Analyze the calendar for the current, active profile, and accept this command's End-User License Agreement (EULA))",
+    "description": "gethelpcmd-outlookcalendarchecktask: Scan for calendar configuration issues in legacy Microsoft Outlook applications. Note: This command is deprecated and will not work in the new Outlook application. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). (Analyze the calendar for the current, active profile, and accept this command's End-User License Agreement (EULA))",
     "tags": [
       "windows",
       "gethelpcmd-outlookcalendarchecktask",
@@ -10850,7 +10850,7 @@
     "title": "gethelpcmd-outlookcalendarchecktask - Analyze calendar for a specific Outlook profile",
     "content": "GetHelpCmd.exe -S OutlookCalendarCheckTask -AcceptEula -P {{profile}}",
     "group": "Windows",
-    "description": "gethelpcmd-outlookcalendarchecktask: Scan for calendar configuration issues in legacy Microsoft Outlook applications. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). Note: This command is deprecated and will not work in the new Outlook application. (Analyze calendar for a specific Outlook profile)",
+    "description": "gethelpcmd-outlookcalendarchecktask: Scan for calendar configuration issues in legacy Microsoft Outlook applications. Note: This command is deprecated and will not work in the new Outlook application. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). (Analyze calendar for a specific Outlook profile)",
     "tags": [
       "windows",
       "gethelpcmd-outlookcalendarchecktask",
@@ -10865,7 +10865,7 @@
     "title": "gethelpcmd-outlookcalendarchecktask - Analyze the calendar for a specific profile and save the logs to a specific directory",
     "content": "GetHelpCmd.exe -S OutlookCalendarCheckTask -AcceptEula -P {{profile}} -LogFolder {{path\\to\\directory}}",
     "group": "Windows",
-    "description": "gethelpcmd-outlookcalendarchecktask: Scan for calendar configuration issues in legacy Microsoft Outlook applications. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). Note: This command is deprecated and will not work in the new Outlook application. (Analyze the calendar for a specific profile and save the logs to a specific directory)",
+    "description": "gethelpcmd-outlookcalendarchecktask: Scan for calendar configuration issues in legacy Microsoft Outlook applications. Note: This command is deprecated and will not work in the new Outlook application. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). (Analyze the calendar for a specific profile and save the logs to a specific directory)",
     "tags": [
       "windows",
       "gethelpcmd-outlookcalendarchecktask",
@@ -10880,7 +10880,7 @@
     "title": "gethelpcmd-outlookcalendarchecktask - Analyze the calendar for a specific profile without showing the progress",
     "content": "GetHelpCmd.exe -S OutlookCalendarCheckTask -AcceptEula -P {{profile}} -HideProgress",
     "group": "Windows",
-    "description": "gethelpcmd-outlookcalendarchecktask: Scan for calendar configuration issues in legacy Microsoft Outlook applications. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). Note: This command is deprecated and will not work in the new Outlook application. (Analyze the calendar for a specific profile without showing the progress)",
+    "description": "gethelpcmd-outlookcalendarchecktask: Scan for calendar configuration issues in legacy Microsoft Outlook applications. Note: This command is deprecated and will not work in the new Outlook application. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). (Analyze the calendar for a specific profile without showing the progress)",
     "tags": [
       "windows",
       "gethelpcmd-outlookcalendarchecktask",
@@ -11105,7 +11105,7 @@
     "title": "cls - View the documentation of the equivalent PowerShell command",
     "content": "tldr clear-host",
     "group": "Windows",
-    "description": "cls: Clears the screen. In PowerShell, this command is an alias of `Clear-Host`. This documentation is based on the Command Prompt (`cmd`) version of `cls`. (View the documentation of the equivalent PowerShell command)",
+    "description": "cls: Clear the screen. In PowerShell, this command is an alias of `Clear-Host`. This documentation is based on the Command Prompt (`cmd`) version of `cls`. (View the documentation of the equivalent PowerShell command)",
     "tags": [
       "windows",
       "cls",
@@ -11120,7 +11120,7 @@
     "title": "cls - Clear the screen",
     "content": "cls",
     "group": "Windows",
-    "description": "cls: Clears the screen. In PowerShell, this command is an alias of `Clear-Host`. This documentation is based on the Command Prompt (`cmd`) version of `cls`. (Clear the screen)",
+    "description": "cls: Clear the screen. In PowerShell, this command is an alias of `Clear-Host`. This documentation is based on the Command Prompt (`cmd`) version of `cls`. (Clear the screen)",
     "tags": [
       "windows",
       "cls",
@@ -12995,7 +12995,7 @@
     "title": "subst - List active associations",
     "content": "subst",
     "group": "Windows",
-    "description": "subst: Associates a path with a virtual drive letter. (List active associations)",
+    "description": "subst: Associate a path with a virtual drive letter. (List active associations)",
     "tags": [
       "windows",
       "subst",
@@ -13010,7 +13010,7 @@
     "title": "subst - Add an association",
     "content": "subst {{Z:}} {{C:\\Python2.7}}",
     "group": "Windows",
-    "description": "subst: Associates a path with a virtual drive letter. (Add an association)",
+    "description": "subst: Associate a path with a virtual drive letter. (Add an association)",
     "tags": [
       "windows",
       "subst",
@@ -13025,7 +13025,7 @@
     "title": "subst - Remove an association",
     "content": "subst {{Z:}} /d",
     "group": "Windows",
-    "description": "subst: Associates a path with a virtual drive letter. (Remove an association)",
+    "description": "subst: Associate a path with a virtual drive letter. (Remove an association)",
     "tags": [
       "windows",
       "subst",
@@ -13430,7 +13430,7 @@
     "title": "clear-host - Clear the screen",
     "content": "cls",
     "group": "Windows",
-    "description": "clear-host: Clears the screen. Note: This command can only be used through PowerShell. (Clear the screen)",
+    "description": "clear-host: Clear the screen. Note: This command can only be used through PowerShell. (Clear the screen)",
     "tags": [
       "windows",
       "clear-host",
@@ -13700,7 +13700,7 @@
     "title": "select-string - Search for a pattern within a file",
     "content": "Select-String -Path \"{{path\\to\\file}}\" -Pattern '{{search_pattern}}'",
     "group": "Windows",
-    "description": "select-string: Finds text in strings and files in PowerShell. Note: This command can only be used through PowerShell. You can use `Select-String` similar to `grep` in UNIX or `findstr.exe` in Windows. (Search for a pattern within a file)",
+    "description": "select-string: Find text in strings and files in PowerShell. You can use `Select-String` similar to `grep` in UNIX or `findstr.exe` in Windows. Note: This command can only be used through PowerShell. (Search for a pattern within a file)",
     "tags": [
       "windows",
       "select-string",
@@ -13715,7 +13715,7 @@
     "title": "select-string - Search for an exact string (disables `regex`)",
     "content": "Select-String -SimpleMatch \"{{exact_string}}\" {{path\\to\\file}}",
     "group": "Windows",
-    "description": "select-string: Finds text in strings and files in PowerShell. Note: This command can only be used through PowerShell. You can use `Select-String` similar to `grep` in UNIX or `findstr.exe` in Windows. (Search for an exact string (disables `regex`))",
+    "description": "select-string: Find text in strings and files in PowerShell. You can use `Select-String` similar to `grep` in UNIX or `findstr.exe` in Windows. Note: This command can only be used through PowerShell. (Search for an exact string (disables `regex`))",
     "tags": [
       "windows",
       "select-string",
@@ -13730,7 +13730,7 @@
     "title": "select-string - Search for pattern in all `.ext` files in current dir",
     "content": "Select-String -Path \"{{*.ext}}\" -Pattern '{{search_pattern}}'",
     "group": "Windows",
-    "description": "select-string: Finds text in strings and files in PowerShell. Note: This command can only be used through PowerShell. You can use `Select-String` similar to `grep` in UNIX or `findstr.exe` in Windows. (Search for pattern in all `.ext` files in current dir)",
+    "description": "select-string: Find text in strings and files in PowerShell. You can use `Select-String` similar to `grep` in UNIX or `findstr.exe` in Windows. Note: This command can only be used through PowerShell. (Search for pattern in all `.ext` files in current dir)",
     "tags": [
       "windows",
       "select-string",
@@ -13745,7 +13745,7 @@
     "title": "select-string - Capture the specified number of lines before and after the line that matches the pattern",
     "content": "Select-String --Context {{2,3}} \"{{search_pattern}}\" {{path\\to\\file}}",
     "group": "Windows",
-    "description": "select-string: Finds text in strings and files in PowerShell. Note: This command can only be used through PowerShell. You can use `Select-String` similar to `grep` in UNIX or `findstr.exe` in Windows. (Capture the specified number of lines before and after the line that matches the pattern)",
+    "description": "select-string: Find text in strings and files in PowerShell. You can use `Select-String` similar to `grep` in UNIX or `findstr.exe` in Windows. Note: This command can only be used through PowerShell. (Capture the specified number of lines before and after the line that matches the pattern)",
     "tags": [
       "windows",
       "select-string",
@@ -13760,7 +13760,7 @@
     "title": "select-string - Search `stdin` for lines that do not match a pattern",
     "content": "Get-Content {{path\\to\\file}} | Select-String --NotMatch \"{{search_pattern}}\"",
     "group": "Windows",
-    "description": "select-string: Finds text in strings and files in PowerShell. Note: This command can only be used through PowerShell. You can use `Select-String` similar to `grep` in UNIX or `findstr.exe` in Windows. (Search `stdin` for lines that do not match a pattern)",
+    "description": "select-string: Find text in strings and files in PowerShell. You can use `Select-String` similar to `grep` in UNIX or `findstr.exe` in Windows. Note: This command can only be used through PowerShell. (Search `stdin` for lines that do not match a pattern)",
     "tags": [
       "windows",
       "select-string",
@@ -13910,7 +13910,7 @@
     "title": "gethelpcmd-officeactivationscenario - Automatically fix activation-related errors, close Office, and accept this command's End-User License Agreement (EULA). Requires Administrator privileges to do so",
     "content": "GetHelpCmd.exe -S OfficeActivationScenario -AcceptEula -CloseOffice",
     "group": "Windows",
-    "description": "gethelpcmd-officeactivationscenario: Automatically repair activation-related issues within Microsoft Office / Microsoft 365 Apps for Enterprise. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). Note: This command is deprecated and will not work in the new OneNote and Outlook applications. Note: This command may override, deactivate, and/or remove your current volume of licensed Office product versions, so please proceed cautiously. (Automatically fix activation-related errors, close Office, and accept this command's End-User License Agreement (EULA). Requires Administrator privileges to do so)",
+    "description": "gethelpcmd-officeactivationscenario: Automatically repair activation-related issues within Microsoft Office / Microsoft 365 Apps for Enterprise. Note: This command is deprecated and will not work in the new OneNote and Outlook applications. Note: This command may override, deactivate, and/or remove your current volume of licensed Office product versions, so please proceed cautiously. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). (Automatically fix activation-related errors, close Office, and accept this command's End-User License Agreement (EULA). Requires Administrator privileges to do so)",
     "tags": [
       "windows",
       "gethelpcmd-officeactivationscenario",
@@ -13925,7 +13925,7 @@
     "title": "gethelpcmd-officeactivationscenario - Detach the currently-installed Office licensing scheme from Shared Computer Activation (SCA), and activate the product separately. Requires Administrator privileges to do so",
     "content": "GetHelpCmd.exe -S OfficeActivationScenario -AcceptEula -CloseOffice -RemoveSCA",
     "group": "Windows",
-    "description": "gethelpcmd-officeactivationscenario: Automatically repair activation-related issues within Microsoft Office / Microsoft 365 Apps for Enterprise. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). Note: This command is deprecated and will not work in the new OneNote and Outlook applications. Note: This command may override, deactivate, and/or remove your current volume of licensed Office product versions, so please proceed cautiously. (Detach the currently-installed Office licensing scheme from Shared Computer Activation (SCA), and activate the product separately. Requires Administrator privileges to do so)",
+    "description": "gethelpcmd-officeactivationscenario: Automatically repair activation-related issues within Microsoft Office / Microsoft 365 Apps for Enterprise. Note: This command is deprecated and will not work in the new OneNote and Outlook applications. Note: This command may override, deactivate, and/or remove your current volume of licensed Office product versions, so please proceed cautiously. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). (Detach the currently-installed Office licensing scheme from Shared Computer Activation (SCA), and activate the product separately. Requires Administrator privileges to do so)",
     "tags": [
       "windows",
       "gethelpcmd-officeactivationscenario",
@@ -15095,7 +15095,7 @@
     "title": "sort-object - Sort the current directory by name",
     "content": "Get-ChildItem | Sort-Object",
     "group": "Windows",
-    "description": "sort-object: Sorts objects by property values. Note: This command can only be used through PowerShell. (Sort the current directory by name)",
+    "description": "sort-object: Sort objects by property values. Note: This command can only be used through PowerShell. (Sort the current directory by name)",
     "tags": [
       "windows",
       "sort-object",
@@ -15110,7 +15110,7 @@
     "title": "sort-object - Sort the current directory by name descending",
     "content": "Get-ChildItem | Sort-Object -Descending",
     "group": "Windows",
-    "description": "sort-object: Sorts objects by property values. Note: This command can only be used through PowerShell. (Sort the current directory by name descending)",
+    "description": "sort-object: Sort objects by property values. Note: This command can only be used through PowerShell. (Sort the current directory by name descending)",
     "tags": [
       "windows",
       "sort-object",
@@ -15125,7 +15125,7 @@
     "title": "sort-object - Sort items removing duplicates",
     "content": "\"a\", \"b\", \"a\" | Sort-Object -Unique",
     "group": "Windows",
-    "description": "sort-object: Sorts objects by property values. Note: This command can only be used through PowerShell. (Sort items removing duplicates)",
+    "description": "sort-object: Sort objects by property values. Note: This command can only be used through PowerShell. (Sort items removing duplicates)",
     "tags": [
       "windows",
       "sort-object",
@@ -15140,7 +15140,7 @@
     "title": "sort-object - Sort the current directory by file length",
     "content": "Get-ChildItem | Sort-Object -Property Length",
     "group": "Windows",
-    "description": "sort-object: Sorts objects by property values. Note: This command can only be used through PowerShell. (Sort the current directory by file length)",
+    "description": "sort-object: Sort objects by property values. Note: This command can only be used through PowerShell. (Sort the current directory by file length)",
     "tags": [
       "windows",
       "sort-object",
@@ -15155,7 +15155,7 @@
     "title": "sort-object - Sort processes with the highest memory usage based on their working set (WS) size",
     "content": "Get-Process | Sort-Object -Property WS",
     "group": "Windows",
-    "description": "sort-object: Sorts objects by property values. Note: This command can only be used through PowerShell. (Sort processes with the highest memory usage based on their working set (WS) size)",
+    "description": "sort-object: Sort objects by property values. Note: This command can only be used through PowerShell. (Sort processes with the highest memory usage based on their working set (WS) size)",
     "tags": [
       "windows",
       "sort-object",
@@ -15635,7 +15635,7 @@
     "title": "wait-process - Stop a process and wait",
     "content": "Stop-Process -Id {{process_id}}; Wait-Process -Id {{process_id}}",
     "group": "Windows",
-    "description": "wait-process: Waits for the processes to be stopped before accepting more input. Note: This command can only be used through PowerShell. (Stop a process and wait)",
+    "description": "wait-process: Wait for the processes to be stopped before accepting more input. Note: This command can only be used through PowerShell. (Stop a process and wait)",
     "tags": [
       "windows",
       "wait-process",
@@ -15650,7 +15650,7 @@
     "title": "wait-process - Wait for processes for a specified time",
     "content": "Wait-Process -Name {{process_name}} -Timeout {{30}}",
     "group": "Windows",
-    "description": "wait-process: Waits for the processes to be stopped before accepting more input. Note: This command can only be used through PowerShell. (Wait for processes for a specified time)",
+    "description": "wait-process: Wait for the processes to be stopped before accepting more input. Note: This command can only be used through PowerShell. (Wait for processes for a specified time)",
     "tags": [
       "windows",
       "wait-process",
@@ -15695,7 +15695,7 @@
     "title": "measure-command - Measure the time it takes to run a command",
     "content": "Measure-Command { {{command}} }",
     "group": "Windows",
-    "description": "measure-command: Measures the time it takes to run script blocks and cmdlets. Note: This command can only be used through PowerShell. (Measure the time it takes to run a command)",
+    "description": "measure-command: Measure the time it takes to run script blocks and cmdlets. Note: This command can only be used through PowerShell. (Measure the time it takes to run a command)",
     "tags": [
       "windows",
       "measure-command",
@@ -15710,7 +15710,7 @@
     "title": "measure-command - Pipe input to Measure-Command (objects that are piped to `Measure-Command` are available to the script block that is passed to the Expression parameter)",
     "content": "10, 20, 50 | Measure-Command -Expression { for ($i=0; $i -lt $_; $i++) {$i} }",
     "group": "Windows",
-    "description": "measure-command: Measures the time it takes to run script blocks and cmdlets. Note: This command can only be used through PowerShell. (Pipe input to Measure-Command (objects that are piped to `Measure-Command` are available to the script block that is passed to the Expression parameter))",
+    "description": "measure-command: Measure the time it takes to run script blocks and cmdlets. Note: This command can only be used through PowerShell. (Pipe input to Measure-Command (objects that are piped to `Measure-Command` are available to the script block that is passed to the Expression parameter))",
     "tags": [
       "windows",
       "measure-command",
@@ -16310,7 +16310,7 @@
     "title": "gethelpcmd-expertexperienceadmintask - Get detailed information and accept this command's End-User License Agreement (EULA)",
     "content": "GetHelpCmd.exe -S ExpertExperienceAdminTask -AcceptEula",
     "group": "Windows",
-    "description": "gethelpcmd-expertexperienceadmintask: Get detailed installation and configuration information on legacy Microsoft Outlook with Microsoft Office and Windows. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). Note: This command is deprecated and will not work in the new Outlook application. (Get detailed information and accept this command's End-User License Agreement (EULA))",
+    "description": "gethelpcmd-expertexperienceadmintask: Get detailed installation and configuration information on legacy Microsoft Outlook with Microsoft Office and Windows. Note: This command is deprecated and will not work in the new Outlook application. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). (Get detailed information and accept this command's End-User License Agreement (EULA))",
     "tags": [
       "windows",
       "gethelpcmd-expertexperienceadmintask",
@@ -16325,7 +16325,7 @@
     "title": "gethelpcmd-expertexperienceadmintask - Get detailed information and save the logs to a specific directory",
     "content": "GetHelpCmd.exe -S ExpertExperienceAdminTask -AcceptEula -LogFolder {{path\\to\\directory}}",
     "group": "Windows",
-    "description": "gethelpcmd-expertexperienceadmintask: Get detailed installation and configuration information on legacy Microsoft Outlook with Microsoft Office and Windows. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). Note: This command is deprecated and will not work in the new Outlook application. (Get detailed information and save the logs to a specific directory)",
+    "description": "gethelpcmd-expertexperienceadmintask: Get detailed installation and configuration information on legacy Microsoft Outlook with Microsoft Office and Windows. Note: This command is deprecated and will not work in the new Outlook application. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). (Get detailed information and save the logs to a specific directory)",
     "tags": [
       "windows",
       "gethelpcmd-expertexperienceadmintask",
@@ -16340,7 +16340,7 @@
     "title": "gethelpcmd-expertexperienceadmintask - Get detailed information without showing the progress",
     "content": "GetHelpCmd.exe -S ExpertExperienceAdminTask -AcceptEula -HideProgress",
     "group": "Windows",
-    "description": "gethelpcmd-expertexperienceadmintask: Get detailed installation and configuration information on legacy Microsoft Outlook with Microsoft Office and Windows. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). Note: This command is deprecated and will not work in the new Outlook application. (Get detailed information without showing the progress)",
+    "description": "gethelpcmd-expertexperienceadmintask: Get detailed installation and configuration information on legacy Microsoft Outlook with Microsoft Office and Windows. Note: This command is deprecated and will not work in the new Outlook application. Part of `GetHelpCmd.exe`, formerly `SaRAcmd.exe` (Microsoft Support and Recovery Assistant). (Get detailed information without showing the progress)",
     "tags": [
       "windows",
       "gethelpcmd-expertexperienceadmintask",
@@ -16475,7 +16475,7 @@
     "title": "tskill - Terminate a process by its process identifier",
     "content": "tskill {{process_id}}",
     "group": "Windows",
-    "description": "tskill: Ends a process running in a session on a Remote Desktop Session Host. (Terminate a process by its process identifier)",
+    "description": "tskill: End a process running in a session on a Remote Desktop Session Host. (Terminate a process by its process identifier)",
     "tags": [
       "windows",
       "tskill",
@@ -16490,7 +16490,7 @@
     "title": "tskill - Terminate a process by its name",
     "content": "tskill {{process_name}}",
     "group": "Windows",
-    "description": "tskill: Ends a process running in a session on a Remote Desktop Session Host. (Terminate a process by its name)",
+    "description": "tskill: End a process running in a session on a Remote Desktop Session Host. (Terminate a process by its name)",
     "tags": [
       "windows",
       "tskill",
@@ -16610,7 +16610,7 @@
     "title": "tee-object - Output processes to a file and to the console",
     "content": "Get-Process | Tee-Object -FilePath {{path\\to\\file}}",
     "group": "Windows",
-    "description": "tee-object: Saves command output in a file or variable and also sends it down the pipeline. Note: This command can only be used through PowerShell. (Output processes to a file and to the console)",
+    "description": "tee-object: Save command output in a file or variable and also send it down the pipeline. Note: This command can only be used through PowerShell. (Output processes to a file and to the console)",
     "tags": [
       "windows",
       "tee-object",
@@ -16625,7 +16625,7 @@
     "title": "tee-object - Output processes to a variable and `Select-Object`",
     "content": "Get-Process notepad | Tee-Object -Variable {{proc}} | Select-Object processname,handles",
     "group": "Windows",
-    "description": "tee-object: Saves command output in a file or variable and also sends it down the pipeline. Note: This command can only be used through PowerShell. (Output processes to a variable and `Select-Object`)",
+    "description": "tee-object: Save command output in a file or variable and also send it down the pipeline. Note: This command can only be used through PowerShell. (Output processes to a variable and `Select-Object`)",
     "tags": [
       "windows",
       "tee-object",
@@ -18365,7 +18365,7 @@
     "title": "iesetup - View the documentation for `iewzd`",
     "content": "tldr {{[-p|--platform]}} windows iewzd",
     "group": "Windows",
-    "description": "iesetup: Build customized Internet Explorer Wizard (`iewzd`) installer. Part of Internet Explorer Administration Kit (IEAK). Note: You may need to replace the `iesetup` command with your desired IEAK version and executable, such as `Ie11setup` for IE 11. (View the documentation for `iewzd`)",
+    "description": "iesetup: Build customized Internet Explorer Wizard (`iewzd`) installer. Note: You may need to replace the `iesetup` command with your desired IEAK version and executable, such as `Ie11setup` for IE 11. Part of Internet Explorer Administration Kit (IEAK). (View the documentation for `iewzd`)",
     "tags": [
       "windows",
       "iesetup",
@@ -18380,7 +18380,7 @@
     "title": "iesetup - Build a custom Internet Explorer Wizard executable, specifying the location of `iewzd` executable",
     "content": "iesetup /c:\"{{path\\to\\iewzd.exe}}\"",
     "group": "Windows",
-    "description": "iesetup: Build customized Internet Explorer Wizard (`iewzd`) installer. Part of Internet Explorer Administration Kit (IEAK). Note: You may need to replace the `iesetup` command with your desired IEAK version and executable, such as `Ie11setup` for IE 11. (Build a custom Internet Explorer Wizard executable, specifying the location of `iewzd` executable)",
+    "description": "iesetup: Build customized Internet Explorer Wizard (`iewzd`) installer. Note: You may need to replace the `iesetup` command with your desired IEAK version and executable, such as `Ie11setup` for IE 11. Part of Internet Explorer Administration Kit (IEAK). (Build a custom Internet Explorer Wizard executable, specifying the location of `iewzd` executable)",
     "tags": [
       "windows",
       "iesetup",
@@ -18395,7 +18395,7 @@
     "title": "iesetup - Apply custom `iewzd` program arguments into the custom installer",
     "content": "iesetup /c:\"{{path\\to\\iewzd.exe}} {{iewzd_args}}\"",
     "group": "Windows",
-    "description": "iesetup: Build customized Internet Explorer Wizard (`iewzd`) installer. Part of Internet Explorer Administration Kit (IEAK). Note: You may need to replace the `iesetup` command with your desired IEAK version and executable, such as `Ie11setup` for IE 11. (Apply custom `iewzd` program arguments into the custom installer)",
+    "description": "iesetup: Build customized Internet Explorer Wizard (`iewzd`) installer. Note: You may need to replace the `iesetup` command with your desired IEAK version and executable, such as `Ie11setup` for IE 11. Part of Internet Explorer Administration Kit (IEAK). (Apply custom `iewzd` program arguments into the custom installer)",
     "tags": [
       "windows",
       "iesetup",
@@ -18410,7 +18410,7 @@
     "title": "iesetup - Run the build process in a [q]uiet mode, assuming the user account invoking this command as an [a]dministrator or regular [u]ser",
     "content": "iesetup /q:{{a|u}} /c:\"{{path\\to\\iewzd.exe}} {{iewzd_args}}\"",
     "group": "Windows",
-    "description": "iesetup: Build customized Internet Explorer Wizard (`iewzd`) installer. Part of Internet Explorer Administration Kit (IEAK). Note: You may need to replace the `iesetup` command with your desired IEAK version and executable, such as `Ie11setup` for IE 11. (Run the build process in a [q]uiet mode, assuming the user account invoking this command as an [a]dministrator or regular [u]ser)",
+    "description": "iesetup: Build customized Internet Explorer Wizard (`iewzd`) installer. Note: You may need to replace the `iesetup` command with your desired IEAK version and executable, such as `Ie11setup` for IE 11. Part of Internet Explorer Administration Kit (IEAK). (Run the build process in a [q]uiet mode, assuming the user account invoking this command as an [a]dministrator or regular [u]ser)",
     "tags": [
       "windows",
       "iesetup",
@@ -18425,7 +18425,7 @@
     "title": "iesetup - Specify the [r]estart behavior after a successful installation ([a]sk, [n]ever, or alway[s])",
     "content": "iesetup /r:{{a|n|s}} /c:\"{{path\\to\\iewzd.exe}} {{iewzd_args}}\"",
     "group": "Windows",
-    "description": "iesetup: Build customized Internet Explorer Wizard (`iewzd`) installer. Part of Internet Explorer Administration Kit (IEAK). Note: You may need to replace the `iesetup` command with your desired IEAK version and executable, such as `Ie11setup` for IE 11. (Specify the [r]estart behavior after a successful installation ([a]sk, [n]ever, or alway[s]))",
+    "description": "iesetup: Build customized Internet Explorer Wizard (`iewzd`) installer. Note: You may need to replace the `iesetup` command with your desired IEAK version and executable, such as `Ie11setup` for IE 11. Part of Internet Explorer Administration Kit (IEAK). (Specify the [r]estart behavior after a successful installation ([a]sk, [n]ever, or alway[s]))",
     "tags": [
       "windows",
       "iesetup",

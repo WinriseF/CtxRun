@@ -375,6 +375,21 @@
     "source": "official"
   },
   {
+    "id": "tldr-zh-common-podman-container-commit-0",
+    "type": "command",
+    "title": "podman-container-commit - 查看原命令的文档",
+    "content": "tldr podman commit",
+    "group": "通用工具 (Common)",
+    "description": "podman-container-commit: 此命令为 `podman commit` 的别名。 (查看原命令的文档)",
+    "tags": [
+      "common",
+      "podman-container-commit",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-zh-common-frp-0",
     "type": "command",
     "title": "frp - 查看 `frp` 客户端组件 `frpc` 的文档",
@@ -1067,10 +1082,10 @@
   {
     "id": "tldr-zh-common-git-count-objects-1",
     "type": "command",
-    "title": "git-count-objects - 统计所有对象并以易读格式显示总磁盘使用量（如KB/MB）",
+    "title": "git-count-objects - 统计所有对象并以易读格式显示总磁盘使用量（如 KB/MB）",
     "content": "git count-objects {{[-H|--human-readable]}}",
     "group": "通用工具 (Common)",
-    "description": "git-count-objects: 统计未打包对象数量及其磁盘占用情况。 (统计所有对象并以易读格式显示总磁盘使用量（如KB/MB）)",
+    "description": "git-count-objects: 统计未打包对象数量及其磁盘占用情况。 (统计所有对象并以易读格式显示总磁盘使用量（如 KB/MB）)",
     "tags": [
       "common",
       "git-count-objects",
@@ -2627,10 +2642,10 @@
   {
     "id": "tldr-zh-common-git-commits-since-3",
     "type": "command",
-    "title": "git-commits-since - 显示从昨天下午2点以来的所有提交",
+    "title": "git-commits-since - 显示从昨天下午 2 点以来的所有提交",
     "content": "git commits-since {{yesterday 2pm}}",
     "group": "通用工具 (Common)",
-    "description": "git-commits-since: 显示从指定时间点以来的提交记录。 属于 `git-extras` 一部分。 (显示从昨天下午2点以来的所有提交)",
+    "description": "git-commits-since: 显示从指定时间点以来的提交记录。 属于 `git-extras` 一部分。 (显示从昨天下午 2 点以来的所有提交)",
     "tags": [
       "common",
       "git-commits-since",
@@ -2717,10 +2732,10 @@
   {
     "id": "tldr-zh-common-sudo-3",
     "type": "command",
-    "title": "sudo - 重复执行上一条以“sudo”为前缀的命令（仅适用于Bash、Zsh等）",
+    "title": "sudo - 重复执行上一条以“sudo”为前缀的命令（仅适用于 Bash、Zsh 等）",
     "content": "sudo !!",
     "group": "通用工具 (Common)",
-    "description": "sudo: 以超级用户或其他用户身份执行单个命令。 另请参阅：`pkexec`, `run0`, `doas`。 (重复执行上一条以“sudo”为前缀的命令（仅适用于Bash、Zsh等）)",
+    "description": "sudo: 以超级用户或其他用户身份执行单个命令。 另请参阅：`pkexec`, `run0`, `doas`。 (重复执行上一条以“sudo”为前缀的命令（仅适用于 Bash、Zsh 等）)",
     "tags": [
       "common",
       "sudo",
@@ -2732,10 +2747,10 @@
   {
     "id": "tldr-zh-common-sudo-4",
     "type": "command",
-    "title": "sudo - 以超级用户权限启动默认Shell，并运行登录特定的文件（如`.profile`、`.bash_profile`等）",
+    "title": "sudo - 以超级用户权限启动默认 Shell，并运行登录特定的文件（如`.profile`、`.bash_profile`等）",
     "content": "sudo {{[-i|--login]}}",
     "group": "通用工具 (Common)",
-    "description": "sudo: 以超级用户或其他用户身份执行单个命令。 另请参阅：`pkexec`, `run0`, `doas`。 (以超级用户权限启动默认Shell，并运行登录特定的文件（如`.profile`、`.bash_profile`等）)",
+    "description": "sudo: 以超级用户或其他用户身份执行单个命令。 另请参阅：`pkexec`, `run0`, `doas`。 (以超级用户权限启动默认 Shell，并运行登录特定的文件（如`.profile`、`.bash_profile`等）)",
     "tags": [
       "common",
       "sudo",
@@ -2747,10 +2762,10 @@
   {
     "id": "tldr-zh-common-sudo-5",
     "type": "command",
-    "title": "sudo - 在不改变环境的情况下，使用超级用户权限启动默认的shell",
+    "title": "sudo - 在不改变环境的情况下，使用超级用户权限启动默认的 shell",
     "content": "sudo {{[-s|--shell]}}",
     "group": "通用工具 (Common)",
-    "description": "sudo: 以超级用户或其他用户身份执行单个命令。 另请参阅：`pkexec`, `run0`, `doas`。 (在不改变环境的情况下，使用超级用户权限启动默认的shell)",
+    "description": "sudo: 以超级用户或其他用户身份执行单个命令。 另请参阅：`pkexec`, `run0`, `doas`。 (在不改变环境的情况下，使用超级用户权限启动默认的 shell)",
     "tags": [
       "common",
       "sudo",
@@ -2762,10 +2777,10 @@
   {
     "id": "tldr-zh-common-sudo-6",
     "type": "command",
-    "title": "sudo - 以指定用户的身份启动默认的shell，加载该用户的环境变量并读取登录特定的文件（如`.profile`、`.bash_profile`等）",
+    "title": "sudo - 以指定用户的身份启动默认的 shell，加载该用户的环境变量并读取登录特定的文件（如`.profile`、`.bash_profile`等）",
     "content": "sudo {{[-i|--login]}} {{[-u|--user]}} {{用户}}",
     "group": "通用工具 (Common)",
-    "description": "sudo: 以超级用户或其他用户身份执行单个命令。 另请参阅：`pkexec`, `run0`, `doas`。 (以指定用户的身份启动默认的shell，加载该用户的环境变量并读取登录特定的文件（如`.profile`、`.bash_profile`等）)",
+    "description": "sudo: 以超级用户或其他用户身份执行单个命令。 另请参阅：`pkexec`, `run0`, `doas`。 (以指定用户的身份启动默认的 shell，加载该用户的环境变量并读取登录特定的文件（如`.profile`、`.bash_profile`等）)",
     "tags": [
       "common",
       "sudo",
@@ -3759,6 +3774,21 @@
     "tags": [
       "common",
       "cargo-rustc",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-zh-common-impacket-machine_role-0",
+    "type": "command",
+    "title": "impacket-machine_role - 查看原命令的文档",
+    "content": "tldr machine_role.py",
+    "group": "通用工具 (Common)",
+    "description": "impacket-machine_role: 此命令为 `machine_role.py` 的别名。 (查看原命令的文档)",
+    "tags": [
+      "common",
+      "impacket-machine_role",
       "tldr",
       "zh"
     ],
@@ -9917,10 +9947,10 @@
   {
     "id": "tldr-zh-common-magick-convert-1",
     "type": "command",
-    "title": "magick-convert - 将图片调整至原图片尺寸的50%",
+    "title": "magick-convert - 将图片调整至原图片尺寸的 50%",
     "content": "magick convert {{路径/到/输入图片.png}} -resize 50% {{路径/到/输出图片.png}}",
     "group": "通用工具 (Common)",
-    "description": "magick-convert: 转换图片格式，创建，组合图片，调整图片尺寸等功能。 注意：原命令 `convert` 在 ImageMagick 7 以上版本中已被替换为 `magick`。 (将图片调整至原图片尺寸的50%)",
+    "description": "magick-convert: 转换图片格式，创建，组合图片，调整图片尺寸等功能。 注意：原命令 `convert` 在 ImageMagick 7 以上版本中已被替换为 `magick`。 (将图片调整至原图片尺寸的 50%)",
     "tags": [
       "common",
       "magick-convert",
@@ -9977,10 +10007,10 @@
   {
     "id": "tldr-zh-common-magick-convert-5",
     "type": "command",
-    "title": "magick-convert - 创建一个 GIF 动图，按 100ms 的间隔播放一系列图片",
+    "title": "magick-convert - 创建一个 GIF 动图，按 100 ms 的间隔播放一系列图片",
     "content": "magick convert {{路径/到/图片1.png 路径/到/图片2.png ...}} -delay {{10}} {{路径/到/GIF 动图.gif}}",
     "group": "通用工具 (Common)",
-    "description": "magick-convert: 转换图片格式，创建，组合图片，调整图片尺寸等功能。 注意：原命令 `convert` 在 ImageMagick 7 以上版本中已被替换为 `magick`。 (创建一个 GIF 动图，按 100ms 的间隔播放一系列图片)",
+    "description": "magick-convert: 转换图片格式，创建，组合图片，调整图片尺寸等功能。 注意：原命令 `convert` 在 ImageMagick 7 以上版本中已被替换为 `magick`。 (创建一个 GIF 动图，按 100 ms 的间隔播放一系列图片)",
     "tags": [
       "common",
       "magick-convert",
@@ -12497,10 +12527,10 @@
   {
     "id": "tldr-zh-common-nix-shell.3-3",
     "type": "command",
-    "title": "nix-shell.3 - 使用GitHub上 flake 中的软件包启动 Shell",
+    "title": "nix-shell.3 - 使用 GitHub 上 flake 中的软件包启动 Shell",
     "content": "nix shell {{github:所有者/仓库#软件包}}",
     "group": "通用工具 (Common)",
-    "description": "nix-shell.3: 启动一个包含指定软件包的交互式 Shell 环境。 另请参阅：`nix-shell`, `nix flake`。 (使用GitHub上 flake 中的软件包启动 Shell)",
+    "description": "nix-shell.3: 启动一个包含指定软件包的交互式 Shell 环境。 另请参阅：`nix-shell`, `nix flake`。 (使用 GitHub 上 flake 中的软件包启动 Shell)",
     "tags": [
       "common",
       "nix-shell.3",
@@ -13127,10 +13157,10 @@
   {
     "id": "tldr-zh-common-google-chrome-0",
     "type": "command",
-    "title": "google-chrome - 原命令的文档在",
+    "title": "google-chrome - 查看原命令的文档",
     "content": "tldr chromium",
     "group": "通用工具 (Common)",
-    "description": "google-chrome: 这是 `chromium` 命令的一个别名。 (原命令的文档在)",
+    "description": "google-chrome: 此命令为 `chromium` 的别名。 (查看原命令的文档)",
     "tags": [
       "common",
       "google-chrome",
@@ -15572,10 +15602,10 @@
   {
     "id": "tldr-zh-common-kill-6",
     "type": "command",
-    "title": "kill - 向所有具有指定 GID（组ID）的进程发送 `SIGUSR1` 信号",
+    "title": "kill - 向所有具有指定 GID（组 ID）的进程发送 `SIGUSR1` 信号",
     "content": "kill -SIGUSR1 -{{组id}}",
     "group": "通用工具 (Common)",
-    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，以便进行正常退出。 (向所有具有指定 GID（组ID）的进程发送 `SIGUSR1` 信号)",
+    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，以便进行正常退出。 (向所有具有指定 GID（组 ID）的进程发送 `SIGUSR1` 信号)",
     "tags": [
       "common",
       "kill",
@@ -18690,6 +18720,21 @@
     "source": "official"
   },
   {
+    "id": "tldr-zh-common-jj-root-0",
+    "type": "command",
+    "title": "jj-root - 查看原命令的文档",
+    "content": "tldr jj workspace root",
+    "group": "通用工具 (Common)",
+    "description": "jj-root: 此命令为 `jj workspace root` 的别名。 (查看原命令的文档)",
+    "tags": [
+      "common",
+      "jj-root",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-zh-common-zapier-history-0",
     "type": "command",
     "title": "zapier-history - 列出某个集成的历史记录",
@@ -20087,10 +20132,10 @@
   {
     "id": "tldr-zh-common-manim-2",
     "type": "command",
-    "title": "manim - 以高质量渲染（1080p 60帧）",
+    "title": "manim - 以高质量渲染（1080p 60 帧）",
     "content": "manim {{[-pqh|--preview --quality high]}} {{路径/文件.py}} {{场景名称}}",
     "group": "通用工具 (Common)",
-    "description": "manim: 用于制作数学动画的视频引擎。 (以高质量渲染（1080p 60帧）)",
+    "description": "manim: 用于制作数学动画的视频引擎。 (以高质量渲染（1080p 60 帧）)",
     "tags": [
       "common",
       "manim",
@@ -25667,10 +25712,10 @@
   {
     "id": "tldr-zh-common-touch-3",
     "type": "command",
-    "title": "touch - 将文件时间设置为另一文件(-r,即文件3)的时间，如果文件不存在则不创建(-c)",
+    "title": "touch - 将文件时间设置为另一文件(-r,即文件 3)的时间，如果文件不存在则不创建(-c)",
     "content": "touch {{[-c|--no-create]}} {{[-r|--reference]}} {{路径/到/文件3}} {{路径/到/文件1 路径/到/文件2 ...}}",
     "group": "通用工具 (Common)",
-    "description": "touch: 创建文件并设置访问/修改时间。 (将文件时间设置为另一文件(-r,即文件3)的时间，如果文件不存在则不创建(-c))",
+    "description": "touch: 创建文件并设置访问/修改时间。 (将文件时间设置为另一文件(-r,即文件 3)的时间，如果文件不存在则不创建(-c))",
     "tags": [
       "common",
       "touch",
@@ -29450,7 +29495,7 @@
     "title": "yadm - 覆盖 yadm 目录。yadm 会相对于此目录存储其配置",
     "content": "yadm --yadm-dir",
     "group": "通用工具 (Common)",
-    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init`、`clone`、`push` 和 `pull`。 (覆盖 yadm 目录。yadm 会相对于此目录存储其配置)",
+    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init` 和 `clone`。 (覆盖 yadm 目录。yadm 会相对于此目录存储其配置)",
     "tags": [
       "common",
       "yadm",
@@ -29465,7 +29510,7 @@
     "title": "yadm - 覆盖 yadm 数据目录：yadm 会相对于此目录存储其数据",
     "content": "yadm --yadm-data",
     "group": "通用工具 (Common)",
-    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init`、`clone`、`push` 和 `pull`。 (覆盖 yadm 数据目录：yadm 会相对于此目录存储其数据)",
+    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init` 和 `clone`。 (覆盖 yadm 数据目录：yadm 会相对于此目录存储其数据)",
     "tags": [
       "common",
       "yadm",
@@ -29480,7 +29525,7 @@
     "title": "yadm - 覆盖 yadm 仓库的位置",
     "content": "yadm --yadm-repo",
     "group": "通用工具 (Common)",
-    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init`、`clone`、`push` 和 `pull`。 (覆盖 yadm 仓库的位置)",
+    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init` 和 `clone`。 (覆盖 yadm 仓库的位置)",
     "tags": [
       "common",
       "yadm",
@@ -29495,7 +29540,7 @@
     "title": "yadm - 覆盖 yadm 配置文件的位置",
     "content": "yadm --yadm-config",
     "group": "通用工具 (Common)",
-    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init`、`clone`、`push` 和 `pull`。 (覆盖 yadm 配置文件的位置)",
+    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init` 和 `clone`。 (覆盖 yadm 配置文件的位置)",
     "tags": [
       "common",
       "yadm",
@@ -29510,7 +29555,7 @@
     "title": "yadm - 覆盖 yadm 加密配置的位置",
     "content": "yadm --yadm-encrypt",
     "group": "通用工具 (Common)",
-    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init`、`clone`、`push` 和 `pull`。 (覆盖 yadm 加密配置的位置)",
+    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init` 和 `clone`。 (覆盖 yadm 加密配置的位置)",
     "tags": [
       "common",
       "yadm",
@@ -29525,7 +29570,7 @@
     "title": "yadm - 覆盖 yadm 加密文件归档的位置",
     "content": "yadm --yadm-archive",
     "group": "通用工具 (Common)",
-    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init`、`clone`、`push` 和 `pull`。 (覆盖 yadm 加密文件归档的位置)",
+    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init` 和 `clone`。 (覆盖 yadm 加密文件归档的位置)",
     "tags": [
       "common",
       "yadm",
@@ -29540,7 +29585,7 @@
     "title": "yadm - 覆盖 yadm 引导程序的位置",
     "content": "yadm --yadm-bootstrap",
     "group": "通用工具 (Common)",
-    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init`、`clone`、`push` 和 `pull`。 (覆盖 yadm 引导程序的位置)",
+    "description": "yadm: 一个通过使用 `git` 来管理 dotfiles 的工具。 此命令也有关于其子命令的文件，例如：`init` 和 `clone`。 (覆盖 yadm 引导程序的位置)",
     "tags": [
       "common",
       "yadm",
@@ -30572,10 +30617,10 @@
   {
     "id": "tldr-zh-common-glances-5",
     "type": "command",
-    "title": "glances - 退出Glances",
+    "title": "glances - 退出 Glances",
     "content": "<q>",
     "group": "通用工具 (Common)",
-    "description": "glances: 一个跨平台的系统监控工具。 另请参阅：`htop`, `atop`, `top`, `btm`, `btop`。 (退出Glances)",
+    "description": "glances: 一个跨平台的系统监控工具。 另请参阅：`htop`, `atop`, `top`, `btm`, `btop`。 (退出 Glances)",
     "tags": [
       "common",
       "glances",
@@ -32657,10 +32702,10 @@
   {
     "id": "tldr-zh-common-join-2",
     "type": "command",
-    "title": "join - 将文件1的字段3与文件2的字段1合并",
+    "title": "join - 将文件 1 的字段 3 与文件 2 的字段 1 合并",
     "content": "join -1 {{3}} -2 {{1}} {{路径/到/文件1}} {{路径/到/文件2}}",
     "group": "通用工具 (Common)",
-    "description": "join: 在两个已排序的文件中根据一个公共字段合并行。 (将文件1的字段3与文件2的字段1合并)",
+    "description": "join: 在两个已排序的文件中根据一个公共字段合并行。 (将文件 1 的字段 3 与文件 2 的字段 1 合并)",
     "tags": [
       "common",
       "join",
@@ -32672,10 +32717,10 @@
   {
     "id": "tldr-zh-common-join-3",
     "type": "command",
-    "title": "join - 为文件1中的每行未配对的行生成一行",
+    "title": "join - 为文件 1 中的每行未配对的行生成一行",
     "content": "join -a {{1}} {{路径/到/文件1}} {{路径/到/文件2}}",
     "group": "通用工具 (Common)",
-    "description": "join: 在两个已排序的文件中根据一个公共字段合并行。 (为文件1中的每行未配对的行生成一行)",
+    "description": "join: 在两个已排序的文件中根据一个公共字段合并行。 (为文件 1 中的每行未配对的行生成一行)",
     "tags": [
       "common",
       "join",
@@ -33017,10 +33062,10 @@
   {
     "id": "tldr-zh-common-git-clone-5",
     "type": "command",
-    "title": "git-clone - 克隆一个现有的代码库，只获取默认分支上10个最新的提交（对节省时间很有用）",
+    "title": "git-clone - 克隆一个现有的代码库，只获取默认分支上 10 个最新的提交（对节省时间很有用）",
     "content": "git clone --depth 10 {{远程代码库地址}}",
     "group": "通用工具 (Common)",
-    "description": "git-clone: 克隆现有的代码仓库。 (克隆一个现有的代码库，只获取默认分支上10个最新的提交（对节省时间很有用）)",
+    "description": "git-clone: 克隆现有的代码仓库。 (克隆一个现有的代码库，只获取默认分支上 10 个最新的提交（对节省时间很有用）)",
     "tags": [
       "common",
       "git-clone",
@@ -33407,10 +33452,10 @@
   {
     "id": "tldr-zh-common-jhat-2",
     "type": "command",
-    "title": "jhat - 通过 jhat 分析转储文件，指定使用 8GB RAM（建议使用 2-4 倍的转储大小）",
+    "title": "jhat - 通过 jhat 分析转储文件，指定使用 8 GB RAM（建议使用 2-4 倍的转储大小）",
     "content": "jhat -J-mx8G {{路径/堆转储文件}}",
     "group": "通用工具 (Common)",
-    "description": "jhat: Java 堆分析工具。 (通过 jhat 分析转储文件，指定使用 8GB RAM（建议使用 2-4 倍的转储大小）)",
+    "description": "jhat: Java 堆分析工具。 (通过 jhat 分析转储文件，指定使用 8 GB RAM（建议使用 2-4 倍的转储大小）)",
     "tags": [
       "common",
       "jhat",
@@ -35222,10 +35267,10 @@
   {
     "id": "tldr-zh-common-ffmpeg-1",
     "type": "command",
-    "title": "ffmpeg - 将 FLAC 文件转码为红皮书 CD 格式（44100kHz，16位）",
+    "title": "ffmpeg - 将 FLAC 文件转码为红皮书 CD 格式（44100 kHz，16 位）",
     "content": "ffmpeg -i {{路径/到/input_audio.flac}} -ar 44100 -sample_fmt s16 {{路径/到/output_audio.wav}}",
     "group": "通用工具 (Common)",
-    "description": "ffmpeg: 视频转换工具。 另请参阅：`gst-launch-1.0`。 (将 FLAC 文件转码为红皮书 CD 格式（44100kHz，16位）)",
+    "description": "ffmpeg: 视频转换工具。 另请参阅：`gst-launch-1.0`。 (将 FLAC 文件转码为红皮书 CD 格式（44100 kHz，16 位）)",
     "tags": [
       "common",
       "ffmpeg",
@@ -36152,10 +36197,10 @@
   {
     "id": "tldr-zh-common-airodump-ng-1",
     "type": "command",
-    "title": "airodump-ng - 捕获数据包并显示关于 5GHz 频段无线网络的信息",
+    "title": "airodump-ng - 捕获数据包并显示关于 5 GHz 频段无线网络的信息",
     "content": "sudo airodump-ng {{网络接口}} --band a",
     "group": "通用工具 (Common)",
-    "description": "airodump-ng: 捕获数据包并显示有关无线网络的信息。 `aircrack-ng` 的一部分。 (捕获数据包并显示关于 5GHz 频段无线网络的信息)",
+    "description": "airodump-ng: 捕获数据包并显示有关无线网络的信息。 `aircrack-ng` 的一部分。 (捕获数据包并显示关于 5 GHz 频段无线网络的信息)",
     "tags": [
       "common",
       "airodump-ng",
@@ -36167,10 +36212,10 @@
   {
     "id": "tldr-zh-common-airodump-ng-2",
     "type": "command",
-    "title": "airodump-ng - 捕获数据包并显示关于 2.4GHz 和 5GHz 频段无线网络的信息",
+    "title": "airodump-ng - 捕获数据包并显示关于 2.4 GHz 和 5 GHz 频段无线网络的信息",
     "content": "sudo airodump-ng {{网络接口}} --band abg",
     "group": "通用工具 (Common)",
-    "description": "airodump-ng: 捕获数据包并显示有关无线网络的信息。 `aircrack-ng` 的一部分。 (捕获数据包并显示关于 2.4GHz 和 5GHz 频段无线网络的信息)",
+    "description": "airodump-ng: 捕获数据包并显示有关无线网络的信息。 `aircrack-ng` 的一部分。 (捕获数据包并显示关于 2.4 GHz 和 5 GHz 频段无线网络的信息)",
     "tags": [
       "common",
       "airodump-ng",
@@ -36362,10 +36407,10 @@
   {
     "id": "tldr-zh-common-jenv-3",
     "type": "command",
-    "title": "jenv - 设置全局JDK版本",
+    "title": "jenv - 设置全局 JDK 版本",
     "content": "jenv global {{Java 版本}}",
     "group": "通用工具 (Common)",
-    "description": "jenv: 管理`JAVA_HOME`环境变量的命令行工具。 (设置全局JDK版本)",
+    "description": "jenv: 管理`JAVA_HOME`环境变量的命令行工具。 (设置全局 JDK 版本)",
     "tags": [
       "common",
       "jenv",
@@ -36752,10 +36797,10 @@
   {
     "id": "tldr-zh-common-fossil-forget-0",
     "type": "command",
-    "title": "fossil-forget - 原命令的文档在",
+    "title": "fossil-forget - 查看原命令的文档",
     "content": "tldr fossil rm",
     "group": "通用工具 (Common)",
-    "description": "fossil-forget: 这是 `fossil rm` 命令的一个别名。 (原命令的文档在)",
+    "description": "fossil-forget: 此命令为 `fossil rm` 的别名。 (查看原命令的文档)",
     "tags": [
       "common",
       "fossil-forget",
@@ -44417,10 +44462,10 @@
   {
     "id": "tldr-zh-common-aria2-0",
     "type": "command",
-    "title": "aria2 - 原命令的文档在",
+    "title": "aria2 - 查看原命令的文档",
     "content": "tldr aria2c",
     "group": "通用工具 (Common)",
-    "description": "aria2: 这是 `aria2c` 命令的一个别名。 (原命令的文档在)",
+    "description": "aria2: 此命令为 `aria2c` 的别名。 (查看原命令的文档)",
     "tags": [
       "common",
       "aria2",
@@ -44604,6 +44649,81 @@
     "tags": [
       "common",
       "bzfgrep",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-zh-common-wg-0",
+    "type": "command",
+    "title": "wg - 检查当前激活接口的状态",
+    "content": "sudo wg",
+    "group": "通用工具 (Common)",
+    "description": "wg: 管理 WireGuard 接口配置。 (检查当前激活接口的状态)",
+    "tags": [
+      "common",
+      "wg",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-zh-common-wg-1",
+    "type": "command",
+    "title": "wg - 生成新的私钥",
+    "content": "wg genkey",
+    "group": "通用工具 (Common)",
+    "description": "wg: 管理 WireGuard 接口配置。 (生成新的私钥)",
+    "tags": [
+      "common",
+      "wg",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-zh-common-wg-2",
+    "type": "command",
+    "title": "wg - 从私钥生成公钥",
+    "content": "wg < {{路径/到/私钥}} pubkey > {{路径/到/公钥}}",
+    "group": "通用工具 (Common)",
+    "description": "wg: 管理 WireGuard 接口配置。 (从私钥生成公钥)",
+    "tags": [
+      "common",
+      "wg",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-zh-common-wg-3",
+    "type": "command",
+    "title": "wg - 同时生成公钥和私钥",
+    "content": "wg genkey | tee {{路径/到/私钥}} | wg pubkey > {{路径/到/公钥}}",
+    "group": "通用工具 (Common)",
+    "description": "wg: 管理 WireGuard 接口配置。 (同时生成公钥和私钥)",
+    "tags": [
+      "common",
+      "wg",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-zh-common-wg-4",
+    "type": "command",
+    "title": "wg - 展示 WireGuard 接口的当前配置",
+    "content": "sudo wg showconf {{wg0}}",
+    "group": "通用工具 (Common)",
+    "description": "wg: 管理 WireGuard 接口配置。 (展示 WireGuard 接口的当前配置)",
+    "tags": [
+      "common",
+      "wg",
       "tldr",
       "zh"
     ],
@@ -46997,100 +47117,10 @@
   {
     "id": "tldr-zh-common-docker-build-0",
     "type": "command",
-    "title": "docker-build - 使用当前目录下的 Dockerfile 打包一个 Docker 镜像",
-    "content": "docker build .",
+    "title": "docker-build - 查看原命令的文档",
+    "content": "tldr docker buildx build",
     "group": "通用工具 (Common)",
-    "description": "docker-build: 从 Dockerfile 打包镜像。 (使用当前目录下的 Dockerfile 打包一个 Docker 镜像)",
-    "tags": [
-      "common",
-      "docker-build",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-zh-common-docker-build-1",
-    "type": "command",
-    "title": "docker-build - 从指定 URL 的 Dockerfile 打包 Docker 镜像",
-    "content": "docker build {{github.com/creack/docker-firefox}}",
-    "group": "通用工具 (Common)",
-    "description": "docker-build: 从 Dockerfile 打包镜像。 (从指定 URL 的 Dockerfile 打包 Docker 镜像)",
-    "tags": [
-      "common",
-      "docker-build",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-zh-common-docker-build-2",
-    "type": "command",
-    "title": "docker-build - 打包一个 Docker 镜像并指定镜像的标签",
-    "content": "docker build {{[-t|--tag]}} {{name:tag}} .",
-    "group": "通用工具 (Common)",
-    "description": "docker-build: 从 Dockerfile 打包镜像。 (打包一个 Docker 镜像并指定镜像的标签)",
-    "tags": [
-      "common",
-      "docker-build",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-zh-common-docker-build-3",
-    "type": "command",
-    "title": "docker-build - 打包一个没有上下文的 Docker 镜像",
-    "content": "docker < {{Dockerfile}} build {{[-t|--tag]}} {{name:tag}} -",
-    "group": "通用工具 (Common)",
-    "description": "docker-build: 从 Dockerfile 打包镜像。 (打包一个没有上下文的 Docker 镜像)",
-    "tags": [
-      "common",
-      "docker-build",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-zh-common-docker-build-4",
-    "type": "command",
-    "title": "docker-build - 打包镜像时不使用缓存",
-    "content": "docker build --no-cache {{[-t|--tag]}} {{name:tag}} .",
-    "group": "通用工具 (Common)",
-    "description": "docker-build: 从 Dockerfile 打包镜像。 (打包镜像时不使用缓存)",
-    "tags": [
-      "common",
-      "docker-build",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-zh-common-docker-build-5",
-    "type": "command",
-    "title": "docker-build - 使用指定的 Dockerfile 打包一个 Docker 镜像",
-    "content": "docker build {{[-f|--file]}} {{Dockerfile}} .",
-    "group": "通用工具 (Common)",
-    "description": "docker-build: 从 Dockerfile 打包镜像。 (使用指定的 Dockerfile 打包一个 Docker 镜像)",
-    "tags": [
-      "common",
-      "docker-build",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-zh-common-docker-build-6",
-    "type": "command",
-    "title": "docker-build - 传入自定义变量用于打包",
-    "content": "docker build --build-arg {{HTTP_PROXY=http://10.20.30.2:1234}} --build-arg {{FTP_PROXY=http://40.50.60.5:4567}} .",
-    "group": "通用工具 (Common)",
-    "description": "docker-build: 从 Dockerfile 打包镜像。 (传入自定义变量用于打包)",
+    "description": "docker-build: 此命令为 `docker buildx build` 的别名。 (查看原命令的文档)",
     "tags": [
       "common",
       "docker-build",
@@ -50927,10 +50957,10 @@
   {
     "id": "tldr-zh-common-sleep-1",
     "type": "command",
-    "title": "sleep - 在20秒延迟后执行指定命令",
+    "title": "sleep - 在 20 秒延迟后执行指定命令",
     "content": "sleep 20 && {{command}}",
     "group": "通用工具 (Common)",
-    "description": "sleep: 延迟指定的一段时间。 (在20秒延迟后执行指定命令)",
+    "description": "sleep: 延迟指定的一段时间。 (在 20 秒延迟后执行指定命令)",
     "tags": [
       "common",
       "sleep",
@@ -52143,7 +52173,7 @@
     "id": "tldr-zh-common-zpaq-4",
     "type": "command",
     "title": "zpaq - 设置压缩级别（级别越高，压缩率越高但速度越慢）",
-    "content": "zpaq {{[a|add]}} {{路径/到/归档.zpaq}} -m{{1|2|3|4|5}} {{路径/到/文件或目录}}",
+    "content": "zpaq {{[a|add]}} {{路径/到/归档.zpaq}} -m{{1..5}} {{路径/到/文件或目录}}",
     "group": "通用工具 (Common)",
     "description": "zpaq: 增量日志式备份工具和归档程序。 (设置压缩级别（级别越高，压缩率越高但速度越慢）)",
     "tags": [
@@ -52277,10 +52307,10 @@
   {
     "id": "tldr-zh-common-jdupes-4",
     "type": "command",
-    "title": "jdupes - 搜索多个目录并跟随目录2下的子目录，而不是目录1",
+    "title": "jdupes - 搜索多个目录并跟随目录 2 下的子目录，而不是目录 1",
     "content": "jdupes {{目录1}} {{[-R|--recurse:]}} {{目录2}}",
     "group": "通用工具 (Common)",
-    "description": "jdupes: 一个强大的重复文件查找器，并且是 fdupes 的一个增强分支。 (搜索多个目录并跟随目录2下的子目录，而不是目录1)",
+    "description": "jdupes: 一个强大的重复文件查找器，并且是 fdupes 的一个增强分支。 (搜索多个目录并跟随目录 2 下的子目录，而不是目录 1)",
     "tags": [
       "common",
       "jdupes",
@@ -54617,10 +54647,10 @@
   {
     "id": "tldr-zh-common-git-bundle-2",
     "type": "command",
-    "title": "git-bundle - 创建当前分支最近5次提交的打包文件",
+    "title": "git-bundle - 创建当前分支最近 5 次提交的打包文件",
     "content": "git bundle create {{路径/到/文件.bundle}} -5 {{HEAD}}",
     "group": "通用工具 (Common)",
-    "description": "git-bundle: 将对象和引用打包成归档文件。 (创建当前分支最近5次提交的打包文件)",
+    "description": "git-bundle: 将对象和引用打包成归档文件。 (创建当前分支最近 5 次提交的打包文件)",
     "tags": [
       "common",
       "git-bundle",
@@ -54632,10 +54662,10 @@
   {
     "id": "tldr-zh-common-git-bundle-3",
     "type": "command",
-    "title": "git-bundle - 创建最近7天提交的打包文件",
+    "title": "git-bundle - 创建最近 7 天提交的打包文件",
     "content": "git bundle create {{路径/到/文件.bundle}} --since 7.days {{HEAD}}",
     "group": "通用工具 (Common)",
-    "description": "git-bundle: 将对象和引用打包成归档文件。 (创建最近7天提交的打包文件)",
+    "description": "git-bundle: 将对象和引用打包成归档文件。 (创建最近 7 天提交的打包文件)",
     "tags": [
       "common",
       "git-bundle",
@@ -54932,10 +54962,10 @@
   {
     "id": "tldr-zh-common-tldrl-0",
     "type": "command",
-    "title": "tldrl - 原命令的文档在",
+    "title": "tldrl - 查看原命令的文档",
     "content": "tldr tldr-lint",
     "group": "通用工具 (Common)",
-    "description": "tldrl: 这是 `tldr-lint` 命令的一个别名。 (原命令的文档在)",
+    "description": "tldrl: 此命令为 `tldr-lint` 的别名。 (查看原命令的文档)",
     "tags": [
       "common",
       "tldrl",
@@ -55577,10 +55607,10 @@
   {
     "id": "tldr-zh-common-docker-container-run-1",
     "type": "command",
-    "title": "docker-container-run - 在后台运行新容器中的命令，并输出其容器ID",
+    "title": "docker-container-run - 在后台运行新容器中的命令，并输出其容器 ID",
     "content": "docker {{[run|container run]}} {{[-d|--detach]}} {{镜像}} {{命令}}",
     "group": "通用工具 (Common)",
-    "description": "docker-container-run: 创建一个新的容器并运行命令。 (在后台运行新容器中的命令，并输出其容器ID)",
+    "description": "docker-container-run: 创建一个新的容器并运行命令。 (在后台运行新容器中的命令，并输出其容器 ID)",
     "tags": [
       "common",
       "docker-container-run",
@@ -56357,10 +56387,10 @@
   {
     "id": "tldr-zh-common-ykman-openpgp-1",
     "type": "command",
-    "title": "ykman-openpgp - 分别设置用户 PIN码、复位代码和管理 PIN码的重试次数",
+    "title": "ykman-openpgp - 分别设置用户 PIN 码、复位代码和管理 PIN 码的重试次数",
     "content": "ykman openpgp access set-retries {{3}} {{3}} {{3}}",
     "group": "通用工具 (Common)",
-    "description": "ykman-openpgp: 管理 OpenPGP YubiKey 应用程序。 注意：你需要使用 `gpg --card-edit` 来进行某些设置。 (分别设置用户 PIN码、复位代码和管理 PIN码的重试次数)",
+    "description": "ykman-openpgp: 管理 OpenPGP YubiKey 应用程序。 注意：你需要使用 `gpg --card-edit` 来进行某些设置。 (分别设置用户 PIN 码、复位代码和管理 PIN 码的重试次数)",
     "tags": [
       "common",
       "ykman-openpgp",
@@ -56372,10 +56402,10 @@
   {
     "id": "tldr-zh-common-ykman-openpgp-2",
     "type": "command",
-    "title": "ykman-openpgp - 更改用户 PIN码、复位代码或管理 PIN码",
+    "title": "ykman-openpgp - 更改用户 PIN 码、复位代码或管理 PIN 码",
     "content": "ykman openpgp access change-{{pin|reset-code|admin-pin}}",
     "group": "通用工具 (Common)",
-    "description": "ykman-openpgp: 管理 OpenPGP YubiKey 应用程序。 注意：你需要使用 `gpg --card-edit` 来进行某些设置。 (更改用户 PIN码、复位代码或管理 PIN码)",
+    "description": "ykman-openpgp: 管理 OpenPGP YubiKey 应用程序。 注意：你需要使用 `gpg --card-edit` 来进行某些设置。 (更改用户 PIN 码、复位代码或管理 PIN 码)",
     "tags": [
       "common",
       "ykman-openpgp",
@@ -56387,10 +56417,10 @@
   {
     "id": "tldr-zh-common-ykman-openpgp-3",
     "type": "command",
-    "title": "ykman-openpgp - 将 OpenPGP 应用程序恢复出厂设置（在超过管理 PIN码 重试次数后需要这样做）",
+    "title": "ykman-openpgp - 将 OpenPGP 应用程序恢复出厂设置（在超过管理 PIN 码 重试次数后需要这样做）",
     "content": "ykman openpgp reset",
     "group": "通用工具 (Common)",
-    "description": "ykman-openpgp: 管理 OpenPGP YubiKey 应用程序。 注意：你需要使用 `gpg --card-edit` 来进行某些设置。 (将 OpenPGP 应用程序恢复出厂设置（在超过管理 PIN码 重试次数后需要这样做）)",
+    "description": "ykman-openpgp: 管理 OpenPGP YubiKey 应用程序。 注意：你需要使用 `gpg --card-edit` 来进行某些设置。 (将 OpenPGP 应用程序恢复出厂设置（在超过管理 PIN 码 重试次数后需要这样做）)",
     "tags": [
       "common",
       "ykman-openpgp",
@@ -56522,10 +56552,10 @@
   {
     "id": "tldr-zh-common-mysql-3",
     "type": "command",
-    "title": "mysql - 通过Unix套接字文件连接到数据库",
+    "title": "mysql - 通过 Unix 套接字文件连接到数据库",
     "content": "mysql {{[-S|--socket]}} {{路径/到/socket.sock}}",
     "group": "通用工具 (Common)",
-    "description": "mysql: MySQL 命令行工具。 (通过Unix套接字文件连接到数据库)",
+    "description": "mysql: MySQL 命令行工具。 (通过 Unix 套接字文件连接到数据库)",
     "tags": [
       "common",
       "mysql",
@@ -56537,10 +56567,10 @@
   {
     "id": "tldr-zh-common-mysql-4",
     "type": "command",
-    "title": "mysql - 执行脚本文件中的SQL语句",
+    "title": "mysql - 执行脚本文件中的 SQL 语句",
     "content": "mysql {{[-e|--execute]}} \"source {{脚本.sql}}\" {{数据库名}}",
     "group": "通用工具 (Common)",
-    "description": "mysql: MySQL 命令行工具。 (执行脚本文件中的SQL语句)",
+    "description": "mysql: MySQL 命令行工具。 (执行脚本文件中的 SQL 语句)",
     "tags": [
       "common",
       "mysql",
@@ -56930,7 +56960,7 @@
     "title": "brew-bundle - 从当前路径下的 Brewfile 安装软件包",
     "content": "brew bundle",
     "group": "通用工具 (Common)",
-    "description": "brew-bundle: Homebrew，Homebrew Cask 和 Mac App Store的打包器。 (从当前路径下的 Brewfile 安装软件包)",
+    "description": "brew-bundle: Homebrew，Homebrew Cask 和 Mac App Store 的打包器。 (从当前路径下的 Brewfile 安装软件包)",
     "tags": [
       "common",
       "brew-bundle",
@@ -56945,7 +56975,7 @@
     "title": "brew-bundle - 从特定路径下的特定 Brewfile 安装软件包",
     "content": "brew bundle --file {{路径/到/文件}}",
     "group": "通用工具 (Common)",
-    "description": "brew-bundle: Homebrew，Homebrew Cask 和 Mac App Store的打包器。 (从特定路径下的特定 Brewfile 安装软件包)",
+    "description": "brew-bundle: Homebrew，Homebrew Cask 和 Mac App Store 的打包器。 (从特定路径下的特定 Brewfile 安装软件包)",
     "tags": [
       "common",
       "brew-bundle",
@@ -56960,7 +56990,7 @@
     "title": "brew-bundle - 基于所有安装的软件包，创建 Brewfile",
     "content": "brew bundle dump",
     "group": "通用工具 (Common)",
-    "description": "brew-bundle: Homebrew，Homebrew Cask 和 Mac App Store的打包器。 (基于所有安装的软件包，创建 Brewfile)",
+    "description": "brew-bundle: Homebrew，Homebrew Cask 和 Mac App Store 的打包器。 (基于所有安装的软件包，创建 Brewfile)",
     "tags": [
       "common",
       "brew-bundle",
@@ -56975,7 +57005,7 @@
     "title": "brew-bundle - 卸载所有 Brewfile 中未列出的软件包",
     "content": "brew bundle cleanup --force",
     "group": "通用工具 (Common)",
-    "description": "brew-bundle: Homebrew，Homebrew Cask 和 Mac App Store的打包器。 (卸载所有 Brewfile 中未列出的软件包)",
+    "description": "brew-bundle: Homebrew，Homebrew Cask 和 Mac App Store 的打包器。 (卸载所有 Brewfile 中未列出的软件包)",
     "tags": [
       "common",
       "brew-bundle",
@@ -56990,7 +57020,7 @@
     "title": "brew-bundle - 检查 Brewfile 中指定的包，是否需要安装或升级",
     "content": "brew bundle check",
     "group": "通用工具 (Common)",
-    "description": "brew-bundle: Homebrew，Homebrew Cask 和 Mac App Store的打包器。 (检查 Brewfile 中指定的包，是否需要安装或升级)",
+    "description": "brew-bundle: Homebrew，Homebrew Cask 和 Mac App Store 的打包器。 (检查 Brewfile 中指定的包，是否需要安装或升级)",
     "tags": [
       "common",
       "brew-bundle",
@@ -57005,7 +57035,7 @@
     "title": "brew-bundle - 列出 Brewfile 中的所有安装包条目",
     "content": "brew bundle list --all",
     "group": "通用工具 (Common)",
-    "description": "brew-bundle: Homebrew，Homebrew Cask 和 Mac App Store的打包器。 (列出 Brewfile 中的所有安装包条目)",
+    "description": "brew-bundle: Homebrew，Homebrew Cask 和 Mac App Store 的打包器。 (列出 Brewfile 中的所有安装包条目)",
     "tags": [
       "common",
       "brew-bundle",

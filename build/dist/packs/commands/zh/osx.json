@@ -152,10 +152,10 @@
   {
     "id": "tldr-zh-osx-gln-0",
     "type": "command",
-    "title": "gln - 原命令的文档在",
+    "title": "gln - 查看原命令的文档",
     "content": "tldr ln",
     "group": "macOS",
-    "description": "gln: 这是 `ln` 命令的一个别名。 (原命令的文档在)",
+    "description": "gln: 此命令为 `ln` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gln",
@@ -317,10 +317,10 @@
   {
     "id": "tldr-zh-osx-gdirname-0",
     "type": "command",
-    "title": "gdirname - 原命令的文档在",
+    "title": "gdirname - 查看原命令的文档",
     "content": "tldr dirname",
     "group": "macOS",
-    "description": "gdirname: 这是 `dirname` 命令的一个别名。 (原命令的文档在)",
+    "description": "gdirname: 此命令为 `dirname` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gdirname",
@@ -332,10 +332,10 @@
   {
     "id": "tldr-zh-osx-gwhich-0",
     "type": "command",
-    "title": "gwhich - 原命令的文档在",
+    "title": "gwhich - 查看原命令的文档",
     "content": "tldr which",
     "group": "macOS",
-    "description": "gwhich: 这是 `which` 命令的一个别名。 (原命令的文档在)",
+    "description": "gwhich: 此命令为 `which` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gwhich",
@@ -377,10 +377,10 @@
   {
     "id": "tldr-zh-osx-gseq-0",
     "type": "command",
-    "title": "gseq - 原命令的文档在",
+    "title": "gseq - 查看原命令的文档",
     "content": "tldr seq",
     "group": "macOS",
-    "description": "gseq: 这是 `seq` 命令的一个别名。 (原命令的文档在)",
+    "description": "gseq: 此命令为 `seq` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gseq",
@@ -392,10 +392,10 @@
   {
     "id": "tldr-zh-osx-gbasename-0",
     "type": "command",
-    "title": "gbasename - 原命令的文档在",
+    "title": "gbasename - 查看原命令的文档",
     "content": "tldr basename",
     "group": "macOS",
-    "description": "gbasename: 这是 `basename` 命令的一个别名。 (原命令的文档在)",
+    "description": "gbasename: 此命令为 `basename` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gbasename",
@@ -407,10 +407,10 @@
   {
     "id": "tldr-zh-osx-gsync-0",
     "type": "command",
-    "title": "gsync - 原命令的文档在",
+    "title": "gsync - 查看原命令的文档",
     "content": "tldr sync",
     "group": "macOS",
-    "description": "gsync: 这是 `sync` 命令的一个别名。 (原命令的文档在)",
+    "description": "gsync: 此命令为 `sync` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gsync",
@@ -422,10 +422,10 @@
   {
     "id": "tldr-zh-osx-glink-0",
     "type": "command",
-    "title": "glink - 原命令的文档在",
+    "title": "glink - 查看原命令的文档",
     "content": "tldr link",
     "group": "macOS",
-    "description": "glink: 这是 `link` 命令的一个别名。 (原命令的文档在)",
+    "description": "glink: 此命令为 `link` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "glink",
@@ -467,10 +467,10 @@
   {
     "id": "tldr-zh-osx-gsha224sum-0",
     "type": "command",
-    "title": "gsha224sum - 原命令的文档在",
+    "title": "gsha224sum - 查看原命令的文档",
     "content": "tldr sha224sum",
     "group": "macOS",
-    "description": "gsha224sum: 这是 `sha224sum` 命令的一个别名。 (原命令的文档在)",
+    "description": "gsha224sum: 此命令为 `sha224sum` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gsha224sum",
@@ -482,10 +482,10 @@
   {
     "id": "tldr-zh-osx-grm-0",
     "type": "command",
-    "title": "grm - 原命令的文档在",
+    "title": "grm - 查看原命令的文档",
     "content": "tldr rm",
     "group": "macOS",
-    "description": "grm: 这是 `rm` 命令的一个别名。 (原命令的文档在)",
+    "description": "grm: 此命令为 `rm` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "grm",
@@ -662,10 +662,10 @@
   {
     "id": "tldr-zh-osx-ggrep-0",
     "type": "command",
-    "title": "ggrep - 原命令的文档在",
+    "title": "ggrep - 查看原命令的文档",
     "content": "tldr grep",
     "group": "macOS",
-    "description": "ggrep: 这是 `grep` 命令的一个别名。 (原命令的文档在)",
+    "description": "ggrep: 此命令为 `grep` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "ggrep",
@@ -677,10 +677,10 @@
   {
     "id": "tldr-zh-osx-guniq-0",
     "type": "command",
-    "title": "guniq - 原命令的文档在",
+    "title": "guniq - 查看原命令的文档",
     "content": "tldr uniq",
     "group": "macOS",
-    "description": "guniq: 这是 `uniq` 命令的一个别名。 (原命令的文档在)",
+    "description": "guniq: 此命令为 `uniq` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "guniq",
@@ -1037,10 +1037,10 @@
   {
     "id": "tldr-zh-osx-gprintenv-0",
     "type": "command",
-    "title": "gprintenv - 原命令的文档在",
+    "title": "gprintenv - 查看原命令的文档",
     "content": "tldr printenv",
     "group": "macOS",
-    "description": "gprintenv: 这是 `printenv` 命令的一个别名。 (原命令的文档在)",
+    "description": "gprintenv: 此命令为 `printenv` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gprintenv",
@@ -1097,10 +1097,10 @@
   {
     "id": "tldr-zh-osx-gcomm-0",
     "type": "command",
-    "title": "gcomm - 原命令的文档在",
+    "title": "gcomm - 查看原命令的文档",
     "content": "tldr comm",
     "group": "macOS",
-    "description": "gcomm: 这是 `comm` 命令的一个别名。 (原命令的文档在)",
+    "description": "gcomm: 此命令为 `comm` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gcomm",
@@ -1112,10 +1112,10 @@
   {
     "id": "tldr-zh-osx-gfalse-0",
     "type": "command",
-    "title": "gfalse - 原命令的文档在",
+    "title": "gfalse - 查看原命令的文档",
     "content": "tldr false",
     "group": "macOS",
-    "description": "gfalse: 这是 `false` 命令的一个别名。 (原命令的文档在)",
+    "description": "gfalse: 此命令为 `false` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gfalse",
@@ -1127,10 +1127,10 @@
   {
     "id": "tldr-zh-osx-gsha1sum-0",
     "type": "command",
-    "title": "gsha1sum - 原命令的文档在",
+    "title": "gsha1sum - 查看原命令的文档",
     "content": "tldr sha1sum",
     "group": "macOS",
-    "description": "gsha1sum: 这是 `sha1sum` 命令的一个别名。 (原命令的文档在)",
+    "description": "gsha1sum: 此命令为 `sha1sum` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gsha1sum",
@@ -1142,10 +1142,10 @@
   {
     "id": "tldr-zh-osx-genv-0",
     "type": "command",
-    "title": "genv - 原命令的文档在",
+    "title": "genv - 查看原命令的文档",
     "content": "tldr env",
     "group": "macOS",
-    "description": "genv: 这是 `env` 命令的一个别名。 (原命令的文档在)",
+    "description": "genv: 此命令为 `env` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "genv",
@@ -1187,10 +1187,10 @@
   {
     "id": "tldr-zh-osx-gtsort-0",
     "type": "command",
-    "title": "gtsort - 原命令的文档在",
+    "title": "gtsort - 查看原命令的文档",
     "content": "tldr tsort",
     "group": "macOS",
-    "description": "gtsort: 这是 `tsort` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtsort: 此命令为 `tsort` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtsort",
@@ -1247,10 +1247,10 @@
   {
     "id": "tldr-zh-osx-sips-3",
     "type": "command",
-    "title": "sips - 对目录中的所有图像重新取样，以适应 960px 的宽度（保持纵横比）",
+    "title": "sips - 对目录中的所有图像重新取样，以适应 960 px 的宽度（保持纵横比）",
     "content": "sips --resampleWidth {{960}} {{目标 / 文件夹 / 所有图片文件}}",
     "group": "macOS",
-    "description": "sips: 苹果的处理文件脚本系统。 光栅 / 查询图像 和 颜色同步 ICC 配置文件。 (对目录中的所有图像重新取样，以适应 960px 的宽度（保持纵横比）)",
+    "description": "sips: 苹果的处理文件脚本系统。 光栅 / 查询图像 和 颜色同步 ICC 配置文件。 (对目录中的所有图像重新取样，以适应 960 px 的宽度（保持纵横比）)",
     "tags": [
       "osx",
       "sips",
@@ -1382,10 +1382,10 @@
   {
     "id": "tldr-zh-osx-gtee-0",
     "type": "command",
-    "title": "gtee - 原命令的文档在",
+    "title": "gtee - 查看原命令的文档",
     "content": "tldr tee",
     "group": "macOS",
-    "description": "gtee: 这是 `tee` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtee: 此命令为 `tee` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtee",
@@ -1397,10 +1397,10 @@
   {
     "id": "tldr-zh-osx-gsort-0",
     "type": "command",
-    "title": "gsort - 原命令的文档在",
+    "title": "gsort - 查看原命令的文档",
     "content": "tldr sort",
     "group": "macOS",
-    "description": "gsort: 这是 `sort` 命令的一个别名。 (原命令的文档在)",
+    "description": "gsort: 此命令为 `sort` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gsort",
@@ -1412,10 +1412,10 @@
   {
     "id": "tldr-zh-osx-gmkdir-0",
     "type": "command",
-    "title": "gmkdir - 原命令的文档在",
+    "title": "gmkdir - 查看原命令的文档",
     "content": "tldr mkdir",
     "group": "macOS",
-    "description": "gmkdir: 这是 `mkdir` 命令的一个别名。 (原命令的文档在)",
+    "description": "gmkdir: 此命令为 `mkdir` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gmkdir",
@@ -1442,10 +1442,10 @@
   {
     "id": "tldr-zh-osx-gvdir-0",
     "type": "command",
-    "title": "gvdir - 原命令的文档在",
+    "title": "gvdir - 查看原命令的文档",
     "content": "tldr vdir",
     "group": "macOS",
-    "description": "gvdir: 这是 `vdir` 命令的一个别名。 (原命令的文档在)",
+    "description": "gvdir: 此命令为 `vdir` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gvdir",
@@ -1472,10 +1472,10 @@
   {
     "id": "tldr-zh-osx-gfgrep-0",
     "type": "command",
-    "title": "gfgrep - 原命令的文档在",
+    "title": "gfgrep - 查看原命令的文档",
     "content": "tldr fgrep",
     "group": "macOS",
-    "description": "gfgrep: 这是 `fgrep` 命令的一个别名。 (原命令的文档在)",
+    "description": "gfgrep: 此命令为 `fgrep` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gfgrep",
@@ -1563,7 +1563,7 @@
     "id": "tldr-zh-osx-airport-1",
     "type": "command",
     "title": "airport - 在通道 1 上监察（嗅探）无线流量",
-    "content": "airport sniff {{1}}",
+    "content": "airport sniff 1",
     "group": "macOS",
     "description": "airport: 无线网络配置工具。 (在通道 1 上监察（嗅探）无线流量)",
     "tags": [
@@ -1607,10 +1607,10 @@
   {
     "id": "tldr-zh-osx-gtraceroute-0",
     "type": "command",
-    "title": "gtraceroute - 原命令的文档在",
+    "title": "gtraceroute - 查看原命令的文档",
     "content": "tldr traceroute",
     "group": "macOS",
-    "description": "gtraceroute: 这是 `traceroute` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtraceroute: 此命令为 `traceroute` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtraceroute",
@@ -1622,10 +1622,10 @@
   {
     "id": "tldr-zh-osx-gftp-0",
     "type": "command",
-    "title": "gftp - 原命令的文档在",
+    "title": "gftp - 查看原命令的文档",
     "content": "tldr ftp",
     "group": "macOS",
-    "description": "gftp: 这是 `ftp` 命令的一个别名。 (原命令的文档在)",
+    "description": "gftp: 此命令为 `ftp` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gftp",
@@ -1727,10 +1727,10 @@
   {
     "id": "tldr-zh-osx-gtr-0",
     "type": "command",
-    "title": "gtr - 原命令的文档在",
+    "title": "gtr - 查看原命令的文档",
     "content": "tldr tr",
     "group": "macOS",
-    "description": "gtr: 这是 `tr` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtr: 此命令为 `tr` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtr",
@@ -1742,10 +1742,10 @@
   {
     "id": "tldr-zh-osx-gsha384sum-0",
     "type": "command",
-    "title": "gsha384sum - 原命令的文档在",
+    "title": "gsha384sum - 查看原命令的文档",
     "content": "tldr sha384sum",
     "group": "macOS",
-    "description": "gsha384sum: 这是 `sha384sum` 命令的一个别名。 (原命令的文档在)",
+    "description": "gsha384sum: 此命令为 `sha384sum` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gsha384sum",
@@ -1757,10 +1757,10 @@
   {
     "id": "tldr-zh-osx-ged-0",
     "type": "command",
-    "title": "ged - 原命令的文档在",
+    "title": "ged - 查看原命令的文档",
     "content": "tldr ed",
     "group": "macOS",
-    "description": "ged: 这是 `ed` 命令的一个别名。 (原命令的文档在)",
+    "description": "ged: 此命令为 `ed` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "ged",
@@ -1772,10 +1772,10 @@
   {
     "id": "tldr-zh-osx-gunexpand-0",
     "type": "command",
-    "title": "gunexpand - 原命令的文档在",
+    "title": "gunexpand - 查看原命令的文档",
     "content": "tldr unexpand",
     "group": "macOS",
-    "description": "gunexpand: 这是 `unexpand` 命令的一个别名。 (原命令的文档在)",
+    "description": "gunexpand: 此命令为 `unexpand` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gunexpand",
@@ -1877,10 +1877,10 @@
   {
     "id": "tldr-zh-osx-gtrue-0",
     "type": "command",
-    "title": "gtrue - 原命令的文档在",
+    "title": "gtrue - 查看原命令的文档",
     "content": "tldr true",
     "group": "macOS",
-    "description": "gtrue: 这是 `true` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtrue: 此命令为 `true` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtrue",
@@ -1967,10 +1967,10 @@
   {
     "id": "tldr-zh-osx-gwhoami-0",
     "type": "command",
-    "title": "gwhoami - 原命令的文档在",
+    "title": "gwhoami - 查看原命令的文档",
     "content": "tldr whoami",
     "group": "macOS",
-    "description": "gwhoami: 这是 `whoami` 命令的一个别名。 (原命令的文档在)",
+    "description": "gwhoami: 此命令为 `whoami` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gwhoami",
@@ -1982,10 +1982,10 @@
   {
     "id": "tldr-zh-osx-gbasenc-0",
     "type": "command",
-    "title": "gbasenc - 原命令的文档在",
+    "title": "gbasenc - 查看原命令的文档",
     "content": "tldr basenc",
     "group": "macOS",
-    "description": "gbasenc: 这是 `basenc` 命令的一个别名。 (原命令的文档在)",
+    "description": "gbasenc: 此命令为 `basenc` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gbasenc",
@@ -2087,10 +2087,10 @@
   {
     "id": "tldr-zh-osx-gjoin-0",
     "type": "command",
-    "title": "gjoin - 原命令的文档在",
+    "title": "gjoin - 查看原命令的文档",
     "content": "tldr join",
     "group": "macOS",
-    "description": "gjoin: 这是 `join` 命令的一个别名。 (原命令的文档在)",
+    "description": "gjoin: 此命令为 `join` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gjoin",
@@ -2327,10 +2327,10 @@
   {
     "id": "tldr-zh-osx-gcksum-0",
     "type": "command",
-    "title": "gcksum - 原命令的文档在",
+    "title": "gcksum - 查看原命令的文档",
     "content": "tldr cksum",
     "group": "macOS",
-    "description": "gcksum: 这是 `cksum` 命令的一个别名。 (原命令的文档在)",
+    "description": "gcksum: 此命令为 `cksum` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gcksum",
@@ -2342,10 +2342,10 @@
   {
     "id": "tldr-zh-osx-gchroot-0",
     "type": "command",
-    "title": "gchroot - 原命令的文档在",
+    "title": "gchroot - 查看原命令的文档",
     "content": "tldr chroot",
     "group": "macOS",
-    "description": "gchroot: 这是 `chroot` 命令的一个别名。 (原命令的文档在)",
+    "description": "gchroot: 此命令为 `chroot` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gchroot",
@@ -2357,10 +2357,10 @@
   {
     "id": "tldr-zh-osx-g[-0",
     "type": "command",
-    "title": "g[ - 原命令的文档在",
+    "title": "g[ - 查看原命令的文档",
     "content": "tldr [",
     "group": "macOS",
-    "description": "g[: 这是 `[` 命令的一个别名。 (原命令的文档在)",
+    "description": "g[: 此命令为 `[` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "g[",
@@ -2372,10 +2372,10 @@
   {
     "id": "tldr-zh-osx-guptime-0",
     "type": "command",
-    "title": "guptime - 原命令的文档在",
+    "title": "guptime - 查看原命令的文档",
     "content": "tldr {{[-p|--platform]}} common uptime",
     "group": "macOS",
-    "description": "guptime: 这是 `uptime` 命令的一个别名。 (原命令的文档在)",
+    "description": "guptime: 此命令为 `uptime` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "guptime",
@@ -2432,10 +2432,10 @@
   {
     "id": "tldr-zh-osx-gping-0",
     "type": "command",
-    "title": "gping - 原命令的文档在",
+    "title": "gping - 查看原命令的文档",
     "content": "tldr {{[-p|--platform]}} common ping",
     "group": "macOS",
-    "description": "gping: 这是 `ping` 命令的一个别名。 (原命令的文档在)",
+    "description": "gping: 此命令为 `ping` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gping",
@@ -2447,10 +2447,10 @@
   {
     "id": "tldr-zh-osx-gshred-0",
     "type": "command",
-    "title": "gshred - 原命令的文档在",
+    "title": "gshred - 查看原命令的文档",
     "content": "tldr shred",
     "group": "macOS",
-    "description": "gshred: 这是 `shred` 命令的一个别名。 (原命令的文档在)",
+    "description": "gshred: 此命令为 `shred` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gshred",
@@ -2477,10 +2477,10 @@
   {
     "id": "tldr-zh-osx-gyes-0",
     "type": "command",
-    "title": "gyes - 原命令的文档在",
+    "title": "gyes - 查看原命令的文档",
     "content": "tldr yes",
     "group": "macOS",
-    "description": "gyes: 这是 `yes` 命令的一个别名。 (原命令的文档在)",
+    "description": "gyes: 此命令为 `yes` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gyes",
@@ -2507,10 +2507,10 @@
   {
     "id": "tldr-zh-osx-gexpr-0",
     "type": "command",
-    "title": "gexpr - 原命令的文档在",
+    "title": "gexpr - 查看原命令的文档",
     "content": "tldr expr",
     "group": "macOS",
-    "description": "gexpr: 这是 `expr` 命令的一个别名。 (原命令的文档在)",
+    "description": "gexpr: 此命令为 `expr` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gexpr",
@@ -2522,10 +2522,10 @@
   {
     "id": "tldr-zh-osx-gtelnet-0",
     "type": "command",
-    "title": "gtelnet - 原命令的文档在",
+    "title": "gtelnet - 查看原命令的文档",
     "content": "tldr telnet",
     "group": "macOS",
-    "description": "gtelnet: 这是 `telnet` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtelnet: 此命令为 `telnet` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtelnet",
@@ -2537,10 +2537,10 @@
   {
     "id": "tldr-zh-osx-gprintf-0",
     "type": "command",
-    "title": "gprintf - 原命令的文档在",
+    "title": "gprintf - 查看原命令的文档",
     "content": "tldr printf",
     "group": "macOS",
-    "description": "gprintf: 这是 `printf` 命令的一个别名。 (原命令的文档在)",
+    "description": "gprintf: 此命令为 `printf` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gprintf",
@@ -2717,10 +2717,10 @@
   {
     "id": "tldr-zh-osx-ginstall-0",
     "type": "command",
-    "title": "ginstall - 原命令的文档在",
+    "title": "ginstall - 查看原命令的文档",
     "content": "tldr install",
     "group": "macOS",
-    "description": "ginstall: 这是 `install` 命令的一个别名。 (原命令的文档在)",
+    "description": "ginstall: 此命令为 `install` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "ginstall",
@@ -2807,10 +2807,10 @@
   {
     "id": "tldr-zh-osx-gchown-0",
     "type": "command",
-    "title": "gchown - 原命令的文档在",
+    "title": "gchown - 查看原命令的文档",
     "content": "tldr chown",
     "group": "macOS",
-    "description": "gchown: 这是 `chown` 命令的一个别名。 (原命令的文档在)",
+    "description": "gchown: 此命令为 `chown` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gchown",
@@ -2852,10 +2852,10 @@
   {
     "id": "tldr-zh-osx-gid-0",
     "type": "command",
-    "title": "gid - 原命令的文档在",
+    "title": "gid - 查看原命令的文档",
     "content": "tldr id",
     "group": "macOS",
-    "description": "gid: 这是 `id` 命令的一个别名。 (原命令的文档在)",
+    "description": "gid: 此命令为 `id` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gid",
@@ -2867,10 +2867,10 @@
   {
     "id": "tldr-zh-osx-gstdbuf-0",
     "type": "command",
-    "title": "gstdbuf - 原命令的文档在",
+    "title": "gstdbuf - 查看原命令的文档",
     "content": "tldr stdbuf",
     "group": "macOS",
-    "description": "gstdbuf: 这是 `stdbuf` 命令的一个别名。 (原命令的文档在)",
+    "description": "gstdbuf: 此命令为 `stdbuf` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gstdbuf",
@@ -2882,10 +2882,10 @@
   {
     "id": "tldr-zh-osx-gegrep-0",
     "type": "command",
-    "title": "gegrep - 原命令的文档在",
+    "title": "gegrep - 查看原命令的文档",
     "content": "tldr egrep",
     "group": "macOS",
-    "description": "gegrep: 这是 `egrep` 命令的一个别名。 (原命令的文档在)",
+    "description": "gegrep: 此命令为 `egrep` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gegrep",
@@ -2897,10 +2897,10 @@
   {
     "id": "tldr-zh-osx-gtouch-0",
     "type": "command",
-    "title": "gtouch - 原命令的文档在",
+    "title": "gtouch - 查看原命令的文档",
     "content": "tldr touch",
     "group": "macOS",
-    "description": "gtouch: 这是 `touch` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtouch: 此命令为 `touch` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtouch",
@@ -2912,10 +2912,10 @@
   {
     "id": "tldr-zh-osx-gpwd-0",
     "type": "command",
-    "title": "gpwd - 原命令的文档在",
+    "title": "gpwd - 查看原命令的文档",
     "content": "tldr pwd",
     "group": "macOS",
-    "description": "gpwd: 这是 `pwd` 命令的一个别名。 (原命令的文档在)",
+    "description": "gpwd: 此命令为 `pwd` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gpwd",
@@ -2927,10 +2927,10 @@
   {
     "id": "tldr-zh-osx-gusers-0",
     "type": "command",
-    "title": "gusers - 原命令的文档在",
+    "title": "gusers - 查看原命令的文档",
     "content": "tldr users",
     "group": "macOS",
-    "description": "gusers: 这是 `users` 命令的一个别名。 (原命令的文档在)",
+    "description": "gusers: 此命令为 `users` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gusers",
@@ -2942,10 +2942,10 @@
   {
     "id": "tldr-zh-osx-gpaste-0",
     "type": "command",
-    "title": "gpaste - 原命令的文档在",
+    "title": "gpaste - 查看原命令的文档",
     "content": "tldr paste",
     "group": "macOS",
-    "description": "gpaste: 这是 `paste` 命令的一个别名。 (原命令的文档在)",
+    "description": "gpaste: 此命令为 `paste` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gpaste",
@@ -2957,10 +2957,10 @@
   {
     "id": "tldr-zh-osx-gping6-0",
     "type": "command",
-    "title": "gping6 - 原命令的文档在",
+    "title": "gping6 - 查看原命令的文档",
     "content": "tldr ping6",
     "group": "macOS",
-    "description": "gping6: 这是 `ping6` 命令的一个别名。 (原命令的文档在)",
+    "description": "gping6: 此命令为 `ping6` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gping6",
@@ -2972,10 +2972,10 @@
   {
     "id": "tldr-zh-osx-gchmod-0",
     "type": "command",
-    "title": "gchmod - 原命令的文档在",
+    "title": "gchmod - 查看原命令的文档",
     "content": "tldr chmod",
     "group": "macOS",
-    "description": "gchmod: 这是 `chmod` 命令的一个别名。 (原命令的文档在)",
+    "description": "gchmod: 此命令为 `chmod` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gchmod",
@@ -2987,10 +2987,10 @@
   {
     "id": "tldr-zh-osx-gfmt-0",
     "type": "command",
-    "title": "gfmt - 原命令的文档在",
+    "title": "gfmt - 查看原命令的文档",
     "content": "tldr fmt",
     "group": "macOS",
-    "description": "gfmt: 这是 `fmt` 命令的一个别名。 (原命令的文档在)",
+    "description": "gfmt: 此命令为 `fmt` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gfmt",
@@ -3107,10 +3107,10 @@
   {
     "id": "tldr-zh-osx-gmkfifo-0",
     "type": "command",
-    "title": "gmkfifo - 原命令的文档在",
+    "title": "gmkfifo - 查看原命令的文档",
     "content": "tldr mkfifo",
     "group": "macOS",
-    "description": "gmkfifo: 这是 `mkfifo` 命令的一个别名。 (原命令的文档在)",
+    "description": "gmkfifo: 此命令为 `mkfifo` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gmkfifo",
@@ -3122,10 +3122,10 @@
   {
     "id": "tldr-zh-osx-gwc-0",
     "type": "command",
-    "title": "gwc - 原命令的文档在",
+    "title": "gwc - 查看原命令的文档",
     "content": "tldr {{[-p|--platform]}} common wc",
     "group": "macOS",
-    "description": "gwc: 这是 `wc` 命令的一个别名。 (原命令的文档在)",
+    "description": "gwc: 此命令为 `wc` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gwc",
@@ -3137,10 +3137,10 @@
   {
     "id": "tldr-zh-osx-gfind-0",
     "type": "command",
-    "title": "gfind - 原命令的文档在",
+    "title": "gfind - 查看原命令的文档",
     "content": "tldr find",
     "group": "macOS",
-    "description": "gfind: 这是 `find` 命令的一个别名。 (原命令的文档在)",
+    "description": "gfind: 此命令为 `find` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gfind",
@@ -3152,10 +3152,10 @@
   {
     "id": "tldr-zh-osx-ghostname-0",
     "type": "command",
-    "title": "ghostname - 原命令的文档在",
+    "title": "ghostname - 查看原命令的文档",
     "content": "tldr hostname",
     "group": "macOS",
-    "description": "ghostname: 这是 `hostname` 命令的一个别名。 (原命令的文档在)",
+    "description": "ghostname: 此命令为 `hostname` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "ghostname",
@@ -3227,10 +3227,10 @@
   {
     "id": "tldr-zh-osx-gtty-0",
     "type": "command",
-    "title": "gtty - 原命令的文档在",
+    "title": "gtty - 查看原命令的文档",
     "content": "tldr tty",
     "group": "macOS",
-    "description": "gtty: 这是 `tty` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtty: 此命令为 `tty` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtty",
@@ -3242,10 +3242,10 @@
   {
     "id": "tldr-zh-osx-gwhois-0",
     "type": "command",
-    "title": "gwhois - 原命令的文档在",
+    "title": "gwhois - 查看原命令的文档",
     "content": "tldr whois",
     "group": "macOS",
-    "description": "gwhois: 这是 `whois` 命令的一个别名。 (原命令的文档在)",
+    "description": "gwhois: 此命令为 `whois` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gwhois",
@@ -3482,10 +3482,10 @@
   {
     "id": "tldr-zh-osx-gmv-0",
     "type": "command",
-    "title": "gmv - 原命令的文档在",
+    "title": "gmv - 查看原命令的文档",
     "content": "tldr mv",
     "group": "macOS",
-    "description": "gmv: 这是 `mv` 命令的一个别名。 (原命令的文档在)",
+    "description": "gmv: 此命令为 `mv` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gmv",
@@ -3557,10 +3557,10 @@
   {
     "id": "tldr-zh-osx-gdircolors-0",
     "type": "command",
-    "title": "gdircolors - 原命令的文档在",
+    "title": "gdircolors - 查看原命令的文档",
     "content": "tldr dircolors",
     "group": "macOS",
-    "description": "gdircolors: 这是 `dircolors` 命令的一个别名。 (原命令的文档在)",
+    "description": "gdircolors: 此命令为 `dircolors` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gdircolors",
@@ -3587,10 +3587,10 @@
   {
     "id": "tldr-zh-osx-qlmanage-1",
     "type": "command",
-    "title": "qlmanage - 计算生成当前目录中所有 JPEG 文件的缩略图，300px 宽 PNG 格式，并将它们放在一个指定目录中",
+    "title": "qlmanage - 计算生成当前目录中所有 JPEG 文件的缩略图，300 px 宽 PNG 格式，并将它们放在一个指定目录中",
     "content": "qlmanage {{*.jpg}} -t -s {{300}} {{指定目录}}",
     "group": "macOS",
-    "description": "qlmanage: QuickLook 服务器工具。 (计算生成当前目录中所有 JPEG 文件的缩略图，300px 宽 PNG 格式，并将它们放在一个指定目录中)",
+    "description": "qlmanage: QuickLook 服务器工具。 (计算生成当前目录中所有 JPEG 文件的缩略图，300 px 宽 PNG 格式，并将它们放在一个指定目录中)",
     "tags": [
       "osx",
       "qlmanage",
@@ -3692,10 +3692,10 @@
   {
     "id": "tldr-zh-osx-gnohup-0",
     "type": "command",
-    "title": "gnohup - 原命令的文档在",
+    "title": "gnohup - 查看原命令的文档",
     "content": "tldr nohup",
     "group": "macOS",
-    "description": "gnohup: 这是 `nohup` 命令的一个别名。 (原命令的文档在)",
+    "description": "gnohup: 此命令为 `nohup` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gnohup",
@@ -3767,10 +3767,10 @@
   {
     "id": "tldr-zh-osx-gshuf-0",
     "type": "command",
-    "title": "gshuf - 原命令的文档在",
+    "title": "gshuf - 查看原命令的文档",
     "content": "tldr {{[-p|--platform]}} common shuf",
     "group": "macOS",
-    "description": "gshuf: 这是 `shuf` 命令的一个别名。 (原命令的文档在)",
+    "description": "gshuf: 此命令为 `shuf` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gshuf",
@@ -3782,10 +3782,10 @@
   {
     "id": "tldr-zh-osx-gtar-0",
     "type": "command",
-    "title": "gtar - 原命令的文档在",
+    "title": "gtar - 查看原命令的文档",
     "content": "tldr tar",
     "group": "macOS",
-    "description": "gtar: 这是 `tar` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtar: 此命令为 `tar` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtar",
@@ -3812,10 +3812,10 @@
   {
     "id": "tldr-zh-osx-gunits-0",
     "type": "command",
-    "title": "gunits - 原命令的文档在",
+    "title": "gunits - 查看原命令的文档",
     "content": "tldr units",
     "group": "macOS",
-    "description": "gunits: 这是 `units` 命令的一个别名。 (原命令的文档在)",
+    "description": "gunits: 此命令为 `units` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gunits",
@@ -4262,10 +4262,10 @@
   {
     "id": "tldr-zh-osx-gsum-0",
     "type": "command",
-    "title": "gsum - 原命令的文档在",
+    "title": "gsum - 查看原命令的文档",
     "content": "tldr sum",
     "group": "macOS",
-    "description": "gsum: 这是 `sum` 命令的一个别名。 (原命令的文档在)",
+    "description": "gsum: 此命令为 `sum` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gsum",
@@ -4277,10 +4277,10 @@
   {
     "id": "tldr-zh-osx-gnumfmt-0",
     "type": "command",
-    "title": "gnumfmt - 原命令的文档在",
+    "title": "gnumfmt - 查看原命令的文档",
     "content": "tldr numfmt",
     "group": "macOS",
-    "description": "gnumfmt: 这是 `numfmt` 命令的一个别名。 (原命令的文档在)",
+    "description": "gnumfmt: 此命令为 `numfmt` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gnumfmt",
@@ -4292,10 +4292,10 @@
   {
     "id": "tldr-zh-osx-gmake-0",
     "type": "command",
-    "title": "gmake - 原命令的文档在",
+    "title": "gmake - 查看原命令的文档",
     "content": "tldr make",
     "group": "macOS",
-    "description": "gmake: 这是 `make` 命令的一个别名。 (原命令的文档在)",
+    "description": "gmake: 此命令为 `make` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gmake",
@@ -4397,10 +4397,10 @@
   {
     "id": "tldr-zh-osx-gnproc-0",
     "type": "command",
-    "title": "gnproc - 原命令的文档在",
+    "title": "gnproc - 查看原命令的文档",
     "content": "tldr nproc",
     "group": "macOS",
-    "description": "gnproc: 这是 `nproc` 命令的一个别名。 (原命令的文档在)",
+    "description": "gnproc: 此命令为 `nproc` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gnproc",
@@ -4412,10 +4412,10 @@
   {
     "id": "tldr-zh-osx-gtac-0",
     "type": "command",
-    "title": "gtac - 原命令的文档在",
+    "title": "gtac - 查看原命令的文档",
     "content": "tldr tac",
     "group": "macOS",
-    "description": "gtac: 这是 `tac` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtac: 此命令为 `tac` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtac",
@@ -4487,10 +4487,10 @@
   {
     "id": "tldr-zh-osx-greadlink-0",
     "type": "command",
-    "title": "greadlink - 原命令的文档在",
+    "title": "greadlink - 查看原命令的文档",
     "content": "tldr readlink",
     "group": "macOS",
-    "description": "greadlink: 这是 `readlink` 命令的一个别名。 (原命令的文档在)",
+    "description": "greadlink: 此命令为 `readlink` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "greadlink",
@@ -4502,10 +4502,10 @@
   {
     "id": "tldr-zh-osx-gunlink-0",
     "type": "command",
-    "title": "gunlink - 原命令的文档在",
+    "title": "gunlink - 查看原命令的文档",
     "content": "tldr unlink",
     "group": "macOS",
-    "description": "gunlink: 这是 `unlink` 命令的一个别名。 (原命令的文档在)",
+    "description": "gunlink: 此命令为 `unlink` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gunlink",
@@ -4682,10 +4682,10 @@
   {
     "id": "tldr-zh-osx-gfactor-0",
     "type": "command",
-    "title": "gfactor - 原命令的文档在",
+    "title": "gfactor - 查看原命令的文档",
     "content": "tldr factor",
     "group": "macOS",
-    "description": "gfactor: 这是 `factor` 命令的一个别名。 (原命令的文档在)",
+    "description": "gfactor: 此命令为 `factor` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gfactor",
@@ -4727,10 +4727,10 @@
   {
     "id": "tldr-zh-osx-grealpath-0",
     "type": "command",
-    "title": "grealpath - 原命令的文档在",
+    "title": "grealpath - 查看原命令的文档",
     "content": "tldr realpath",
     "group": "macOS",
-    "description": "grealpath: 这是 `realpath` 命令的一个别名。 (原命令的文档在)",
+    "description": "grealpath: 此命令为 `realpath` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "grealpath",
@@ -4742,10 +4742,10 @@
   {
     "id": "tldr-zh-osx-gsplit-0",
     "type": "command",
-    "title": "gsplit - 原命令的文档在",
+    "title": "gsplit - 查看原命令的文档",
     "content": "tldr {{[-p|--platform]}} common split",
     "group": "macOS",
-    "description": "gsplit: 这是 `split` 命令的一个别名。 (原命令的文档在)",
+    "description": "gsplit: 此命令为 `split` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gsplit",
@@ -4757,10 +4757,10 @@
   {
     "id": "tldr-zh-osx-gbase64-0",
     "type": "command",
-    "title": "gbase64 - 原命令的文档在",
+    "title": "gbase64 - 查看原命令的文档",
     "content": "tldr {{[-p|--platform]}} common base64",
     "group": "macOS",
-    "description": "gbase64: 这是 `base64` 命令的一个别名。 (原命令的文档在)",
+    "description": "gbase64: 此命令为 `base64` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gbase64",
@@ -4772,10 +4772,10 @@
   {
     "id": "tldr-zh-osx-gchgrp-0",
     "type": "command",
-    "title": "gchgrp - 原命令的文档在",
+    "title": "gchgrp - 查看原命令的文档",
     "content": "tldr chgrp",
     "group": "macOS",
-    "description": "gchgrp: 这是 `chgrp` 命令的一个别名。 (原命令的文档在)",
+    "description": "gchgrp: 此命令为 `chgrp` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gchgrp",
@@ -4787,10 +4787,10 @@
   {
     "id": "tldr-zh-osx-iostat-0",
     "type": "command",
-    "title": "iostat - 显示设备统计快照（每传输千字节数、每秒传输次数、每秒兆字节数）、CPU统计（用户模式、系统模式和空闲模式的时间百分比）以及系统负载平均值（过去1、5和15分钟）",
+    "title": "iostat - 显示设备统计快照（每传输千字节数、每秒传输次数、每秒兆字节数）、CPU 统计（用户模式、系统模式和空闲模式的时间百分比）以及系统负载平均值（过去 1、5 和 15 分钟）",
     "content": "iostat",
     "group": "macOS",
-    "description": "iostat: 报告设备统计信息。 (显示设备统计快照（每传输千字节数、每秒传输次数、每秒兆字节数）、CPU统计（用户模式、系统模式和空闲模式的时间百分比）以及系统负载平均值（过去1、5和15分钟）)",
+    "description": "iostat: 报告设备统计信息。 (显示设备统计快照（每传输千字节数、每秒传输次数、每秒兆字节数）、CPU 统计（用户模式、系统模式和空闲模式的时间百分比）以及系统负载平均值（过去 1、5 和 15 分钟）)",
     "tags": [
       "osx",
       "iostat",
@@ -4817,10 +4817,10 @@
   {
     "id": "tldr-zh-osx-iostat-2",
     "type": "command",
-    "title": "iostat - 每2秒显示一次CPU和磁盘的增量统计报告",
+    "title": "iostat - 每 2 秒显示一次 CPU 和磁盘的增量统计报告",
     "content": "iostat 2",
     "group": "macOS",
-    "description": "iostat: 报告设备统计信息。 (每2秒显示一次CPU和磁盘的增量统计报告)",
+    "description": "iostat: 报告设备统计信息。 (每 2 秒显示一次 CPU 和磁盘的增量统计报告)",
     "tags": [
       "osx",
       "iostat",
@@ -4847,10 +4847,10 @@
   {
     "id": "tldr-zh-osx-iostat-4",
     "type": "command",
-    "title": "iostat - 每3秒显示一次第二个磁盘的统计信息，共显示10次",
+    "title": "iostat - 每 3 秒显示一次第二个磁盘的统计信息，共显示 10 次",
     "content": "iostat -w 3 -c 10 disk1",
     "group": "macOS",
-    "description": "iostat: 报告设备统计信息。 (每3秒显示一次第二个磁盘的统计信息，共显示10次)",
+    "description": "iostat: 报告设备统计信息。 (每 3 秒显示一次第二个磁盘的统计信息，共显示 10 次)",
     "tags": [
       "osx",
       "iostat",
@@ -4862,10 +4862,10 @@
   {
     "id": "tldr-zh-osx-iostat-5",
     "type": "command",
-    "title": "iostat - 使用旧式iostat显示格式。显示每秒传输的扇区数、每秒传输次数、每次传输的平均毫秒数，以及默认显示格式的CPU统计和负载平均值",
+    "title": "iostat - 使用旧式 iostat 显示格式。显示每秒传输的扇区数、每秒传输次数、每次传输的平均毫秒数，以及默认显示格式的 CPU 统计和负载平均值",
     "content": "iostat -o",
     "group": "macOS",
-    "description": "iostat: 报告设备统计信息。 (使用旧式iostat显示格式。显示每秒传输的扇区数、每秒传输次数、每次传输的平均毫秒数，以及默认显示格式的CPU统计和负载平均值)",
+    "description": "iostat: 报告设备统计信息。 (使用旧式 iostat 显示格式。显示每秒传输的扇区数、每秒传输次数、每次传输的平均毫秒数，以及默认显示格式的 CPU 统计和负载平均值)",
     "tags": [
       "osx",
       "iostat",
@@ -4892,10 +4892,10 @@
   {
     "id": "tldr-zh-osx-gecho-0",
     "type": "command",
-    "title": "gecho - 原命令的文档在",
+    "title": "gecho - 查看原命令的文档",
     "content": "tldr echo",
     "group": "macOS",
-    "description": "gecho: 这是 `echo` 命令的一个别名。 (原命令的文档在)",
+    "description": "gecho: 此命令为 `echo` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gecho",
@@ -4907,10 +4907,10 @@
   {
     "id": "tldr-zh-osx-gtail-0",
     "type": "command",
-    "title": "gtail - 原命令的文档在",
+    "title": "gtail - 查看原命令的文档",
     "content": "tldr {{[-p|--platform]}} common tail",
     "group": "macOS",
-    "description": "gtail: 这是 `tail` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtail: 此命令为 `tail` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtail",
@@ -4922,10 +4922,10 @@
   {
     "id": "tldr-zh-osx-gdate-0",
     "type": "command",
-    "title": "gdate - 原命令的文档在",
+    "title": "gdate - 查看原命令的文档",
     "content": "tldr {{[-p|--platform]}} common date",
     "group": "macOS",
-    "description": "gdate: 这是 `date` 命令的一个别名。 (原命令的文档在)",
+    "description": "gdate: 此命令为 `date` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gdate",
@@ -4937,10 +4937,10 @@
   {
     "id": "tldr-zh-osx-gwho-0",
     "type": "command",
-    "title": "gwho - 原命令的文档在",
+    "title": "gwho - 查看原命令的文档",
     "content": "tldr who",
     "group": "macOS",
-    "description": "gwho: 这是 `who` 命令的一个别名。 (原命令的文档在)",
+    "description": "gwho: 此命令为 `who` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gwho",
@@ -4952,10 +4952,10 @@
   {
     "id": "tldr-zh-osx-gtimeout-0",
     "type": "command",
-    "title": "gtimeout - 原命令的文档在",
+    "title": "gtimeout - 查看原命令的文档",
     "content": "tldr timeout",
     "group": "macOS",
-    "description": "gtimeout: 这是 `timeout` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtimeout: 此命令为 `timeout` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtimeout",
@@ -4967,10 +4967,10 @@
   {
     "id": "tldr-zh-osx-glogname-0",
     "type": "command",
-    "title": "glogname - 原命令的文档在",
+    "title": "glogname - 查看原命令的文档",
     "content": "tldr logname",
     "group": "macOS",
-    "description": "glogname: 这是 `logname` 命令的一个别名。 (原命令的文档在)",
+    "description": "glogname: 此命令为 `logname` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "glogname",
@@ -4982,10 +4982,10 @@
   {
     "id": "tldr-zh-osx-gtruncate-0",
     "type": "command",
-    "title": "gtruncate - 原命令的文档在",
+    "title": "gtruncate - 查看原命令的文档",
     "content": "tldr truncate",
     "group": "macOS",
-    "description": "gtruncate: 这是 `truncate` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtruncate: 此命令为 `truncate` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtruncate",
@@ -4997,10 +4997,10 @@
   {
     "id": "tldr-zh-osx-ggroups-0",
     "type": "command",
-    "title": "ggroups - 原命令的文档在",
+    "title": "ggroups - 查看原命令的文档",
     "content": "tldr groups",
     "group": "macOS",
-    "description": "ggroups: 这是 `groups` 命令的一个别名。 (原命令的文档在)",
+    "description": "ggroups: 此命令为 `groups` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "ggroups",
@@ -5012,10 +5012,10 @@
   {
     "id": "tldr-zh-osx-gtest-0",
     "type": "command",
-    "title": "gtest - 原命令的文档在",
+    "title": "gtest - 查看原命令的文档",
     "content": "tldr test",
     "group": "macOS",
-    "description": "gtest: 这是 `test` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtest: 此命令为 `test` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtest",
@@ -5027,10 +5027,10 @@
   {
     "id": "tldr-zh-osx-gexpand-0",
     "type": "command",
-    "title": "gexpand - 原命令的文档在",
+    "title": "gexpand - 查看原命令的文档",
     "content": "tldr expand",
     "group": "macOS",
-    "description": "gexpand: 这是 `expand` 命令的一个别名。 (原命令的文档在)",
+    "description": "gexpand: 此命令为 `expand` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gexpand",
@@ -5042,10 +5042,10 @@
   {
     "id": "tldr-zh-osx-gindent-0",
     "type": "command",
-    "title": "gindent - 原命令的文档在",
+    "title": "gindent - 查看原命令的文档",
     "content": "tldr {{[-p|--platform]}} common indent",
     "group": "macOS",
-    "description": "gindent: 这是 `indent` 命令的一个别名。 (原命令的文档在)",
+    "description": "gindent: 此命令为 `indent` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gindent",
@@ -5057,10 +5057,10 @@
   {
     "id": "tldr-zh-osx-gstat-0",
     "type": "command",
-    "title": "gstat - 原命令的文档在",
+    "title": "gstat - 查看原命令的文档",
     "content": "tldr {{[-p|--platform]}} common stat",
     "group": "macOS",
-    "description": "gstat: 这是 `stat` 命令的一个别名。 (原命令的文档在)",
+    "description": "gstat: 此命令为 `stat` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gstat",
@@ -5552,10 +5552,10 @@
   {
     "id": "tldr-zh-osx-gmd5sum-0",
     "type": "command",
-    "title": "gmd5sum - 原命令的文档在",
+    "title": "gmd5sum - 查看原命令的文档",
     "content": "tldr md5sum",
     "group": "macOS",
-    "description": "gmd5sum: 这是 `md5sum` 命令的一个别名。 (原命令的文档在)",
+    "description": "gmd5sum: 此命令为 `md5sum` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gmd5sum",
@@ -5567,10 +5567,10 @@
   {
     "id": "tldr-zh-osx-gls-0",
     "type": "command",
-    "title": "gls - 原命令的文档在",
+    "title": "gls - 查看原命令的文档",
     "content": "tldr ls",
     "group": "macOS",
-    "description": "gls: 这是 `ls` 命令的一个别名。 (原命令的文档在)",
+    "description": "gls: 此命令为 `ls` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gls",
@@ -5582,10 +5582,10 @@
   {
     "id": "tldr-zh-osx-gsha512sum-0",
     "type": "command",
-    "title": "gsha512sum - 原命令的文档在",
+    "title": "gsha512sum - 查看原命令的文档",
     "content": "tldr sha512sum",
     "group": "macOS",
-    "description": "gsha512sum: 这是 `sha512sum` 命令的一个别名。 (原命令的文档在)",
+    "description": "gsha512sum: 此命令为 `sha512sum` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gsha512sum",
@@ -5597,10 +5597,10 @@
   {
     "id": "tldr-zh-osx-grmdir-0",
     "type": "command",
-    "title": "grmdir - 原命令的文档在",
+    "title": "grmdir - 查看原命令的文档",
     "content": "tldr rmdir",
     "group": "macOS",
-    "description": "grmdir: 这是 `rmdir` 命令的一个别名。 (原命令的文档在)",
+    "description": "grmdir: 此命令为 `rmdir` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "grmdir",
@@ -5792,10 +5792,10 @@
   {
     "id": "tldr-zh-osx-gsha256sum-0",
     "type": "command",
-    "title": "gsha256sum - 原命令的文档在",
+    "title": "gsha256sum - 查看原命令的文档",
     "content": "tldr sha256sum",
     "group": "macOS",
-    "description": "gsha256sum: 这是 `sha256sum` 命令的一个别名。 (原命令的文档在)",
+    "description": "gsha256sum: 此命令为 `sha256sum` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gsha256sum",
@@ -5987,10 +5987,10 @@
   {
     "id": "tldr-zh-osx-gbase32-0",
     "type": "command",
-    "title": "gbase32 - 原命令的文档在",
+    "title": "gbase32 - 查看原命令的文档",
     "content": "tldr base32",
     "group": "macOS",
-    "description": "gbase32: 这是 `base32` 命令的一个别名。 (原命令的文档在)",
+    "description": "gbase32: 此命令为 `base32` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gbase32",
@@ -6077,10 +6077,10 @@
   {
     "id": "tldr-zh-osx-gnice-0",
     "type": "command",
-    "title": "gnice - 原命令的文档在",
+    "title": "gnice - 查看原命令的文档",
     "content": "tldr nice",
     "group": "macOS",
-    "description": "gnice: 这是 `nice` 命令的一个别名。 (原命令的文档在)",
+    "description": "gnice: 此命令为 `nice` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gnice",
@@ -6092,10 +6092,10 @@
   {
     "id": "tldr-zh-osx-gpathchk-0",
     "type": "command",
-    "title": "gpathchk - 原命令的文档在",
+    "title": "gpathchk - 查看原命令的文档",
     "content": "tldr pathchk",
     "group": "macOS",
-    "description": "gpathchk: 这是 `pathchk` 命令的一个别名。 (原命令的文档在)",
+    "description": "gpathchk: 此命令为 `pathchk` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gpathchk",
@@ -6107,10 +6107,10 @@
   {
     "id": "tldr-zh-osx-god-0",
     "type": "command",
-    "title": "god - 原命令的文档在",
+    "title": "god - 查看原命令的文档",
     "content": "tldr od",
     "group": "macOS",
-    "description": "god: 这是 `od` 命令的一个别名。 (原命令的文档在)",
+    "description": "god: 此命令为 `od` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "god",
@@ -6257,10 +6257,10 @@
   {
     "id": "tldr-zh-osx-gpr-0",
     "type": "command",
-    "title": "gpr - 原命令的文档在",
+    "title": "gpr - 查看原命令的文档",
     "content": "tldr pr",
     "group": "macOS",
-    "description": "gpr: 这是 `pr` 命令的一个别名。 (原命令的文档在)",
+    "description": "gpr: 此命令为 `pr` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gpr",
@@ -6272,10 +6272,10 @@
   {
     "id": "tldr-zh-osx-gcp-0",
     "type": "command",
-    "title": "gcp - 原命令的文档在",
+    "title": "gcp - 查看原命令的文档",
     "content": "tldr cp",
     "group": "macOS",
-    "description": "gcp: 这是 `cp` 命令的一个别名。 (原命令的文档在)",
+    "description": "gcp: 此命令为 `cp` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gcp",
@@ -6287,10 +6287,10 @@
   {
     "id": "tldr-zh-osx-gifconfig-0",
     "type": "command",
-    "title": "gifconfig - 原命令的文档在",
+    "title": "gifconfig - 查看原命令的文档",
     "content": "tldr ifconfig",
     "group": "macOS",
-    "description": "gifconfig: 这是 `ifconfig` 命令的一个别名。 (原命令的文档在)",
+    "description": "gifconfig: 此命令为 `ifconfig` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gifconfig",
@@ -6302,10 +6302,10 @@
   {
     "id": "tldr-zh-osx-gstty-0",
     "type": "command",
-    "title": "gstty - 原命令的文档在",
+    "title": "gstty - 查看原命令的文档",
     "content": "tldr stty",
     "group": "macOS",
-    "description": "gstty: 这是 `stty` 命令的一个别名。 (原命令的文档在)",
+    "description": "gstty: 此命令为 `stty` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gstty",
@@ -6317,10 +6317,10 @@
   {
     "id": "tldr-zh-osx-gxargs-0",
     "type": "command",
-    "title": "gxargs - 原命令的文档在",
+    "title": "gxargs - 查看原命令的文档",
     "content": "tldr xargs",
     "group": "macOS",
-    "description": "gxargs: 这是 `xargs` 命令的一个别名。 (原命令的文档在)",
+    "description": "gxargs: 此命令为 `xargs` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gxargs",
@@ -6332,10 +6332,10 @@
   {
     "id": "tldr-zh-osx-ghostid-0",
     "type": "command",
-    "title": "ghostid - 原命令的文档在",
+    "title": "ghostid - 查看原命令的文档",
     "content": "tldr hostid",
     "group": "macOS",
-    "description": "ghostid: 这是 `hostid` 命令的一个别名。 (原命令的文档在)",
+    "description": "ghostid: 此命令为 `hostid` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "ghostid",
@@ -6347,10 +6347,10 @@
   {
     "id": "tldr-zh-osx-gb2sum-0",
     "type": "command",
-    "title": "gb2sum - 原命令的文档在",
+    "title": "gb2sum - 查看原命令的文档",
     "content": "tldr b2sum",
     "group": "macOS",
-    "description": "gb2sum: 这是 `b2sum` 命令的一个别名。 (原命令的文档在)",
+    "description": "gb2sum: 此命令为 `b2sum` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gb2sum",
@@ -6362,10 +6362,10 @@
   {
     "id": "tldr-zh-osx-gpinky-0",
     "type": "command",
-    "title": "gpinky - 原命令的文档在",
+    "title": "gpinky - 查看原命令的文档",
     "content": "tldr pinky",
     "group": "macOS",
-    "description": "gpinky: 这是 `pinky` 命令的一个别名。 (原命令的文档在)",
+    "description": "gpinky: 此命令为 `pinky` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gpinky",
@@ -6392,10 +6392,10 @@
   {
     "id": "tldr-zh-osx-dd-1",
     "type": "command",
-    "title": "dd - 将驱动器克隆到具有 4MB 块的另一个驱动器并忽略错误",
+    "title": "dd - 将驱动器克隆到具有 4 MB 块的另一个驱动器并忽略错误",
     "content": "dd bs=4m conv=noerror if={{/dev/源设备}} of={{/dev/目标设备}}",
     "group": "macOS",
-    "description": "dd: 转换并复制文件。 (将驱动器克隆到具有 4MB 块的另一个驱动器并忽略错误)",
+    "description": "dd: 转换并复制文件。 (将驱动器克隆到具有 4 MB 块的另一个驱动器并忽略错误)",
     "tags": [
       "osx",
       "dd",
@@ -6482,10 +6482,10 @@
   {
     "id": "tldr-zh-osx-guname-0",
     "type": "command",
-    "title": "guname - 原命令的文档在",
+    "title": "guname - 查看原命令的文档",
     "content": "tldr {{[-p|--platform]}} common uname",
     "group": "macOS",
-    "description": "guname: 这是 `uname` 命令的一个别名。 (原命令的文档在)",
+    "description": "guname: 此命令为 `uname` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "guname",
@@ -6677,10 +6677,10 @@
   {
     "id": "tldr-zh-osx-gtime-0",
     "type": "command",
-    "title": "gtime - 原命令的文档在",
+    "title": "gtime - 查看原命令的文档",
     "content": "tldr time",
     "group": "macOS",
-    "description": "gtime: 这是 `time` 命令的一个别名。 (原命令的文档在)",
+    "description": "gtime: 此命令为 `time` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gtime",
@@ -6737,10 +6737,10 @@
   {
     "id": "tldr-zh-osx-gcut-0",
     "type": "command",
-    "title": "gcut - 原命令的文档在",
+    "title": "gcut - 查看原命令的文档",
     "content": "tldr {{[-p|--platform]}} common cut",
     "group": "macOS",
-    "description": "gcut: 这是 `cut` 命令的一个别名。 (原命令的文档在)",
+    "description": "gcut: 此命令为 `cut` 的别名。 (查看原命令的文档)",
     "tags": [
       "osx",
       "gcut",
@@ -6813,7 +6813,7 @@
     "id": "tldr-zh-osx-shutdown-4",
     "type": "command",
     "title": "shutdown - 在下午 1:00（使用 24 小时时钟）关机",
-    "content": "shutdown -h {{1300}}",
+    "content": "shutdown -h 1300",
     "group": "macOS",
     "description": "shutdown: 关闭并重新启动系统。 (在下午 1:00（使用 24 小时时钟）关机)",
     "tags": [
@@ -6828,7 +6828,7 @@
     "id": "tldr-zh-osx-shutdown-5",
     "type": "command",
     "title": "shutdown - 在 2042 年 5 月 10 日上午 11:30 重新启动（输入格式：年年月月日日时时分分）",
-    "content": "shutdown -r {{4205101130}}",
+    "content": "shutdown -r 4205101130",
     "group": "macOS",
     "description": "shutdown: 关闭并重新启动系统。 (在 2042 年 5 月 10 日上午 11:30 重新启动（输入格式：年年月月日日时时分分）)",
     "tags": [

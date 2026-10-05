@@ -167,10 +167,10 @@
   {
     "id": "tldr-en-sunos-svcadm-3",
     "type": "command",
-    "title": "svcadm - Command service to re-read configuration files",
+    "title": "svcadm - Make a service re-read its configuration files",
     "content": "svcadm refresh {{service_name}}",
     "group": "SunOS",
-    "description": "svcadm: Manipulate service instances. (Command service to re-read configuration files)",
+    "description": "svcadm: Manipulate service instances. (Make a service re-read its configuration files)",
     "tags": [
       "sunos",
       "svcadm",

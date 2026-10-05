@@ -2015,7 +2015,7 @@
     "title": "bpftool - 列出已加载的 `eBPF` 程序信息",
     "content": "bpftool prog list",
     "group": "Linux 运维",
-    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射。 某些子命令（如 `prog`）有各自的用法文档。 (列出已加载的 `eBPF` 程序信息)",
+    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射 (列出已加载的 `eBPF` 程序信息)",
     "tags": [
       "linux",
       "bpftool",
@@ -2030,7 +2030,7 @@
     "title": "bpftool - 列出内核网络子系统中的 `eBPF` 程序附加点",
     "content": "bpftool net list",
     "group": "Linux 运维",
-    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射。 某些子命令（如 `prog`）有各自的用法文档。 (列出内核网络子系统中的 `eBPF` 程序附加点)",
+    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射 (列出内核网络子系统中的 `eBPF` 程序附加点)",
     "tags": [
       "linux",
       "bpftool",
@@ -2045,7 +2045,7 @@
     "title": "bpftool - 列出所有活动链接",
     "content": "bpftool link list",
     "group": "Linux 运维",
-    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射。 某些子命令（如 `prog`）有各自的用法文档。 (列出所有活动链接)",
+    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射 (列出所有活动链接)",
     "tags": [
       "linux",
       "bpftool",
@@ -2060,7 +2060,7 @@
     "title": "bpftool - 列出系统中所有的 `raw_tracepoint`、`tracepoint`、`kprobe` 附加点",
     "content": "bpftool perf list",
     "group": "Linux 运维",
-    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射。 某些子命令（如 `prog`）有各自的用法文档。 (列出系统中所有的 `raw_tracepoint`、`tracepoint`、`kprobe` 附加点)",
+    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射 (列出系统中所有的 `raw_tracepoint`、`tracepoint`、`kprobe` 附加点)",
     "tags": [
       "linux",
       "bpftool",
@@ -2075,7 +2075,7 @@
     "title": "bpftool - 列出 BPF 类型格式（BTF）数据",
     "content": "bpftool btf list",
     "group": "Linux 运维",
-    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射。 某些子命令（如 `prog`）有各自的用法文档。 (列出 BPF 类型格式（BTF）数据)",
+    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射 (列出 BPF 类型格式（BTF）数据)",
     "tags": [
       "linux",
       "bpftool",
@@ -2090,7 +2090,7 @@
     "title": "bpftool - 列出已加载映射的信息",
     "content": "bpftool map list",
     "group": "Linux 运维",
-    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射。 某些子命令（如 `prog`）有各自的用法文档。 (列出已加载映射的信息)",
+    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射 (列出已加载映射的信息)",
     "tags": [
       "linux",
       "bpftool",
@@ -2105,7 +2105,7 @@
     "title": "bpftool - 探测网络设备 \"eth0\" 支持的 eBPF 功能",
     "content": "bpftool feature probe dev {{eth0}}",
     "group": "Linux 运维",
-    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射。 某些子命令（如 `prog`）有各自的用法文档。 (探测网络设备 \"eth0\" 支持的 eBPF 功能)",
+    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射 (探测网络设备 \"eth0\" 支持的 eBPF 功能)",
     "tags": [
       "linux",
       "bpftool",
@@ -2120,7 +2120,7 @@
     "title": "bpftool - 从文件以批处理模式运行命令",
     "content": "bpftool batch file {{文件}}",
     "group": "Linux 运维",
-    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射。 某些子命令（如 `prog`）有各自的用法文档。 (从文件以批处理模式运行命令)",
+    "description": "bpftool: 以简单的方式检查和操作 eBPF 程序和映射 (从文件以批处理模式运行命令)",
     "tags": [
       "linux",
       "bpftool",
@@ -4295,7 +4295,7 @@
     "title": "grub-mkconfig - 模拟运行并打印配置到标准输出",
     "content": "sudo grub-mkconfig",
     "group": "Linux 运维",
-    "description": "grub-mkconfig: 生成GRUB配置文件。 (模拟运行并打印配置到标准输出)",
+    "description": "grub-mkconfig: 生成 GRUB 配置文件。 (模拟运行并打印配置到标准输出)",
     "tags": [
       "linux",
       "grub-mkconfig",
@@ -4310,7 +4310,7 @@
     "title": "grub-mkconfig - 生成配置文件",
     "content": "sudo grub-mkconfig {{[-o|--output]}} {{/boot/grub/grub.cfg}}",
     "group": "Linux 运维",
-    "description": "grub-mkconfig: 生成GRUB配置文件。 (生成配置文件)",
+    "description": "grub-mkconfig: 生成 GRUB 配置文件。 (生成配置文件)",
     "tags": [
       "linux",
       "grub-mkconfig",
@@ -4325,7 +4325,7 @@
     "title": "grub-mkconfig - 打印帮助页面",
     "content": "grub-mkconfig {{[-h|--help]}}",
     "group": "Linux 运维",
-    "description": "grub-mkconfig: 生成GRUB配置文件。 (打印帮助页面)",
+    "description": "grub-mkconfig: 生成 GRUB 配置文件。 (打印帮助页面)",
     "tags": [
       "linux",
       "grub-mkconfig",
@@ -6257,10 +6257,10 @@
   {
     "id": "tldr-zh-linux-cal-3",
     "type": "command",
-    "title": "cal - 显示特定年份的日历（4位数字）",
+    "title": "cal - 显示特定年份的日历（4 位数字）",
     "content": "cal {{年份}}",
     "group": "Linux 运维",
-    "description": "cal: 打印日历信息，高亮显示当前日期。 (显示特定年份的日历（4位数字）)",
+    "description": "cal: 打印日历信息，高亮显示当前日期。 (显示特定年份的日历（4 位数字）)",
     "tags": [
       "linux",
       "cal",
@@ -8207,10 +8207,10 @@
   {
     "id": "tldr-zh-linux-iostat-0",
     "type": "command",
-    "title": "iostat - 显示系统启动以来的CPU和磁盘统计报告",
+    "title": "iostat - 显示系统启动以来的 CPU 和磁盘统计报告",
     "content": "iostat",
     "group": "Linux 运维",
-    "description": "iostat: 报告设备和分区的统计信息。 (显示系统启动以来的CPU和磁盘统计报告)",
+    "description": "iostat: 报告设备和分区的统计信息。 (显示系统启动以来的 CPU 和磁盘统计报告)",
     "tags": [
       "linux",
       "iostat",
@@ -8222,10 +8222,10 @@
   {
     "id": "tldr-zh-linux-iostat-1",
     "type": "command",
-    "title": "iostat - 以MB为单位显示CPU和磁盘统计报告",
+    "title": "iostat - 以 MB 为单位显示 CPU 和磁盘统计报告",
     "content": "iostat -m",
     "group": "Linux 运维",
-    "description": "iostat: 报告设备和分区的统计信息。 (以MB为单位显示CPU和磁盘统计报告)",
+    "description": "iostat: 报告设备和分区的统计信息。 (以 MB 为单位显示 CPU 和磁盘统计报告)",
     "tags": [
       "linux",
       "iostat",
@@ -8237,10 +8237,10 @@
   {
     "id": "tldr-zh-linux-iostat-2",
     "type": "command",
-    "title": "iostat - 显示CPU统计信息",
+    "title": "iostat - 显示 CPU 统计信息",
     "content": "iostat {{[-c|--compact]}}",
     "group": "Linux 运维",
-    "description": "iostat: 报告设备和分区的统计信息。 (显示CPU统计信息)",
+    "description": "iostat: 报告设备和分区的统计信息。 (显示 CPU 统计信息)",
     "tags": [
       "linux",
       "iostat",
@@ -8252,10 +8252,10 @@
   {
     "id": "tldr-zh-linux-iostat-3",
     "type": "command",
-    "title": "iostat - 显示包含磁盘名称（含LVM）的磁盘统计信息",
+    "title": "iostat - 显示包含磁盘名称（含 LVM）的磁盘统计信息",
     "content": "iostat -N",
     "group": "Linux 运维",
-    "description": "iostat: 报告设备和分区的统计信息。 (显示包含磁盘名称（含LVM）的磁盘统计信息)",
+    "description": "iostat: 报告设备和分区的统计信息。 (显示包含磁盘名称（含 LVM）的磁盘统计信息)",
     "tags": [
       "linux",
       "iostat",
@@ -8282,10 +8282,10 @@
   {
     "id": "tldr-zh-linux-iostat-5",
     "type": "command",
-    "title": "iostat - 每2秒显示一次CPU和磁盘的增量统计报告",
+    "title": "iostat - 每 2 秒显示一次 CPU 和磁盘的增量统计报告",
     "content": "iostat {{2}}",
     "group": "Linux 运维",
-    "description": "iostat: 报告设备和分区的统计信息。 (每2秒显示一次CPU和磁盘的增量统计报告)",
+    "description": "iostat: 报告设备和分区的统计信息。 (每 2 秒显示一次 CPU 和磁盘的增量统计报告)",
     "tags": [
       "linux",
       "iostat",
@@ -9039,81 +9039,6 @@
     "tags": [
       "linux",
       "systemctl-condstop",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-zh-linux-wg-0",
-    "type": "command",
-    "title": "wg - 检查当前激活接口的状态",
-    "content": "sudo wg",
-    "group": "Linux 运维",
-    "description": "wg: 管理 WireGuard 接口配置。 (检查当前激活接口的状态)",
-    "tags": [
-      "linux",
-      "wg",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-zh-linux-wg-1",
-    "type": "command",
-    "title": "wg - 生成新的私钥",
-    "content": "wg genkey",
-    "group": "Linux 运维",
-    "description": "wg: 管理 WireGuard 接口配置。 (生成新的私钥)",
-    "tags": [
-      "linux",
-      "wg",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-zh-linux-wg-2",
-    "type": "command",
-    "title": "wg - 从私钥生成公钥",
-    "content": "wg < {{路径/到/私钥}} pubkey > {{路径/到/公钥}}",
-    "group": "Linux 运维",
-    "description": "wg: 管理 WireGuard 接口配置。 (从私钥生成公钥)",
-    "tags": [
-      "linux",
-      "wg",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-zh-linux-wg-3",
-    "type": "command",
-    "title": "wg - 同时生成公钥和私钥",
-    "content": "wg genkey | tee {{路径/到/私钥}} | wg pubkey > {{路径/到/公钥}}",
-    "group": "Linux 运维",
-    "description": "wg: 管理 WireGuard 接口配置。 (同时生成公钥和私钥)",
-    "tags": [
-      "linux",
-      "wg",
-      "tldr",
-      "zh"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-zh-linux-wg-4",
-    "type": "command",
-    "title": "wg - 展示 WireGuard 接口的当前配置",
-    "content": "sudo wg showconf {{wg0}}",
-    "group": "Linux 运维",
-    "description": "wg: 管理 WireGuard 接口配置。 (展示 WireGuard 接口的当前配置)",
-    "tags": [
-      "linux",
-      "wg",
       "tldr",
       "zh"
     ],
@@ -10025,7 +9950,7 @@
     "title": "bootctl - 显示系统固件和启动加载器的信息",
     "content": "bootctl status",
     "group": "Linux 运维",
-    "description": "bootctl: 控制EFI固件启动设置并管理启动加载器。 另请参阅：`kernel-install`。 (显示系统固件和启动加载器的信息)",
+    "description": "bootctl: 控制 EFI 固件启动设置并管理启动加载器。 另请参阅：`kernel-install`。 (显示系统固件和启动加载器的信息)",
     "tags": [
       "linux",
       "bootctl",
@@ -10040,7 +9965,7 @@
     "title": "bootctl - 显示所有可用的启动加载器条目",
     "content": "bootctl list",
     "group": "Linux 运维",
-    "description": "bootctl: 控制EFI固件启动设置并管理启动加载器。 另请参阅：`kernel-install`。 (显示所有可用的启动加载器条目)",
+    "description": "bootctl: 控制 EFI 固件启动设置并管理启动加载器。 另请参阅：`kernel-install`。 (显示所有可用的启动加载器条目)",
     "tags": [
       "linux",
       "bootctl",
@@ -10055,7 +9980,7 @@
     "title": "bootctl - 将系统固件设置为在下次启动时启动",
     "content": "sudo bootctl reboot-to-firmware true",
     "group": "Linux 运维",
-    "description": "bootctl: 控制EFI固件启动设置并管理启动加载器。 另请参阅：`kernel-install`。 (将系统固件设置为在下次启动时启动)",
+    "description": "bootctl: 控制 EFI 固件启动设置并管理启动加载器。 另请参阅：`kernel-install`。 (将系统固件设置为在下次启动时启动)",
     "tags": [
       "linux",
       "bootctl",
@@ -10067,10 +9992,10 @@
   {
     "id": "tldr-zh-linux-bootctl-3",
     "type": "command",
-    "title": "bootctl - 指定EFI系统分区（默认为`/efi/`，`/boot/`或`/boot/efi`）",
+    "title": "bootctl - 指定 EFI 系统分区（默认为`/efi/`，`/boot/`或`/boot/efi`）",
     "content": "bootctl --esp-path={{/path/to/efi_system_partition/}}",
     "group": "Linux 运维",
-    "description": "bootctl: 控制EFI固件启动设置并管理启动加载器。 另请参阅：`kernel-install`。 (指定EFI系统分区（默认为`/efi/`，`/boot/`或`/boot/efi`）)",
+    "description": "bootctl: 控制 EFI 固件启动设置并管理启动加载器。 另请参阅：`kernel-install`。 (指定 EFI 系统分区（默认为`/efi/`，`/boot/`或`/boot/efi`）)",
     "tags": [
       "linux",
       "bootctl",
@@ -10082,10 +10007,10 @@
   {
     "id": "tldr-zh-linux-bootctl-4",
     "type": "command",
-    "title": "bootctl - 将`systemd-boot`安装到EFI系统分区",
+    "title": "bootctl - 将`systemd-boot`安装到 EFI 系统分区",
     "content": "sudo bootctl install",
     "group": "Linux 运维",
-    "description": "bootctl: 控制EFI固件启动设置并管理启动加载器。 另请参阅：`kernel-install`。 (将`systemd-boot`安装到EFI系统分区)",
+    "description": "bootctl: 控制 EFI 固件启动设置并管理启动加载器。 另请参阅：`kernel-install`。 (将`systemd-boot`安装到 EFI 系统分区)",
     "tags": [
       "linux",
       "bootctl",
@@ -10097,10 +10022,10 @@
   {
     "id": "tldr-zh-linux-bootctl-5",
     "type": "command",
-    "title": "bootctl - 从EFI系统分区移除所有已安装的`systemd-boot`版本",
+    "title": "bootctl - 从 EFI 系统分区移除所有已安装的`systemd-boot`版本",
     "content": "sudo bootctl remove",
     "group": "Linux 运维",
-    "description": "bootctl: 控制EFI固件启动设置并管理启动加载器。 另请参阅：`kernel-install`。 (从EFI系统分区移除所有已安装的`systemd-boot`版本)",
+    "description": "bootctl: 控制 EFI 固件启动设置并管理启动加载器。 另请参阅：`kernel-install`。 (从 EFI 系统分区移除所有已安装的`systemd-boot`版本)",
     "tags": [
       "linux",
       "bootctl",
@@ -11567,10 +11492,10 @@
   {
     "id": "tldr-zh-linux-mbw-0",
     "type": "command",
-    "title": "mbw - 以 512MB 大小运行 3 次内存带宽测试",
+    "title": "mbw - 以 512 MB 大小运行 3 次内存带宽测试",
     "content": "mbw -n 3 512",
     "group": "Linux 运维",
-    "description": "mbw: 内存带宽性能测试工具。 (以 512MB 大小运行 3 次内存带宽测试)",
+    "description": "mbw: 内存带宽性能测试工具。 (以 512 MB 大小运行 3 次内存带宽测试)",
     "tags": [
       "linux",
       "mbw",
@@ -11582,10 +11507,10 @@
   {
     "id": "tldr-zh-linux-mbw-1",
     "type": "command",
-    "title": "mbw - 以 512MB 大小运行 3 次内存带宽测试，仅输出统计信息，不显示平均值",
+    "title": "mbw - 以 512 MB 大小运行 3 次内存带宽测试，仅输出统计信息，不显示平均值",
     "content": "mbw -n 3 -q -a 512",
     "group": "Linux 运维",
-    "description": "mbw: 内存带宽性能测试工具。 (以 512MB 大小运行 3 次内存带宽测试，仅输出统计信息，不显示平均值)",
+    "description": "mbw: 内存带宽性能测试工具。 (以 512 MB 大小运行 3 次内存带宽测试，仅输出统计信息，不显示平均值)",
     "tags": [
       "linux",
       "mbw",
@@ -11597,10 +11522,10 @@
   {
     "id": "tldr-zh-linux-mbw-2",
     "type": "command",
-    "title": "mbw - 以 512MB 大小运行 3 次内存复制测试，仅输出统计信息",
+    "title": "mbw - 以 512 MB 大小运行 3 次内存复制测试，仅输出统计信息",
     "content": "mbw -n 3 -q -t{{0}} 512",
     "group": "Linux 运维",
-    "description": "mbw: 内存带宽性能测试工具。 (以 512MB 大小运行 3 次内存复制测试，仅输出统计信息)",
+    "description": "mbw: 内存带宽性能测试工具。 (以 512 MB 大小运行 3 次内存复制测试，仅输出统计信息)",
     "tags": [
       "linux",
       "mbw",
@@ -11612,10 +11537,10 @@
   {
     "id": "tldr-zh-linux-mbw-3",
     "type": "command",
-    "title": "mbw - 用 1024字节 的块运行10次内存块复制测试，分配 8192MB 内存",
+    "title": "mbw - 用 1024 字节 的块运行 10 次内存块复制测试，分配 8192 MB 内存",
     "content": "mbw -n 10 -q -t{{2}} -b 1024 8192",
     "group": "Linux 运维",
-    "description": "mbw: 内存带宽性能测试工具。 (用 1024字节 的块运行10次内存块复制测试，分配 8192MB 内存)",
+    "description": "mbw: 内存带宽性能测试工具。 (用 1024 字节 的块运行 10 次内存块复制测试，分配 8192 MB 内存)",
     "tags": [
       "linux",
       "mbw",
@@ -11627,10 +11552,10 @@
   {
     "id": "tldr-zh-linux-mbw-4",
     "type": "command",
-    "title": "mbw - 持续 2048MB 大小运行内存字符串复制测试，仅输出统计信息",
+    "title": "mbw - 持续 2048 MB 大小运行内存字符串复制测试，仅输出统计信息",
     "content": "mbw -n 0 -t{{1}} -q 2048",
     "group": "Linux 运维",
-    "description": "mbw: 内存带宽性能测试工具。 (持续 2048MB 大小运行内存字符串复制测试，仅输出统计信息)",
+    "description": "mbw: 内存带宽性能测试工具。 (持续 2048 MB 大小运行内存字符串复制测试，仅输出统计信息)",
     "tags": [
       "linux",
       "mbw",
