@@ -29795,7 +29795,7 @@
     "title": "view - Open a file",
     "content": "view {{path/to/file}}",
     "group": "Common Tools",
-    "description": "view: A read-only version of `vim`. This is equivalent to `vim -R`. (Open a file)",
+    "description": "view: A read-only version of `vim`. This command is an alias of `vim -R`. (Open a file)",
     "tags": [
       "common",
       "view",
@@ -68325,6 +68325,81 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-tte-0",
+    "type": "command",
+    "title": "tte - Apply a random effect to a command's output",
+    "content": "{{command}} | tte {{[-R|--random-effect]}}",
+    "group": "Common Tools",
+    "description": "tte: A terminal visual effects engine, application, and library. (Apply a random effect to a command's output)",
+    "tags": [
+      "common",
+      "tte",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-tte-1",
+    "type": "command",
+    "title": "tte - Apply a specific effect to a command's output",
+    "content": "{{ls -la}} | tte {{matrix}}",
+    "group": "Common Tools",
+    "description": "tte: A terminal visual effects engine, application, and library. (Apply a specific effect to a command's output)",
+    "tags": [
+      "common",
+      "tte",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-tte-2",
+    "type": "command",
+    "title": "tte - View the options for a specific effect",
+    "content": "tte {{decrypt}} {{[-h|--help]}}",
+    "group": "Common Tools",
+    "description": "tte: A terminal visual effects engine, application, and library. (View the options for a specific effect)",
+    "tags": [
+      "common",
+      "tte",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-tte-3",
+    "type": "command",
+    "title": "tte - Apply an effect to text from a file",
+    "content": "tte {{[-i|--input-file]}} {{path/to/file}} {{beams}}",
+    "group": "Common Tools",
+    "description": "tte: A terminal visual effects engine, application, and library. (Apply an effect to text from a file)",
+    "tags": [
+      "common",
+      "tte",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-tte-4",
+    "type": "command",
+    "title": "tte - Print shell completion scripts",
+    "content": "tte --print-completion {{bash}}",
+    "group": "Common Tools",
+    "description": "tte: A terminal visual effects engine, application, and library. (Print shell completion scripts)",
+    "tags": [
+      "common",
+      "tte",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-lzmore-0",
     "type": "command",
     "title": "lzmore - View documentation for the original command",
@@ -81150,6 +81225,96 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-terraform-import-0",
+    "type": "command",
+    "title": "terraform-import - Import an existing resource into Terraform state",
+    "content": "terraform import {{resource_type.resource_name}} {{resource_id}}",
+    "group": "Common Tools",
+    "description": "terraform-import: Import existing infrastructure into Terraform state. (Import an existing resource into Terraform state)",
+    "tags": [
+      "common",
+      "terraform-import",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-terraform-import-1",
+    "type": "command",
+    "title": "terraform-import - Import a resource into a module",
+    "content": "terraform import module.{{module_name}}.{{resource_type.resource_name}} {{resource_id}}",
+    "group": "Common Tools",
+    "description": "terraform-import: Import existing infrastructure into Terraform state. (Import a resource into a module)",
+    "tags": [
+      "common",
+      "terraform-import",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-terraform-import-2",
+    "type": "command",
+    "title": "terraform-import - Import without interactive input prompts (useful for automation)",
+    "content": "terraform import -input=false {{resource_type.resource_name}} {{resource_id}}",
+    "group": "Common Tools",
+    "description": "terraform-import: Import existing infrastructure into Terraform state. (Import without interactive input prompts (useful for automation))",
+    "tags": [
+      "common",
+      "terraform-import",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-terraform-import-3",
+    "type": "command",
+    "title": "terraform-import - Import with variable values",
+    "content": "terraform import -var '{{name}}={{value}}' {{resource_type.resource_name}} {{resource_id}}",
+    "group": "Common Tools",
+    "description": "terraform-import: Import existing infrastructure into Terraform state. (Import with variable values)",
+    "tags": [
+      "common",
+      "terraform-import",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-terraform-import-4",
+    "type": "command",
+    "title": "terraform-import - Import with a variable file",
+    "content": "terraform import -var-file={{path/to/variables.tfvars}} {{resource_type.resource_name}} {{resource_id}}",
+    "group": "Common Tools",
+    "description": "terraform-import: Import existing infrastructure into Terraform state. (Import with a variable file)",
+    "tags": [
+      "common",
+      "terraform-import",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-terraform-import-5",
+    "type": "command",
+    "title": "terraform-import - Import without state locking (use with caution)",
+    "content": "terraform import -lock=false {{resource_type.resource_name}} {{resource_id}}",
+    "group": "Common Tools",
+    "description": "terraform-import: Import existing infrastructure into Terraform state. (Import without state locking (use with caution))",
+    "tags": [
+      "common",
+      "terraform-import",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-carbonyl-0",
     "type": "command",
     "title": "carbonyl - Open an `about:blank` page",
@@ -81204,6 +81369,81 @@
     "tags": [
       "common",
       "carbonyl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-flux-uninstall-0",
+    "type": "command",
+    "title": "flux-uninstall - Uninstall Flux components, custom resources, and namespace",
+    "content": "flux uninstall",
+    "group": "Common Tools",
+    "description": "flux-uninstall: Uninstall Flux and its custom resource definitions. (Uninstall Flux components, custom resources, and namespace)",
+    "tags": [
+      "common",
+      "flux-uninstall",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-flux-uninstall-1",
+    "type": "command",
+    "title": "flux-uninstall - Uninstall Flux without asking for confirmation",
+    "content": "flux uninstall {{[-s|--silent]}}",
+    "group": "Common Tools",
+    "description": "flux-uninstall: Uninstall Flux and its custom resource definitions. (Uninstall Flux without asking for confirmation)",
+    "tags": [
+      "common",
+      "flux-uninstall",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-flux-uninstall-2",
+    "type": "command",
+    "title": "flux-uninstall - Uninstall Flux from a specific namespace",
+    "content": "flux uninstall {{[-n|--namespace]}} {{namespace}}",
+    "group": "Common Tools",
+    "description": "flux-uninstall: Uninstall Flux and its custom resource definitions. (Uninstall Flux from a specific namespace)",
+    "tags": [
+      "common",
+      "flux-uninstall",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-flux-uninstall-3",
+    "type": "command",
+    "title": "flux-uninstall - Uninstall Flux but keep the namespace",
+    "content": "flux uninstall --keep-namespace",
+    "group": "Common Tools",
+    "description": "flux-uninstall: Uninstall Flux and its custom resource definitions. (Uninstall Flux but keep the namespace)",
+    "tags": [
+      "common",
+      "flux-uninstall",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-flux-uninstall-4",
+    "type": "command",
+    "title": "flux-uninstall - Simulate uninstalling Flux",
+    "content": "flux uninstall --dry-run",
+    "group": "Common Tools",
+    "description": "flux-uninstall: Uninstall Flux and its custom resource definitions. (Simulate uninstalling Flux)",
+    "tags": [
+      "common",
+      "flux-uninstall",
       "tldr",
       "en"
     ],
@@ -87050,7 +87290,7 @@
     "title": "ex - Open a file",
     "content": "ex {{path/to/file}}",
     "group": "Common Tools",
-    "description": "ex: Text editor. (Open a file)",
+    "description": "ex: Text editor. This command is an alias of `vim -e`. (Open a file)",
     "tags": [
       "common",
       "ex",
@@ -87065,7 +87305,7 @@
     "title": "ex - Save and Quit",
     "content": "wq<Enter>",
     "group": "Common Tools",
-    "description": "ex: Text editor. (Save and Quit)",
+    "description": "ex: Text editor. This command is an alias of `vim -e`. (Save and Quit)",
     "tags": [
       "common",
       "ex",
@@ -87080,7 +87320,7 @@
     "title": "ex - Undo the last operation",
     "content": "undo<Enter>",
     "group": "Common Tools",
-    "description": "ex: Text editor. (Undo the last operation)",
+    "description": "ex: Text editor. This command is an alias of `vim -e`. (Undo the last operation)",
     "tags": [
       "common",
       "ex",
@@ -87095,7 +87335,7 @@
     "title": "ex - Search for a pattern in the file",
     "content": "/{{search_pattern}}<Enter>",
     "group": "Common Tools",
-    "description": "ex: Text editor. (Search for a pattern in the file)",
+    "description": "ex: Text editor. This command is an alias of `vim -e`. (Search for a pattern in the file)",
     "tags": [
       "common",
       "ex",
@@ -87110,7 +87350,7 @@
     "title": "ex - Perform a `regex` substitution in the whole file",
     "content": "%s/{{regex}}/{{replacement}}/g<Enter>",
     "group": "Common Tools",
-    "description": "ex: Text editor. (Perform a `regex` substitution in the whole file)",
+    "description": "ex: Text editor. This command is an alias of `vim -e`. (Perform a `regex` substitution in the whole file)",
     "tags": [
       "common",
       "ex",
@@ -87125,7 +87365,7 @@
     "title": "ex - Insert text",
     "content": "i<Enter>{{text}}<Ctrl c>",
     "group": "Common Tools",
-    "description": "ex: Text editor. (Insert text)",
+    "description": "ex: Text editor. This command is an alias of `vim -e`. (Insert text)",
     "tags": [
       "common",
       "ex",
@@ -87140,7 +87380,7 @@
     "title": "ex - Switch to Vim",
     "content": "visual<Enter>",
     "group": "Common Tools",
-    "description": "ex: Text editor. (Switch to Vim)",
+    "description": "ex: Text editor. This command is an alias of `vim -e`. (Switch to Vim)",
     "tags": [
       "common",
       "ex",
@@ -109119,6 +109359,171 @@
     "tags": [
       "common",
       "flarectl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-pass-cli-0",
+    "type": "command",
+    "title": "pass-cli - Log in using the default web flow",
+    "content": "pass-cli login",
+    "group": "Common Tools",
+    "description": "pass-cli: Access and manage Proton Pass vaults and items. (Log in using the default web flow)",
+    "tags": [
+      "common",
+      "pass-cli",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-pass-cli-1",
+    "type": "command",
+    "title": "pass-cli - Display information about the current session",
+    "content": "pass-cli info",
+    "group": "Common Tools",
+    "description": "pass-cli: Access and manage Proton Pass vaults and items. (Display information about the current session)",
+    "tags": [
+      "common",
+      "pass-cli",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-pass-cli-2",
+    "type": "command",
+    "title": "pass-cli - List vaults",
+    "content": "pass-cli vault list",
+    "group": "Common Tools",
+    "description": "pass-cli: Access and manage Proton Pass vaults and items. (List vaults)",
+    "tags": [
+      "common",
+      "pass-cli",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-pass-cli-3",
+    "type": "command",
+    "title": "pass-cli - List items in a specific vault",
+    "content": "pass-cli item list \"{{vault_name}}\"",
+    "group": "Common Tools",
+    "description": "pass-cli: Access and manage Proton Pass vaults and items. (List items in a specific vault)",
+    "tags": [
+      "common",
+      "pass-cli",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-pass-cli-4",
+    "type": "command",
+    "title": "pass-cli - View a specific item by title in a vault",
+    "content": "pass-cli item view --vault-name \"{{vault_name}}\" --item-title \"{{item_title}}\"",
+    "group": "Common Tools",
+    "description": "pass-cli: Access and manage Proton Pass vaults and items. (View a specific item by title in a vault)",
+    "tags": [
+      "common",
+      "pass-cli",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-pass-cli-5",
+    "type": "command",
+    "title": "pass-cli - Log out of the current session",
+    "content": "pass-cli logout",
+    "group": "Common Tools",
+    "description": "pass-cli: Access and manage Proton Pass vaults and items. (Log out of the current session)",
+    "tags": [
+      "common",
+      "pass-cli",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-pass-cli-6",
+    "type": "command",
+    "title": "pass-cli - Display help",
+    "content": "pass-cli --help",
+    "group": "Common Tools",
+    "description": "pass-cli: Access and manage Proton Pass vaults and items. (Display help)",
+    "tags": [
+      "common",
+      "pass-cli",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-pass-cli-7",
+    "type": "command",
+    "title": "pass-cli - Display version",
+    "content": "pass-cli --version",
+    "group": "Common Tools",
+    "description": "pass-cli: Access and manage Proton Pass vaults and items. (Display version)",
+    "tags": [
+      "common",
+      "pass-cli",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-terraform-get-0",
+    "type": "command",
+    "title": "terraform-get - Download modules referenced in the configuration",
+    "content": "terraform get",
+    "group": "Common Tools",
+    "description": "terraform-get: Download and update modules referenced in the root module. (Download modules referenced in the configuration)",
+    "tags": [
+      "common",
+      "terraform-get",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-terraform-get-1",
+    "type": "command",
+    "title": "terraform-get - Update already-downloaded modules to the latest allowed versions",
+    "content": "terraform get -update",
+    "group": "Common Tools",
+    "description": "terraform-get: Download and update modules referenced in the root module. (Update already-downloaded modules to the latest allowed versions)",
+    "tags": [
+      "common",
+      "terraform-get",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-terraform-get-2",
+    "type": "command",
+    "title": "terraform-get - Disable color output",
+    "content": "terraform get -no-color",
+    "group": "Common Tools",
+    "description": "terraform-get: Download and update modules referenced in the root module. (Disable color output)",
+    "tags": [
+      "common",
+      "terraform-get",
       "tldr",
       "en"
     ],
@@ -143445,6 +143850,81 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-flux-suspend-0",
+    "type": "command",
+    "title": "flux-suspend - Suspend reconciliation for a Kustomization",
+    "content": "flux suspend kustomization {{kustomization_name}}",
+    "group": "Common Tools",
+    "description": "flux-suspend: Suspend Flux resources. (Suspend reconciliation for a Kustomization)",
+    "tags": [
+      "common",
+      "flux-suspend",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-flux-suspend-1",
+    "type": "command",
+    "title": "flux-suspend - Suspend reconciliation for all Kustomizations in a namespace",
+    "content": "flux suspend kustomization --all",
+    "group": "Common Tools",
+    "description": "flux-suspend: Suspend Flux resources. (Suspend reconciliation for all Kustomizations in a namespace)",
+    "tags": [
+      "common",
+      "flux-suspend",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-flux-suspend-2",
+    "type": "command",
+    "title": "flux-suspend - Suspend reconciliation for a HelmRelease",
+    "content": "flux suspend helmrelease {{release_name}}",
+    "group": "Common Tools",
+    "description": "flux-suspend: Suspend Flux resources. (Suspend reconciliation for a HelmRelease)",
+    "tags": [
+      "common",
+      "flux-suspend",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-flux-suspend-3",
+    "type": "command",
+    "title": "flux-suspend - Suspend reconciliation for a GitRepository source",
+    "content": "flux suspend source git {{source_name}}",
+    "group": "Common Tools",
+    "description": "flux-suspend: Suspend Flux resources. (Suspend reconciliation for a GitRepository source)",
+    "tags": [
+      "common",
+      "flux-suspend",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-flux-suspend-4",
+    "type": "command",
+    "title": "flux-suspend - Suspend reconciliation for an ImageUpdateAutomation resource",
+    "content": "flux suspend image update {{automation_name}}",
+    "group": "Common Tools",
+    "description": "flux-suspend: Suspend Flux resources. (Suspend reconciliation for an ImageUpdateAutomation resource)",
+    "tags": [
+      "common",
+      "flux-suspend",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-llm-0",
     "type": "command",
     "title": "llm - Set up an OpenAI API Key",
@@ -168639,6 +169119,36 @@
     "tags": [
       "common",
       "oauth2c",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-2048-0",
+    "type": "command",
+    "title": "2048 - Play the game 2048 in the console (using original color scheme)",
+    "content": "2048",
+    "group": "Common Tools",
+    "description": "2048: Console version of the game \"2048\". (Play the game 2048 in the console (using original color scheme))",
+    "tags": [
+      "common",
+      "2048",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-2048-1",
+    "type": "command",
+    "title": "2048 - Use an alternative color scheme (requires 256-color terminal support)",
+    "content": "2048 {{bluered|blackwhite}}",
+    "group": "Common Tools",
+    "description": "2048: Console version of the game \"2048\". (Use an alternative color scheme (requires 256-color terminal support))",
+    "tags": [
+      "common",
+      "2048",
       "tldr",
       "en"
     ],
@@ -223335,6 +223845,81 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-terraform-graph-0",
+    "type": "command",
+    "title": "terraform-graph - Generate a dependency graph for the current configuration",
+    "content": "terraform graph",
+    "group": "Common Tools",
+    "description": "terraform-graph: Generate a visual representation of configuration or execution plan. The output is in DOT format and can be rendered using GraphViz. (Generate a dependency graph for the current configuration)",
+    "tags": [
+      "common",
+      "terraform-graph",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-terraform-graph-1",
+    "type": "command",
+    "title": "terraform-graph - Generate a graph and render it to a PNG file using GraphViz",
+    "content": "terraform graph | dot -Tpng > {{path/to/graph.png}}",
+    "group": "Common Tools",
+    "description": "terraform-graph: Generate a visual representation of configuration or execution plan. The output is in DOT format and can be rendered using GraphViz. (Generate a graph and render it to a PNG file using GraphViz)",
+    "tags": [
+      "common",
+      "terraform-graph",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-terraform-graph-2",
+    "type": "command",
+    "title": "terraform-graph - Generate a graph from a saved plan file",
+    "content": "terraform graph -plan={{path/to/tfplan}}",
+    "group": "Common Tools",
+    "description": "terraform-graph: Generate a visual representation of configuration or execution plan. The output is in DOT format and can be rendered using GraphViz. (Generate a graph from a saved plan file)",
+    "tags": [
+      "common",
+      "terraform-graph",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-terraform-graph-3",
+    "type": "command",
+    "title": "terraform-graph - Generate a graph highlighting dependency cycles",
+    "content": "terraform graph -draw-cycles",
+    "group": "Common Tools",
+    "description": "terraform-graph: Generate a visual representation of configuration or execution plan. The output is in DOT format and can be rendered using GraphViz. (Generate a graph highlighting dependency cycles)",
+    "tags": [
+      "common",
+      "terraform-graph",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-terraform-graph-4",
+    "type": "command",
+    "title": "terraform-graph - Generate a graph of a specific type (plan, apply, etc.)",
+    "content": "terraform graph -type={{plan|plan-refresh-only|plan-destroy|apply}}",
+    "group": "Common Tools",
+    "description": "terraform-graph: Generate a visual representation of configuration or execution plan. The output is in DOT format and can be rendered using GraphViz. (Generate a graph of a specific type (plan, apply, etc.))",
+    "tags": [
+      "common",
+      "terraform-graph",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-smartctl-0",
     "type": "command",
     "title": "smartctl - Display SMART health summary",
@@ -277085,7 +277670,7 @@
     "title": "gvim - Open `gvim`",
     "content": "gvim",
     "group": "Common Tools",
-    "description": "gvim: A Graphical User Interface version of Vim (Vi IMproved), a command-line text editor. (Open `gvim`)",
+    "description": "gvim: A Graphical User Interface version of Vim (Vi IMproved), a command-line text editor. This command is an alias of `vim -g`. (Open `gvim`)",
     "tags": [
       "common",
       "gvim",
@@ -277100,7 +277685,7 @@
     "title": "gvim - Open a specific file",
     "content": "gvim {{path/to/file}}",
     "group": "Common Tools",
-    "description": "gvim: A Graphical User Interface version of Vim (Vi IMproved), a command-line text editor. (Open a specific file)",
+    "description": "gvim: A Graphical User Interface version of Vim (Vi IMproved), a command-line text editor. This command is an alias of `vim -g`. (Open a specific file)",
     "tags": [
       "common",
       "gvim",

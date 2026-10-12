@@ -32670,6 +32670,51 @@
     "source": "official"
   },
   {
+    "id": "tldr-zh-common-pwd-0",
+    "type": "command",
+    "title": "pwd - 显示当前目录的路径",
+    "content": "pwd",
+    "group": "通用工具 (Common)",
+    "description": "pwd: 显示当前工作目录的路径。 (显示当前目录的路径)",
+    "tags": [
+      "common",
+      "pwd",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-zh-common-pwd-1",
+    "type": "command",
+    "title": "pwd - 显示当前目录的物理路径（解析所有符号链接）",
+    "content": "pwd {{[-P|--physical]}}",
+    "group": "通用工具 (Common)",
+    "description": "pwd: 显示当前工作目录的路径。 (显示当前目录的物理路径（解析所有符号链接）)",
+    "tags": [
+      "common",
+      "pwd",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-zh-common-pwd-2",
+    "type": "command",
+    "title": "pwd - 显示帮助",
+    "content": "pwd --help",
+    "group": "通用工具 (Common)",
+    "description": "pwd: 显示当前工作目录的路径。 (显示帮助)",
+    "tags": [
+      "common",
+      "pwd",
+      "tldr",
+      "zh"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-zh-common-join-0",
     "type": "command",
     "title": "join - 根据第一个（默认）字段合并两个文件",
@@ -50553,7 +50598,7 @@
     "id": "tldr-zh-common-airdecap-ng-2",
     "type": "command",
     "title": "airdecap-ng - 使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件",
-    "content": "airdecap-ng -e {{essid}} -p {{密码}} {{路径/到/捕获文件.cap}}",
+    "content": "airdecap-ng -e {{extended_ssid}} -p {{密码}} {{路径/到/捕获文件.cap}}",
     "group": "通用工具 (Common)",
     "description": "airdecap-ng: 解密 WEP、WPA 或 WPA2 加密的捕获文件。 是 Aircrack-ng 网络软件套件的一部分。 (使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件)",
     "tags": [
@@ -50568,7 +50613,7 @@
     "id": "tldr-zh-common-airdecap-ng-3",
     "type": "command",
     "title": "airdecap-ng - 使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件，并保留头部信息",
-    "content": "airdecap-ng -l -e {{essid}} -p {{密码}} {{路径/到/捕获文件.cap}}",
+    "content": "airdecap-ng -l -e {{extended_ssid}} -p {{密码}} {{路径/到/捕获文件.cap}}",
     "group": "通用工具 (Common)",
     "description": "airdecap-ng: 解密 WEP、WPA 或 WPA2 加密的捕获文件。 是 Aircrack-ng 网络软件套件的一部分。 (使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件，并保留头部信息)",
     "tags": [
@@ -50583,7 +50628,7 @@
     "id": "tldr-zh-common-airdecap-ng-4",
     "type": "command",
     "title": "airdecap-ng - 使用接入点的 MAC 地址进行过滤，并使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件",
-    "content": "airdecap-ng -b {{ap_mac}} -e {{essid}} -p {{密码}} {{路径/到/捕获文件.cap}}",
+    "content": "airdecap-ng -b {{ap_mac}} -e {{extended_ssid}} -p {{密码}} {{路径/到/捕获文件.cap}}",
     "group": "通用工具 (Common)",
     "description": "airdecap-ng: 解密 WEP、WPA 或 WPA2 加密的捕获文件。 是 Aircrack-ng 网络软件套件的一部分。 (使用接入点的 MAC 地址进行过滤，并使用接入点的 ESSID 和密码解密 WPA/WPA2 加密的捕获文件)",
     "tags": [
@@ -53763,7 +53808,7 @@
     "id": "tldr-zh-common-aircrack-ng-2",
     "type": "command",
     "title": "aircrack-ng - 使用字典文件和接入点的 ESSID 破解捕获文件中的密钥",
-    "content": "aircrack-ng -w {{路径/到/字典文件.txt}} -e {{essid}} {{路径/到/捕获文件.cap}}",
+    "content": "aircrack-ng -w {{路径/到/字典文件.txt}} -e {{extended_ssid}} {{路径/到/捕获文件.cap}}",
     "group": "通用工具 (Common)",
     "description": "aircrack-ng: 破解捕获数据包中握手阶段的 WEP 和 WPA/WPA2 密钥。 Aircrack-ng 网络软件套件的一部分。 (使用字典文件和接入点的 ESSID 破解捕获文件中的密钥)",
     "tags": [

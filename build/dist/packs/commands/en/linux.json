@@ -7440,6 +7440,111 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-linux-btrfs-send-0",
+    "type": "command",
+    "title": "btrfs-send - Send a subvolume snapshot to a file instead of `stdout`",
+    "content": "sudo btrfs send -f {{path/to/file.btrfs}} {{path/to/source_snapshot}}",
+    "group": "Linux Ops",
+    "description": "btrfs-send: Transfer data (subvolume/snapshot) from one filesystem to another in a streamable format. Note: `send` requires the snapshot be read-only. (Send a subvolume snapshot to a file instead of `stdout`)",
+    "tags": [
+      "linux",
+      "btrfs-send",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-btrfs-send-1",
+    "type": "command",
+    "title": "btrfs-send - Restore a subvolume snapshot from a file instead of `stdin`",
+    "content": "sudo btrfs receive -f {{path/to/file.btrfs}} {{path/to/destination_directory}}",
+    "group": "Linux Ops",
+    "description": "btrfs-send: Transfer data (subvolume/snapshot) from one filesystem to another in a streamable format. Note: `send` requires the snapshot be read-only. (Restore a subvolume snapshot from a file instead of `stdin`)",
+    "tags": [
+      "linux",
+      "btrfs-send",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-btrfs-send-2",
+    "type": "command",
+    "title": "btrfs-send - Send a subvolume snapshot stream and pipe it to a receiving destination",
+    "content": "sudo btrfs send {{path/to/source_snapshot}} | sudo btrfs receive {{path/to/destination_directory}}",
+    "group": "Linux Ops",
+    "description": "btrfs-send: Transfer data (subvolume/snapshot) from one filesystem to another in a streamable format. Note: `send` requires the snapshot be read-only. (Send a subvolume snapshot stream and pipe it to a receiving destination)",
+    "tags": [
+      "linux",
+      "btrfs-send",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-btrfs-send-3",
+    "type": "command",
+    "title": "btrfs-send - Send an incremental update (differences between parent and new snapshot) to a file",
+    "content": "sudo btrfs send -p {{path/to/parent_snapshot}} -f {{path/to/incremental.btrfs}} {{path/to/new_snapshot}}",
+    "group": "Linux Ops",
+    "description": "btrfs-send: Transfer data (subvolume/snapshot) from one filesystem to another in a streamable format. Note: `send` requires the snapshot be read-only. (Send an incremental update (differences between parent and new snapshot) to a file)",
+    "tags": [
+      "linux",
+      "btrfs-send",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-btrfs-send-4",
+    "type": "command",
+    "title": "btrfs-send - Send an incremental update stream and pipe it to a receiving destination",
+    "content": "sudo btrfs send -p {{path/to/parent_snapshot}} {{path/to/new_snapshot}} | sudo btrfs receive {{path/to/destination_directory}}",
+    "group": "Linux Ops",
+    "description": "btrfs-send: Transfer data (subvolume/snapshot) from one filesystem to another in a streamable format. Note: `send` requires the snapshot be read-only. (Send an incremental update stream and pipe it to a receiving destination)",
+    "tags": [
+      "linux",
+      "btrfs-send",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-btrfs-send-5",
+    "type": "command",
+    "title": "btrfs-send - Send a subvolume snapshot over SSH (the receiving `sudo` must be configured for passwordless execution)",
+    "content": "sudo btrfs send {{path/to/source_snapshot}} | ssh {{user}}@{{host}} \"sudo btrfs receive {{path/to/destination_directory}}\"",
+    "group": "Linux Ops",
+    "description": "btrfs-send: Transfer data (subvolume/snapshot) from one filesystem to another in a streamable format. Note: `send` requires the snapshot be read-only. (Send a subvolume snapshot over SSH (the receiving `sudo` must be configured for passwordless execution))",
+    "tags": [
+      "linux",
+      "btrfs-send",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-btrfs-send-6",
+    "type": "command",
+    "title": "btrfs-send - Dump stream metadata from a file without modifying the filesystem",
+    "content": "sudo btrfs receive --dump -f {{path/to/file.btrfs}}",
+    "group": "Linux Ops",
+    "description": "btrfs-send: Transfer data (subvolume/snapshot) from one filesystem to another in a streamable format. Note: `send` requires the snapshot be read-only. (Dump stream metadata from a file without modifying the filesystem)",
+    "tags": [
+      "linux",
+      "btrfs-send",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-linux-systemctl-add-requires-0",
     "type": "command",
     "title": "systemctl-add-requires - Add a `Requires` dependency from a target to a unit",
@@ -21879,6 +21984,21 @@
     "tags": [
       "linux",
       "tcpkill",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-btrfs-receive-0",
+    "type": "command",
+    "title": "btrfs-receive - View documentation for `btrfs receive`",
+    "content": "tldr btrfs send",
+    "group": "Linux Ops",
+    "description": "btrfs-receive: The examples for this command have been moved together with `btrfs send`. (View documentation for `btrfs receive`)",
+    "tags": [
+      "linux",
+      "btrfs-receive",
       "tldr",
       "en"
     ],
@@ -37157,10 +37277,10 @@
   {
     "id": "tldr-en-linux-kmscon-0",
     "type": "command",
-    "title": "kmscon - Start `kmscon` on the first available TTY",
+    "title": "kmscon - Start `kmscon` on the first available TTY, as reported by `fgconsole --next-available`",
     "content": "sudo kmscon",
     "group": "Linux Ops",
-    "description": "kmscon: Use the framebuffer instead of text mode to draw a terminal in a TTY. (Start `kmscon` on the first available TTY)",
+    "description": "kmscon: Use the framebuffer instead of text mode to draw a terminal in a TTY. (Start `kmscon` on the first available TTY, as reported by `fgconsole --next-available`)",
     "tags": [
       "linux",
       "kmscon",
@@ -44259,6 +44379,36 @@
     "tags": [
       "linux",
       "cpuid",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-grub-mkrelpath-0",
+    "type": "command",
+    "title": "grub-mkrelpath - Print the GRUB path of a file",
+    "content": "grub-mkrelpath {{path/to/file}}",
+    "group": "Linux Ops",
+    "description": "grub-mkrelpath: Convert a system path to a path relative to its filesystem root for GRUB. (Print the GRUB path of a file)",
+    "tags": [
+      "linux",
+      "grub-mkrelpath",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-grub-mkrelpath-1",
+    "type": "command",
+    "title": "grub-mkrelpath - Print the GRUB path of a file on a separately mounted filesystem",
+    "content": "grub-mkrelpath {{/mnt/partition/path/to/file}}",
+    "group": "Linux Ops",
+    "description": "grub-mkrelpath: Convert a system path to a path relative to its filesystem root for GRUB. (Print the GRUB path of a file on a separately mounted filesystem)",
+    "tags": [
+      "linux",
+      "grub-mkrelpath",
       "tldr",
       "en"
     ],
@@ -85215,6 +85365,96 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-linux-ppa-purge-0",
+    "type": "command",
+    "title": "ppa-purge - Disable a PPA and downgrade its packages to the official versions",
+    "content": "sudo ppa-purge ppa:{{owner}}/{{ppa_name}}",
+    "group": "Linux Ops",
+    "description": "ppa-purge: Disable a PPA and revert its packages to the official versions. (Disable a PPA and downgrade its packages to the official versions)",
+    "tags": [
+      "linux",
+      "ppa-purge",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ppa-purge-1",
+    "type": "command",
+    "title": "ppa-purge - Disable a PPA given only its [o]wner (the PPA name defaults to `ppa`)",
+    "content": "sudo ppa-purge -o {{owner}}",
+    "group": "Linux Ops",
+    "description": "ppa-purge: Disable a PPA and revert its packages to the official versions. (Disable a PPA given only its [o]wner (the PPA name defaults to `ppa`))",
+    "tags": [
+      "linux",
+      "ppa-purge",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ppa-purge-2",
+    "type": "command",
+    "title": "ppa-purge - Disable a PPA given its [o]wner and [p]PA name",
+    "content": "sudo ppa-purge -o {{owner}} -p {{ppa_name}}",
+    "group": "Linux Ops",
+    "description": "ppa-purge: Disable a PPA and revert its packages to the official versions. (Disable a PPA given its [o]wner and [p]PA name)",
+    "tags": [
+      "linux",
+      "ppa-purge",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ppa-purge-3",
+    "type": "command",
+    "title": "ppa-purge - Answer [y]es to all package manager prompts",
+    "content": "sudo ppa-purge -y ppa:{{owner}}/{{ppa_name}}",
+    "group": "Linux Ops",
+    "description": "ppa-purge: Disable a PPA and revert its packages to the official versions. (Answer [y]es to all package manager prompts)",
+    "tags": [
+      "linux",
+      "ppa-purge",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ppa-purge-4",
+    "type": "command",
+    "title": "ppa-purge - Use a specific [d]istribution instead of the detected one",
+    "content": "sudo ppa-purge -d {{distribution}} ppa:{{owner}}/{{ppa_name}}",
+    "group": "Linux Ops",
+    "description": "ppa-purge: Disable a PPA and revert its packages to the official versions. (Use a specific [d]istribution instead of the detected one)",
+    "tags": [
+      "linux",
+      "ppa-purge",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ppa-purge-5",
+    "type": "command",
+    "title": "ppa-purge - Display [h]elp",
+    "content": "ppa-purge -h",
+    "group": "Linux Ops",
+    "description": "ppa-purge: Disable a PPA and revert its packages to the official versions. (Display [h]elp)",
+    "tags": [
+      "linux",
+      "ppa-purge",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-linux-lvmdiskscan-0",
     "type": "command",
     "title": "lvmdiskscan - Scan all devices",
@@ -91689,6 +91929,96 @@
     "tags": [
       "linux",
       "alien",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-sbpctl-0",
+    "type": "command",
+    "title": "sbpctl - Install the boot manager into the EFI system partition",
+    "content": "sudo sbpctl install /{{path/to/efi_system_partition}}",
+    "group": "Linux Ops",
+    "description": "sbpctl: Manage the systemd-boot-password boot manager, a systemd-boot fork with a password-protected editor. (Install the boot manager into the EFI system partition)",
+    "tags": [
+      "linux",
+      "sbpctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-sbpctl-1",
+    "type": "command",
+    "title": "sbpctl - Install the boot manager only as the default EFI loader (`/EFI/BOOT/BOOT*.EFI`)",
+    "content": "sudo sbpctl install {{[-d|--default]}} /{{path/to/efi_system_partition}}",
+    "group": "Linux Ops",
+    "description": "sbpctl: Manage the systemd-boot-password boot manager, a systemd-boot fork with a password-protected editor. (Install the boot manager only as the default EFI loader (`/EFI/BOOT/BOOT*.EFI`))",
+    "tags": [
+      "linux",
+      "sbpctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-sbpctl-2",
+    "type": "command",
+    "title": "sbpctl - Install the boot manager with `/etc/sbp/loader.conf` included in the EFI binary",
+    "content": "sudo sbpctl install {{[-i|--include]}} /{{path/to/efi_system_partition}}",
+    "group": "Linux Ops",
+    "description": "sbpctl: Manage the systemd-boot-password boot manager, a systemd-boot fork with a password-protected editor. (Install the boot manager with `/etc/sbp/loader.conf` included in the EFI binary)",
+    "tags": [
+      "linux",
+      "sbpctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-sbpctl-3",
+    "type": "command",
+    "title": "sbpctl - Install the boot manager and sign it for Secure Boot with the keys in `/etc/sbp`",
+    "content": "sudo sbpctl install {{[-s|--sign]}} /{{path/to/efi_system_partition}}",
+    "group": "Linux Ops",
+    "description": "sbpctl: Manage the systemd-boot-password boot manager, a systemd-boot fork with a password-protected editor. (Install the boot manager and sign it for Secure Boot with the keys in `/etc/sbp`)",
+    "tags": [
+      "linux",
+      "sbpctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-sbpctl-4",
+    "type": "command",
+    "title": "sbpctl - Generate a SHA-512 hash of a password for the `password` option in `loader.conf`",
+    "content": "sbpctl generate",
+    "group": "Linux Ops",
+    "description": "sbpctl: Manage the systemd-boot-password boot manager, a systemd-boot fork with a password-protected editor. (Generate a SHA-512 hash of a password for the `password` option in `loader.conf`)",
+    "tags": [
+      "linux",
+      "sbpctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-sbpctl-5",
+    "type": "command",
+    "title": "sbpctl - Create a standalone EFI application from a Linux EFI application and an initramfs",
+    "content": "sudo sbpctl standalone {{[-i|--initrd]}} {{path/to/initramfs.img}} {{path/to/vmlinuz}} {{path/to/output.efi}}",
+    "group": "Linux Ops",
+    "description": "sbpctl: Manage the systemd-boot-password boot manager, a systemd-boot fork with a password-protected editor. (Create a standalone EFI application from a Linux EFI application and an initramfs)",
+    "tags": [
+      "linux",
+      "sbpctl",
       "tldr",
       "en"
     ],

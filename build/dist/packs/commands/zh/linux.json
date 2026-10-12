@@ -1668,7 +1668,7 @@
     "id": "tldr-zh-linux-ip-6",
     "type": "command",
     "title": "ip - 向接口添加/删除 IP 地址",
-    "content": "sudo ip {{[a|address]}} {{add|delete}} {{ip}}/{{mask}} dev {{interface}}",
+    "content": "sudo ip {{[a|address]}} {{add|delete}} {{ip_address}}/{{mask}} dev {{interface}}",
     "group": "Linux 运维",
     "description": "ip: 显示/操作路由、设备、策略路由和隧道。 一些子命令（例如 `address`）有自己的使用文档。 (向接口添加/删除 IP 地址)",
     "tags": [
@@ -1683,7 +1683,7 @@
     "id": "tldr-zh-linux-ip-7",
     "type": "command",
     "title": "ip - 添加默认路由",
-    "content": "sudo ip {{[r|route]}} {{[a|add]}} default via {{ip}} dev {{interface}}",
+    "content": "sudo ip {{[r|route]}} {{[a|add]}} default via {{ip_address}} dev {{interface}}",
     "group": "Linux 运维",
     "description": "ip: 显示/操作路由、设备、策略路由和隧道。 一些子命令（例如 `address`）有自己的使用文档。 (添加默认路由)",
     "tags": [
@@ -9603,7 +9603,7 @@
     "id": "tldr-zh-linux-iptables-2",
     "type": "command",
     "title": "iptables - 追加规则到 IP 的规则链策略",
-    "content": "sudo iptables {{[-A|--append]}} {{规则链}} {{[-s|--source]}} {{ip}} {{[-j|--jump]}} {{规则}}",
+    "content": "sudo iptables {{[-A|--append]}} {{规则链}} {{[-s|--source]}} {{ip_address}} {{[-j|--jump]}} {{规则}}",
     "group": "Linux 运维",
     "description": "iptables: 可用于配置 Linux 内核防火墙提供的过滤表、规则链和规则的程序。 使用 `ip6tables` 来设置 IPv6 流量规则。 另请参阅：`iptables-save`, `iptables-restore`。 (追加规则到 IP 的规则链策略)",
     "tags": [
@@ -9618,7 +9618,7 @@
     "id": "tldr-zh-linux-iptables-3",
     "type": "command",
     "title": "iptables - 追加规则到 IP 的规则链策略（考虑协议与端口）",
-    "content": "sudo iptables {{[-A|--append]}} {{规则链}} {{[-s|--source]}} {{ip}} {{[-p|--protocol]}} {{协议}} --dport {{端口}} {{[-j|--jump]}} {{规则}}",
+    "content": "sudo iptables {{[-A|--append]}} {{规则链}} {{[-s|--source]}} {{ip_address}} {{[-p|--protocol]}} {{协议}} --dport {{端口}} {{[-j|--jump]}} {{规则}}",
     "group": "Linux 运维",
     "description": "iptables: 可用于配置 Linux 内核防火墙提供的过滤表、规则链和规则的程序。 使用 `ip6tables` 来设置 IPv6 流量规则。 另请参阅：`iptables-save`, `iptables-restore`。 (追加规则到 IP 的规则链策略（考虑协议与端口）)",
     "tags": [
