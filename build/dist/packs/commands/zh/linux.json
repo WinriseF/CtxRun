@@ -1878,7 +1878,7 @@
     "id": "tldr-zh-linux-chage-0",
     "type": "command",
     "title": "chage - 列出用户的密码信息",
-    "content": "chage --list {{用户名}}",
+    "content": "chage {{[-l|--list]}} {{用户名}}",
     "group": "Linux 运维",
     "description": "chage: 更改用户账户和密码到期信息。 (列出用户的密码信息)",
     "tags": [
@@ -1893,7 +1893,7 @@
     "id": "tldr-zh-linux-chage-1",
     "type": "command",
     "title": "chage - 启用密码在 10 天内过期",
-    "content": "sudo chage --maxdays {{10}} {{用户名}}",
+    "content": "sudo chage {{[-M|--maxdays]}} 10 {{用户名}}",
     "group": "Linux 运维",
     "description": "chage: 更改用户账户和密码到期信息。 (启用密码在 10 天内过期)",
     "tags": [
@@ -1908,7 +1908,7 @@
     "id": "tldr-zh-linux-chage-2",
     "type": "command",
     "title": "chage - 关闭密码过期",
-    "content": "sudo chage --maxdays {{-1}} {{用户名}}",
+    "content": "sudo chage {{[-M|--maxdays]}} -1 {{用户名}}",
     "group": "Linux 运维",
     "description": "chage: 更改用户账户和密码到期信息。 (关闭密码过期)",
     "tags": [
@@ -1923,7 +1923,7 @@
     "id": "tldr-zh-linux-chage-3",
     "type": "command",
     "title": "chage - 设置账户到期日期",
-    "content": "sudo chage --expiredate {{YYYY-MM-DD}} {{用户名}}",
+    "content": "sudo chage {{[-E|--expiredate]}} {{YYYY-MM-DD}} {{用户名}}",
     "group": "Linux 运维",
     "description": "chage: 更改用户账户和密码到期信息。 (设置账户到期日期)",
     "tags": [
@@ -1938,7 +1938,7 @@
     "id": "tldr-zh-linux-chage-4",
     "type": "command",
     "title": "chage - 强制用户在下次登录时更改密码",
-    "content": "sudo chage --lastday {{0}} {{用户名}}",
+    "content": "sudo chage {{[-d|--lastday]}} 0 {{用户名}}",
     "group": "Linux 运维",
     "description": "chage: 更改用户账户和密码到期信息。 (强制用户在下次登录时更改密码)",
     "tags": [

@@ -1410,6 +1410,111 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-linux-mirrorselect-0",
+    "type": "command",
+    "title": "mirrorselect - Interactively select source mirrors from a list",
+    "content": "sudo mirrorselect {{[-i|--interactive]}}",
+    "group": "Linux Ops",
+    "description": "mirrorselect: Select the fastest Gentoo mirrors and update `GENTOO_MIRRORS` in `/etc/portage/make.conf`. (Interactively select source mirrors from a list)",
+    "tags": [
+      "linux",
+      "mirrorselect",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-mirrorselect-1",
+    "type": "command",
+    "title": "mirrorselect - Interactively select mirrors from a specific country",
+    "content": "sudo mirrorselect {{[-i|--interactive]}} {{[-c|--country]}} \"{{Germany}}\"",
+    "group": "Linux Ops",
+    "description": "mirrorselect: Select the fastest Gentoo mirrors and update `GENTOO_MIRRORS` in `/etc/portage/make.conf`. (Interactively select mirrors from a specific country)",
+    "tags": [
+      "linux",
+      "mirrorselect",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-mirrorselect-2",
+    "type": "command",
+    "title": "mirrorselect - Automatically select a specific number of the fastest mirrors",
+    "content": "sudo mirrorselect {{[-s|--servers]}} {{3}}",
+    "group": "Linux Ops",
+    "description": "mirrorselect: Select the fastest Gentoo mirrors and update `GENTOO_MIRRORS` in `/etc/portage/make.conf`. (Automatically select a specific number of the fastest mirrors)",
+    "tags": [
+      "linux",
+      "mirrorselect",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-mirrorselect-3",
+    "type": "command",
+    "title": "mirrorselect - Automatically select the fastest mirrors using a more accurate download test",
+    "content": "sudo mirrorselect {{[-D|--deep]}} {{[-s|--servers]}} {{3}}",
+    "group": "Linux Ops",
+    "description": "mirrorselect: Select the fastest Gentoo mirrors and update `GENTOO_MIRRORS` in `/etc/portage/make.conf`. (Automatically select the fastest mirrors using a more accurate download test)",
+    "tags": [
+      "linux",
+      "mirrorselect",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-mirrorselect-4",
+    "type": "command",
+    "title": "mirrorselect - Only consider HTTPS mirrors",
+    "content": "sudo mirrorselect {{[-S|--https]}} {{[-s|--servers]}} {{3}}",
+    "group": "Linux Ops",
+    "description": "mirrorselect: Select the fastest Gentoo mirrors and update `GENTOO_MIRRORS` in `/etc/portage/make.conf`. (Only consider HTTPS mirrors)",
+    "tags": [
+      "linux",
+      "mirrorselect",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-mirrorselect-5",
+    "type": "command",
+    "title": "mirrorselect - Print the selected mirrors instead of writing them to `make.conf`",
+    "content": "mirrorselect {{[-s|--servers]}} {{3}} {{[-o|--output]}}",
+    "group": "Linux Ops",
+    "description": "mirrorselect: Select the fastest Gentoo mirrors and update `GENTOO_MIRRORS` in `/etc/portage/make.conf`. (Print the selected mirrors instead of writing them to `make.conf`)",
+    "tags": [
+      "linux",
+      "mirrorselect",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-mirrorselect-6",
+    "type": "command",
+    "title": "mirrorselect - Interactively select an rsync mirror and append it to the repository configuration",
+    "content": "mirrorselect {{[-i|--interactive]}} {{[-r|--rsync]}} {{[-o|--output]}} | sudo tee -a /etc/portage/repos.conf/gentoo.conf",
+    "group": "Linux Ops",
+    "description": "mirrorselect: Select the fastest Gentoo mirrors and update `GENTOO_MIRRORS` in `/etc/portage/make.conf`. (Interactively select an rsync mirror and append it to the repository configuration)",
+    "tags": [
+      "linux",
+      "mirrorselect",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-linux-makoctl-mode-0",
     "type": "command",
     "title": "makoctl-mode - List all currently active modes",
@@ -10479,6 +10584,96 @@
     "tags": [
       "linux",
       "ports",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ufw-app-0",
+    "type": "command",
+    "title": "ufw-app - List available application profiles",
+    "content": "sudo ufw app list",
+    "group": "Linux Ops",
+    "description": "ufw-app: Manage `ufw` application profiles and their associated firewall rules. Application profiles are defined in `/etc/ufw/applications.d/`. (List available application profiles)",
+    "tags": [
+      "linux",
+      "ufw-app",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ufw-app-1",
+    "type": "command",
+    "title": "ufw-app - Display information about a specific or all profiles",
+    "content": "sudo ufw app info {{profile_name|all}}",
+    "group": "Linux Ops",
+    "description": "ufw-app: Manage `ufw` application profiles and their associated firewall rules. Application profiles are defined in `/etc/ufw/applications.d/`. (Display information about a specific or all profiles)",
+    "tags": [
+      "linux",
+      "ufw-app",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ufw-app-2",
+    "type": "command",
+    "title": "ufw-app - Allow or deny traffic using a specific profile",
+    "content": "sudo ufw {{allow|deny}} \"{{profile_name}}\"",
+    "group": "Linux Ops",
+    "description": "ufw-app: Manage `ufw` application profiles and their associated firewall rules. Application profiles are defined in `/etc/ufw/applications.d/`. (Allow or deny traffic using a specific profile)",
+    "tags": [
+      "linux",
+      "ufw-app",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ufw-app-3",
+    "type": "command",
+    "title": "ufw-app - Update firewall rules for a modified profile or all profiles",
+    "content": "sudo ufw app update {{profile_name|all}}",
+    "group": "Linux Ops",
+    "description": "ufw-app: Manage `ufw` application profiles and their associated firewall rules. Application profiles are defined in `/etc/ufw/applications.d/`. (Update firewall rules for a modified profile or all profiles)",
+    "tags": [
+      "linux",
+      "ufw-app",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ufw-app-4",
+    "type": "command",
+    "title": "ufw-app - Update a profile, adding new rules if none exist",
+    "content": "sudo ufw app update --add-new \"{{profile_name}}\"",
+    "group": "Linux Ops",
+    "description": "ufw-app: Manage `ufw` application profiles and their associated firewall rules. Application profiles are defined in `/etc/ufw/applications.d/`. (Update a profile, adding new rules if none exist)",
+    "tags": [
+      "linux",
+      "ufw-app",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-ufw-app-5",
+    "type": "command",
+    "title": "ufw-app - Configure the default behavior of `update --add-new`",
+    "content": "sudo ufw app default {{allow|deny|reject|skip}}",
+    "group": "Linux Ops",
+    "description": "ufw-app: Manage `ufw` application profiles and their associated firewall rules. Application profiles are defined in `/etc/ufw/applications.d/`. (Configure the default behavior of `update --add-new`)",
+    "tags": [
+      "linux",
+      "ufw-app",
       "tldr",
       "en"
     ],
@@ -37682,10 +37877,10 @@
   {
     "id": "tldr-en-linux-kill-0",
     "type": "command",
-    "title": "kill - Terminate a program using the default SIGTERM (terminate) signal",
+    "title": "kill - Terminate a program using the default `SIGTERM` (terminate) signal",
     "content": "kill {{process_id}}",
     "group": "Linux Ops",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Terminate a program using the default SIGTERM (terminate) signal)",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Terminate a program using the default `SIGTERM` (terminate) signal)",
     "tags": [
       "linux",
       "kill",
@@ -37700,7 +37895,7 @@
     "title": "kill - List signal values and their corresponding names (to be used without the `SIG` prefix). The available options may depend on the `kill` implementation",
     "content": "kill {{-l|-L|--table}}",
     "group": "Linux Ops",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (List signal values and their corresponding names (to be used without the `SIG` prefix). The available options may depend on the `kill` implementation)",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (List signal values and their corresponding names (to be used without the `SIG` prefix). The available options may depend on the `kill` implementation)",
     "tags": [
       "linux",
       "kill",
@@ -37715,7 +37910,7 @@
     "title": "kill - Terminate a background job",
     "content": "kill %{{job_id}}",
     "group": "Linux Ops",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Terminate a background job)",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Terminate a background job)",
     "tags": [
       "linux",
       "kill",
@@ -37727,10 +37922,10 @@
   {
     "id": "tldr-en-linux-kill-3",
     "type": "command",
-    "title": "kill - Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating",
+    "title": "kill - Terminate a program using the `SIGHUP` (hang up) signal. Many daemons will reload instead of terminating",
     "content": "kill {{[-1|-HUP]}} {{process_id}}",
     "group": "Linux Ops",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating)",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Terminate a program using the `SIGHUP` (hang up) signal. Many daemons will reload instead of terminating)",
     "tags": [
       "linux",
       "kill",
@@ -37742,10 +37937,10 @@
   {
     "id": "tldr-en-linux-kill-4",
     "type": "command",
-    "title": "kill - Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`",
+    "title": "kill - Terminate a program using the `SIGINT` (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`",
     "content": "kill {{[-2|-INT]}} {{process_id}}",
     "group": "Linux Ops",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`)",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Terminate a program using the `SIGINT` (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`)",
     "tags": [
       "linux",
       "kill",
@@ -37760,7 +37955,7 @@
     "title": "kill - Signal the operating system to immediately terminate a program (which gets no chance to capture the signal)",
     "content": "kill {{[-9|-KILL]}} {{process_id}}",
     "group": "Linux Ops",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Signal the operating system to immediately terminate a program (which gets no chance to capture the signal))",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Signal the operating system to immediately terminate a program (which gets no chance to capture the signal))",
     "tags": [
       "linux",
       "kill",
@@ -37772,10 +37967,10 @@
   {
     "id": "tldr-en-linux-kill-6",
     "type": "command",
-    "title": "kill - Signal the operating system to pause a program until a SIGCONT (\"continue\") signal is received",
+    "title": "kill - Signal the operating system to pause a program until a `SIGCONT` (\"continue\") signal is received",
     "content": "kill {{[-19|-STOP]}} {{process_id}}",
     "group": "Linux Ops",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Signal the operating system to pause a program until a SIGCONT (\"continue\") signal is received)",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Signal the operating system to pause a program until a `SIGCONT` (\"continue\") signal is received)",
     "tags": [
       "linux",
       "kill",
@@ -37790,7 +37985,7 @@
     "title": "kill - Send a `SIGUSR1` signal to all processes with the given GID (group id)",
     "content": "kill {{[-10|-SIGUSR1]}} -{{group_id}}",
     "group": "Linux Ops",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Send a `SIGUSR1` signal to all processes with the given GID (group id))",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Send a `SIGUSR1` signal to all processes with the given GID (group id))",
     "tags": [
       "linux",
       "kill",
@@ -57812,10 +58007,10 @@
   {
     "id": "tldr-en-linux-scrun-3",
     "type": "command",
-    "title": "scrun - Send a signal to a container (default: SIGTERM)",
+    "title": "scrun - Send a signal to a container (default: `SIGTERM`)",
     "content": "scrun kill {{container_id}}",
     "group": "Linux Ops",
-    "description": "scrun: An OCI runtime proxy for Slurm that runs containers as jobs. (Send a signal to a container (default: SIGTERM))",
+    "description": "scrun: An OCI runtime proxy for Slurm that runs containers as jobs. (Send a signal to a container (default: `SIGTERM`))",
     "tags": [
       "linux",
       "scrun",
@@ -64170,36 +64365,6 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-linux-avifenc-0",
-    "type": "command",
-    "title": "avifenc - Convert a specific PNG image to AVIF",
-    "content": "avifenc {{path/to/input.png}} {{path/to/output.avif}}",
-    "group": "Linux Ops",
-    "description": "avifenc: AV1 Image File Format (AVIF) encoder. (Convert a specific PNG image to AVIF)",
-    "tags": [
-      "linux",
-      "avifenc",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-linux-avifenc-1",
-    "type": "command",
-    "title": "avifenc - Encode with a specific speed (6=default, 0=slowest, and 10=fastest)",
-    "content": "avifenc --speed {{2}} {{path/to/input.png}} {{path/to/output.avif}}",
-    "group": "Linux Ops",
-    "description": "avifenc: AV1 Image File Format (AVIF) encoder. (Encode with a specific speed (6=default, 0=slowest, and 10=fastest))",
-    "tags": [
-      "linux",
-      "avifenc",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
     "id": "tldr-en-linux-systemctl-force-reload-0",
     "type": "command",
     "title": "systemctl-force-reload - View documentation for the original command",
@@ -69441,6 +69606,21 @@
     "content": "sudo btrfs {{[p|property]}} {{[s|set]}} {{path/to/btrfs_inode}} compression {{zstd|zlib|lzo|none}}",
     "group": "Linux Ops",
     "description": "btrfs-property: Get, set, or list properties for a BTRFS filesystem object (files, directories, subvolumes, filesystems, or devices). (Set the `compression` property for a given btrfs inode (either a file or directory))",
+    "tags": [
+      "linux",
+      "btrfs-property",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-btrfs-property-5",
+    "type": "command",
+    "title": "btrfs-property - Set the `ro` (read-only) property for a given btrfs subvolume",
+    "content": "sudo btrfs {{[p|property]}} {{[s|set]}} {{path/to/btrfs_subvolume}} ro {{true|false}}",
+    "group": "Linux Ops",
+    "description": "btrfs-property: Get, set, or list properties for a BTRFS filesystem object (files, directories, subvolumes, filesystems, or devices). (Set the `ro` (read-only) property for a given btrfs subvolume)",
     "tags": [
       "linux",
       "btrfs-property",
@@ -78887,10 +79067,10 @@
   {
     "id": "tldr-en-linux-daemon-4",
     "type": "command",
-    "title": "daemon - Kill a daemon (SIGTERM)",
+    "title": "daemon - Kill a daemon (`SIGTERM`)",
     "content": "daemon {{[-n|--name]}} \"{{name}}\" --stop",
     "group": "Linux Ops",
-    "description": "daemon: Turn other processes into daemons. (Kill a daemon (SIGTERM))",
+    "description": "daemon: Turn other processes into daemons. (Kill a daemon (`SIGTERM`))",
     "tags": [
       "linux",
       "daemon",
@@ -105459,6 +105639,111 @@
     "tags": [
       "linux",
       "netselect",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-setterm-0",
+    "type": "command",
+    "title": "setterm - Clear the screen",
+    "content": "setterm --clear",
+    "group": "Linux Ops",
+    "description": "setterm: Set terminal attributes such as colors, cursor visibility, and screen blanking. Note: Some options only work in virtual consoles (TTY). (Clear the screen)",
+    "tags": [
+      "linux",
+      "setterm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-setterm-1",
+    "type": "command",
+    "title": "setterm - Make the cursor visible or invisible",
+    "content": "setterm --cursor {{on|off}}",
+    "group": "Linux Ops",
+    "description": "setterm: Set terminal attributes such as colors, cursor visibility, and screen blanking. Note: Some options only work in virtual consoles (TTY). (Make the cursor visible or invisible)",
+    "tags": [
+      "linux",
+      "setterm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-setterm-2",
+    "type": "command",
+    "title": "setterm - Turn blinking text on or off",
+    "content": "setterm --blink {{on|off}}",
+    "group": "Linux Ops",
+    "description": "setterm: Set terminal attributes such as colors, cursor visibility, and screen blanking. Note: Some options only work in virtual consoles (TTY). (Turn blinking text on or off)",
+    "tags": [
+      "linux",
+      "setterm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-setterm-3",
+    "type": "command",
+    "title": "setterm - Set the text color",
+    "content": "setterm --foreground {{default|black|blue|red|...}}",
+    "group": "Linux Ops",
+    "description": "setterm: Set terminal attributes such as colors, cursor visibility, and screen blanking. Note: Some options only work in virtual consoles (TTY). (Set the text color)",
+    "tags": [
+      "linux",
+      "setterm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-setterm-4",
+    "type": "command",
+    "title": "setterm - Set the background color",
+    "content": "setterm --background {{default|black|blue|red|...}}",
+    "group": "Linux Ops",
+    "description": "setterm: Set terminal attributes such as colors, cursor visibility, and screen blanking. Note: Some options only work in virtual consoles (TTY). (Set the background color)",
+    "tags": [
+      "linux",
+      "setterm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-setterm-5",
+    "type": "command",
+    "title": "setterm - Set the screen blanking timeout in minutes (`0` disables blanking)",
+    "content": "setterm --blank {{0..60}}",
+    "group": "Linux Ops",
+    "description": "setterm: Set terminal attributes such as colors, cursor visibility, and screen blanking. Note: Some options only work in virtual consoles (TTY). (Set the screen blanking timeout in minutes (`0` disables blanking))",
+    "tags": [
+      "linux",
+      "setterm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-linux-setterm-6",
+    "type": "command",
+    "title": "setterm - Reset the terminal to its default state",
+    "content": "setterm --reset",
+    "group": "Linux Ops",
+    "description": "setterm: Set terminal attributes such as colors, cursor visibility, and screen blanking. Note: Some options only work in virtual consoles (TTY). (Reset the terminal to its default state)",
+    "tags": [
+      "linux",
+      "setterm",
       "tldr",
       "en"
     ],

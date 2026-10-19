@@ -31322,10 +31322,10 @@
   {
     "id": "tldr-en-common-killall-0",
     "type": "command",
-    "title": "killall - Terminate a process using the default SIGTERM (terminate) signal",
+    "title": "killall - Terminate a process using the default `SIGTERM` (terminate) signal",
     "content": "killall {{process_name}}",
     "group": "Common Tools",
-    "description": "killall: Send kill signal to all instances of a process by name (must be exact name). All signals except SIGKILL and SIGSTOP can be intercepted by the process, allowing a clean exit. (Terminate a process using the default SIGTERM (terminate) signal)",
+    "description": "killall: Send kill signal to all instances of a process by name (must be exact name). All signals except `SIGKILL` and `SIGSTOP` can be intercepted by the process, allowing a clean exit. (Terminate a process using the default `SIGTERM` (terminate) signal)",
     "tags": [
       "common",
       "killall",
@@ -31340,7 +31340,7 @@
     "title": "killall - List available signal names (to be used without the `SIG` prefix)",
     "content": "killall {{[-l|--list]}}",
     "group": "Common Tools",
-    "description": "killall: Send kill signal to all instances of a process by name (must be exact name). All signals except SIGKILL and SIGSTOP can be intercepted by the process, allowing a clean exit. (List available signal names (to be used without the `SIG` prefix))",
+    "description": "killall: Send kill signal to all instances of a process by name (must be exact name). All signals except `SIGKILL` and `SIGSTOP` can be intercepted by the process, allowing a clean exit. (List available signal names (to be used without the `SIG` prefix))",
     "tags": [
       "common",
       "killall",
@@ -31355,7 +31355,7 @@
     "title": "killall - Interactively ask for confirmation before termination",
     "content": "killall {{[-i|--interactive]}} {{process_name}}",
     "group": "Common Tools",
-    "description": "killall: Send kill signal to all instances of a process by name (must be exact name). All signals except SIGKILL and SIGSTOP can be intercepted by the process, allowing a clean exit. (Interactively ask for confirmation before termination)",
+    "description": "killall: Send kill signal to all instances of a process by name (must be exact name). All signals except `SIGKILL` and `SIGSTOP` can be intercepted by the process, allowing a clean exit. (Interactively ask for confirmation before termination)",
     "tags": [
       "common",
       "killall",
@@ -31367,10 +31367,10 @@
   {
     "id": "tldr-en-common-killall-3",
     "type": "command",
-    "title": "killall - Terminate a process using the SIGINT (interrupt) signal, which is the same signal sent by pressing `<Ctrl c>`",
+    "title": "killall - Terminate a process using the `SIGINT` (interrupt) signal, which is the same signal sent by pressing `<Ctrl c>`",
     "content": "killall {{[-2|-SIGINT]}} {{process_name}}",
     "group": "Common Tools",
-    "description": "killall: Send kill signal to all instances of a process by name (must be exact name). All signals except SIGKILL and SIGSTOP can be intercepted by the process, allowing a clean exit. (Terminate a process using the SIGINT (interrupt) signal, which is the same signal sent by pressing `<Ctrl c>`)",
+    "description": "killall: Send kill signal to all instances of a process by name (must be exact name). All signals except `SIGKILL` and `SIGSTOP` can be intercepted by the process, allowing a clean exit. (Terminate a process using the `SIGINT` (interrupt) signal, which is the same signal sent by pressing `<Ctrl c>`)",
     "tags": [
       "common",
       "killall",
@@ -31385,7 +31385,7 @@
     "title": "killall - Force kill a process",
     "content": "killall {{[-9|-SIGKILL]}} {{process_name}}",
     "group": "Common Tools",
-    "description": "killall: Send kill signal to all instances of a process by name (must be exact name). All signals except SIGKILL and SIGSTOP can be intercepted by the process, allowing a clean exit. (Force kill a process)",
+    "description": "killall: Send kill signal to all instances of a process by name (must be exact name). All signals except `SIGKILL` and `SIGSTOP` can be intercepted by the process, allowing a clean exit. (Force kill a process)",
     "tags": [
       "common",
       "killall",
@@ -47297,6 +47297,21 @@
   {
     "id": "tldr-en-common-uv-tool-2",
     "type": "command",
+    "title": "uv-tool - Install from a specific git repo on a specific tag",
+    "content": "uv tool install \"git+{{repo_url}}@{{v1.2.3}}\"",
+    "group": "Common Tools",
+    "description": "uv-tool: Install and run commands provided by Python packages. (Install from a specific git repo on a specific tag)",
+    "tags": [
+      "common",
+      "uv-tool",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-uv-tool-3",
+    "type": "command",
     "title": "uv-tool - Upgrade an installed Python package",
     "content": "uv tool upgrade {{package}}",
     "group": "Common Tools",
@@ -47310,7 +47325,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-common-uv-tool-3",
+    "id": "tldr-en-common-uv-tool-4",
     "type": "command",
     "title": "uv-tool - Uninstall a Python package",
     "content": "uv tool uninstall {{package}}",
@@ -47325,7 +47340,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-common-uv-tool-4",
+    "id": "tldr-en-common-uv-tool-5",
     "type": "command",
     "title": "uv-tool - List Python packages installed system-wide",
     "content": "uv tool list",
@@ -56295,6 +56310,21 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-cjpeg-0",
+    "type": "command",
+    "title": "cjpeg - Compress a JPEG file with default settings",
+    "content": "cjpeg -outfile {{path/to/output}}.jpg {{path/to/image_file}}",
+    "group": "Common Tools",
+    "description": "cjpeg: Compress an image file to a JPEG file. (Compress a JPEG file with default settings)",
+    "tags": [
+      "common",
+      "cjpeg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-git-cherry-pick-0",
     "type": "command",
     "title": "git-cherry-pick - Apply a commit to the current branch",
@@ -59345,7 +59375,7 @@
     "title": "poetry-install - Install dependencies",
     "content": "poetry install",
     "group": "Common Tools",
-    "description": "poetry-install: Install all dependencies for a Python project as defined in the pyproject.toml file. (Install dependencies)",
+    "description": "poetry-install: Install all dependencies for a Python project as defined in the `pyproject.toml` file. (Install dependencies)",
     "tags": [
       "common",
       "poetry-install",
@@ -59360,7 +59390,7 @@
     "title": "poetry-install - Skip installing the project itself as a dependency",
     "content": "poetry install --no-root",
     "group": "Common Tools",
-    "description": "poetry-install: Install all dependencies for a Python project as defined in the pyproject.toml file. (Skip installing the project itself as a dependency)",
+    "description": "poetry-install: Install all dependencies for a Python project as defined in the `pyproject.toml` file. (Skip installing the project itself as a dependency)",
     "tags": [
       "common",
       "poetry-install",
@@ -59375,7 +59405,7 @@
     "title": "poetry-install - Install only production dependencies",
     "content": "poetry install --without dev",
     "group": "Common Tools",
-    "description": "poetry-install: Install all dependencies for a Python project as defined in the pyproject.toml file. (Install only production dependencies)",
+    "description": "poetry-install: Install all dependencies for a Python project as defined in the `pyproject.toml` file. (Install only production dependencies)",
     "tags": [
       "common",
       "poetry-install",
@@ -59390,7 +59420,7 @@
     "title": "poetry-install - Install optional dependency groups",
     "content": "poetry install --with test,docs",
     "group": "Common Tools",
-    "description": "poetry-install: Install all dependencies for a Python project as defined in the pyproject.toml file. (Install optional dependency groups)",
+    "description": "poetry-install: Install all dependencies for a Python project as defined in the `pyproject.toml` file. (Install optional dependency groups)",
     "tags": [
       "common",
       "poetry-install",
@@ -66392,10 +66422,10 @@
   {
     "id": "tldr-en-common-jigsaw-3",
     "type": "command",
-    "title": "jigsaw - Preview the site from the \"build_local\" directory",
+    "title": "jigsaw - Preview the site from the `build_local` directory",
     "content": "jigsaw serve",
     "group": "Common Tools",
-    "description": "jigsaw: A Laravel-based static site builder for PHP. (Preview the site from the \"build_local\" directory)",
+    "description": "jigsaw: A Laravel-based static site builder for PHP. (Preview the site from the `build_local` directory)",
     "tags": [
       "common",
       "jigsaw",
@@ -66422,10 +66452,10 @@
   {
     "id": "tldr-en-common-jigsaw-5",
     "type": "command",
-    "title": "jigsaw - Preview the site from the \"build_production\" directory",
+    "title": "jigsaw - Preview the site from the `build_production` directory",
     "content": "jigsaw serve {{build_production}}",
     "group": "Common Tools",
-    "description": "jigsaw: A Laravel-based static site builder for PHP. (Preview the site from the \"build_production\" directory)",
+    "description": "jigsaw: A Laravel-based static site builder for PHP. (Preview the site from the `build_production` directory)",
     "tags": [
       "common",
       "jigsaw",
@@ -76215,6 +76245,96 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-colab-run-0",
+    "type": "command",
+    "title": "colab-run - Run a local script on a fresh CPU VM and release the VM upon completion",
+    "content": "colab run {{path/to/script.py}}",
+    "group": "Common Tools",
+    "description": "colab-run: Run a Python script on a fresh Google Colab VM and automatically release it upon completion. (Run a local script on a fresh CPU VM and release the VM upon completion)",
+    "tags": [
+      "common",
+      "colab-run",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-run-1",
+    "type": "command",
+    "title": "colab-run - Run a local script on a GPU runtime",
+    "content": "colab run --gpu {{T4|L4|G4|A100|H100}} {{path/to/script.py}}",
+    "group": "Common Tools",
+    "description": "colab-run: Run a Python script on a fresh Google Colab VM and automatically release it upon completion. (Run a local script on a GPU runtime)",
+    "tags": [
+      "common",
+      "colab-run",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-run-2",
+    "type": "command",
+    "title": "colab-run - Run a local script on a TPU runtime",
+    "content": "colab run --tpu {{v5e1|v6e1}} {{path/to/script.py}}",
+    "group": "Common Tools",
+    "description": "colab-run: Run a Python script on a fresh Google Colab VM and automatically release it upon completion. (Run a local script on a TPU runtime)",
+    "tags": [
+      "common",
+      "colab-run",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-run-3",
+    "type": "command",
+    "title": "colab-run - Run a script with forwarded command-line arguments",
+    "content": "colab run {{path/to/script.py}} {{argument1 argument2 ...}}",
+    "group": "Common Tools",
+    "description": "colab-run: Run a Python script on a fresh Google Colab VM and automatically release it upon completion. (Run a script with forwarded command-line arguments)",
+    "tags": [
+      "common",
+      "colab-run",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-run-4",
+    "type": "command",
+    "title": "colab-run - Run a script on a GPU and keep the session active after completion",
+    "content": "colab run --gpu {{T4|L4|G4|A100|H100}} --keep {{path/to/script.py}}",
+    "group": "Common Tools",
+    "description": "colab-run: Run a Python script on a fresh Google Colab VM and automatically release it upon completion. (Run a script on a GPU and keep the session active after completion)",
+    "tags": [
+      "common",
+      "colab-run",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-run-5",
+    "type": "command",
+    "title": "colab-run - Run a script on a named session with a custom timeout",
+    "content": "colab run {{[-s|--session]}} {{session_name}} --timeout {{60.0}} {{path/to/script.py}}",
+    "group": "Common Tools",
+    "description": "colab-run: Run a Python script on a fresh Google Colab VM and automatically release it upon completion. (Run a script on a named session with a custom timeout)",
+    "tags": [
+      "common",
+      "colab-run",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-zmv-0",
     "type": "command",
     "title": "zmv - Move files using a `regex`-like pattern",
@@ -79794,6 +79914,126 @@
     "tags": [
       "common",
       "ldapsearch",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-0",
+    "type": "command",
+    "title": "colab - Allocate a new named session with a specific GPU",
+    "content": "colab new {{[-s|--session]}} {{session_name}} --gpu {{T4|L4|G4|A100|H100}}",
+    "group": "Common Tools",
+    "description": "colab: Command-line interface for Google Colab. Some subcommands such as `run` and `exec` have their own usage documentation. (Allocate a new named session with a specific GPU)",
+    "tags": [
+      "common",
+      "colab",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-1",
+    "type": "command",
+    "title": "colab - List all active sessions",
+    "content": "colab sessions",
+    "group": "Common Tools",
+    "description": "colab: Command-line interface for Google Colab. Some subcommands such as `run` and `exec` have their own usage documentation. (List all active sessions)",
+    "tags": [
+      "common",
+      "colab",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-2",
+    "type": "command",
+    "title": "colab - Run a local script on a fresh GPU VM and automatically release it upon completion",
+    "content": "colab run --gpu {{T4|L4|A100|H100}} {{path/to/script.py}}",
+    "group": "Common Tools",
+    "description": "colab: Command-line interface for Google Colab. Some subcommands such as `run` and `exec` have their own usage documentation. (Run a local script on a fresh GPU VM and automatically release it upon completion)",
+    "tags": [
+      "common",
+      "colab",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-3",
+    "type": "command",
+    "title": "colab - Execute a local Python script or Jupyter notebook in an specific session",
+    "content": "colab exec {{[-s|--session]}} {{session_name}} {{[-f|--file]}} {{path/to/file.py|path/to/notebook.ipynb}}",
+    "group": "Common Tools",
+    "description": "colab: Command-line interface for Google Colab. Some subcommands such as `run` and `exec` have their own usage documentation. (Execute a local Python script or Jupyter notebook in an specific session)",
+    "tags": [
+      "common",
+      "colab",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-4",
+    "type": "command",
+    "title": "colab - Connect to an interactive TTY shell on the remote VM",
+    "content": "colab console {{[-s|--session]}} {{session_name}}",
+    "group": "Common Tools",
+    "description": "colab: Command-line interface for Google Colab. Some subcommands such as `run` and `exec` have their own usage documentation. (Connect to an interactive TTY shell on the remote VM)",
+    "tags": [
+      "common",
+      "colab",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-5",
+    "type": "command",
+    "title": "colab - Mount Google Drive in a specific session",
+    "content": "colab drivemount {{[-s|--session]}} {{session_name}}",
+    "group": "Common Tools",
+    "description": "colab: Command-line interface for Google Colab. Some subcommands such as `run` and `exec` have their own usage documentation. (Mount Google Drive in a specific session)",
+    "tags": [
+      "common",
+      "colab",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-6",
+    "type": "command",
+    "title": "colab - Download a file from the remote session",
+    "content": "colab download {{[-s|--session]}} {{session_name}} {{path/to/remote_file}} {{path/to/local_destination}}",
+    "group": "Common Tools",
+    "description": "colab: Command-line interface for Google Colab. Some subcommands such as `run` and `exec` have their own usage documentation. (Download a file from the remote session)",
+    "tags": [
+      "common",
+      "colab",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-7",
+    "type": "command",
+    "title": "colab - Stop and terminate a specific session",
+    "content": "colab stop {{[-s|--session]}} {{session_name}}",
+    "group": "Common Tools",
+    "description": "colab: Command-line interface for Google Colab. Some subcommands such as `run` and `exec` have their own usage documentation. (Stop and terminate a specific session)",
+    "tags": [
+      "common",
+      "colab",
       "tldr",
       "en"
     ],
@@ -85260,6 +85500,126 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-sbx-0",
+    "type": "command",
+    "title": "sbx - Open the interactive TUI dashboard",
+    "content": "sbx",
+    "group": "Common Tools",
+    "description": "sbx: Create and manage isolated microVM sandboxes for running AI coding agents. (Open the interactive TUI dashboard)",
+    "tags": [
+      "common",
+      "sbx",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-sbx-1",
+    "type": "command",
+    "title": "sbx - Create and run an agent session inside a sandbox",
+    "content": "sbx run {{agent}} {{path/to/directory}}",
+    "group": "Common Tools",
+    "description": "sbx: Create and manage isolated microVM sandboxes for running AI coding agents. (Create and run an agent session inside a sandbox)",
+    "tags": [
+      "common",
+      "sbx",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-sbx-2",
+    "type": "command",
+    "title": "sbx - List all sandboxes",
+    "content": "sbx ls",
+    "group": "Common Tools",
+    "description": "sbx: Create and manage isolated microVM sandboxes for running AI coding agents. (List all sandboxes)",
+    "tags": [
+      "common",
+      "sbx",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-sbx-3",
+    "type": "command",
+    "title": "sbx - Open an interactive shell inside a running sandbox",
+    "content": "sbx exec {{[-it|--interactive --tty]}} {{sandbox_name}} {{bash}}",
+    "group": "Common Tools",
+    "description": "sbx: Create and manage isolated microVM sandboxes for running AI coding agents. (Open an interactive shell inside a running sandbox)",
+    "tags": [
+      "common",
+      "sbx",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-sbx-4",
+    "type": "command",
+    "title": "sbx - Stop one or more running sandboxes",
+    "content": "sbx stop {{sandbox_name1 sandbox_name2 ...}}",
+    "group": "Common Tools",
+    "description": "sbx: Create and manage isolated microVM sandboxes for running AI coding agents. (Stop one or more running sandboxes)",
+    "tags": [
+      "common",
+      "sbx",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-sbx-5",
+    "type": "command",
+    "title": "sbx - Remove one or more sandboxes",
+    "content": "sbx rm {{sandbox_name1 sandbox_name2 ...}}",
+    "group": "Common Tools",
+    "description": "sbx: Create and manage isolated microVM sandboxes for running AI coding agents. (Remove one or more sandboxes)",
+    "tags": [
+      "common",
+      "sbx",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-sbx-6",
+    "type": "command",
+    "title": "sbx - Allow network access to a specific hostname or IP address for all sandboxes",
+    "content": "sbx policy allow network {{hostname|ip_address}}",
+    "group": "Common Tools",
+    "description": "sbx: Create and manage isolated microVM sandboxes for running AI coding agents. (Allow network access to a specific hostname or IP address for all sandboxes)",
+    "tags": [
+      "common",
+      "sbx",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-sbx-7",
+    "type": "command",
+    "title": "sbx - Store a secret globally for all sandboxes",
+    "content": "sbx secret set {{secret_name}}",
+    "group": "Common Tools",
+    "description": "sbx: Create and manage isolated microVM sandboxes for running AI coding agents. (Store a secret globally for all sandboxes)",
+    "tags": [
+      "common",
+      "sbx",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-jj-edit-0",
     "type": "command",
     "title": "jj-edit - Set the given revision as the working copy",
@@ -88044,6 +88404,51 @@
     "tags": [
       "common",
       "mh_lint",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-dot2gxl-0",
+    "type": "command",
+    "title": "dot2gxl - Convert a DOT graph to GXL",
+    "content": "dot2gxl {{path/to/input_file.dot}} -o {{path/to/output_file.gxl}}",
+    "group": "Common Tools",
+    "description": "dot2gxl: Convert between graphs represented in GXL and in the DOT language. (Convert a DOT graph to GXL)",
+    "tags": [
+      "common",
+      "dot2gxl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-dot2gxl-1",
+    "type": "command",
+    "title": "dot2gxl - Convert DOT to GXL based on .dot input extension",
+    "content": "dot2gxl {{path/to/input_file.dot}} > {{path/to/output_file.gxl}}",
+    "group": "Common Tools",
+    "description": "dot2gxl: Convert between graphs represented in GXL and in the DOT language. (Convert DOT to GXL based on .dot input extension)",
+    "tags": [
+      "common",
+      "dot2gxl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-dot2gxl-2",
+    "type": "command",
+    "title": "dot2gxl - Convert GXL to DOT based on .gxl input extension",
+    "content": "dot2gxl {{path/to/input_file.gxl}} > {{path/to/output_file.dot}}",
+    "group": "Common Tools",
+    "description": "dot2gxl: Convert between graphs represented in GXL and in the DOT language. (Convert GXL to DOT based on .gxl input extension)",
+    "tags": [
+      "common",
+      "dot2gxl",
       "tldr",
       "en"
     ],
@@ -94682,10 +95087,10 @@
   {
     "id": "tldr-en-common-kill-0",
     "type": "command",
-    "title": "kill - Terminate a program using the default SIGTERM (terminate) signal",
+    "title": "kill - Terminate a program using the default `SIGTERM` (terminate) signal",
     "content": "kill {{process_id}}",
     "group": "Common Tools",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Terminate a program using the default SIGTERM (terminate) signal)",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Terminate a program using the default `SIGTERM` (terminate) signal)",
     "tags": [
       "common",
       "kill",
@@ -94700,7 +95105,7 @@
     "title": "kill - List available signal names (to be used without the `SIG` prefix)",
     "content": "kill -l",
     "group": "Common Tools",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (List available signal names (to be used without the `SIG` prefix))",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (List available signal names (to be used without the `SIG` prefix))",
     "tags": [
       "common",
       "kill",
@@ -94712,10 +95117,10 @@
   {
     "id": "tldr-en-common-kill-2",
     "type": "command",
-    "title": "kill - Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating",
+    "title": "kill - Terminate a program using the `SIGHUP` (hang up) signal. Many daemons will reload instead of terminating",
     "content": "kill {{[-1|-HUP]}} {{process_id}}",
     "group": "Common Tools",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating)",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Terminate a program using the `SIGHUP` (hang up) signal. Many daemons will reload instead of terminating)",
     "tags": [
       "common",
       "kill",
@@ -94727,10 +95132,10 @@
   {
     "id": "tldr-en-common-kill-3",
     "type": "command",
-    "title": "kill - Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`",
+    "title": "kill - Terminate a program using the `SIGINT` (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`",
     "content": "kill {{[-2|-INT]}} {{process_id}}",
     "group": "Common Tools",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`)",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Terminate a program using the `SIGINT` (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`)",
     "tags": [
       "common",
       "kill",
@@ -94745,7 +95150,7 @@
     "title": "kill - Signal the operating system to immediately terminate a program (which gets no chance to capture the signal)",
     "content": "kill {{[-9|-KILL]}} {{process_id}}",
     "group": "Common Tools",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Signal the operating system to immediately terminate a program (which gets no chance to capture the signal))",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Signal the operating system to immediately terminate a program (which gets no chance to capture the signal))",
     "tags": [
       "common",
       "kill",
@@ -94757,10 +95162,10 @@
   {
     "id": "tldr-en-common-kill-5",
     "type": "command",
-    "title": "kill - Signal the operating system to pause a program until a SIGCONT (\"continue\") signal is received",
+    "title": "kill - Signal the operating system to pause a program until a `SIGCONT` (\"continue\") signal is received",
     "content": "kill {{[-19|-STOP]}} {{process_id}}",
     "group": "Common Tools",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Signal the operating system to pause a program until a SIGCONT (\"continue\") signal is received)",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Signal the operating system to pause a program until a `SIGCONT` (\"continue\") signal is received)",
     "tags": [
       "common",
       "kill",
@@ -94775,7 +95180,7 @@
     "title": "kill - Send a `SIGUSR1` signal to all processes with the given GID (group id)",
     "content": "kill -SIGUSR1 -{{group_id}}",
     "group": "Common Tools",
-    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. (Send a `SIGUSR1` signal to all processes with the given GID (group id))",
+    "description": "kill: Send a signal to a process, usually related to stopping the process. All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. (Send a `SIGUSR1` signal to all processes with the given GID (group id))",
     "tags": [
       "common",
       "kill",
@@ -111152,6 +111557,21 @@
   {
     "id": "tldr-en-common-cjxl-1",
     "type": "command",
+    "title": "cjxl - Convert a JPEG to JPEG XL without losing data",
+    "content": "cjxl {{path/to/image}}.jpg {{path/to/output}}.jxl",
+    "group": "Common Tools",
+    "description": "cjxl: Convert and compress images to JPEG XL. Accepted input extensions are PNG, APNG, GIF, JPEG, EXR, PPM, PFM, PAM, PGX, and JXL. (Convert a JPEG to JPEG XL without losing data)",
+    "tags": [
+      "common",
+      "cjxl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-cjxl-2",
+    "type": "command",
     "title": "cjxl - Convert with a specific effort level ('1' - fastest but worst results, '10' - slowest but best results, '7' - default)",
     "content": "cjxl {{[-e|--effort]}} {{1..10}} {{path/to/image.ext}} {{path/to/output}}.jxl",
     "group": "Common Tools",
@@ -111165,7 +111585,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-common-cjxl-2",
+    "id": "tldr-en-common-cjxl-3",
     "type": "command",
     "title": "cjxl - Convert with a specific quality",
     "content": "cjxl {{[-q|--quality]}} {{0..100}} {{path/to/image.ext}} {{path/to/output}}.jxl",
@@ -111180,7 +111600,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-common-cjxl-3",
+    "id": "tldr-en-common-cjxl-4",
     "type": "command",
     "title": "cjxl - Convert a JPEG to a JPEG XL with specific lossy quality",
     "content": "cjxl {{[-q|--quality]}} {{0..100}} {{[-j|--lossless_jpeg]}} 0 {{path/to/image.jpeg}} {{path/to/output}}.jxl",
@@ -111195,7 +111615,7 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-common-cjxl-4",
+    "id": "tldr-en-common-cjxl-5",
     "type": "command",
     "title": "cjxl - Display an extremely detailed help",
     "content": "cjxl {{[-h -v -v -v -v|--help --verbose --verbose --verbose --verbose]}}",
@@ -128073,7 +128493,7 @@
     "id": "tldr-en-common-cwebp-0",
     "type": "command",
     "title": "cwebp - Compress a WebP file with default settings (lossy compression, q = 75) to the [o]utput file",
-    "content": "cwebp {{path/to/image_file}} -o {{path/to/output.webp}}",
+    "content": "cwebp {{path/to/image_file}} -o {{path/to/output}}.webp",
     "group": "Common Tools",
     "description": "cwebp: Compress an image file to a WebP file. (Compress a WebP file with default settings (lossy compression, q = 75) to the [o]utput file)",
     "tags": [
@@ -128088,7 +128508,7 @@
     "id": "tldr-en-common-cwebp-1",
     "type": "command",
     "title": "cwebp - Compress a WebP file with the best lossy compression [q]uality and largest file size",
-    "content": "cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -q {{100}}",
+    "content": "cwebp {{path/to/image_file}} -o {{path/to/output}}.webp -q {{100}}",
     "group": "Common Tools",
     "description": "cwebp: Compress an image file to a WebP file. (Compress a WebP file with the best lossy compression [q]uality and largest file size)",
     "tags": [
@@ -128103,7 +128523,7 @@
     "id": "tldr-en-common-cwebp-2",
     "type": "command",
     "title": "cwebp - Compress a WebP file with the worst lossy compression [q]uality and smallest file size",
-    "content": "cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -q {{0}}",
+    "content": "cwebp {{path/to/image_file}} -o {{path/to/output}}.webp -q {{0}}",
     "group": "Common Tools",
     "description": "cwebp: Compress an image file to a WebP file. (Compress a WebP file with the worst lossy compression [q]uality and smallest file size)",
     "tags": [
@@ -128118,7 +128538,7 @@
     "id": "tldr-en-common-cwebp-3",
     "type": "command",
     "title": "cwebp - Compress a WebP file with lossless compression and smallest possible file size",
-    "content": "cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -z 9",
+    "content": "cwebp {{path/to/image_file}} -o {{path/to/output}}.webp -z 9",
     "group": "Common Tools",
     "description": "cwebp: Compress an image file to a WebP file. (Compress a WebP file with lossless compression and smallest possible file size)",
     "tags": [
@@ -128133,7 +128553,7 @@
     "id": "tldr-en-common-cwebp-4",
     "type": "command",
     "title": "cwebp - Compress a WebP file and apply resize to image (if width or height are 0, scaling preserves aspect ratio)",
-    "content": "cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -resize {{width}} {{height}}",
+    "content": "cwebp {{path/to/image_file}} -o {{path/to/output}}.webp -resize {{width}} {{height}}",
     "group": "Common Tools",
     "description": "cwebp: Compress an image file to a WebP file. (Compress a WebP file and apply resize to image (if width or height are 0, scaling preserves aspect ratio))",
     "tags": [
@@ -128148,7 +128568,7 @@
     "id": "tldr-en-common-cwebp-5",
     "type": "command",
     "title": "cwebp - Compress a WebP file and drop alpha channel information",
-    "content": "cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -noalpha",
+    "content": "cwebp {{path/to/image_file}} -o {{path/to/output}}.webp -noalpha",
     "group": "Common Tools",
     "description": "cwebp: Compress an image file to a WebP file. (Compress a WebP file and drop alpha channel information)",
     "tags": [
@@ -131805,6 +132225,21 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-avifdec-0",
+    "type": "command",
+    "title": "avifdec - Convert a specific AVIF image to PNG",
+    "content": "avifdec {{path/to/input}}.avif {{path/to/output}}.png",
+    "group": "Common Tools",
+    "description": "avifdec: AV1 Image File Format (AVIF) decoder. (Convert a specific AVIF image to PNG)",
+    "tags": [
+      "common",
+      "avifdec",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-xcaddy-0",
     "type": "command",
     "title": "xcaddy - Build Caddy server from source",
@@ -134192,10 +134627,10 @@
   {
     "id": "tldr-en-common-tts-0",
     "type": "command",
-    "title": "tts - Run text-to-speech with the default models, writing the output to \"tts_output.wav\"",
+    "title": "tts - Run text-to-speech with the default models, writing the output to `tts_output.wav`",
     "content": "tts --text \"{{text}}\"",
     "group": "Common Tools",
-    "description": "tts: Synthesize speech. (Run text-to-speech with the default models, writing the output to \"tts_output.wav\")",
+    "description": "tts: Synthesize speech. (Run text-to-speech with the default models, writing the output to `tts_output.wav`)",
     "tags": [
       "common",
       "tts",
@@ -135249,6 +135684,111 @@
     "tags": [
       "common",
       "bun-pm-bin",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-trackfetch-0",
+    "type": "command",
+    "title": "trackfetch - Download every song from a file with one `Artist - Title` per line into `~/Music/trackfetch`",
+    "content": "trackfetch {{path/to/songs.txt}}",
+    "group": "Common Tools",
+    "description": "trackfetch: Download songs listed in a text file as tagged MP3, M4A or Opus files, using Spotify metadata and YouTube audio. Requires `yt-dlp`, `ffmpeg` and the `$SPOTIFY_CLIENT_ID` and `$SPOTIFY_CLIENT_SECRET` environment variables. (Download every song from a file with one `Artist - Title` per line into `~/Music/trackfetch`)",
+    "tags": [
+      "common",
+      "trackfetch",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-trackfetch-1",
+    "type": "command",
+    "title": "trackfetch - Download songs into a specific directory",
+    "content": "trackfetch {{path/to/songs.txt}} {{[-o|--output]}} {{path/to/directory}}",
+    "group": "Common Tools",
+    "description": "trackfetch: Download songs listed in a text file as tagged MP3, M4A or Opus files, using Spotify metadata and YouTube audio. Requires `yt-dlp`, `ffmpeg` and the `$SPOTIFY_CLIENT_ID` and `$SPOTIFY_CLIENT_SECRET` environment variables. (Download songs into a specific directory)",
+    "tags": [
+      "common",
+      "trackfetch",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-trackfetch-2",
+    "type": "command",
+    "title": "trackfetch - Keep YouTube's original audio instead of converting it to MP3",
+    "content": "trackfetch {{path/to/songs.txt}} {{[-f|--format]}} {{opus|m4a}}",
+    "group": "Common Tools",
+    "description": "trackfetch: Download songs listed in a text file as tagged MP3, M4A or Opus files, using Spotify metadata and YouTube audio. Requires `yt-dlp`, `ffmpeg` and the `$SPOTIFY_CLIENT_ID` and `$SPOTIFY_CLIENT_SECRET` environment variables. (Keep YouTube's original audio instead of converting it to MP3)",
+    "tags": [
+      "common",
+      "trackfetch",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-trackfetch-3",
+    "type": "command",
+    "title": "trackfetch - Name the files by song title only, instead of `Artist - Title`",
+    "content": "trackfetch {{path/to/songs.txt}} --title-only",
+    "group": "Common Tools",
+    "description": "trackfetch: Download songs listed in a text file as tagged MP3, M4A or Opus files, using Spotify metadata and YouTube audio. Requires `yt-dlp`, `ffmpeg` and the `$SPOTIFY_CLIENT_ID` and `$SPOTIFY_CLIENT_SECRET` environment variables. (Name the files by song title only, instead of `Artist - Title`)",
+    "tags": [
+      "common",
+      "trackfetch",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-trackfetch-4",
+    "type": "command",
+    "title": "trackfetch - Wait a number of seconds between songs to avoid rate limiting",
+    "content": "trackfetch {{path/to/songs.txt}} --delay {{3}}",
+    "group": "Common Tools",
+    "description": "trackfetch: Download songs listed in a text file as tagged MP3, M4A or Opus files, using Spotify metadata and YouTube audio. Requires `yt-dlp`, `ffmpeg` and the `$SPOTIFY_CLIENT_ID` and `$SPOTIFY_CLIENT_SECRET` environment variables. (Wait a number of seconds between songs to avoid rate limiting)",
+    "tags": [
+      "common",
+      "trackfetch",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-trackfetch-5",
+    "type": "command",
+    "title": "trackfetch - Retry the songs that failed in a previous run",
+    "content": "cut {{[-d|--delimiter]}} '|' {{[-f|--fields]}} 1 {{path/to/directory}}/failed.txt > {{path/to/retry.txt}} && trackfetch {{path/to/retry.txt}} {{[-o|--output]}} {{path/to/directory}}",
+    "group": "Common Tools",
+    "description": "trackfetch: Download songs listed in a text file as tagged MP3, M4A or Opus files, using Spotify metadata and YouTube audio. Requires `yt-dlp`, `ffmpeg` and the `$SPOTIFY_CLIENT_ID` and `$SPOTIFY_CLIENT_SECRET` environment variables. (Retry the songs that failed in a previous run)",
+    "tags": [
+      "common",
+      "trackfetch",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-trackfetch-6",
+    "type": "command",
+    "title": "trackfetch - Display help",
+    "content": "trackfetch {{[-h|--help]}}",
+    "group": "Common Tools",
+    "description": "trackfetch: Download songs listed in a text file as tagged MP3, M4A or Opus files, using Spotify metadata and YouTube audio. Requires `yt-dlp`, `ffmpeg` and the `$SPOTIFY_CLIENT_ID` and `$SPOTIFY_CLIENT_SECRET` environment variables. (Display help)",
+    "tags": [
+      "common",
+      "trackfetch",
       "tldr",
       "en"
     ],
@@ -158895,6 +159435,36 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-avifenc-0",
+    "type": "command",
+    "title": "avifenc - Convert a specific PNG image to AVIF",
+    "content": "avifenc {{path/to/input}}.png {{path/to/output}}.avif",
+    "group": "Common Tools",
+    "description": "avifenc: AV1 Image File Format (AVIF) encoder. (Convert a specific PNG image to AVIF)",
+    "tags": [
+      "common",
+      "avifenc",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-avifenc-1",
+    "type": "command",
+    "title": "avifenc - Encode with a specific speed (6=default, 0=slowest, and 10=fastest)",
+    "content": "avifenc {{[-s|--speed]}} {{0..10}} {{path/to/input.png}} {{path/to/output}}.avif",
+    "group": "Common Tools",
+    "description": "avifenc: AV1 Image File Format (AVIF) encoder. (Encode with a specific speed (6=default, 0=slowest, and 10=fastest))",
+    "tags": [
+      "common",
+      "avifenc",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-adb-forward-0",
     "type": "command",
     "title": "adb-forward - Forward a TCP port to the only connected emulator or device",
@@ -167405,7 +167975,7 @@
     "title": "tox - Run tests on all test environments",
     "content": "tox",
     "group": "Common Tools",
-    "description": "tox: Automate Python testing across multiple Python versions. Use tox.ini to configure environments and test command. (Run tests on all test environments)",
+    "description": "tox: Automate Python testing across multiple Python versions. Use `tox.ini` to configure environments and test command. (Run tests on all test environments)",
     "tags": [
       "common",
       "tox",
@@ -167420,7 +167990,7 @@
     "title": "tox - Create a `tox.ini` configuration",
     "content": "tox-quickstart",
     "group": "Common Tools",
-    "description": "tox: Automate Python testing across multiple Python versions. Use tox.ini to configure environments and test command. (Create a `tox.ini` configuration)",
+    "description": "tox: Automate Python testing across multiple Python versions. Use `tox.ini` to configure environments and test command. (Create a `tox.ini` configuration)",
     "tags": [
       "common",
       "tox",
@@ -167435,7 +168005,7 @@
     "title": "tox - List the available environments",
     "content": "tox {{[-a|--listenvs-all]}}",
     "group": "Common Tools",
-    "description": "tox: Automate Python testing across multiple Python versions. Use tox.ini to configure environments and test command. (List the available environments)",
+    "description": "tox: Automate Python testing across multiple Python versions. Use `tox.ini` to configure environments and test command. (List the available environments)",
     "tags": [
       "common",
       "tox",
@@ -167450,7 +168020,7 @@
     "title": "tox - Run tests on a specific environment (e.g. Python 3.6)",
     "content": "tox -e {{py36}}",
     "group": "Common Tools",
-    "description": "tox: Automate Python testing across multiple Python versions. Use tox.ini to configure environments and test command. (Run tests on a specific environment (e.g. Python 3.6))",
+    "description": "tox: Automate Python testing across multiple Python versions. Use `tox.ini` to configure environments and test command. (Run tests on a specific environment (e.g. Python 3.6))",
     "tags": [
       "common",
       "tox",
@@ -167465,7 +168035,7 @@
     "title": "tox - Force the virtual environment to be recreated",
     "content": "tox {{[-r|--recreate]}} -e {{py27}}",
     "group": "Common Tools",
-    "description": "tox: Automate Python testing across multiple Python versions. Use tox.ini to configure environments and test command. (Force the virtual environment to be recreated)",
+    "description": "tox: Automate Python testing across multiple Python versions. Use `tox.ini` to configure environments and test command. (Force the virtual environment to be recreated)",
     "tags": [
       "common",
       "tox",
@@ -174752,10 +175322,10 @@
   {
     "id": "tldr-en-common-pee-2",
     "type": "command",
-    "title": "pee - Immediately terminate upon SIGPIPEs and write errors",
+    "title": "pee - Immediately terminate upon `SIGPIPE`s and write errors",
     "content": "pee --no-ignore-sigpipe --no-ignore-write-errors {{command1 command2 ...}}",
     "group": "Common Tools",
-    "description": "pee: Tee `stdin` to pipes. (Immediately terminate upon SIGPIPEs and write errors)",
+    "description": "pee: Tee `stdin` to pipes. (Immediately terminate upon `SIGPIPE`s and write errors)",
     "tags": [
       "common",
       "pee",
@@ -198422,10 +198992,10 @@
   {
     "id": "tldr-en-common-disown-3",
     "type": "command",
-    "title": "disown - Keep job (do not disown it), but mark it so that no future SIGHUP is received on shell exit (Bash only)",
+    "title": "disown - Keep job (do not disown it), but mark it so that no future `SIGHUP` is received on shell exit (Bash only)",
     "content": "disown -h %{{job_number}}",
     "group": "Common Tools",
-    "description": "disown: Allow sub-processes to live beyond the shell that they are attached to. (Keep job (do not disown it), but mark it so that no future SIGHUP is received on shell exit (Bash only))",
+    "description": "disown: Allow sub-processes to live beyond the shell that they are attached to. (Keep job (do not disown it), but mark it so that no future `SIGHUP` is received on shell exit (Bash only))",
     "tags": [
       "common",
       "disown",
@@ -223968,7 +224538,7 @@
     "id": "tldr-en-common-smartctl-3",
     "type": "command",
     "title": "smartctl - Display the self-test log",
-    "content": "sudo smartctl {{[-l|--log]}} selftest",
+    "content": "sudo smartctl {{[-l|--log]}} selftest {{/dev/sdX}}",
     "group": "Common Tools",
     "description": "smartctl: Monitor disk health including SMART data. (Display the self-test log)",
     "tags": [
@@ -247397,10 +247967,10 @@
   {
     "id": "tldr-en-common-locust-0",
     "type": "command",
-    "title": "locust - Load-test \"example.com\" with web interface using locustfile.py",
+    "title": "locust - Load-test \"example.com\" with web interface using `locustfile.py`",
     "content": "locust {{[-H|--host]}} {{http://example.com}}",
     "group": "Common Tools",
-    "description": "locust: Load-testing tool to determine number of concurrent users a system can handle. (Load-test \"example.com\" with web interface using locustfile.py)",
+    "description": "locust: Load-testing tool to determine number of concurrent users a system can handle. (Load-test \"example.com\" with web interface using `locustfile.py`)",
     "tags": [
       "common",
       "locust",
@@ -272267,10 +272837,10 @@
   {
     "id": "tldr-en-common-pkill-3",
     "type": "command",
-    "title": "pkill - Send SIGUSR1 signal to processes which match",
+    "title": "pkill - Send `SIGUSR1` signal to processes which match",
     "content": "pkill {{[-10|-SIGUSR1]}} \"{{process_name}}\"",
     "group": "Common Tools",
-    "description": "pkill: Signal process by name. Mostly used for stopping processes. (Send SIGUSR1 signal to processes which match)",
+    "description": "pkill: Signal process by name. Mostly used for stopping processes. (Send `SIGUSR1` signal to processes which match)",
     "tags": [
       "common",
       "pkill",
@@ -273534,6 +274104,81 @@
     "tags": [
       "common",
       "virsh-pool-undefine",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-exec-0",
+    "type": "command",
+    "title": "colab-exec - Execute code provided via `stdin`",
+    "content": "echo \"{{print('Hello from Colab')}}\" | colab exec",
+    "group": "Common Tools",
+    "description": "colab-exec: Execute code in an active Google Colab session. (Execute code provided via `stdin`)",
+    "tags": [
+      "common",
+      "colab-exec",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-exec-1",
+    "type": "command",
+    "title": "colab-exec - Execute a local Python script in the active session",
+    "content": "colab exec {{[-f|--file]}} {{path/to/script.py}}",
+    "group": "Common Tools",
+    "description": "colab-exec: Execute code in an active Google Colab session. (Execute a local Python script in the active session)",
+    "tags": [
+      "common",
+      "colab-exec",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-exec-2",
+    "type": "command",
+    "title": "colab-exec - Execute a local Jupyter notebook in a specific named session",
+    "content": "colab exec {{[-s|--session]}} {{session_name}} {{[-f|--file]}} {{path/to/notebook.ipynb}}",
+    "group": "Common Tools",
+    "description": "colab-exec: Execute code in an active Google Colab session. (Execute a local Jupyter notebook in a specific named session)",
+    "tags": [
+      "common",
+      "colab-exec",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-exec-3",
+    "type": "command",
+    "title": "colab-exec - Execute a script and save generated plots to an image file",
+    "content": "colab exec {{[-f|--file]}} {{path/to/script.py}} --output-image {{path/to/plot.png}}",
+    "group": "Common Tools",
+    "description": "colab-exec: Execute code in an active Google Colab session. (Execute a script and save generated plots to an image file)",
+    "tags": [
+      "common",
+      "colab-exec",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-common-colab-exec-4",
+    "type": "command",
+    "title": "colab-exec - Execute code with a custom timeout in seconds",
+    "content": "colab exec {{[-f|--file]}} {{path/to/script.py}} --timeout {{60.0}}",
+    "group": "Common Tools",
+    "description": "colab-exec: Execute code in an active Google Colab session. (Execute code with a custom timeout in seconds)",
+    "tags": [
+      "common",
+      "colab-exec",
       "tldr",
       "en"
     ],
@@ -310155,6 +310800,21 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-common-djpeg-0",
+    "type": "command",
+    "title": "djpeg - Decompress a JPEG file with default settings",
+    "content": "djpeg -outfile {{path/to/output_image}} {{path/to/input}}.jpg",
+    "group": "Common Tools",
+    "description": "djpeg: Decompress a JPEG file. (Decompress a JPEG file with default settings)",
+    "tags": [
+      "common",
+      "djpeg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-common-pdfimages-0",
     "type": "command",
     "title": "pdfimages - Extract all images from a PDF file and save them as PNGs",
@@ -311162,10 +311822,10 @@
   {
     "id": "tldr-en-common-assimp-3",
     "type": "command",
-    "title": "assimp - Convert a file using custom parameters (the dox_cmd.h file in assimp's source code lists available parameters)",
+    "title": "assimp - Convert a file using custom parameters (the `dox_cmd.h` file in assimp's source code lists available parameters)",
     "content": "assimp export {{input_file.stl}} {{output_file.obj}} {{parameters}}",
     "group": "Common Tools",
-    "description": "assimp: Client for the Open Asset Import Library. Supports loading of 40+ 3D file formats, and exporting to several popular 3D formats. (Convert a file using custom parameters (the dox_cmd.h file in assimp's source code lists available parameters))",
+    "description": "assimp: Client for the Open Asset Import Library. Supports loading of 40+ 3D file formats, and exporting to several popular 3D formats. (Convert a file using custom parameters (the `dox_cmd.h` file in assimp's source code lists available parameters))",
     "tags": [
       "common",
       "assimp",
@@ -314117,10 +314777,10 @@
   {
     "id": "tldr-en-common-gitlab-ctl-6",
     "type": "command",
-    "title": "gitlab-ctl - Send the SIGKILL signal to specific service",
+    "title": "gitlab-ctl - Send the `SIGKILL` signal to specific service",
     "content": "sudo gitlab-ctl kill {{nginx}}",
     "group": "Common Tools",
-    "description": "gitlab-ctl: Manage the GitLab omnibus. (Send the SIGKILL signal to specific service)",
+    "description": "gitlab-ctl: Manage the GitLab omnibus. (Send the `SIGKILL` signal to specific service)",
     "tags": [
       "common",
       "gitlab-ctl",

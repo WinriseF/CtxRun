@@ -4367,10 +4367,10 @@
   {
     "id": "tldr-zh-common-killall-0",
     "type": "command",
-    "title": "killall - 使用默认的 SIGTERM（终止）信号结束进程",
+    "title": "killall - 使用默认的 `SIGTERM`（终止）信号结束进程",
     "content": "killall {{进程名称}}",
     "group": "通用工具 (Common)",
-    "description": "killall: 根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，从而实现正常退出。 (使用默认的 SIGTERM（终止）信号结束进程)",
+    "description": "killall: 根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。 除了 `SIGKILL` 和 `SIGSTOP`，所有信号都可以被进程拦截，从而实现正常退出。 (使用默认的 `SIGTERM`（终止）信号结束进程)",
     "tags": [
       "common",
       "killall",
@@ -4385,7 +4385,7 @@
     "title": "killall - 列出可用的信号名称（使用时无需加 `SIG` 前缀）",
     "content": "killall {{[-l|--list]}}",
     "group": "通用工具 (Common)",
-    "description": "killall: 根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，从而实现正常退出。 (列出可用的信号名称（使用时无需加 `SIG` 前缀）)",
+    "description": "killall: 根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。 除了 `SIGKILL` 和 `SIGSTOP`，所有信号都可以被进程拦截，从而实现正常退出。 (列出可用的信号名称（使用时无需加 `SIG` 前缀）)",
     "tags": [
       "common",
       "killall",
@@ -4400,7 +4400,7 @@
     "title": "killall - 交互式地询问确认后再终止进程",
     "content": "killall {{[-i|--interactive]}} {{进程名称}}",
     "group": "通用工具 (Common)",
-    "description": "killall: 根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，从而实现正常退出。 (交互式地询问确认后再终止进程)",
+    "description": "killall: 根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。 除了 `SIGKILL` 和 `SIGSTOP`，所有信号都可以被进程拦截，从而实现正常退出。 (交互式地询问确认后再终止进程)",
     "tags": [
       "common",
       "killall",
@@ -4412,10 +4412,10 @@
   {
     "id": "tldr-zh-common-killall-3",
     "type": "command",
-    "title": "killall - 使用 SIGINT（中断）信号终止进程，与按下 `<Ctrl c>` 发送的信号相同",
+    "title": "killall - 使用 `SIGINT`（中断）信号终止进程，与按下 `<Ctrl c>` 发送的信号相同",
     "content": "killall {{[-2|-SIGINT]}} {{进程名称}}",
     "group": "通用工具 (Common)",
-    "description": "killall: 根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，从而实现正常退出。 (使用 SIGINT（中断）信号终止进程，与按下 `<Ctrl c>` 发送的信号相同)",
+    "description": "killall: 根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。 除了 `SIGKILL` 和 `SIGSTOP`，所有信号都可以被进程拦截，从而实现正常退出。 (使用 `SIGINT`（中断）信号终止进程，与按下 `<Ctrl c>` 发送的信号相同)",
     "tags": [
       "common",
       "killall",
@@ -4430,7 +4430,7 @@
     "title": "killall - 强制杀死一个进程",
     "content": "killall {{[-9|-SIGKILL]}} {{进程名称}}",
     "group": "通用工具 (Common)",
-    "description": "killall: 根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，从而实现正常退出。 (强制杀死一个进程)",
+    "description": "killall: 根据进程名称向所有实例发送终止信号（必须是精确的进程名称）。 除了 `SIGKILL` 和 `SIGSTOP`，所有信号都可以被进程拦截，从而实现正常退出。 (强制杀死一个进程)",
     "tags": [
       "common",
       "killall",
@@ -9887,10 +9887,10 @@
   {
     "id": "tldr-zh-common-jigsaw-3",
     "type": "command",
-    "title": "jigsaw - 从 \"build_local\" 目录预览网站",
+    "title": "jigsaw - 从 `build_local` 目录预览网站",
     "content": "jigsaw serve",
     "group": "通用工具 (Common)",
-    "description": "jigsaw: 基于 Laravel 的 PHP 静态网站生成器。 (从 \"build_local\" 目录预览网站)",
+    "description": "jigsaw: 基于 Laravel 的 PHP 静态网站生成器。 (从 `build_local` 目录预览网站)",
     "tags": [
       "common",
       "jigsaw",
@@ -9917,10 +9917,10 @@
   {
     "id": "tldr-zh-common-jigsaw-5",
     "type": "command",
-    "title": "jigsaw - 从 \"build_production\" 目录预览网站",
+    "title": "jigsaw - 从 `build_production` 目录预览网站",
     "content": "jigsaw serve {{build_production}}",
     "group": "通用工具 (Common)",
-    "description": "jigsaw: 基于 Laravel 的 PHP 静态网站生成器。 (从 \"build_production\" 目录预览网站)",
+    "description": "jigsaw: 基于 Laravel 的 PHP 静态网站生成器。 (从 `build_production` 目录预览网站)",
     "tags": [
       "common",
       "jigsaw",
@@ -15512,10 +15512,10 @@
   {
     "id": "tldr-zh-common-kill-0",
     "type": "command",
-    "title": "kill - 使用默认的 SIGTERM（终止）信号来结束一个程序",
+    "title": "kill - 使用默认的 `SIGTERM`（终止）信号来结束一个程序",
     "content": "kill {{进程id}}",
     "group": "通用工具 (Common)",
-    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，以便进行正常退出。 (使用默认的 SIGTERM（终止）信号来结束一个程序)",
+    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 `SIGKILL` 和 `SIGSTOP`，所有信号都可以被进程拦截，以便进行正常退出。 (使用默认的 `SIGTERM`（终止）信号来结束一个程序)",
     "tags": [
       "common",
       "kill",
@@ -15530,7 +15530,7 @@
     "title": "kill - 列出可用的信号名称（使用时无需加 `SIG` 前缀）",
     "content": "kill -l",
     "group": "通用工具 (Common)",
-    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，以便进行正常退出。 (列出可用的信号名称（使用时无需加 `SIG` 前缀）)",
+    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 `SIGKILL` 和 `SIGSTOP`，所有信号都可以被进程拦截，以便进行正常退出。 (列出可用的信号名称（使用时无需加 `SIG` 前缀）)",
     "tags": [
       "common",
       "kill",
@@ -15542,10 +15542,10 @@
   {
     "id": "tldr-zh-common-kill-2",
     "type": "command",
-    "title": "kill - 使用 SIGHUP（挂起）信号终止一个程序。许多守护进程接收到此信号后会重新加载而不是终止",
+    "title": "kill - 使用 `SIGHUP`（挂起）信号终止一个程序。许多守护进程接收到此信号后会重新加载而不是终止",
     "content": "kill {{[-1|-HUP]}} {{进程id}}",
     "group": "通用工具 (Common)",
-    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，以便进行正常退出。 (使用 SIGHUP（挂起）信号终止一个程序。许多守护进程接收到此信号后会重新加载而不是终止)",
+    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 `SIGKILL` 和 `SIGSTOP`，所有信号都可以被进程拦截，以便进行正常退出。 (使用 `SIGHUP`（挂起）信号终止一个程序。许多守护进程接收到此信号后会重新加载而不是终止)",
     "tags": [
       "common",
       "kill",
@@ -15557,10 +15557,10 @@
   {
     "id": "tldr-zh-common-kill-3",
     "type": "command",
-    "title": "kill - 使用 SIGINT（中断）信号终止一个程序。通常由用户按下 `<Ctrl c>` 发起",
+    "title": "kill - 使用 `SIGINT`（中断）信号终止一个程序。通常由用户按下 `<Ctrl c>` 发起",
     "content": "kill {{[-2|-INT]}} {{进程id}}",
     "group": "通用工具 (Common)",
-    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，以便进行正常退出。 (使用 SIGINT（中断）信号终止一个程序。通常由用户按下 `<Ctrl c>` 发起)",
+    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 `SIGKILL` 和 `SIGSTOP`，所有信号都可以被进程拦截，以便进行正常退出。 (使用 `SIGINT`（中断）信号终止一个程序。通常由用户按下 `<Ctrl c>` 发起)",
     "tags": [
       "common",
       "kill",
@@ -15575,7 +15575,7 @@
     "title": "kill - 向操作系统发送信号，立即终止一个程序（程序无机会捕获信号）",
     "content": "kill {{[-9|-KILL]}} {{进程id}}",
     "group": "通用工具 (Common)",
-    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，以便进行正常退出。 (向操作系统发送信号，立即终止一个程序（程序无机会捕获信号）)",
+    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 `SIGKILL` 和 `SIGSTOP`，所有信号都可以被进程拦截，以便进行正常退出。 (向操作系统发送信号，立即终止一个程序（程序无机会捕获信号）)",
     "tags": [
       "common",
       "kill",
@@ -15587,10 +15587,10 @@
   {
     "id": "tldr-zh-common-kill-5",
     "type": "command",
-    "title": "kill - 向操作系统发送信号，暂停一个程序，直到收到 SIGCONT（继续）信号",
+    "title": "kill - 向操作系统发送信号，暂停一个程序，直到收到 `SIGCONT`（继续）信号",
     "content": "kill {{[-19|-STOP]}} {{进程id}}",
     "group": "通用工具 (Common)",
-    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，以便进行正常退出。 (向操作系统发送信号，暂停一个程序，直到收到 SIGCONT（继续）信号)",
+    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 `SIGKILL` 和 `SIGSTOP`，所有信号都可以被进程拦截，以便进行正常退出。 (向操作系统发送信号，暂停一个程序，直到收到 `SIGCONT`（继续）信号)",
     "tags": [
       "common",
       "kill",
@@ -15605,7 +15605,7 @@
     "title": "kill - 向所有具有指定 GID（组 ID）的进程发送 `SIGUSR1` 信号",
     "content": "kill -SIGUSR1 -{{组id}}",
     "group": "通用工具 (Common)",
-    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 SIGKILL 和 SIGSTOP，所有信号都可以被进程拦截，以便进行正常退出。 (向所有具有指定 GID（组 ID）的进程发送 `SIGUSR1` 信号)",
+    "description": "kill: 向进程发送信号，通常用于停止进程。 除了 `SIGKILL` 和 `SIGSTOP`，所有信号都可以被进程拦截，以便进行正常退出。 (向所有具有指定 GID（组 ID）的进程发送 `SIGUSR1` 信号)",
     "tags": [
       "common",
       "kill",
@@ -24033,7 +24033,7 @@
     "id": "tldr-zh-common-zrun-0",
     "type": "command",
     "title": "zrun - 使用解压后的压缩参数文件运行指定命令",
-    "content": "zrun {{cat 路径/到/文件1.gz 路径/到/文件2.bz2 ...}}",
+    "content": "zrun {{cat}} {{路径/到/文件1.gz 路径/到/文件2.bz2 ...}}",
     "group": "通用工具 (Common)",
     "description": "zrun: 透明地将压缩的参数文件解压缩并传递给某个命令。 (使用解压后的压缩参数文件运行指定命令)",
     "tags": [
@@ -33197,10 +33197,10 @@
   {
     "id": "tldr-zh-common-disown-3",
     "type": "command",
-    "title": "disown - 保留作业（不解除关联），但标记为 shell 退出时不再接收 SIGHUP（仅限 Bash）",
+    "title": "disown - 保留作业（不解除关联），但标记为 shell 退出时不再接收 `SIGHUP`（仅限 Bash）",
     "content": "disown -h %{{作业编号}}",
     "group": "通用工具 (Common)",
-    "description": "disown: 允许子进程在其所属的 shell 结束后继续运行。 另请参阅：`jobs`。 (保留作业（不解除关联），但标记为 shell 退出时不再接收 SIGHUP（仅限 Bash）)",
+    "description": "disown: 允许子进程在其所属的 shell 结束后继续运行。 另请参阅：`jobs`。 (保留作业（不解除关联），但标记为 shell 退出时不再接收 `SIGHUP`（仅限 Bash）)",
     "tags": [
       "common",
       "disown",
@@ -47912,10 +47912,10 @@
   {
     "id": "tldr-zh-common-pkill-3",
     "type": "command",
-    "title": "pkill - 向匹配指定名称的进程发送 SIGUSR1 信号",
+    "title": "pkill - 向匹配指定名称的进程发送 `SIGUSR1` 信号",
     "content": "pkill {{[-10|-SIGUSR1]}} \"{{进程名称}}\"",
     "group": "通用工具 (Common)",
-    "description": "pkill: 按名称向进程发送信号。 通常用于停止进程。 (向匹配指定名称的进程发送 SIGUSR1 信号)",
+    "description": "pkill: 按名称向进程发送信号。 通常用于停止进程。 (向匹配指定名称的进程发送 `SIGUSR1` 信号)",
     "tags": [
       "common",
       "pkill",
