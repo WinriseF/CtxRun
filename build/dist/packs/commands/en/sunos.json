@@ -1,464 +1,44 @@
 [
   {
-    "id": "tldr-en-sunos-zoneadm-0",
+    "id": "tldr-en-sunos-dmesg-0",
     "type": "command",
-    "title": "zoneadm - List all zones and their current status",
-    "content": "zoneadm list -cv",
+    "title": "dmesg - Show kernel messages",
+    "content": "dmesg",
     "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (List all zones and their current status)",
+    "description": "dmesg: Write the kernel messages to `stdout`. (Show kernel messages)",
     "tags": [
       "sunos",
-      "zoneadm",
+      "dmesg",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-zoneadm-1",
+    "id": "tldr-en-sunos-dmesg-1",
     "type": "command",
-    "title": "zoneadm - Verify the configuration of a specific zone",
-    "content": "sudo zoneadm -z {{zone_name}} verify",
+    "title": "dmesg - Show how much physical memory is available on this system",
+    "content": "dmesg | grep -i memory",
     "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (Verify the configuration of a specific zone)",
+    "description": "dmesg: Write the kernel messages to `stdout`. (Show how much physical memory is available on this system)",
     "tags": [
       "sunos",
-      "zoneadm",
+      "dmesg",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-zoneadm-2",
+    "id": "tldr-en-sunos-dmesg-2",
     "type": "command",
-    "title": "zoneadm - Install a zone",
-    "content": "sudo zoneadm -z {{zone_name}} install",
+    "title": "dmesg - Show kernel messages 1 page at a time",
+    "content": "dmesg | less",
     "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (Install a zone)",
+    "description": "dmesg: Write the kernel messages to `stdout`. (Show kernel messages 1 page at a time)",
     "tags": [
       "sunos",
-      "zoneadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-zoneadm-3",
-    "type": "command",
-    "title": "zoneadm - Boot (start) a zone",
-    "content": "sudo zoneadm -z {{zone_name}} boot",
-    "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (Boot (start) a zone)",
-    "tags": [
-      "sunos",
-      "zoneadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-zoneadm-4",
-    "type": "command",
-    "title": "zoneadm - Reboot a zone",
-    "content": "sudo zoneadm -z {{zone_name}} reboot",
-    "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (Reboot a zone)",
-    "tags": [
-      "sunos",
-      "zoneadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-zoneadm-5",
-    "type": "command",
-    "title": "zoneadm - Halt (stop) a zone, bypassing any shutdown scripts inside the zone",
-    "content": "sudo zoneadm -z {{zone_name}} halt",
-    "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (Halt (stop) a zone, bypassing any shutdown scripts inside the zone)",
-    "tags": [
-      "sunos",
-      "zoneadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-zoneadm-6",
-    "type": "command",
-    "title": "zoneadm - Uninstall a zone",
-    "content": "sudo zoneadm -z {{zone_name}} uninstall",
-    "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (Uninstall a zone)",
-    "tags": [
-      "sunos",
-      "zoneadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-devfsadm-0",
-    "type": "command",
-    "title": "devfsadm - Scan for new disks",
-    "content": "devfsadm -c disk",
-    "group": "SunOS",
-    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Scan for new disks)",
-    "tags": [
-      "sunos",
-      "devfsadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-devfsadm-1",
-    "type": "command",
-    "title": "devfsadm - Clean up any dangling `/dev` links and scan for new devices",
-    "content": "devfsadm -C -v",
-    "group": "SunOS",
-    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Clean up any dangling `/dev` links and scan for new devices)",
-    "tags": [
-      "sunos",
-      "devfsadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-devfsadm-2",
-    "type": "command",
-    "title": "devfsadm - Simulate what would happen but make no modifications",
-    "content": "devfsadm -C -v -n",
-    "group": "SunOS",
-    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Simulate what would happen but make no modifications)",
-    "tags": [
-      "sunos",
-      "devfsadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-prctl-0",
-    "type": "command",
-    "title": "prctl - Examine process limits and permissions",
-    "content": "prctl {{process_id}}",
-    "group": "SunOS",
-    "description": "prctl: Get or set the resource controls of running processes, tasks, and projects. (Examine process limits and permissions)",
-    "tags": [
-      "sunos",
-      "prctl",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-prctl-1",
-    "type": "command",
-    "title": "prctl - Examine process limits and permissions in machine parsable format",
-    "content": "prctl -P {{process_id}}",
-    "group": "SunOS",
-    "description": "prctl: Get or set the resource controls of running processes, tasks, and projects. (Examine process limits and permissions in machine parsable format)",
-    "tags": [
-      "sunos",
-      "prctl",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-prctl-2",
-    "type": "command",
-    "title": "prctl - Get a specific limit for a running process",
-    "content": "prctl -n process.max-file-descriptor {{process_id}}",
-    "group": "SunOS",
-    "description": "prctl: Get or set the resource controls of running processes, tasks, and projects. (Get a specific limit for a running process)",
-    "tags": [
-      "sunos",
-      "prctl",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-prstat-0",
-    "type": "command",
-    "title": "prstat - Examine all processes and report statistics sorted by CPU usage",
-    "content": "prstat",
-    "group": "SunOS",
-    "description": "prstat: Report active process statistics. (Examine all processes and report statistics sorted by CPU usage)",
-    "tags": [
-      "sunos",
-      "prstat",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-prstat-1",
-    "type": "command",
-    "title": "prstat - Examine all processes and report statistics sorted by memory usage",
-    "content": "prstat -s rss",
-    "group": "SunOS",
-    "description": "prstat: Report active process statistics. (Examine all processes and report statistics sorted by memory usage)",
-    "tags": [
-      "sunos",
-      "prstat",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-prstat-2",
-    "type": "command",
-    "title": "prstat - Report total usage summary for each user",
-    "content": "prstat -t",
-    "group": "SunOS",
-    "description": "prstat: Report active process statistics. (Report total usage summary for each user)",
-    "tags": [
-      "sunos",
-      "prstat",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-prstat-3",
-    "type": "command",
-    "title": "prstat - Report microstate process accounting information",
-    "content": "prstat -m",
-    "group": "SunOS",
-    "description": "prstat: Report active process statistics. (Report microstate process accounting information)",
-    "tags": [
-      "sunos",
-      "prstat",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-prstat-4",
-    "type": "command",
-    "title": "prstat - Print out a list of top 5 CPU using processes every second",
-    "content": "prstat -c -n 5 -s cpu 1",
-    "group": "SunOS",
-    "description": "prstat: Report active process statistics. (Print out a list of top 5 CPU using processes every second)",
-    "tags": [
-      "sunos",
-      "prstat",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-snoop-0",
-    "type": "command",
-    "title": "snoop - Capture packets on a specific network interface",
-    "content": "snoop -d {{e1000g0}}",
-    "group": "SunOS",
-    "description": "snoop: Network packet sniffer. SunOS equivalent of `tcpdump`. (Capture packets on a specific network interface)",
-    "tags": [
-      "sunos",
-      "snoop",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-snoop-1",
-    "type": "command",
-    "title": "snoop - Save captured packets in a file instead of displaying them",
-    "content": "snoop -o {{path/to/file}}",
-    "group": "SunOS",
-    "description": "snoop: Network packet sniffer. SunOS equivalent of `tcpdump`. (Save captured packets in a file instead of displaying them)",
-    "tags": [
-      "sunos",
-      "snoop",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-snoop-2",
-    "type": "command",
-    "title": "snoop - Display verbose protocol layer summary of packets from a file",
-    "content": "snoop -V -i {{path/to/file}}",
-    "group": "SunOS",
-    "description": "snoop: Network packet sniffer. SunOS equivalent of `tcpdump`. (Display verbose protocol layer summary of packets from a file)",
-    "tags": [
-      "sunos",
-      "snoop",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-snoop-3",
-    "type": "command",
-    "title": "snoop - Capture network packets that come from a hostname and go to a given port",
-    "content": "snoop to port {{port}} from host {{hostname}}",
-    "group": "SunOS",
-    "description": "snoop: Network packet sniffer. SunOS equivalent of `tcpdump`. (Capture network packets that come from a hostname and go to a given port)",
-    "tags": [
-      "sunos",
-      "snoop",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-snoop-4",
-    "type": "command",
-    "title": "snoop - Capture and show a hex-dump of network packets exchanged between two IP addresses",
-    "content": "snoop -x0 -p4 {{ip1}} {{ip2}}",
-    "group": "SunOS",
-    "description": "snoop: Network packet sniffer. SunOS equivalent of `tcpdump`. (Capture and show a hex-dump of network packets exchanged between two IP addresses)",
-    "tags": [
-      "sunos",
-      "snoop",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svccfg-0",
-    "type": "command",
-    "title": "svccfg - Validate configuration file",
-    "content": "svccfg validate {{path/to/smf_file.xml}}",
-    "group": "SunOS",
-    "description": "svccfg: Import, export, and modify service configurations. (Validate configuration file)",
-    "tags": [
-      "sunos",
-      "svccfg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svccfg-1",
-    "type": "command",
-    "title": "svccfg - Export service configurations to file",
-    "content": "svccfg export {{servicename}} >{{path/to/smf_file.xml}}",
-    "group": "SunOS",
-    "description": "svccfg: Import, export, and modify service configurations. (Export service configurations to file)",
-    "tags": [
-      "sunos",
-      "svccfg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svccfg-2",
-    "type": "command",
-    "title": "svccfg - Import/update service configurations from file",
-    "content": "svccfg import {{path/to/smf_file.xml}}",
-    "group": "SunOS",
-    "description": "svccfg: Import, export, and modify service configurations. (Import/update service configurations from file)",
-    "tags": [
-      "sunos",
-      "svccfg",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svcs-0",
-    "type": "command",
-    "title": "svcs - List all running services",
-    "content": "svcs",
-    "group": "SunOS",
-    "description": "svcs: List information about running services. (List all running services)",
-    "tags": [
-      "sunos",
-      "svcs",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svcs-1",
-    "type": "command",
-    "title": "svcs - List services that are not running",
-    "content": "svcs -vx",
-    "group": "SunOS",
-    "description": "svcs: List information about running services. (List services that are not running)",
-    "tags": [
-      "sunos",
-      "svcs",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svcs-2",
-    "type": "command",
-    "title": "svcs - List information about a service",
-    "content": "svcs {{apache}}",
-    "group": "SunOS",
-    "description": "svcs: List information about running services. (List information about a service)",
-    "tags": [
-      "sunos",
-      "svcs",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svcs-3",
-    "type": "command",
-    "title": "svcs - Show location of service log file",
-    "content": "svcs -L {{apache}}",
-    "group": "SunOS",
-    "description": "svcs: List information about running services. (Show location of service log file)",
-    "tags": [
-      "sunos",
-      "svcs",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-svcs-4",
-    "type": "command",
-    "title": "svcs - Display end of a service log file",
-    "content": "tail $(svcs -L {{apache}})",
-    "group": "SunOS",
-    "description": "svcs: List information about running services. (Display end of a service log file)",
-    "tags": [
-      "sunos",
-      "svcs",
+      "dmesg",
       "tldr",
       "en"
     ],
@@ -540,45 +120,120 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-dmesg-0",
+    "id": "tldr-en-sunos-devfsadm-0",
     "type": "command",
-    "title": "dmesg - Show kernel messages",
-    "content": "dmesg",
+    "title": "devfsadm - Scan for new disks",
+    "content": "devfsadm -c disk",
     "group": "SunOS",
-    "description": "dmesg: Write the kernel messages to `stdout`. (Show kernel messages)",
+    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Scan for new disks)",
     "tags": [
       "sunos",
-      "dmesg",
+      "devfsadm",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-dmesg-1",
+    "id": "tldr-en-sunos-devfsadm-1",
     "type": "command",
-    "title": "dmesg - Show how much physical memory is available on this system",
-    "content": "dmesg | grep -i memory",
+    "title": "devfsadm - Clean up any dangling `/dev` links and scan for new devices",
+    "content": "devfsadm -C -v",
     "group": "SunOS",
-    "description": "dmesg: Write the kernel messages to `stdout`. (Show how much physical memory is available on this system)",
+    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Clean up any dangling `/dev` links and scan for new devices)",
     "tags": [
       "sunos",
-      "dmesg",
+      "devfsadm",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-dmesg-2",
+    "id": "tldr-en-sunos-devfsadm-2",
     "type": "command",
-    "title": "dmesg - Show kernel messages 1 page at a time",
-    "content": "dmesg | less",
+    "title": "devfsadm - Simulate what would happen but make no modifications",
+    "content": "devfsadm -C -v -n",
     "group": "SunOS",
-    "description": "dmesg: Write the kernel messages to `stdout`. (Show kernel messages 1 page at a time)",
+    "description": "devfsadm: Administer `/dev`. Maintains the `/dev` namespace. (Simulate what would happen but make no modifications)",
     "tags": [
       "sunos",
-      "dmesg",
+      "devfsadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-snoop-0",
+    "type": "command",
+    "title": "snoop - Capture packets on a specific network interface",
+    "content": "snoop -d {{e1000g0}}",
+    "group": "SunOS",
+    "description": "snoop: Network packet sniffer. SunOS equivalent of `tcpdump`. (Capture packets on a specific network interface)",
+    "tags": [
+      "sunos",
+      "snoop",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-snoop-1",
+    "type": "command",
+    "title": "snoop - Save captured packets in a file instead of displaying them",
+    "content": "snoop -o {{path/to/file}}",
+    "group": "SunOS",
+    "description": "snoop: Network packet sniffer. SunOS equivalent of `tcpdump`. (Save captured packets in a file instead of displaying them)",
+    "tags": [
+      "sunos",
+      "snoop",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-snoop-2",
+    "type": "command",
+    "title": "snoop - Display verbose protocol layer summary of packets from a file",
+    "content": "snoop -V -i {{path/to/file}}",
+    "group": "SunOS",
+    "description": "snoop: Network packet sniffer. SunOS equivalent of `tcpdump`. (Display verbose protocol layer summary of packets from a file)",
+    "tags": [
+      "sunos",
+      "snoop",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-snoop-3",
+    "type": "command",
+    "title": "snoop - Capture network packets that come from a hostname and go to a given port",
+    "content": "snoop to port {{port}} from host {{hostname}}",
+    "group": "SunOS",
+    "description": "snoop: Network packet sniffer. SunOS equivalent of `tcpdump`. (Capture network packets that come from a hostname and go to a given port)",
+    "tags": [
+      "sunos",
+      "snoop",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-snoop-4",
+    "type": "command",
+    "title": "snoop - Capture and show a hex-dump of network packets exchanged between two IP addresses",
+    "content": "snoop -x0 -p4 {{ip1}} {{ip2}}",
+    "group": "SunOS",
+    "description": "snoop: Network packet sniffer. SunOS equivalent of `tcpdump`. (Capture and show a hex-dump of network packets exchanged between two IP addresses)",
+    "tags": [
+      "sunos",
+      "snoop",
       "tldr",
       "en"
     ],
@@ -729,6 +384,351 @@
     "tags": [
       "sunos",
       "share",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svccfg-0",
+    "type": "command",
+    "title": "svccfg - Validate configuration file",
+    "content": "svccfg validate {{path/to/smf_file.xml}}",
+    "group": "SunOS",
+    "description": "svccfg: Import, export, and modify service configurations. (Validate configuration file)",
+    "tags": [
+      "sunos",
+      "svccfg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svccfg-1",
+    "type": "command",
+    "title": "svccfg - Export service configurations to file",
+    "content": "svccfg export {{servicename}} >{{path/to/smf_file.xml}}",
+    "group": "SunOS",
+    "description": "svccfg: Import, export, and modify service configurations. (Export service configurations to file)",
+    "tags": [
+      "sunos",
+      "svccfg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svccfg-2",
+    "type": "command",
+    "title": "svccfg - Import/update service configurations from file",
+    "content": "svccfg import {{path/to/smf_file.xml}}",
+    "group": "SunOS",
+    "description": "svccfg: Import, export, and modify service configurations. (Import/update service configurations from file)",
+    "tags": [
+      "sunos",
+      "svccfg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-prctl-0",
+    "type": "command",
+    "title": "prctl - Examine process limits and permissions",
+    "content": "prctl {{process_id}}",
+    "group": "SunOS",
+    "description": "prctl: Get or set the resource controls of running processes, tasks, and projects. (Examine process limits and permissions)",
+    "tags": [
+      "sunos",
+      "prctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-prctl-1",
+    "type": "command",
+    "title": "prctl - Examine process limits and permissions in machine parsable format",
+    "content": "prctl -P {{process_id}}",
+    "group": "SunOS",
+    "description": "prctl: Get or set the resource controls of running processes, tasks, and projects. (Examine process limits and permissions in machine parsable format)",
+    "tags": [
+      "sunos",
+      "prctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-prctl-2",
+    "type": "command",
+    "title": "prctl - Get a specific limit for a running process",
+    "content": "prctl -n process.max-file-descriptor {{process_id}}",
+    "group": "SunOS",
+    "description": "prctl: Get or set the resource controls of running processes, tasks, and projects. (Get a specific limit for a running process)",
+    "tags": [
+      "sunos",
+      "prctl",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-zoneadm-0",
+    "type": "command",
+    "title": "zoneadm - List all zones and their current status",
+    "content": "zoneadm list -cv",
+    "group": "SunOS",
+    "description": "zoneadm: Administer Oracle Solaris zones. (List all zones and their current status)",
+    "tags": [
+      "sunos",
+      "zoneadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-zoneadm-1",
+    "type": "command",
+    "title": "zoneadm - Verify the configuration of a specific zone",
+    "content": "sudo zoneadm -z {{zone_name}} verify",
+    "group": "SunOS",
+    "description": "zoneadm: Administer Oracle Solaris zones. (Verify the configuration of a specific zone)",
+    "tags": [
+      "sunos",
+      "zoneadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-zoneadm-2",
+    "type": "command",
+    "title": "zoneadm - Install a zone",
+    "content": "sudo zoneadm -z {{zone_name}} install",
+    "group": "SunOS",
+    "description": "zoneadm: Administer Oracle Solaris zones. (Install a zone)",
+    "tags": [
+      "sunos",
+      "zoneadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-zoneadm-3",
+    "type": "command",
+    "title": "zoneadm - Boot (start) a zone",
+    "content": "sudo zoneadm -z {{zone_name}} boot",
+    "group": "SunOS",
+    "description": "zoneadm: Administer Oracle Solaris zones. (Boot (start) a zone)",
+    "tags": [
+      "sunos",
+      "zoneadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-zoneadm-4",
+    "type": "command",
+    "title": "zoneadm - Reboot a zone",
+    "content": "sudo zoneadm -z {{zone_name}} reboot",
+    "group": "SunOS",
+    "description": "zoneadm: Administer Oracle Solaris zones. (Reboot a zone)",
+    "tags": [
+      "sunos",
+      "zoneadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-zoneadm-5",
+    "type": "command",
+    "title": "zoneadm - Halt (stop) a zone, bypassing any shutdown scripts inside the zone",
+    "content": "sudo zoneadm -z {{zone_name}} halt",
+    "group": "SunOS",
+    "description": "zoneadm: Administer Oracle Solaris zones. (Halt (stop) a zone, bypassing any shutdown scripts inside the zone)",
+    "tags": [
+      "sunos",
+      "zoneadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-zoneadm-6",
+    "type": "command",
+    "title": "zoneadm - Uninstall a zone",
+    "content": "sudo zoneadm -z {{zone_name}} uninstall",
+    "group": "SunOS",
+    "description": "zoneadm: Administer Oracle Solaris zones. (Uninstall a zone)",
+    "tags": [
+      "sunos",
+      "zoneadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-prstat-0",
+    "type": "command",
+    "title": "prstat - Examine all processes and report statistics sorted by CPU usage",
+    "content": "prstat",
+    "group": "SunOS",
+    "description": "prstat: Report active process statistics. (Examine all processes and report statistics sorted by CPU usage)",
+    "tags": [
+      "sunos",
+      "prstat",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-prstat-1",
+    "type": "command",
+    "title": "prstat - Examine all processes and report statistics sorted by memory usage",
+    "content": "prstat -s rss",
+    "group": "SunOS",
+    "description": "prstat: Report active process statistics. (Examine all processes and report statistics sorted by memory usage)",
+    "tags": [
+      "sunos",
+      "prstat",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-prstat-2",
+    "type": "command",
+    "title": "prstat - Report total usage summary for each user",
+    "content": "prstat -t",
+    "group": "SunOS",
+    "description": "prstat: Report active process statistics. (Report total usage summary for each user)",
+    "tags": [
+      "sunos",
+      "prstat",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-prstat-3",
+    "type": "command",
+    "title": "prstat - Report microstate process accounting information",
+    "content": "prstat -m",
+    "group": "SunOS",
+    "description": "prstat: Report active process statistics. (Report microstate process accounting information)",
+    "tags": [
+      "sunos",
+      "prstat",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-prstat-4",
+    "type": "command",
+    "title": "prstat - Print out a list of top 5 CPU using processes every second",
+    "content": "prstat -c -n 5 -s cpu 1",
+    "group": "SunOS",
+    "description": "prstat: Report active process statistics. (Print out a list of top 5 CPU using processes every second)",
+    "tags": [
+      "sunos",
+      "prstat",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcs-0",
+    "type": "command",
+    "title": "svcs - List all running services",
+    "content": "svcs",
+    "group": "SunOS",
+    "description": "svcs: List information about running services. (List all running services)",
+    "tags": [
+      "sunos",
+      "svcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcs-1",
+    "type": "command",
+    "title": "svcs - List services that are not running",
+    "content": "svcs -vx",
+    "group": "SunOS",
+    "description": "svcs: List information about running services. (List services that are not running)",
+    "tags": [
+      "sunos",
+      "svcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcs-2",
+    "type": "command",
+    "title": "svcs - List information about a service",
+    "content": "svcs {{apache}}",
+    "group": "SunOS",
+    "description": "svcs: List information about running services. (List information about a service)",
+    "tags": [
+      "sunos",
+      "svcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcs-3",
+    "type": "command",
+    "title": "svcs - Show location of service log file",
+    "content": "svcs -L {{apache}}",
+    "group": "SunOS",
+    "description": "svcs: List information about running services. (Show location of service log file)",
+    "tags": [
+      "sunos",
+      "svcs",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-svcs-4",
+    "type": "command",
+    "title": "svcs - Display end of a service log file",
+    "content": "tail $(svcs -L {{apache}})",
+    "group": "SunOS",
+    "description": "svcs: List information about running services. (Display end of a service log file)",
+    "tags": [
+      "sunos",
+      "svcs",
       "tldr",
       "en"
     ],
