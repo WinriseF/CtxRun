@@ -1,74 +1,14 @@
 [
   {
-    "id": "tldr-en-dos-exit-0",
+    "id": "tldr-en-dos-rd-0",
     "type": "command",
-    "title": "exit - Exit DOSBox",
-    "content": "EXIT",
+    "title": "rd - Remove a directory",
+    "content": "RD {{path\\to\\directory}}",
     "group": "Dos",
-    "description": "exit: Exit DOSBox. (Exit DOSBox)",
+    "description": "rd: Remove a directory. (Remove a directory)",
     "tags": [
       "dos",
-      "exit",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-choice-0",
-    "type": "command",
-    "title": "choice - Prompt for yes/no",
-    "content": "CHOICE \"{{prompt}}\"",
-    "group": "Dos",
-    "description": "choice: Wait for keypress and set `ERRORLEVEL` in batch scripts. (Prompt for yes/no)",
-    "tags": [
-      "dos",
-      "choice",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-loadfix-0",
-    "type": "command",
-    "title": "loadfix - Start a program with 64KB allocated memory",
-    "content": "LOADFIX {{program}}",
-    "group": "Dos",
-    "description": "loadfix: Reduce available conventional memory for old programs (default: 64KB). (Start a program with 64KB allocated memory)",
-    "tags": [
-      "dos",
-      "loadfix",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-loadfix-1",
-    "type": "command",
-    "title": "loadfix - Load with custom KB reduction (1-1024)",
-    "content": "LOADFIX -{{1..1024}} {{program}}",
-    "group": "Dos",
-    "description": "loadfix: Reduce available conventional memory for old programs (default: 64KB). (Load with custom KB reduction (1-1024))",
-    "tags": [
-      "dos",
-      "loadfix",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-loadfix-2",
-    "type": "command",
-    "title": "loadfix - Free all previously allocated memory",
-    "content": "LOADFIX -f",
-    "group": "Dos",
-    "description": "loadfix: Reduce available conventional memory for old programs (default: 64KB). (Free all previously allocated memory)",
-    "tags": [
-      "dos",
-      "loadfix",
+      "rd",
       "tldr",
       "en"
     ],
@@ -90,90 +30,75 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-del-0",
+    "id": "tldr-en-dos-rescan-0",
     "type": "command",
-    "title": "del - Delete a file",
-    "content": "DEL {{path/to/file}}",
+    "title": "rescan - Refresh mounted drives",
+    "content": "RESCAN",
     "group": "Dos",
-    "description": "del: Delete one or more files. (Delete a file)",
+    "description": "rescan: Refresh mounted drives (like ``). (Refresh mounted drives)",
     "tags": [
       "dos",
-      "del",
+      "rescan",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-del-1",
+    "id": "tldr-en-dos-boot-0",
     "type": "command",
-    "title": "del - Delete all files matching a pattern",
-    "content": "DEL {{path/to/*.ext}}",
+    "title": "boot - Boot from floppy image",
+    "content": "BOOT {{path/to/floppy.img}}",
     "group": "Dos",
-    "description": "del: Delete one or more files. (Delete all files matching a pattern)",
+    "description": "boot: Boot floppy or hard disk images directly, bypassing OS emulation. (Boot from floppy image)",
     "tags": [
       "dos",
-      "del",
+      "boot",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-loadhigh-0",
+    "id": "tldr-en-dos-boot-1",
     "type": "command",
-    "title": "loadhigh - Load program into upper memory",
-    "content": "LOADHIGH {{program}}",
+    "title": "boot - Boot from hard disk image",
+    "content": "BOOT {{path/to/hard_disk.img}}",
     "group": "Dos",
-    "description": "loadhigh: Load program into upper memory (requires `xms=true` and `umb=true`). (Load program into upper memory)",
+    "description": "boot: Boot floppy or hard disk images directly, bypassing OS emulation. (Boot from hard disk image)",
     "tags": [
       "dos",
-      "loadhigh",
+      "boot",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-keyb-0",
+    "id": "tldr-en-dos-boot-2",
     "type": "command",
-    "title": "keyb - Set the keyboard layout",
-    "content": "KEYB {{us|uk|gr|...}}",
+    "title": "boot - Boot multiple floppy images",
+    "content": "BOOT {{path/to/floppy1.img path/to/floppy2.img ...}}",
     "group": "Dos",
-    "description": "keyb: Change keyboard layout. (Set the keyboard layout)",
+    "description": "boot: Boot floppy or hard disk images directly, bypassing OS emulation. (Boot multiple floppy images)",
     "tags": [
       "dos",
-      "keyb",
+      "boot",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-chdir-0",
+    "id": "tldr-en-dos-type-0",
     "type": "command",
-    "title": "chdir - View documentation for the original command",
-    "content": "tldr {{[-p|--platform]}} dos cd",
+    "title": "type - Show a file",
+    "content": "TYPE {{path/to/file.txt}}",
     "group": "Dos",
-    "description": "chdir: This command is an alias of `CD`. (View documentation for the original command)",
+    "description": "type: Display the contents of a text file. (Show a file)",
     "tags": [
       "dos",
-      "chdir",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-md-0",
-    "type": "command",
-    "title": "md - Create a directory",
-    "content": "MD {{path/to/directory}}",
-    "group": "Dos",
-    "description": "md: Make a directory. (Create a directory)",
-    "tags": [
-      "dos",
-      "md",
+      "type",
       "tldr",
       "en"
     ],
@@ -270,45 +195,15 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-cd-0",
+    "id": "tldr-en-dos-exit-0",
     "type": "command",
-    "title": "cd - Go to the specified directory",
-    "content": "CD {{PATH\\TO\\DIRECTORY}}",
+    "title": "exit - Exit DOSBox",
+    "content": "EXIT",
     "group": "Dos",
-    "description": "cd: Change the current working directory. (Go to the specified directory)",
+    "description": "exit: Exit DOSBox. (Exit DOSBox)",
     "tags": [
       "dos",
-      "cd",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-cd-1",
-    "type": "command",
-    "title": "cd - Go up to the parent of the current directory",
-    "content": "CD ..",
-    "group": "Dos",
-    "description": "cd: Change the current working directory. (Go up to the parent of the current directory)",
-    "tags": [
-      "dos",
-      "cd",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-cd-2",
-    "type": "command",
-    "title": "cd - Go to the root directory of the current drive",
-    "content": "CD \\",
-    "group": "Dos",
-    "description": "cd: Change the current working directory. (Go to the root directory of the current drive)",
-    "tags": [
-      "dos",
-      "cd",
+      "exit",
       "tldr",
       "en"
     ],
@@ -330,90 +225,180 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-path-0",
+    "id": "tldr-en-dos-loadhigh-0",
     "type": "command",
-    "title": "path - Display the current search path",
-    "content": "PATH",
+    "title": "loadhigh - Load program into upper memory",
+    "content": "LOADHIGH {{program}}",
     "group": "Dos",
-    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Display the current search path)",
+    "description": "loadhigh: Load program into upper memory (requires `xms=true` and `umb=true`). (Load program into upper memory)",
     "tags": [
       "dos",
-      "path",
+      "loadhigh",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-path-1",
+    "id": "tldr-en-dos-loadfix-0",
     "type": "command",
-    "title": "path - Set the semicolon-separated list of directories to search in",
-    "content": "PATH {{path/to/directory1;path/to/directory2;...}}",
+    "title": "loadfix - Start a program with 64KB allocated memory",
+    "content": "LOADFIX {{program}}",
     "group": "Dos",
-    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Set the semicolon-separated list of directories to search in)",
+    "description": "loadfix: Reduce available conventional memory for old programs (default: 64KB). (Start a program with 64KB allocated memory)",
     "tags": [
       "dos",
-      "path",
+      "loadfix",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-path-2",
+    "id": "tldr-en-dos-loadfix-1",
     "type": "command",
-    "title": "path - Append a directory to the search path",
-    "content": "PATH %PATH%;{{path/to/directory}}",
+    "title": "loadfix - Load with custom KB reduction (1-1024)",
+    "content": "LOADFIX -{{1..1024}} {{program}}",
     "group": "Dos",
-    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Append a directory to the search path)",
+    "description": "loadfix: Reduce available conventional memory for old programs (default: 64KB). (Load with custom KB reduction (1-1024))",
     "tags": [
       "dos",
-      "path",
+      "loadfix",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-path-3",
+    "id": "tldr-en-dos-loadfix-2",
     "type": "command",
-    "title": "path - Add a directory to the beginning of the search path",
-    "content": "PATH {{path/to/directory}};%PATH%",
+    "title": "loadfix - Free all previously allocated memory",
+    "content": "LOADFIX -f",
     "group": "Dos",
-    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Add a directory to the beginning of the search path)",
+    "description": "loadfix: Reduce available conventional memory for old programs (default: 64KB). (Free all previously allocated memory)",
     "tags": [
       "dos",
-      "path",
+      "loadfix",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-path-4",
+    "id": "tldr-en-dos-del-0",
     "type": "command",
-    "title": "path - Clear the search path",
-    "content": "PATH;",
+    "title": "del - Delete a file",
+    "content": "DEL {{path/to/file}}",
     "group": "Dos",
-    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Clear the search path)",
+    "description": "del: Delete one or more files. (Delete a file)",
     "tags": [
       "dos",
-      "path",
+      "del",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-path-5",
+    "id": "tldr-en-dos-del-1",
     "type": "command",
-    "title": "path - Display help",
-    "content": "PATH /?",
+    "title": "del - Delete all files matching a pattern",
+    "content": "DEL {{path/to/*.ext}}",
     "group": "Dos",
-    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Display help)",
+    "description": "del: Delete one or more files. (Delete all files matching a pattern)",
     "tags": [
       "dos",
-      "path",
+      "del",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-dir-0",
+    "type": "command",
+    "title": "dir - List current directory",
+    "content": "DIR",
+    "group": "Dos",
+    "description": "dir: List files and directories. (List current directory)",
+    "tags": [
+      "dos",
+      "dir",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-dir-1",
+    "type": "command",
+    "title": "dir - Pause per page",
+    "content": "DIR /p",
+    "group": "Dos",
+    "description": "dir: List files and directories. (Pause per page)",
+    "tags": [
+      "dos",
+      "dir",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-dir-2",
+    "type": "command",
+    "title": "dir - List files in wide format",
+    "content": "DIR /w",
+    "group": "Dos",
+    "description": "dir: List files and directories. (List files in wide format)",
+    "tags": [
+      "dos",
+      "dir",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-mem-0",
+    "type": "command",
+    "title": "mem - Display free memory",
+    "content": "MEM",
+    "group": "Dos",
+    "description": "mem: Display free memory info. (Display free memory)",
+    "tags": [
+      "dos",
+      "mem",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-chdir-0",
+    "type": "command",
+    "title": "chdir - View documentation for the original command",
+    "content": "tldr {{[-p|--platform]}} dos cd",
+    "group": "Dos",
+    "description": "chdir: This command is an alias of `CD`. (View documentation for the original command)",
+    "tags": [
+      "dos",
+      "chdir",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-keyb-0",
+    "type": "command",
+    "title": "keyb - Set the keyboard layout",
+    "content": "KEYB {{us|uk|gr|...}}",
+    "group": "Dos",
+    "description": "keyb: Change keyboard layout. (Set the keyboard layout)",
+    "tags": [
+      "dos",
+      "keyb",
       "tldr",
       "en"
     ],
@@ -555,150 +540,90 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-config-0",
+    "id": "tldr-en-dos-path-0",
     "type": "command",
-    "title": "config - Write current config to file (local drive)",
-    "content": "CONFIG -writeconf {{path/to/file.conf}}",
+    "title": "path - Display the current search path",
+    "content": "PATH",
     "group": "Dos",
-    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Write current config to file (local drive))",
+    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Display the current search path)",
     "tags": [
       "dos",
-      "config",
+      "path",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-config-1",
+    "id": "tldr-en-dos-path-1",
     "type": "command",
-    "title": "config - Write current language strings to file",
-    "content": "CONFIG -writelang {{path/to/file.lang}}",
+    "title": "path - Set the semicolon-separated list of directories to search in",
+    "content": "PATH {{path/to/directory1;path/to/directory2;...}}",
     "group": "Dos",
-    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Write current language strings to file)",
+    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Set the semicolon-separated list of directories to search in)",
     "tags": [
       "dos",
-      "config",
+      "path",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-config-2",
+    "id": "tldr-en-dos-path-2",
     "type": "command",
-    "title": "config - Enable secure mode (disables MOUNT/IMGMOUNT/BOOT)",
-    "content": "CONFIG -securemode",
+    "title": "path - Append a directory to the search path",
+    "content": "PATH %PATH%;{{path/to/directory}}",
     "group": "Dos",
-    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Enable secure mode (disables MOUNT/IMGMOUNT/BOOT))",
+    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Append a directory to the search path)",
     "tags": [
       "dos",
-      "config",
+      "path",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-config-3",
+    "id": "tldr-en-dos-path-3",
     "type": "command",
-    "title": "config - Set a property (e.g., CPU cycles)",
-    "content": "CONFIG -set \"cpu cycles={{10000}}\"",
+    "title": "path - Add a directory to the beginning of the search path",
+    "content": "PATH {{path/to/directory}};%PATH%",
     "group": "Dos",
-    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Set a property (e.g., CPU cycles))",
+    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Add a directory to the beginning of the search path)",
     "tags": [
       "dos",
-      "config",
+      "path",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-config-4",
+    "id": "tldr-en-dos-path-4",
     "type": "command",
-    "title": "config - Set a property (e.g., disable EMS)",
-    "content": "CONFIG -set \"dos ems=off\"",
+    "title": "path - Clear the search path",
+    "content": "PATH;",
     "group": "Dos",
-    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Set a property (e.g., disable EMS))",
+    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Clear the search path)",
     "tags": [
       "dos",
-      "config",
+      "path",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-config-5",
+    "id": "tldr-en-dos-path-5",
     "type": "command",
-    "title": "config - Get a property's value (stored in `%CONFIG%`)",
-    "content": "CONFIG -get \"cpu core\"",
+    "title": "path - Display help",
+    "content": "PATH /?",
     "group": "Dos",
-    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Get a property's value (stored in `%CONFIG%`))",
+    "description": "path: Display or set the search path for executable files. This command is available in FreeDOS only. (Display help)",
     "tags": [
       "dos",
-      "config",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-type-0",
-    "type": "command",
-    "title": "type - Show a file",
-    "content": "TYPE {{path/to/file.txt}}",
-    "group": "Dos",
-    "description": "type: Display the contents of a text file. (Show a file)",
-    "tags": [
-      "dos",
-      "type",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-mem-0",
-    "type": "command",
-    "title": "mem - Display free memory",
-    "content": "MEM",
-    "group": "Dos",
-    "description": "mem: Display free memory info. (Display free memory)",
-    "tags": [
-      "dos",
-      "mem",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-imgmount-0",
-    "type": "command",
-    "title": "imgmount - Mount floppy",
-    "content": "IMGMOUNT a {{floppy.img}}",
-    "group": "Dos",
-    "description": "imgmount: Mount disk or CD-ROM images. (Mount floppy)",
-    "tags": [
-      "dos",
-      "imgmount",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-dos-imgmount-1",
-    "type": "command",
-    "title": "imgmount - Mount CD-ROM",
-    "content": "IMGMOUNT d {{cd.iso}}",
-    "group": "Dos",
-    "description": "imgmount: Mount disk or CD-ROM images. (Mount CD-ROM)",
-    "tags": [
-      "dos",
-      "imgmount",
+      "path",
       "tldr",
       "en"
     ],
@@ -810,6 +735,36 @@
     "source": "official"
   },
   {
+    "id": "tldr-en-dos-md-0",
+    "type": "command",
+    "title": "md - Create a directory",
+    "content": "MD {{path/to/directory}}",
+    "group": "Dos",
+    "description": "md: Make a directory. (Create a directory)",
+    "tags": [
+      "dos",
+      "md",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-choice-0",
+    "type": "command",
+    "title": "choice - Prompt for yes/no",
+    "content": "CHOICE \"{{prompt}}\"",
+    "group": "Dos",
+    "description": "choice: Wait for keypress and set `ERRORLEVEL` in batch scripts. (Prompt for yes/no)",
+    "tags": [
+      "dos",
+      "choice",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-dos-cls-0",
     "type": "command",
     "title": "cls - Clear the screen resetting colors to white on black",
@@ -825,30 +780,30 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-rd-0",
+    "id": "tldr-en-dos-imgmount-0",
     "type": "command",
-    "title": "rd - Remove a directory",
-    "content": "RD {{path\\to\\directory}}",
+    "title": "imgmount - Mount floppy",
+    "content": "IMGMOUNT a {{floppy.img}}",
     "group": "Dos",
-    "description": "rd: Remove a directory. (Remove a directory)",
+    "description": "imgmount: Mount disk or CD-ROM images. (Mount floppy)",
     "tags": [
       "dos",
-      "rd",
+      "imgmount",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-rescan-0",
+    "id": "tldr-en-dos-imgmount-1",
     "type": "command",
-    "title": "rescan - Refresh mounted drives",
-    "content": "RESCAN",
+    "title": "imgmount - Mount CD-ROM",
+    "content": "IMGMOUNT d {{cd.iso}}",
     "group": "Dos",
-    "description": "rescan: Refresh mounted drives (like ``). (Refresh mounted drives)",
+    "description": "imgmount: Mount disk or CD-ROM images. (Mount CD-ROM)",
     "tags": [
       "dos",
-      "rescan",
+      "imgmount",
       "tldr",
       "en"
     ],
@@ -870,90 +825,135 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-boot-0",
+    "id": "tldr-en-dos-cd-0",
     "type": "command",
-    "title": "boot - Boot from floppy image",
-    "content": "BOOT {{path/to/floppy.img}}",
+    "title": "cd - Go to the specified directory",
+    "content": "CD {{PATH\\TO\\DIRECTORY}}",
     "group": "Dos",
-    "description": "boot: Boot floppy or hard disk images directly, bypassing OS emulation. (Boot from floppy image)",
+    "description": "cd: Change the current working directory. (Go to the specified directory)",
     "tags": [
       "dos",
-      "boot",
+      "cd",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-boot-1",
+    "id": "tldr-en-dos-cd-1",
     "type": "command",
-    "title": "boot - Boot from hard disk image",
-    "content": "BOOT {{path/to/hard_disk.img}}",
+    "title": "cd - Go up to the parent of the current directory",
+    "content": "CD ..",
     "group": "Dos",
-    "description": "boot: Boot floppy or hard disk images directly, bypassing OS emulation. (Boot from hard disk image)",
+    "description": "cd: Change the current working directory. (Go up to the parent of the current directory)",
     "tags": [
       "dos",
-      "boot",
+      "cd",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-boot-2",
+    "id": "tldr-en-dos-cd-2",
     "type": "command",
-    "title": "boot - Boot multiple floppy images",
-    "content": "BOOT {{path/to/floppy1.img path/to/floppy2.img ...}}",
+    "title": "cd - Go to the root directory of the current drive",
+    "content": "CD \\",
     "group": "Dos",
-    "description": "boot: Boot floppy or hard disk images directly, bypassing OS emulation. (Boot multiple floppy images)",
+    "description": "cd: Change the current working directory. (Go to the root directory of the current drive)",
     "tags": [
       "dos",
-      "boot",
+      "cd",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-dir-0",
+    "id": "tldr-en-dos-config-0",
     "type": "command",
-    "title": "dir - List current directory",
-    "content": "DIR",
+    "title": "config - Write current config to file (local drive)",
+    "content": "CONFIG -writeconf {{path/to/file.conf}}",
     "group": "Dos",
-    "description": "dir: List files and directories. (List current directory)",
+    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Write current config to file (local drive))",
     "tags": [
       "dos",
-      "dir",
+      "config",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-dir-1",
+    "id": "tldr-en-dos-config-1",
     "type": "command",
-    "title": "dir - Pause per page",
-    "content": "DIR /p",
+    "title": "config - Write current language strings to file",
+    "content": "CONFIG -writelang {{path/to/file.lang}}",
     "group": "Dos",
-    "description": "dir: List files and directories. (Pause per page)",
+    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Write current language strings to file)",
     "tags": [
       "dos",
-      "dir",
+      "config",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-dos-dir-2",
+    "id": "tldr-en-dos-config-2",
     "type": "command",
-    "title": "dir - List files in wide format",
-    "content": "DIR /w",
+    "title": "config - Enable secure mode (disables MOUNT/IMGMOUNT/BOOT)",
+    "content": "CONFIG -securemode",
     "group": "Dos",
-    "description": "dir: List files and directories. (List files in wide format)",
+    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Enable secure mode (disables MOUNT/IMGMOUNT/BOOT))",
     "tags": [
       "dos",
-      "dir",
+      "config",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-config-3",
+    "type": "command",
+    "title": "config - Set a property (e.g., CPU cycles)",
+    "content": "CONFIG -set \"cpu cycles={{10000}}\"",
+    "group": "Dos",
+    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Set a property (e.g., CPU cycles))",
+    "tags": [
+      "dos",
+      "config",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-config-4",
+    "type": "command",
+    "title": "config - Set a property (e.g., disable EMS)",
+    "content": "CONFIG -set \"dos ems=off\"",
+    "group": "Dos",
+    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Set a property (e.g., disable EMS))",
+    "tags": [
+      "dos",
+      "config",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-dos-config-5",
+    "type": "command",
+    "title": "config - Get a property's value (stored in `%CONFIG%`)",
+    "content": "CONFIG -get \"cpu core\"",
+    "group": "Dos",
+    "description": "config: Change or query DOSBox settings at runtime; save configs/languages. (Get a property's value (stored in `%CONFIG%`))",
+    "tags": [
+      "dos",
+      "config",
       "tldr",
       "en"
     ],
