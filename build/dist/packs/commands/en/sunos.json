@@ -1,5 +1,125 @@
 [
   {
+    "id": "tldr-en-sunos-dmesg-0",
+    "type": "command",
+    "title": "dmesg - Show kernel messages",
+    "content": "dmesg",
+    "group": "SunOS",
+    "description": "dmesg: Write the kernel messages to `stdout`. (Show kernel messages)",
+    "tags": [
+      "sunos",
+      "dmesg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-dmesg-1",
+    "type": "command",
+    "title": "dmesg - Show how much physical memory is available on this system",
+    "content": "dmesg | grep -i memory",
+    "group": "SunOS",
+    "description": "dmesg: Write the kernel messages to `stdout`. (Show how much physical memory is available on this system)",
+    "tags": [
+      "sunos",
+      "dmesg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-dmesg-2",
+    "type": "command",
+    "title": "dmesg - Show kernel messages 1 page at a time",
+    "content": "dmesg | less",
+    "group": "SunOS",
+    "description": "dmesg: Write the kernel messages to `stdout`. (Show kernel messages 1 page at a time)",
+    "tags": [
+      "sunos",
+      "dmesg",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-truss-0",
+    "type": "command",
+    "title": "truss - Start tracing a program by executing it, following all child processes",
+    "content": "truss -f {{program}}",
+    "group": "SunOS",
+    "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of `strace`. (Start tracing a program by executing it, following all child processes)",
+    "tags": [
+      "sunos",
+      "truss",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-truss-1",
+    "type": "command",
+    "title": "truss - Start tracing a specific process by its PID",
+    "content": "truss -p {{process_id}}",
+    "group": "SunOS",
+    "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of `strace`. (Start tracing a specific process by its PID)",
+    "tags": [
+      "sunos",
+      "truss",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-truss-2",
+    "type": "command",
+    "title": "truss - Start tracing a program by executing it, showing arguments and environment variables",
+    "content": "truss -a -e {{program}}",
+    "group": "SunOS",
+    "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of `strace`. (Start tracing a program by executing it, showing arguments and environment variables)",
+    "tags": [
+      "sunos",
+      "truss",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-truss-3",
+    "type": "command",
+    "title": "truss - Count time, calls, and errors for each system call and report a summary on program exit",
+    "content": "truss -c -p {{process_id}}",
+    "group": "SunOS",
+    "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of `strace`. (Count time, calls, and errors for each system call and report a summary on program exit)",
+    "tags": [
+      "sunos",
+      "truss",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-truss-4",
+    "type": "command",
+    "title": "truss - Trace a process filtering output by system call",
+    "content": "truss -p {{process_id}} -t {{system_call_name}}",
+    "group": "SunOS",
+    "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of `strace`. (Trace a process filtering output by system call)",
+    "tags": [
+      "sunos",
+      "truss",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
     "id": "tldr-en-sunos-devfsadm-0",
     "type": "command",
     "title": "devfsadm - Scan for new disks",
@@ -45,90 +165,105 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-svccfg-0",
+    "id": "tldr-en-sunos-zoneadm-0",
     "type": "command",
-    "title": "svccfg - Validate configuration file",
-    "content": "svccfg validate {{path/to/smf_file.xml}}",
+    "title": "zoneadm - List all zones and their current status",
+    "content": "zoneadm list -cv",
     "group": "SunOS",
-    "description": "svccfg: Import, export, and modify service configurations. (Validate configuration file)",
+    "description": "zoneadm: Administer Oracle Solaris zones. (List all zones and their current status)",
     "tags": [
       "sunos",
-      "svccfg",
+      "zoneadm",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-svccfg-1",
+    "id": "tldr-en-sunos-zoneadm-1",
     "type": "command",
-    "title": "svccfg - Export service configurations to file",
-    "content": "svccfg export {{servicename}} >{{path/to/smf_file.xml}}",
+    "title": "zoneadm - Verify the configuration of a specific zone",
+    "content": "sudo zoneadm -z {{zone_name}} verify",
     "group": "SunOS",
-    "description": "svccfg: Import, export, and modify service configurations. (Export service configurations to file)",
+    "description": "zoneadm: Administer Oracle Solaris zones. (Verify the configuration of a specific zone)",
     "tags": [
       "sunos",
-      "svccfg",
+      "zoneadm",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-svccfg-2",
+    "id": "tldr-en-sunos-zoneadm-2",
     "type": "command",
-    "title": "svccfg - Import/update service configurations from file",
-    "content": "svccfg import {{path/to/smf_file.xml}}",
+    "title": "zoneadm - Install a zone",
+    "content": "sudo zoneadm -z {{zone_name}} install",
     "group": "SunOS",
-    "description": "svccfg: Import, export, and modify service configurations. (Import/update service configurations from file)",
+    "description": "zoneadm: Administer Oracle Solaris zones. (Install a zone)",
     "tags": [
       "sunos",
-      "svccfg",
+      "zoneadm",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-dmesg-0",
+    "id": "tldr-en-sunos-zoneadm-3",
     "type": "command",
-    "title": "dmesg - Show kernel messages",
-    "content": "dmesg",
+    "title": "zoneadm - Boot (start) a zone",
+    "content": "sudo zoneadm -z {{zone_name}} boot",
     "group": "SunOS",
-    "description": "dmesg: Write the kernel messages to `stdout`. (Show kernel messages)",
+    "description": "zoneadm: Administer Oracle Solaris zones. (Boot (start) a zone)",
     "tags": [
       "sunos",
-      "dmesg",
+      "zoneadm",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-dmesg-1",
+    "id": "tldr-en-sunos-zoneadm-4",
     "type": "command",
-    "title": "dmesg - Show how much physical memory is available on this system",
-    "content": "dmesg | grep -i memory",
+    "title": "zoneadm - Reboot a zone",
+    "content": "sudo zoneadm -z {{zone_name}} reboot",
     "group": "SunOS",
-    "description": "dmesg: Write the kernel messages to `stdout`. (Show how much physical memory is available on this system)",
+    "description": "zoneadm: Administer Oracle Solaris zones. (Reboot a zone)",
     "tags": [
       "sunos",
-      "dmesg",
+      "zoneadm",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-dmesg-2",
+    "id": "tldr-en-sunos-zoneadm-5",
     "type": "command",
-    "title": "dmesg - Show kernel messages 1 page at a time",
-    "content": "dmesg | less",
+    "title": "zoneadm - Halt (stop) a zone, bypassing any shutdown scripts inside the zone",
+    "content": "sudo zoneadm -z {{zone_name}} halt",
     "group": "SunOS",
-    "description": "dmesg: Write the kernel messages to `stdout`. (Show kernel messages 1 page at a time)",
+    "description": "zoneadm: Administer Oracle Solaris zones. (Halt (stop) a zone, bypassing any shutdown scripts inside the zone)",
     "tags": [
       "sunos",
-      "dmesg",
+      "zoneadm",
+      "tldr",
+      "en"
+    ],
+    "source": "official"
+  },
+  {
+    "id": "tldr-en-sunos-zoneadm-6",
+    "type": "command",
+    "title": "zoneadm - Uninstall a zone",
+    "content": "sudo zoneadm -z {{zone_name}} uninstall",
+    "group": "SunOS",
+    "description": "zoneadm: Administer Oracle Solaris zones. (Uninstall a zone)",
+    "tags": [
+      "sunos",
+      "zoneadm",
       "tldr",
       "en"
     ],
@@ -285,105 +420,75 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-zoneadm-0",
+    "id": "tldr-en-sunos-share-0",
     "type": "command",
-    "title": "zoneadm - List all zones and their current status",
-    "content": "zoneadm list -cv",
+    "title": "share - List all currently shared filesystems",
+    "content": "share",
     "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (List all zones and their current status)",
+    "description": "share: Make local resource/filesystem available for mounting by remote systems. (List all currently shared filesystems)",
     "tags": [
       "sunos",
-      "zoneadm",
+      "share",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-zoneadm-1",
+    "id": "tldr-en-sunos-share-1",
     "type": "command",
-    "title": "zoneadm - Verify the configuration of a specific zone",
-    "content": "sudo zoneadm -z {{zone_name}} verify",
+    "title": "share - Share a directory with read/write access",
+    "content": "share -F nfs -o rw /{{path/to/directory}}",
     "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (Verify the configuration of a specific zone)",
+    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Share a directory with read/write access)",
     "tags": [
       "sunos",
-      "zoneadm",
+      "share",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-zoneadm-2",
+    "id": "tldr-en-sunos-share-2",
     "type": "command",
-    "title": "zoneadm - Install a zone",
-    "content": "sudo zoneadm -z {{zone_name}} install",
+    "title": "share - Share a directory with read-only access",
+    "content": "share -F nfs -o ro /{{path/to/directory}}",
     "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (Install a zone)",
+    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Share a directory with read-only access)",
     "tags": [
       "sunos",
-      "zoneadm",
+      "share",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-zoneadm-3",
+    "id": "tldr-en-sunos-share-3",
     "type": "command",
-    "title": "zoneadm - Boot (start) a zone",
-    "content": "sudo zoneadm -z {{zone_name}} boot",
+    "title": "share - Share a directory with specific options (e.g., allow root access from a specific host)",
+    "content": "share -F nfs -o rw,root={{hostname}} /{{path/to/directory}}",
     "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (Boot (start) a zone)",
+    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Share a directory with specific options (e.g., allow root access from a specific host))",
     "tags": [
       "sunos",
-      "zoneadm",
+      "share",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-zoneadm-4",
+    "id": "tldr-en-sunos-share-4",
     "type": "command",
-    "title": "zoneadm - Reboot a zone",
-    "content": "sudo zoneadm -z {{zone_name}} reboot",
+    "title": "share - Make sharing persistent by adding entries to `/etc/dfs/dfstab`",
+    "content": "echo \"share -F nfs -o rw /{{path/to/directory}}\" >>/etc/dfs/dfstab",
     "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (Reboot a zone)",
+    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Make sharing persistent by adding entries to `/etc/dfs/dfstab`)",
     "tags": [
       "sunos",
-      "zoneadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-zoneadm-5",
-    "type": "command",
-    "title": "zoneadm - Halt (stop) a zone, bypassing any shutdown scripts inside the zone",
-    "content": "sudo zoneadm -z {{zone_name}} halt",
-    "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (Halt (stop) a zone, bypassing any shutdown scripts inside the zone)",
-    "tags": [
-      "sunos",
-      "zoneadm",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-zoneadm-6",
-    "type": "command",
-    "title": "zoneadm - Uninstall a zone",
-    "content": "sudo zoneadm -z {{zone_name}} uninstall",
-    "group": "SunOS",
-    "description": "zoneadm: Administer Oracle Solaris zones. (Uninstall a zone)",
-    "tags": [
-      "sunos",
-      "zoneadm",
+      "share",
       "tldr",
       "en"
     ],
@@ -465,150 +570,45 @@
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-share-0",
+    "id": "tldr-en-sunos-svccfg-0",
     "type": "command",
-    "title": "share - List all currently shared filesystems",
-    "content": "share",
+    "title": "svccfg - Validate configuration file",
+    "content": "svccfg validate {{path/to/smf_file.xml}}",
     "group": "SunOS",
-    "description": "share: Make local resource/filesystem available for mounting by remote systems. (List all currently shared filesystems)",
+    "description": "svccfg: Import, export, and modify service configurations. (Validate configuration file)",
     "tags": [
       "sunos",
-      "share",
+      "svccfg",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-share-1",
+    "id": "tldr-en-sunos-svccfg-1",
     "type": "command",
-    "title": "share - Share a directory with read/write access",
-    "content": "share -F nfs -o rw /{{path/to/directory}}",
+    "title": "svccfg - Export service configurations to file",
+    "content": "svccfg export {{servicename}} >{{path/to/smf_file.xml}}",
     "group": "SunOS",
-    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Share a directory with read/write access)",
+    "description": "svccfg: Import, export, and modify service configurations. (Export service configurations to file)",
     "tags": [
       "sunos",
-      "share",
+      "svccfg",
       "tldr",
       "en"
     ],
     "source": "official"
   },
   {
-    "id": "tldr-en-sunos-share-2",
+    "id": "tldr-en-sunos-svccfg-2",
     "type": "command",
-    "title": "share - Share a directory with read-only access",
-    "content": "share -F nfs -o ro /{{path/to/directory}}",
+    "title": "svccfg - Import/update service configurations from file",
+    "content": "svccfg import {{path/to/smf_file.xml}}",
     "group": "SunOS",
-    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Share a directory with read-only access)",
+    "description": "svccfg: Import, export, and modify service configurations. (Import/update service configurations from file)",
     "tags": [
       "sunos",
-      "share",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-share-3",
-    "type": "command",
-    "title": "share - Share a directory with specific options (e.g., allow root access from a specific host)",
-    "content": "share -F nfs -o rw,root={{hostname}} /{{path/to/directory}}",
-    "group": "SunOS",
-    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Share a directory with specific options (e.g., allow root access from a specific host))",
-    "tags": [
-      "sunos",
-      "share",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-share-4",
-    "type": "command",
-    "title": "share - Make sharing persistent by adding entries to `/etc/dfs/dfstab`",
-    "content": "echo \"share -F nfs -o rw /{{path/to/directory}}\" >>/etc/dfs/dfstab",
-    "group": "SunOS",
-    "description": "share: Make local resource/filesystem available for mounting by remote systems. (Make sharing persistent by adding entries to `/etc/dfs/dfstab`)",
-    "tags": [
-      "sunos",
-      "share",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-truss-0",
-    "type": "command",
-    "title": "truss - Start tracing a program by executing it, following all child processes",
-    "content": "truss -f {{program}}",
-    "group": "SunOS",
-    "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of `strace`. (Start tracing a program by executing it, following all child processes)",
-    "tags": [
-      "sunos",
-      "truss",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-truss-1",
-    "type": "command",
-    "title": "truss - Start tracing a specific process by its PID",
-    "content": "truss -p {{process_id}}",
-    "group": "SunOS",
-    "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of `strace`. (Start tracing a specific process by its PID)",
-    "tags": [
-      "sunos",
-      "truss",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-truss-2",
-    "type": "command",
-    "title": "truss - Start tracing a program by executing it, showing arguments and environment variables",
-    "content": "truss -a -e {{program}}",
-    "group": "SunOS",
-    "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of `strace`. (Start tracing a program by executing it, showing arguments and environment variables)",
-    "tags": [
-      "sunos",
-      "truss",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-truss-3",
-    "type": "command",
-    "title": "truss - Count time, calls, and errors for each system call and report a summary on program exit",
-    "content": "truss -c -p {{process_id}}",
-    "group": "SunOS",
-    "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of `strace`. (Count time, calls, and errors for each system call and report a summary on program exit)",
-    "tags": [
-      "sunos",
-      "truss",
-      "tldr",
-      "en"
-    ],
-    "source": "official"
-  },
-  {
-    "id": "tldr-en-sunos-truss-4",
-    "type": "command",
-    "title": "truss - Trace a process filtering output by system call",
-    "content": "truss -p {{process_id}} -t {{system_call_name}}",
-    "group": "SunOS",
-    "description": "truss: Troubleshooting tool for tracing system calls. SunOS equivalent of `strace`. (Trace a process filtering output by system call)",
-    "tags": [
-      "sunos",
-      "truss",
+      "svccfg",
       "tldr",
       "en"
     ],
